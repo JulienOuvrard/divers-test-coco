@@ -1,0 +1,65 @@
+[
+  {
+    "username": "julien", 
+    "_id": "557944797fb6bc1f59dbac3c", 
+    "value": 2, 
+    "useruuid": "112634849", 
+    "date": "2015-06-11T10:19:05.360844", 
+    "property": "right_answer", 
+    "subject": "Q1"
+  },
+  {
+    "username": "machin", 
+    "_id": "557944797fb6bc1f59dbac3c", 
+    "value": 2, 
+    "useruuid": "65656877", 
+    "date": "2015-06-15T10:19:05.360844", 
+    "property": "right_answer", 
+    "subject": "Q1"
+  },
+  {
+    "username": "julien", 
+    "_id": "557944797fb6bc1f59dbac3c", 
+    "value": 1, 
+    "useruuid": "112634849", 
+    "date": "2015-06-11T10:19:05.360844", 
+    "property": "wrong_answer", 
+    "subject": "Q1"
+  },
+  {
+    "username": "julien", 
+    "_id": "557944797fb6bc1f59dbac3c", 
+    "value": 3, 
+    "useruuid": "112634849", 
+    "date": "2015-06-11T10:19:05.360844", 
+    "property": "wrong_answer", 
+    "subject": "Q1"
+  },
+  {
+    "username": "julien", 
+    "_id": "557944797fb6bc1f59dbac3c", 
+    "value": 4, 
+    "useruuid": "112634849", 
+    "date": "2015-06-11T10:19:05.360844", 
+    "property": "wrong_answer", 
+    "subject": "Q1"
+  },
+  {
+    "username": "julien", 
+    "_id": "557944797fb6bc1f59dbac3c", 
+    "value": 1, 
+    "useruuid": "112634849", 
+    "date": "2015-06-11T10:19:05.360844", 
+    "property": "usefull", 
+    "subject": "Q1"
+  },
+  {
+    "username": "truc", 
+    "_id": "557944797fb6bc1f59dbac3c", 
+    "value": 0, 
+    "useruuid": "326549812", 
+    "date": "2015-06-11T10:19:05.360844", 
+    "property": "skipped", 
+    "subject": "Q1"
+  }
+]

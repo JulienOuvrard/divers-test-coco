@@ -1,0 +1,72 @@
+<html style="background:#dbdbdb">
+<head>
+	<title>TouchSplitter Demo</title>
+	<link href="touchsplitter.css" rel="stylesheet"/>
+	<style>
+		html,body {
+			width:100%;
+			height:100%;
+		}
+		body { margin:0; }
+		.split-me>div{
+			background: #444;
+		}
+		.split-me>div:first-child{
+			background: #555;
+		}
+		.split-me>div:last-child{
+			background: #666;
+		}
+
+		.left-side {
+			position: absolute;
+			overflow: hidden;
+		}
+
+		.splitter-bar {
+			background: #333;
+		}
+        
+        .diap{
+            background: red;
+        }
+        .vid{
+            background: green;
+        }
+        .time{
+            background: blue;
+        }
+        .control{
+            background: yellow;
+        }
+	</style>
+</head>
+<body>
+	<script src="jquery.min.js"></script>
+	<script src="jquery.touchsplitter.js"></script>
+    <section id="content">
+            <div class="left-side">
+                <h1>COCO</h1>
+                <div class="MDPlayer">
+                    <div class="player">
+                        <div class="diap">DIAP</div>
+                        <div class="vid">VID</div>
+                    </div>
+                    <div class='widget'>
+                        <div class="control">CTRL</div>
+                        <div class="time"> TIME </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right-side">
+                <div class="tab">Tab | Tab | Tab</div>
+            </div>
+    </section>
+	<script>
+        splitter1 = $('#content').touchSplit({})
+		splitter2 = $('.MDPlayer').touchSplit({orientation:"vertical"})
+		splitter3 = $('.player').touchSplit({})
+	</script>
+
+</body>
+</html>

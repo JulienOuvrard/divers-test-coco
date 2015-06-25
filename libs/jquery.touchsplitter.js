@@ -219,9 +219,6 @@
       TouchSplitter.prototype.setRatios = function() {
         var conv, ref, val;
         this.splitDistance = this.horizontal ? this.element.width() : this.element.height();
-        if(this.splitDistance==0){
-			this.splitDistance = this.element.parent().height();
-		}
         ref = {
           firstMin: this.firstMin,
           firstMax: this.firstMax,

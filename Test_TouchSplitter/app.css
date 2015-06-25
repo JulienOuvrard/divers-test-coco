@@ -22,11 +22,22 @@ img{
 .timeline {
     background-color: yellow;
 }
+.controller {
+    background-color: purple;
+    height:30px;
+    width:100%;
+    position:absolute;
+    z-index:1;
+}
 .splitter-bar{
     background-color:black;
 }
 
-.player, .MDPlayer, #content{
+.player{
+    height:calc(100% - 30px);
+}
+
+.MDPlayer, #content{
     height:100%;
 }
 

@@ -1,0 +1,1869 @@
+{
+  "meta": {
+    "dc:creator": "admin",
+    "dc:contributor": "admin",
+    "id": "package1",
+    "dc:description": "",
+    "dc:modified": "2013-12-17",
+    "dc:title": "Analysis of 20131115-camera-reference.mp4",
+    "main_media": "m20131115",
+    "dc:created": "2011-02-14T15:15:52.602502"
+  },
+  "views": [],
+  "annotation-types": [
+    {
+      "dc:title": "Slides",
+      "dc:creator": "oaubert",
+      "id": "Slides",
+      "dc:contributor": "oaubert",
+      "dc:description": "",
+      "dc:created": "2013-12-17",
+      "dc:modified": "2013-12-17"
+    },
+    {
+      "id": "annotation",
+      "dc:contributor": "advene",
+      "dc:description": "",
+      "dc:modified": "2004-06-30",
+      "dc:created": "2004-06-30",
+      "dc:creator": "advene",
+      "dc:title": "Text annotation"
+    },
+    {
+      "dc:title": "Contributions",
+      "dc:creator": "oaubert",
+      "dc:description": "Personal user contribution",
+      "id": "at_contributions",
+      "dc:contributor": "oaubert",
+      "dc:created": "2013-12-17",
+      "dc:modified": "2013-12-17"
+    },
+    {
+      "dc:created": "2015-03-04",
+      "dc:modified": "2015-03-04",
+      "dc:description": "",
+      "id": "Quizz",
+      "dc:title": "Quizz Module",
+      "dc:creator": "oaubert",
+      "dc:contributor": "oaubert"
+    }
+  ],
+  "annotations": [
+    {
+      "id": "bea6b73d-68a2-4828-8334-ee4c3b87c809",
+      "begin": 300000,
+      "end": 310000,
+      "tags": null,
+      "media": "m20131115",
+      "content": {
+        "description": "Qu’est ce que le langage naturel?",
+        "title": "Qu’est ce que le langage naturel?",
+        "data": {
+          "answers": [
+            {
+              "correct": true,
+              "feedback": "Effectivement",
+              "content": "Système de communication propre à l’humain "
+            },
+            {
+              "feedback": "As tu vraiment compris ce qu'est le langage naturel? ",
+              "content": "L’art de parler de la nature"
+            },
+            {
+              "feedback": "As tu vraiment compris ce qu'est le langage naturel?",
+              "content": "Une fonction en informatique"
+            }
+          ],
+          "question": "Qu’est ce que le langage naturel?",
+          "type": "unique_choice"
+        },
+        "mimetype": "application/x-video-quizz"
+      },
+      "type": "Quizz",
+      "type_title": "Quizz Module",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2013-12-19",
+        "dc:created": "2013-12-19",
+        "id-ref": "Quizz",
+        "dc:contributor": "oaubert"
+      }
+    },
+    {
+      "id": "b50c88da-e993-4f84-9391-ad4eef51c7a3",
+      "begin": 330000,
+      "end": 340000,
+      "tags": null,
+      "media": "m20131115",
+      "content": {
+        "description": "Que signifie le <em>TALN</em>?",
+        "title": "Que signifie le <em>TALN</em>?",
+        "data": {
+          "answers": [
+            {
+              "feedback": "Pas du tout",
+              "content": "Théorie Automatique du Langage National "
+            },
+            {
+              "feedback": "A deux mot près, c'est dommage",
+              "content": "Théorie et Apprentissage du Langage Naturel"
+            },
+            {
+              "correct": true,
+              "feedback": "Bien joué",
+              "content": "Traitement Automatique du Langage Naturel "
+            }
+          ],
+          "question": "Que signifie le <em>TALN</em>?",
+          "type": "unique_choice"
+        },
+        "mimetype": "application/x-video-quizz"
+      },
+      "type": "Quizz",
+      "type_title": "Quizz Module",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2013-12-19",
+        "dc:created": "2013-12-19",
+        "id-ref": "Quizz",
+        "dc:contributor": "oaubert"
+      }
+    },
+    {
+      "id": "352e8657-73e9-4bd0-8e5a-b8ce0db242bf",
+      "begin": 2400000,
+      "end": 2410000,
+      "tags": null,
+      "media": "m20131115",
+      "content": {
+        "description": "Lesquelles de ces abréviations est un code normalisé en informatique?",
+        "title": "Lesquelles de ces abréviations est un code normalisé en informatique?",
+        "data": {
+          "answers": [
+            {
+              "correct": true,
+              "feedback": "Effectivement c’est l’une des premières normes",
+              "content": "ASCII "
+            },
+            {
+              "correct": true,
+              "feedback": "Oui contient plus de caractere que l’UTF-8",
+              "content": "UTF-16"
+            },
+            {
+              "feedback": "C’est bien une norme mais pour l’électricité",
+              "content": " NF-C 15100"
+            },
+            {
+              "correct": true,
+              "feedback": "Bien vu l'aveugle",
+              "content": "ISO-LATIN1"
+            },
+            {
+              "feedback": "Ah non!",
+              "content": "CRD-1389"
+            },
+            {
+              "feedback": "Ah non!",
+              "content": "EU - FR"
+            }
+          ],
+          "question": "Lesquelles de ces abréviations est un code normalisé en informatique?",
+          "type": "multiple_choice"
+        },
+        "mimetype": "application/x-video-quizz"
+      },
+      "type": "Quizz",
+      "type_title": "Quizz Module",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2013-12-19",
+        "dc:created": "2013-12-19",
+        "id-ref": "Quizz",
+        "dc:contributor": "oaubert"
+      }
+    },
+    {
+      "id": "881f01a8-ed95-4ec2-91e5-fc1ab5229470",
+      "begin": 2420000,
+      "end": 2430000,
+      "tags": null,
+      "media": "m20131115",
+      "content": {
+        "description": "Quel est le principe de la loi de Zipf?",
+        "title": "Quel est le principe de la loi de Zipf?",
+        "data": {
+          "answers": [
+            {
+              "feedback": "Absolument pas !",
+              "content": "Une observation complète sur la position des mots dans un texte"
+            },
+            {
+              "correct": true,
+              "feedback": "Bien vu l'aveugle",
+              "content": "Une observation empirique sur la fréquence des mots dans un texte"
+            },
+            {
+              "feedback": "Pas du tout",
+              "content": "Une observation sur le nombre de mots dans un texte"
+            }
+          ],
+          "question": "Quel est le principe de la loi de Zipf?",
+          "type": "unique_choice"
+        },
+        "mimetype": "application/x-video-quizz"
+      },
+      "type": "Quizz",
+      "type_title": "Quizz Module",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2013-12-19",
+        "dc:created": "2013-12-19",
+        "id-ref": "Quizz",
+        "dc:contributor": "oaubert"
+      }
+    },
+    {
+      "id": "b95ced5d-99a8-432a-a4b4-0f762562a2fc",
+      "begin": 3279000,
+      "end": 3280000,
+      "tags": null,
+      "media": "m20131115",
+      "content": {
+        "description": "Que représente cette expression régulière : ^[st]ac?",
+        "title": "Que représente cette expression régulière : ^[st]ac?",
+        "data": {
+          "answers": [
+            {
+              "feedback": "l’expression régulière serait [st]ac",
+              "content": "sac ou tac dans un phrase "
+            },
+            {
+              "correct": true,
+              "feedback": "C'est gagné",
+              "content": "sac ou tac en début de phrase"
+            },
+            {
+              "feedback": "non pour la fin de phrase on mettrait : [st]ac$",
+              "content": "sac ou tac en fin de phrase"
+            }
+          ],
+          "question": "Que représente cette expression régulière : ^[st]ac?",
+          "type": "unique_choice"
+        },
+        "mimetype": "application/x-video-quizz"
+      },
+      "type": "Quizz",
+      "type_title": "Quizz Module",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2013-12-19",
+        "dc:created": "2013-12-19",
+        "id-ref": "Quizz",
+        "dc:contributor": "oaubert"
+      }
+    },
+    {
+      "id": "aa69b2dc-6e03-42cb-bf6e-6e18fed38411",
+      "begin": 3281000,
+      "end": 3282000,
+      "tags": null,
+      "media": "m20131115",
+      "content": {
+        "description": "Que signifie le point d’interogation (?) en expression régulière?",
+        "title": "Que signifie le point d’interogation (?) en expression régulière?",
+        "data": {
+          "answers": [
+            {
+              "correct": true,
+              "feedback": "Exactement",
+              "content": "0 ou 1 fois"
+            },
+            {
+              "feedback": "correspond plutôt au “+”",
+              "content": "1 ou + fois"
+            },
+            {
+              "feedback": "correspond plutôt au “*”",
+              "content": "0 ou + fois"
+            }
+          ],
+          "question": "Que signifie le point d’interogation (?) en expression régulière?",
+          "type": "unique_choice"
+        },
+        "mimetype": "application/x-video-quizz"
+      },
+      "type": "Quizz",
+      "type_title": "Quizz Module",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2013-12-19",
+        "dc:created": "2013-12-19",
+        "id-ref": "Quizz",
+        "dc:contributor": "oaubert"
+      }
+    },
+    {
+      "id": "b9554a3e-34a6-4e86-bd91-b8814561cc8f",
+      "meta": {
+        "dc:creator": "oaubert",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert",
+        "dc:modified": "2013-12-17",
+        "dc:created": "2013-12-17"
+      },
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "audio": {
+          "src": "",
+          "href": null,
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Langage naturel problèmes et solutions informatiques",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131115/imagecache/00.png"
+        },
+        "description": ""
+      },
+      "end": 99818,
+      "begin": 0,
+      "tags": null,
+      "media": "m20131115"
+    },
+    {
+      "tags": null,
+      "media": "m20131115",
+      "meta": {
+        "dc:creator": "oaubert",
+        "id-ref": "Slides",
+        "dc:modified": "2013-12-17",
+        "dc:created": "2013-12-17",
+        "dc:contributor": "oaubert"
+      },
+      "id": "1faea7a0-5565-4630-a610-fb25add6f72a",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "2001, L'Odyssée de l'espace",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131115/imagecache/01.png"
+        },
+        "description": ""
+      },
+      "end": 145813,
+      "begin": 99818
+    },
+    {
+      "end": 162071,
+      "begin": 145813,
+      "meta": {
+        "dc:modified": "2013-12-17",
+        "dc:created": "2013-12-17",
+        "dc:contributor": "oaubert",
+        "dc:creator": "oaubert",
+        "id-ref": "Slides"
+      },
+      "id": "c4e6cb85-5611-4a51-9891-7c7d087022c4",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "audio": {
+          "src": "",
+          "href": null,
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "2001, L'Odyssée de l'espace",
+        "description": "",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131115/imagecache/02.png"
+        }
+      },
+      "tags": null,
+      "media": "m20131115"
+    },
+    {
+      "id": "fb67298e-bac7-481f-907d-46a545441ede",
+      "meta": {
+        "dc:contributor": "oaubert",
+        "dc:created": "2013-12-17",
+        "dc:modified": "2013-12-17",
+        "id-ref": "Slides",
+        "dc:creator": "oaubert"
+      },
+      "content": {
+        "title": "Applications du TALN",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131115/imagecache/03.png"
+        },
+        "description": "",
+        "mimetype": "application/x-ldt-structured",
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": []
+      },
+      "end": 338453,
+      "begin": 162071,
+      "tags": null,
+      "media": "m20131115"
+    },
+    {
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "mimetype": "application/x-ldt-structured",
+        "polemics": [],
+        "title": "Applications du TALN",
+        "description": "",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131115/imagecache/04.png"
+        }
+      },
+      "id": "986f93e3-1b39-4828-94b9-03d8d042b8fb",
+      "meta": {
+        "dc:creator": "oaubert",
+        "id-ref": "Slides",
+        "dc:modified": "2013-12-17",
+        "dc:created": "2013-12-17",
+        "dc:contributor": "oaubert"
+      },
+      "begin": 338453,
+      "end": 455872,
+      "media": "m20131115",
+      "tags": null
+    },
+    {
+      "tags": null,
+      "media": "m20131115",
+      "end": 493164,
+      "begin": 455872,
+      "meta": {
+        "id-ref": "Slides",
+        "dc:creator": "oaubert",
+        "dc:contributor": "oaubert",
+        "dc:created": "2013-12-17",
+        "dc:modified": "2013-12-17"
+      },
+      "id": "093508ef-d6a5-472d-a1d9-97c78eee308d",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "audio": {
+          "mimetype": "audio/mp3",
+          "href": null,
+          "src": ""
+        },
+        "polemics": [],
+        "title": "Plan de l'exposé",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131115/imagecache/05.png"
+        },
+        "description": ""
+      }
+    },
+    {
+      "id": "97e73ad1-4797-44e8-a1ed-22ddbae71398",
+      "meta": {
+        "dc:contributor": "oaubert",
+        "dc:modified": "2013-12-17",
+        "dc:created": "2013-12-17",
+        "dc:creator": "oaubert",
+        "id-ref": "Slides"
+      },
+      "content": {
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        },
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131115/imagecache/06.png"
+        },
+        "title": "Les bases"
+      },
+      "end": 515216,
+      "begin": 493164,
+      "tags": null,
+      "media": "m20131115"
+    },
+    {
+      "media": "m20131115",
+      "tags": null,
+      "content": {
+        "title": "Caractère (au sens informatique)",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131115/imagecache/07.png"
+        },
+        "description": "",
+        "mimetype": "application/x-ldt-structured",
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": []
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "dc:created": "2013-12-17",
+        "dc:modified": "2013-12-17",
+        "id-ref": "Slides",
+        "dc:creator": "oaubert"
+      },
+      "id": "eae6cb51-e86a-441a-bee4-92750187baf0",
+      "begin": 515216,
+      "end": 613397
+    },
+    {
+      "tags": null,
+      "media": "m20131115",
+      "id": "7e83d8c6-760a-450c-9c77-98fadef643e2",
+      "meta": {
+        "id-ref": "Slides",
+        "dc:creator": "oaubert",
+        "dc:contributor": "oaubert",
+        "dc:created": "2013-12-17",
+        "dc:modified": "2013-12-17"
+      },
+      "content": {
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131115/imagecache/08.png"
+        },
+        "description": "",
+        "title": "Critères des codes",
+        "polemics": [],
+        "mimetype": "application/x-ldt-structured",
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        }
+      },
+      "end": 685482,
+      "begin": 613397
+    },
+    {
+      "end": 792264,
+      "begin": 685482,
+      "meta": {
+        "dc:modified": "2013-12-17",
+        "dc:created": "2013-12-17",
+        "dc:contributor": "oaubert",
+        "dc:creator": "oaubert",
+        "id-ref": "Slides"
+      },
+      "id": "3bedfeea-bd6a-4ed6-978d-5c719778cfd7",
+      "content": {
+        "polemics": [],
+        "mimetype": "application/x-ldt-structured",
+        "audio": {
+          "mimetype": "audio/mp3",
+          "href": null,
+          "src": ""
+        },
+        "description": "",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131115/imagecache/09.png"
+        },
+        "title": "Codes normalisés (1)"
+      },
+      "tags": null,
+      "media": "m20131115"
+    },
+    {
+      "tags": null,
+      "media": "m20131115",
+      "end": 873414,
+      "begin": 792264,
+      "id": "b856041c-289f-4e00-9e34-620ca8a0020f",
+      "meta": {
+        "dc:created": "2013-12-17",
+        "dc:modified": "2013-12-17",
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:creator": "oaubert"
+      },
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        },
+        "polemics": [],
+        "title": "Code ASCII – Table",
+        "description": "",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131115/imagecache/10.png"
+        }
+      }
+    },
+    {
+      "media": "m20131115",
+      "tags": null,
+      "content": {
+        "title": "Codes normalisés (2)",
+        "description": "",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131115/imagecache/11.png"
+        },
+        "audio": {
+          "src": "",
+          "href": null,
+          "mimetype": "audio/mp3"
+        },
+        "mimetype": "application/x-ldt-structured",
+        "polemics": []
+      },
+      "id": "4823f9d8-dd77-4f37-a5b6-062c01108b90",
+      "meta": {
+        "dc:contributor": "oaubert",
+        "dc:created": "2013-12-17",
+        "dc:modified": "2013-12-17",
+        "id-ref": "Slides",
+        "dc:creator": "oaubert"
+      },
+      "begin": 873414,
+      "end": 1151277
+    },
+    {
+      "end": 1332405,
+      "begin": 1151277,
+      "meta": {
+        "dc:contributor": "oaubert",
+        "dc:created": "2013-12-17",
+        "dc:modified": "2013-12-17",
+        "id-ref": "Slides",
+        "dc:creator": "oaubert"
+      },
+      "id": "00b3a10d-2259-469a-a953-3a647548e5fa",
+      "content": {
+        "audio": {
+          "mimetype": "audio/mp3",
+          "href": null,
+          "src": ""
+        },
+        "mimetype": "application/x-ldt-structured",
+        "polemics": [],
+        "title": "Codes normalisés (3)",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131115/imagecache/12.png"
+        },
+        "description": ""
+      },
+      "tags": null,
+      "media": "m20131115"
+    },
+    {
+      "end": 1381729,
+      "begin": 1332405,
+      "meta": {
+        "dc:creator": "oaubert",
+        "id-ref": "Slides",
+        "dc:modified": "2013-12-17",
+        "dc:created": "2013-12-17",
+        "dc:contributor": "oaubert"
+      },
+      "id": "fe9dd274-02e6-4fb5-89ed-fd47dd62ed4a",
+      "content": {
+        "description": "",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131115/imagecache/13.png"
+        },
+        "title": "UTF8",
+        "polemics": [],
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "mimetype": "application/x-ldt-structured"
+      },
+      "tags": null,
+      "media": "m20131115"
+    },
+    {
+      "tags": null,
+      "media": "m20131115",
+      "meta": {
+        "dc:creator": "oaubert",
+        "id-ref": "Slides",
+        "dc:modified": "2013-12-17",
+        "dc:created": "2013-12-17",
+        "dc:contributor": "oaubert"
+      },
+      "id": "407ecbac-f7c2-4237-b51a-3dd1290729b3",
+      "content": {
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        },
+        "mimetype": "application/x-ldt-structured",
+        "polemics": [],
+        "title": "UTF8 – Exemple",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131115/imagecache/14.png"
+        },
+        "description": ""
+      },
+      "end": 1432687,
+      "begin": 1381729
+    },
+    {
+      "tags": null,
+      "media": "m20131115",
+      "id": "d31add9e-44f1-4568-a95f-623344bcbaaa",
+      "meta": {
+        "id-ref": "Slides",
+        "dc:creator": "oaubert",
+        "dc:created": "2013-12-17",
+        "dc:modified": "2013-12-17",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "polemics": [],
+        "mimetype": "application/x-ldt-structured",
+        "audio": {
+          "src": "",
+          "href": null,
+          "mimetype": "audio/mp3"
+        },
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131115/imagecache/15.png"
+        },
+        "description": "",
+        "title": "Commandes LINUX"
+      },
+      "end": 1535850,
+      "begin": 1432687
+    },
+    {
+      "content": {
+        "polemics": [],
+        "mimetype": "application/x-ldt-structured",
+        "audio": {
+          "mimetype": "audio/mp3",
+          "href": null,
+          "src": ""
+        },
+        "description": "",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131115/imagecache/16.png"
+        },
+        "title": "Chaîne de caractères / Mot (au sens informatique)"
+      },
+      "meta": {
+        "id-ref": "Slides",
+        "dc:creator": "oaubert",
+        "dc:contributor": "oaubert",
+        "dc:created": "2013-12-17",
+        "dc:modified": "2013-12-17"
+      },
+      "id": "d083ca1f-af38-462f-8fc2-3e3e8476866e",
+      "begin": 1535850,
+      "end": 1799082,
+      "media": "m20131115",
+      "tags": null
+    },
+    {
+      "media": "m20131115",
+      "tags": null,
+      "begin": 1799082,
+      "end": 1894912,
+      "content": {
+        "description": "",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131115/imagecache/17.png"
+        },
+        "title": "Phrase (au sens informatique)",
+        "polemics": [],
+        "mimetype": "application/x-ldt-structured",
+        "audio": {
+          "src": "",
+          "href": null,
+          "mimetype": "audio/mp3"
+        }
+      },
+      "id": "a5ce1d46-6224-4a4e-9489-aeb5c8a54dfd",
+      "meta": {
+        "dc:contributor": "oaubert",
+        "dc:modified": "2013-12-17",
+        "dc:created": "2013-12-17",
+        "dc:creator": "oaubert",
+        "id-ref": "Slides"
+      }
+    },
+    {
+      "tags": null,
+      "media": "m20131115",
+      "end": 2145225,
+      "begin": 1894912,
+      "id": "94f19089-fd6c-4117-9b13-dcc2e28878e1",
+      "meta": {
+        "dc:creator": "oaubert",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert",
+        "dc:modified": "2013-12-17",
+        "dc:created": "2013-12-17"
+      },
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "audio": {
+          "mimetype": "audio/mp3",
+          "href": null,
+          "src": ""
+        },
+        "polemics": [],
+        "title": "Texte et Tris",
+        "description": "",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131115/imagecache/18.png"
+        }
+      }
+    },
+    {
+      "tags": null,
+      "media": "m20131115",
+      "id": "991b89e9-7716-4dcb-9548-08a1468e750b",
+      "meta": {
+        "id-ref": "Slides",
+        "dc:creator": "oaubert",
+        "dc:contributor": "oaubert",
+        "dc:created": "2013-12-17",
+        "dc:modified": "2013-12-17"
+      },
+      "content": {
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131115/imagecache/19.png"
+        },
+        "description": "",
+        "title": "Loi de Zipf",
+        "polemics": [],
+        "mimetype": "application/x-ldt-structured",
+        "audio": {
+          "mimetype": "audio/mp3",
+          "href": null,
+          "src": ""
+        }
+      },
+      "end": 2251031,
+      "begin": 2145225
+    },
+    {
+      "meta": {
+        "id-ref": "Slides",
+        "dc:creator": "oaubert",
+        "dc:created": "2013-12-17",
+        "dc:modified": "2013-12-17",
+        "dc:contributor": "oaubert"
+      },
+      "id": "88c36f6c-6e06-4a2a-a083-b60a124c66a0",
+      "content": {
+        "title": "Loi de Zipf",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131115/imagecache/20.png"
+        },
+        "description": "",
+        "mimetype": "application/x-ldt-structured",
+        "audio": {
+          "src": "",
+          "href": null,
+          "mimetype": "audio/mp3"
+        },
+        "polemics": []
+      },
+      "end": 2299908,
+      "begin": 2251031,
+      "tags": null,
+      "media": "m20131115"
+    },
+    {
+      "tags": null,
+      "media": "m20131115",
+      "end": 2364218,
+      "begin": 2299908,
+      "meta": {
+        "dc:modified": "2013-12-17",
+        "dc:created": "2013-12-17",
+        "dc:contributor": "oaubert",
+        "dc:creator": "oaubert",
+        "id-ref": "Slides"
+      },
+      "id": "4f9dd4c0-5a67-4510-b866-d968b3c0b629",
+      "content": {
+        "description": "",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131115/imagecache/21.png"
+        },
+        "title": "Liste de fréquence des mots",
+        "polemics": [],
+        "mimetype": "application/x-ldt-structured",
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        }
+      }
+    },
+    {
+      "meta": {
+        "id-ref": "Slides",
+        "dc:creator": "oaubert",
+        "dc:created": "2013-12-17",
+        "dc:modified": "2013-12-17",
+        "dc:contributor": "oaubert"
+      },
+      "id": "5790461c-f109-4be5-baaf-4820a33b5af5",
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "mimetype": "application/x-ldt-structured",
+        "polemics": [],
+        "title": "Plan de l'exposé",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131115/imagecache/22.png"
+        },
+        "description": ""
+      },
+      "end": 2376556,
+      "begin": 2364218,
+      "tags": null,
+      "media": "m20131115"
+    },
+    {
+      "end": 2402693,
+      "begin": 2376556,
+      "id": "8a40c1ea-c284-4ba7-bb3c-72939ddc0a0c",
+      "meta": {
+        "dc:contributor": "oaubert",
+        "dc:modified": "2013-12-17",
+        "dc:created": "2013-12-17",
+        "dc:creator": "oaubert",
+        "id-ref": "Slides"
+      },
+      "content": {
+        "polemics": [],
+        "audio": {
+          "src": "",
+          "href": null,
+          "mimetype": "audio/mp3"
+        },
+        "mimetype": "application/x-ldt-structured",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131115/imagecache/23.png"
+        },
+        "description": "",
+        "title": "Eliza"
+      },
+      "tags": null,
+      "media": "m20131115"
+    },
+    {
+      "tags": null,
+      "media": "m20131115",
+      "end": 2442193,
+      "begin": 2402693,
+      "id": "0b1b3a70-bd5c-42d2-8947-0a22f00b7b53",
+      "meta": {
+        "id-ref": "Slides",
+        "dc:creator": "oaubert",
+        "dc:contributor": "oaubert",
+        "dc:created": "2013-12-17",
+        "dc:modified": "2013-12-17"
+      },
+      "content": {
+        "description": "",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131115/imagecache/24.png"
+        },
+        "title": "Eliza : exemples",
+        "polemics": [],
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "mimetype": "application/x-ldt-structured"
+      }
+    },
+    {
+      "end": 2457852,
+      "begin": 2442193,
+      "id": "4ab4497b-69fd-45dc-93c9-017a70926ba9",
+      "meta": {
+        "dc:creator": "oaubert",
+        "id-ref": "Slides",
+        "dc:modified": "2013-12-17",
+        "dc:created": "2013-12-17",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        },
+        "mimetype": "application/x-ldt-structured",
+        "polemics": [],
+        "title": "Eliza : exemples",
+        "description": "",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131115/imagecache/25.png"
+        }
+      },
+      "tags": null,
+      "media": "m20131115"
+    },
+    {
+      "content": {
+        "audio": {
+          "mimetype": "audio/mp3",
+          "href": null,
+          "src": ""
+        },
+        "mimetype": "application/x-ldt-structured",
+        "polemics": [],
+        "title": "Eliza : exemples",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131115/imagecache/26.png"
+        },
+        "description": ""
+      },
+      "id": "a0fa9fd5-e76a-417f-beaf-0687a3635859",
+      "meta": {
+        "dc:contributor": "oaubert",
+        "dc:created": "2013-12-17",
+        "dc:modified": "2013-12-17",
+        "id-ref": "Slides",
+        "dc:creator": "oaubert"
+      },
+      "begin": 2457852,
+      "end": 2477239,
+      "media": "m20131115",
+      "tags": null
+    },
+    {
+      "begin": 2477239,
+      "end": 2515208,
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "mimetype": "application/x-ldt-structured",
+        "polemics": [],
+        "title": "Eliza : Analyse de l'exemple",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131115/imagecache/27.png"
+        },
+        "description": ""
+      },
+      "id": "8c8bcd0d-1d9f-480f-a40e-76e556f7c974",
+      "meta": {
+        "dc:creator": "oaubert",
+        "id-ref": "Slides",
+        "dc:modified": "2013-12-17",
+        "dc:created": "2013-12-17",
+        "dc:contributor": "oaubert"
+      },
+      "media": "m20131115",
+      "tags": null
+    },
+    {
+      "tags": null,
+      "media": "m20131115",
+      "meta": {
+        "dc:creator": "oaubert",
+        "id-ref": "Slides",
+        "dc:modified": "2013-12-17",
+        "dc:created": "2013-12-17",
+        "dc:contributor": "oaubert"
+      },
+      "id": "98fa3435-53e5-4641-b5a5-afcca3ffe3b2",
+      "content": {
+        "title": "Eliza : Analyse de l'exemple",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131115/imagecache/28.png"
+        },
+        "description": "",
+        "mimetype": "application/x-ldt-structured",
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": []
+      },
+      "end": 2548422,
+      "begin": 2515208
+    },
+    {
+      "tags": null,
+      "media": "m20131115",
+      "end": 2611840,
+      "begin": 2548422,
+      "meta": {
+        "dc:creator": "oaubert",
+        "id-ref": "Slides",
+        "dc:modified": "2013-12-17",
+        "dc:created": "2013-12-17",
+        "dc:contributor": "oaubert"
+      },
+      "id": "2d8553e6-9fc3-49cb-a32c-59e51a685e13",
+      "content": {
+        "polemics": [],
+        "mimetype": "application/x-ldt-structured",
+        "audio": {
+          "src": "",
+          "href": null,
+          "mimetype": "audio/mp3"
+        },
+        "description": "",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131115/imagecache/29.png"
+        },
+        "title": "Eliza : Analyse de l'exemple"
+      }
+    },
+    {
+      "tags": null,
+      "media": "m20131115",
+      "id": "13143640-3933-4d52-b585-517fecdb47ed",
+      "meta": {
+        "id-ref": "Slides",
+        "dc:creator": "oaubert",
+        "dc:created": "2013-12-17",
+        "dc:modified": "2013-12-17",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "title": "Bilan sur Eliza",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131115/imagecache/30.png"
+        },
+        "description": "",
+        "mimetype": "application/x-ldt-structured",
+        "audio": {
+          "src": "",
+          "href": null,
+          "mimetype": "audio/mp3"
+        },
+        "polemics": []
+      },
+      "end": 2649957,
+      "begin": 2611840
+    },
+    {
+      "end": 2690460,
+      "begin": 2649957,
+      "meta": {
+        "dc:created": "2013-12-17",
+        "dc:modified": "2013-12-17",
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:creator": "oaubert"
+      },
+      "id": "6830a135-58db-401c-9b77-d002a8de61c0",
+      "content": {
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        },
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131115/imagecache/31.png"
+        },
+        "title": "Recherche de motifs"
+      },
+      "tags": null,
+      "media": "m20131115"
+    },
+    {
+      "id": "62f21a76-0f9a-4313-af3b-e0f9cb9cfb5e",
+      "meta": {
+        "dc:created": "2013-12-17",
+        "dc:modified": "2013-12-17",
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:creator": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "src": "",
+          "href": null,
+          "mimetype": "audio/mp3"
+        },
+        "mimetype": "application/x-ldt-structured",
+        "polemics": [],
+        "title": "Expressions régulières",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131115/imagecache/32.png"
+        },
+        "description": ""
+      },
+      "end": 2741546,
+      "begin": 2690460,
+      "tags": null,
+      "media": "m20131115"
+    },
+    {
+      "begin": 2741546,
+      "end": 2844443,
+      "content": {
+        "audio": {
+          "mimetype": "audio/mp3",
+          "href": null,
+          "src": ""
+        },
+        "mimetype": "application/x-ldt-structured",
+        "polemics": [],
+        "title": "Expressions régulières - syntaxe",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131115/imagecache/33.png"
+        },
+        "description": ""
+      },
+      "meta": {
+        "id-ref": "Slides",
+        "dc:creator": "oaubert",
+        "dc:contributor": "oaubert",
+        "dc:created": "2013-12-17",
+        "dc:modified": "2013-12-17"
+      },
+      "id": "b88019a9-d71a-4591-a4fa-d136c3c06ed5",
+      "media": "m20131115",
+      "tags": null
+    },
+    {
+      "tags": null,
+      "media": "m20131115",
+      "end": 2899754,
+      "begin": 2844443,
+      "meta": {
+        "id-ref": "Slides",
+        "dc:creator": "oaubert",
+        "dc:contributor": "oaubert",
+        "dc:created": "2013-12-17",
+        "dc:modified": "2013-12-17"
+      },
+      "id": "bcbe522f-1a1c-4420-8595-868a37c80958",
+      "content": {
+        "title": "Expressions régulières - classe de caractères",
+        "description": "",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131115/imagecache/34.png"
+        },
+        "mimetype": "application/x-ldt-structured",
+        "audio": {
+          "src": "",
+          "href": null,
+          "mimetype": "audio/mp3"
+        },
+        "polemics": []
+      }
+    },
+    {
+      "end": 2971067,
+      "begin": 2899754,
+      "id": "d4a51fb7-5fd5-466c-ab61-f2b48dd0c1a9",
+      "meta": {
+        "id-ref": "Slides",
+        "dc:creator": "oaubert",
+        "dc:created": "2013-12-17",
+        "dc:modified": "2013-12-17",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131115/imagecache/35.png"
+        },
+        "description": "",
+        "title": "Expressions régulières - négateur",
+        "polemics": [],
+        "mimetype": "application/x-ldt-structured",
+        "audio": {
+          "mimetype": "audio/mp3",
+          "href": null,
+          "src": ""
+        }
+      },
+      "tags": null,
+      "media": "m20131115"
+    },
+    {
+      "media": "m20131115",
+      "tags": null,
+      "begin": 2971067,
+      "end": 3074833,
+      "content": {
+        "title": "Expressions régulières - quantificateurs",
+        "description": "",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131115/imagecache/36.png"
+        },
+        "mimetype": "application/x-ldt-structured",
+        "audio": {
+          "mimetype": "audio/mp3",
+          "href": null,
+          "src": ""
+        },
+        "polemics": []
+      },
+      "id": "5bce51bb-a043-4595-ba29-d166bceed6b1",
+      "meta": {
+        "dc:creator": "oaubert",
+        "id-ref": "Slides",
+        "dc:modified": "2013-12-17",
+        "dc:created": "2013-12-17",
+        "dc:contributor": "oaubert"
+      }
+    },
+    {
+      "tags": null,
+      "media": "m20131115",
+      "end": 3088235,
+      "begin": 3074833,
+      "meta": {
+        "dc:creator": "oaubert",
+        "id-ref": "Slides",
+        "dc:modified": "2013-12-17",
+        "dc:created": "2013-12-17",
+        "dc:contributor": "oaubert"
+      },
+      "id": "a005f46d-3e0a-4007-9a61-64188f73fad1",
+      "content": {
+        "polemics": [],
+        "audio": {
+          "src": "",
+          "href": null,
+          "mimetype": "audio/mp3"
+        },
+        "mimetype": "application/x-ldt-structured",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131115/imagecache/37.png"
+        },
+        "description": "",
+        "title": "Expressions régulières - quantificateurs"
+      }
+    },
+    {
+      "media": "m20131115",
+      "tags": null,
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "audio": {
+          "mimetype": "audio/mp3",
+          "href": null,
+          "src": ""
+        },
+        "polemics": [],
+        "title": "Expressions régulières - métacaractères",
+        "description": "",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131115/imagecache/38.png"
+        }
+      },
+      "id": "a5927c65-c02f-41d9-8f4d-8a8ad3912687",
+      "meta": {
+        "dc:creator": "oaubert",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert",
+        "dc:modified": "2013-12-17",
+        "dc:created": "2013-12-17"
+      },
+      "begin": 3088235,
+      "end": 3279962
+    },
+    {
+      "content": {
+        "title": "Exemple",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131115/imagecache/39.png"
+        },
+        "description": "",
+        "audio": {
+          "src": "",
+          "href": null,
+          "mimetype": "audio/mp3"
+        },
+        "mimetype": "application/x-ldt-structured",
+        "polemics": []
+      },
+      "meta": {
+        "dc:created": "2013-12-17",
+        "dc:modified": "2013-12-17",
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:creator": "oaubert"
+      },
+      "id": "5cb5e388-e6a2-441b-8a27-2603fd027b0f",
+      "begin": 3279962,
+      "end": 3447581,
+      "media": "m20131115",
+      "tags": null
+    },
+    {
+      "media": "m20131115",
+      "tags": null,
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        },
+        "polemics": [],
+        "title": "Erreurs",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131115/imagecache/40.png"
+        },
+        "description": ""
+      },
+      "id": "81ce6bf8-8556-4378-a0c6-b85f033e63bc",
+      "meta": {
+        "id-ref": "Slides",
+        "dc:creator": "oaubert",
+        "dc:contributor": "oaubert",
+        "dc:created": "2013-12-17",
+        "dc:modified": "2013-12-17"
+      },
+      "begin": 3447581,
+      "end": 3487713
+    },
+    {
+      "media": "m20131115",
+      "tags": null,
+      "begin": 3487713,
+      "end": 3555432,
+      "content": {
+        "polemics": [],
+        "mimetype": "application/x-ldt-structured",
+        "audio": {
+          "mimetype": "audio/mp3",
+          "href": null,
+          "src": ""
+        },
+        "description": "",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131115/imagecache/41.png"
+        },
+        "title": "Réduire les erreurs"
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "dc:created": "2013-12-17",
+        "dc:modified": "2013-12-17",
+        "id-ref": "Slides",
+        "dc:creator": "oaubert"
+      },
+      "id": "91a0955a-306f-4881-9747-9f46e29f6d0b"
+    },
+    {
+      "content": {
+        "description": "",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131115/imagecache/42.png"
+        },
+        "title": "Remplacement et mémorisation",
+        "polemics": [],
+        "mimetype": "application/x-ldt-structured",
+        "audio": {
+          "mimetype": "audio/mp3",
+          "href": null,
+          "src": ""
+        }
+      },
+      "id": "269ae964-935d-4644-b150-f08c9c8fa7f9",
+      "meta": {
+        "dc:contributor": "oaubert",
+        "dc:created": "2013-12-17",
+        "dc:modified": "2013-12-17",
+        "id-ref": "Slides",
+        "dc:creator": "oaubert"
+      },
+      "begin": 3555432,
+      "end": 3663629,
+      "media": "m20131115",
+      "tags": null
+    },
+    {
+      "id": "f789d23c-840f-4eff-bda8-6154b906bbeb",
+      "meta": {
+        "dc:modified": "2013-12-17",
+        "dc:created": "2013-12-17",
+        "dc:contributor": "oaubert",
+        "dc:creator": "oaubert",
+        "id-ref": "Slides"
+      },
+      "content": {
+        "audio": {
+          "mimetype": "audio/mp3",
+          "href": null,
+          "src": ""
+        },
+        "mimetype": "application/x-ldt-structured",
+        "polemics": [],
+        "title": "Eliza : exemples",
+        "description": "",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131115/imagecache/43.png"
+        }
+      },
+      "end": 3682299,
+      "begin": 3663629,
+      "tags": null,
+      "media": "m20131115"
+    },
+    {
+      "begin": 3682299,
+      "end": 3799793,
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        },
+        "polemics": [],
+        "title": "Eliza : expressions régulières",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131115/imagecache/44.png"
+        },
+        "description": ""
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "dc:modified": "2013-12-17",
+        "dc:created": "2013-12-17",
+        "dc:creator": "oaubert",
+        "id-ref": "Slides"
+      },
+      "id": "cffb4af1-2d75-45e7-94bb-830cbd4f1023",
+      "media": "m20131115",
+      "tags": null
+    },
+    {
+      "meta": {
+        "dc:contributor": "oaubert",
+        "dc:created": "2013-12-17",
+        "dc:modified": "2013-12-17",
+        "id-ref": "Slides",
+        "dc:creator": "oaubert"
+      },
+      "id": "ccb9744e-1df5-4a6b-acb6-7aa531eddb98",
+      "content": {
+        "polemics": [],
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131115/imagecache/45.png"
+        },
+        "title": "Bilan sur les expressions"
+      },
+      "end": 3818939,
+      "begin": 3799793,
+      "tags": null,
+      "media": "m20131115"
+    },
+    {
+      "tags": null,
+      "media": "m20131115",
+      "meta": {
+        "dc:created": "2013-12-17",
+        "dc:modified": "2013-12-17",
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:creator": "oaubert"
+      },
+      "id": "4c2cfdc5-de84-40f8-a1f6-abadce0d96f4",
+      "content": {
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131115/imagecache/46.png"
+        },
+        "description": "",
+        "title": "Automates à états finis",
+        "polemics": [],
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "mimetype": "application/x-ldt-structured"
+      },
+      "end": 3864778,
+      "begin": 3818939
+    },
+    {
+      "media": "m20131115",
+      "tags": null,
+      "content": {
+        "polemics": [],
+        "mimetype": "application/x-ldt-structured",
+        "audio": {
+          "mimetype": "audio/mp3",
+          "href": null,
+          "src": ""
+        },
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131115/imagecache/47.png"
+        },
+        "description": "",
+        "title": "Automates à états finis"
+      },
+      "id": "d8e25b14-3aca-46d9-99f5-756932a4bbdc",
+      "meta": {
+        "dc:modified": "2013-12-17",
+        "dc:created": "2013-12-17",
+        "dc:contributor": "oaubert",
+        "dc:creator": "oaubert",
+        "id-ref": "Slides"
+      },
+      "begin": 3864778,
+      "end": 3970449
+    },
+    {
+      "tags": null,
+      "media": "m20131115",
+      "end": 3973006,
+      "begin": 3970449,
+      "meta": {
+        "dc:created": "2013-12-17",
+        "dc:modified": "2013-12-17",
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:creator": "oaubert"
+      },
+      "id": "49247dc5-3d28-4ca5-b591-0c8acc73264d",
+      "content": {
+        "description": "",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131115/imagecache/48.png"
+        },
+        "title": "Automate du mouton",
+        "polemics": [],
+        "mimetype": "application/x-ldt-structured",
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      }
+    },
+    {
+      "media": "m20131115",
+      "tags": null,
+      "content": {
+        "description": "",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131115/imagecache/49.png"
+        },
+        "title": "Définir un automate à états finis",
+        "polemics": [],
+        "audio": {
+          "src": "",
+          "href": null,
+          "mimetype": "audio/mp3"
+        },
+        "mimetype": "application/x-ldt-structured"
+      },
+      "id": "14acb662-08ea-47df-9cba-2a3e796f24ad",
+      "meta": {
+        "dc:modified": "2013-12-17",
+        "dc:created": "2013-12-17",
+        "dc:contributor": "oaubert",
+        "dc:creator": "oaubert",
+        "id-ref": "Slides"
+      },
+      "begin": 3973006,
+      "end": 4003294
+    },
+    {
+      "id": "ade4ab17-53f6-450f-92c3-91dc48c85915",
+      "meta": {
+        "dc:creator": "oaubert",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert",
+        "dc:modified": "2013-12-17",
+        "dc:created": "2013-12-17"
+      },
+      "content": {
+        "polemics": [],
+        "audio": {
+          "src": "",
+          "href": null,
+          "mimetype": "audio/mp3"
+        },
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131115/imagecache/50.png"
+        },
+        "title": "Une autre formulation"
+      },
+      "end": 4083233,
+      "begin": 4003294,
+      "tags": null,
+      "media": "m20131115"
+    },
+    {
+      "content": {
+        "title": "Reconnaissance",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131115/imagecache/51.png"
+        },
+        "description": "",
+        "audio": {
+          "src": "",
+          "href": null,
+          "mimetype": "audio/mp3"
+        },
+        "mimetype": "application/x-ldt-structured",
+        "polemics": []
+      },
+      "id": "07967a44-8be9-493a-8bcd-ff9b849a69e3",
+      "meta": {
+        "id-ref": "Slides",
+        "dc:creator": "oaubert",
+        "dc:created": "2013-12-17",
+        "dc:modified": "2013-12-17",
+        "dc:contributor": "oaubert"
+      },
+      "begin": 4083233,
+      "end": 4113287,
+      "media": "m20131115",
+      "tags": null
+    },
+    {
+      "end": 4133594,
+      "begin": 4113287,
+      "meta": {
+        "dc:creator": "oaubert",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert",
+        "dc:modified": "2013-12-17",
+        "dc:created": "2013-12-17"
+      },
+      "id": "515b8e84-7d23-4fa2-bb4c-f26d969f3c7d",
+      "content": {
+        "polemics": [],
+        "mimetype": "application/x-ldt-structured",
+        "audio": {
+          "src": "",
+          "href": null,
+          "mimetype": "audio/mp3"
+        },
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131115/imagecache/52.png"
+        },
+        "description": "",
+        "title": "Chaîne d'entrée"
+      },
+      "tags": null,
+      "media": "m20131115"
+    },
+    {
+      "content": {
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "href": null,
+          "src": ""
+        },
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131115/imagecache/53.png"
+        },
+        "title": "Chaîne d'entrée"
+      },
+      "meta": {
+        "id-ref": "Slides",
+        "dc:creator": "oaubert",
+        "dc:created": "2013-12-17",
+        "dc:modified": "2013-12-17",
+        "dc:contributor": "oaubert"
+      },
+      "id": "5e4c86c8-2bb6-4c6c-a0ba-c1a6d047cf19",
+      "begin": 4133594,
+      "end": 4154268,
+      "media": "m20131115",
+      "tags": null
+    },
+    {
+      "tags": null,
+      "media": "m20131115",
+      "end": 4336512,
+      "begin": 4154268,
+      "meta": {
+        "id-ref": "Slides",
+        "dc:creator": "oaubert",
+        "dc:created": "2013-12-17",
+        "dc:modified": "2013-12-17",
+        "dc:contributor": "oaubert"
+      },
+      "id": "f5555a22-5ebf-42dc-bfd1-35131ab0b4af",
+      "content": {
+        "title": "Algorithme de reconnaissance",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131115/imagecache/54.png"
+        },
+        "description": "",
+        "audio": {
+          "mimetype": "audio/mp3",
+          "href": null,
+          "src": ""
+        },
+        "mimetype": "application/x-ldt-structured",
+        "polemics": []
+      }
+    }
+  ],
+  "medias": [
+    {
+      "meta": {
+        "dc:title": "20131115-camera-reference.mp4",
+        "dc:contributor": "oaubert",
+        "dc:description": "",
+        "dc:created.contents": "2013-12-17",
+        "dc:modified": "2013-12-17",
+        "dc:creator": "oaubert",
+        "dc:duration": 4336512,
+        "dc:creator.contents": "oaubert",
+        "dc:created": "2013-12-17"
+      },
+      "id": "m20131115",
+      "http://advene.liris.cnrs.fr/ns/frame_of_reference/ms": "o=0",
+      "origin": "0",
+      "unit": "ms",
+      "url": "20131115-camera-reference.mp4"
+    }
+  ],
+  "tags": [],
+  "lists": []
+}

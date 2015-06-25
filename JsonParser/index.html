@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>index</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+</head>
+<body>
+	<script type="text/javascript">
+
+		function generateUid () {
+              return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
+                  var r = Math.random()*16|0, v = c === 'x' ? r : (r&0x3|0x8);
+                  return v.toString(16);
+              });
+        }
+        
+		function changeId(element, index, array) {
+			//console.log('a['+index+']old_id='+element.id);
+			element.id=generateUid();
+			//console.log('a['+index+']new_id='+element.id);
+		}
+		
+		($.ajax({
+			  url: 'langage_old_data.json',
+			  dataType: "json",
+			  success: function (data) {
+					var annotations = data.annotations;
+					annotations.forEach(changeId);
+					//console.log(annotations);
+					data.annotations=annotations;
+					console.log(data);
+					localStorage.setItem('new_data', JSON.stringify(data));
+			  }
+		}));
+		
+	</script>
+</body>
+</html>

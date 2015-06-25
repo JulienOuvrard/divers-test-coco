@@ -1,0 +1,2355 @@
+{
+  "tags": [{
+	"id": "tag_informatique",
+	"meta": {
+        	"dc:contributor": "oaubert",
+        	"dc:creator": "oaubert",
+        	"dc:title": "informatique",
+        	"dc:description": "",
+        	"dc:created": "2013-12-19",
+       	 	"dc:modified": "2013-12-19"
+      		}
+	},
+	{
+	"id": "tag_culture_generale",
+	"meta": {
+        	"dc:contributor": "oaubert",
+        	"dc:creator": "oaubert",
+        	"dc:title": "culture générale",
+        	"dc:description": "",
+        	"dc:created": "2013-12-19",
+       	 	"dc:modified": "2013-12-19"
+      		}
+	}
+	],
+  "views": [],
+  "lists": [],
+  "medias": [
+    {
+      "origin": "0",
+      "url": "/data2/video/coco/20131010-colin_info_l1/20131010-slides-reference-with-audio.mp4",
+      "http://advene.liris.cnrs.fr/ns/frame_of_reference/ms": "o=0",
+      "meta": {
+        "dc:contributor": "oaubert",
+        "dc:creator": "oaubert",
+        "dc:created.contents": "2013-12-19",
+        "dc:title": "/data2/video/coco/20131010-colin_info_l1/20131010-slides-reference-with-audio.mp4",
+        "dc:creator.contents": "oaubert",
+        "dc:description": "",
+        "dc:created": "2013-12-19",
+        "dc:duration": 3921919,
+        "dc:modified": "2013-12-19"
+      },
+      "id": "m20131010",
+      "unit": "ms"
+    }
+  ],
+  "meta": {
+    "dc:contributor": "admin",
+    "dc:creator": "admin",
+    "dc:title": "Réseaux sociaux et graphes - Colin de la Higuera - 10/10/2013",
+    "dc:description": "",
+    "dc:modified": "2013-12-19",
+    "dc:created": "2011-02-14T15:15:52.602502",
+    "main_media": "m20131010",
+    "id": "package1"
+  },
+  "annotations": [
+    {
+      "begin": 330489,
+      "end": 338384,
+      "tags": [{"id-ref":"tag_informatique"},{"id-ref":"tag_culture_generale"}],
+      "media": "m20131010",
+      "content": {
+        "mimetype": "application/x-video-quizz",
+        "data": {
+          "type": "unique_choice",
+          "question":"Qu'est-ce que l'<em>informatique ubiquitaire</em> ?",
+           "answers":
+           [
+             {
+               "content":  "C'est qu'elle est pr\u00e9sente <strong>partout</strong>",
+               "feedback":"Effectivement, l'<em>informatique ubiquitaire</em>....",
+               "correct": true
+             },
+             {
+			   "content":"C'est qu'elle a disparu",
+               "feedback":"H\u00e9las, comme nous pouvons le voir \u00e0 10:20 .... "
+             },
+             {
+               "content":"C'est uniquement pour les Cor\u00e9ens",
+               "feedback":"Aucun lien logique avec le cours, retour \u00e0 5:20 pour comprendre..." 
+             }
+           ]
+         },
+		 "title" : "Qu'est-ce que l'<em>informatique ubiquitaire</em> ?",
+		 "description" : "Qu'est-ce que l'<em>informatique ubiquitaire</em> ?"
+      },
+	  "type": "Quizz",
+	  "type_title":"Quizz Module",
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Quizz",
+        "dc:created": "2013-12-19",
+        "dc:modified": "2013-12-19",
+        "dc:creator": "oaubert"
+      },
+      "id": "q1"
+    },     
+    {
+     "begin": 1082723,
+      "end": 1114534,
+      "tags": null,
+      "media": "m20131010",
+      "content": {
+        "mimetype": "application/x-video-quizz",
+        "data": {
+          "type": "unique_choice",
+          "question":"Qu'est-ce que <em>L’effet du petit monde</em> ?",
+           "answers":
+           [
+             {
+               "content":  "Nous permet de comprendre que le monde est petit",
+               "feedback":"Effectivement, c'est la reponse fausse"
+               
+             },
+             {
+			   "content":"Permet de comprendre que la distance entre deux individus dans un réseau social est faible",
+               "feedback":"Effectivement, c'est la reponse bonne",
+                 "correct": true
+             },
+             {
+               "content":"Indique que dès qu’un réseau social est grand,tout le monde se connait",
+               "feedback":"Aucun lien logique avec le cours, retour \u00e0 5:20 pour comprendre..." 
+             },
+               {
+               "content":"N’est pas applicable pour la Corée du Nord",
+               "feedback":"Ecoute le cour gars !!!!." 
+             }
+               
+               
+           ]
+         },
+		 "title" : "Qu'est-ce que <em>L’effet du petit monde</em> ?",
+		 "description" : "Qu'est-ce que <em>L’effet du petit monde</em> ?"
+      },
+	  "type": "Quizz",
+	  "type_title":"Quizz Module",
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Quizz",
+        "dc:created": "2013-12-19",
+        "dc:modified": "2013-12-19",
+        "dc:creator": "oaubert"
+      },
+      "id": "q2"
+    },      
+    {
+      "begin": 1864260,
+      "end": 1951242,
+      "tags": null,
+      "media": "m20131010",
+      "content": {
+        "mimetype": "application/x-video-quizz",
+        "data": {
+          "type": "unique_choice",
+          "question":"Qu’est ce qui est vrai ?",
+           "resource": "<img src=\"q3.png\">",
+           "answers":
+           [
+             {
+               "content":  "Il y a 8 arêtes",
+               "feedback":"Effectivement, c'est la reponse fausse"
+             },
+             {
+			   "content":"Il y a 6 sommets",
+               "feedback":"Effectivement, c'est la reponse bonne",
+                 "correct": true
+             },
+             {
+               "content":"Le graphe est non orienté",
+               "feedback":"Aucun lien logique avec le cours" 
+             },
+               {
+               "content":"Il y a 2 boucles",
+               "feedback":"Il y en a bien plus que ca ."
+             }
+               
+               
+           ]
+         },
+		 "title" : "Qu’est ce qui est vrai ?",
+		 "description" : "Qu’est ce qui est vrai ?"
+      },
+	  "type": "Quizz",
+	  "type_title":"Quizz Module",
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Quizz",
+        "dc:created": "2013-12-19",
+        "dc:modified": "2013-12-19",
+        "dc:creator": "oaubert"
+      },
+      "id": "q3"
+    }, 
+      {
+      "begin": 2142853,
+      "end": 2151781,
+      "tags": null,
+      "media": "m20131010",
+      "content": {
+        "mimetype": "application/x-video-quizz",
+        "data": {
+          "type": "unique_choice",
+          "question":"Quels sont les deux graphes isomorphes ?",
+           "resource": "<img src=\"q4.png\">",
+           "answers":
+           [
+             {
+               "content":  "<em>A</em> et K",
+               "feedback":"<b>Archi faux</b>"
+             },
+             {
+			   "content":"K et X",
+               "feedback":"Effectivement, c'est la reponse bonne",
+                 "correct": true
+             },
+             {
+               "content":"F et X",
+               "feedback":"non et non" 
+             },
+               {
+               "content":"A et F",
+               "feedback":"pas du tout"
+             }
+               
+               
+           ]
+         },
+		 "title" : "Quels sont les deux graphes isomorphes ?",
+		 "description" : "Quels sont les deux graphes isomorphes ?"
+      },
+	  "type": "Quizz",
+	  "type_title":"Quizz Module",
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Quizz",
+        "dc:created": "2013-12-19",
+        "dc:modified": "2013-12-19",
+        "dc:creator": "oaubert"
+      },
+      "id": "q4"
+    },
+    {
+      "begin": 2151781,
+      "end": 2160709,
+      "tags": null,
+      "media": "m20131010",
+      "content": {
+        "mimetype": "application/x-video-quizz",
+        "data": {
+          "type": "unique_choice",
+          "question":"L’isomorphisme de graphes ?",
+           "answers":
+           [
+             {
+               "content":  "Facile",
+               "feedback":"tu peux faire Alt+F4 alors ",
+               "correct": true
+             },
+             {
+			   "content":"Compliqué",
+               "feedback":" il faut bien suivre le cours alors"
+             },
+             {
+               "content":"incompréhensible",
+               "feedback":"aie aie faut s'accrocher"
+             },
+               {
+               "content":"N’est pas applicable pour la Corée du Nord",
+               "feedback":"pas du tout"
+             }
+               
+               
+           ]
+         },
+		 "title" : "L’isomorphisme de graphes ?",
+		 "description" : "L’isomorphisme de graphes ?"
+      },
+	  "type": "Quizz",
+	  "type_title":"Quizz Module",
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Quizz",
+        "dc:created": "2013-12-19",
+        "dc:modified": "2013-12-19",
+        "dc:creator": "oaubert"
+      },
+      "id": "q5"
+    },
+    {
+      "begin": 2717082,
+      "end": 2777315,
+      "tags": null,
+      "media": "m20131010",
+      "content": {
+        "mimetype": "application/x-video-quizz",
+        "data": {
+          "type": "unique_choice",
+          "question":"Dans la matrice ci-dessous le 1 en rouge correspond à",
+           "resource": "<img src=\"q6.png\">",
+           "answers":
+           [
+             {
+               "content":  "Une boucle sur le sommet 2 ",
+               "feedback":"tu peux faire Alt+F4 alors "
+               
+             },
+             {
+			   "content":"Une boucle sur le sommet 3",
+               "feedback":" on parle d'axe ici reviens a la minutes 48:30"
+             },
+             {
+               "content":"Un arc de 2 vers 3",
+               "feedback":"oui c'est ca ",
+                "correct": true
+             },
+               {
+               "content":"Un arc de 3 vers 2",
+               "feedback":"pas du tout"
+             }
+               
+               
+           ]
+         },
+		 "title" : "Dans la matrice ci-dessous le 1 en rouge correspond à",
+		 "description" : "Dans la matrice ci-dessous le 1 en rouge correspond à"
+      },
+	  "type": "Quizz",
+	  "type_title":"Quizz Module",
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Quizz",
+        "dc:created": "2013-12-19",
+        "dc:modified": "2013-12-19",
+        "dc:creator": "oaubert"
+      },
+      "id": "q6"
+    },
+    {
+      "begin": 2819552,
+      "end": 2887169,
+      "tags": null,
+      "media": "m20131010",
+      "content": {
+        "mimetype": "application/x-video-quizz",
+        "data": {
+          "type": "unique_choice",
+          "question":"L’ambigüité ?",
+           "answers":
+           [
+             {
+               "content":  "facile",
+               "feedback":"Bien joué",
+                 "correct": true  
+             },
+             {
+			   "content":"compliqué",
+               "feedback":" revise encore un peu"
+             },
+             {
+               "content":"incompréhensible",
+               "feedback":" recommence le chapitre"
+             },
+               {
+               "content":"N’est pas applicable pour la Corée du Nord",
+               "feedback":"pas du tout"
+             }
+                
+           ]
+         },
+		 "title" : "L’ambigüité ?",
+		 "description" : "L’ambigüité ?"
+      },
+	  "type": "Quizz",
+	  "type_title":"Quizz Module",
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Quizz",
+        "dc:created": "2013-12-19",
+        "dc:modified": "2013-12-19",
+        "dc:creator": "oaubert"
+      },
+      "id": "q8"
+    },
+    {
+      "begin": 2887169,
+      "end": 2929313,
+      "tags": null,
+      "media": "m20131010",
+      "content": {
+        "mimetype": "application/x-video-quizz",
+        "data": {
+          "type": "unique_choice",
+          "question":"A ou B est vrai",
+           "answers":
+           [
+             {
+               "content":  "sauf quand A et B sont faux en même temps",
+               "feedback":"tu peux faire Alt+F4 alors ",
+                 "correct": true  
+             },
+             {
+			   "content":"si exactement l’un parmi A et B sont vrais",
+               "feedback":" on parle d'axe ici reviens a la minutes 48:30"
+             },
+             {
+               "content":"si A et B sont vrais en même temps",
+               "feedback":"oui c'est ca "
+             },
+               {
+               "content":"Si A=>B",
+               "feedback":"pas du tout"
+             }
+                
+           ]
+         },
+		 "title" : "A ou B est vrai",
+		 "description" : "A ou B est vrai"
+      },
+	  "type": "Quizz",
+	  "type_title":"Quizz Module",
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Quizz",
+        "dc:created": "2013-12-19",
+        "dc:modified": "2013-12-19",
+        "dc:creator": "oaubert"
+      },
+      "id": "q7"
+    },
+    {
+      "begin": 3414825,
+      "end": 3481716,
+      "tags": null,
+      "media": "m20131010",
+      "content": {
+        "mimetype": "application/x-video-quizz",
+        "data": {
+          "type": "unique_choice",
+          "question":"|{(a,b),(b,c),(b,d)}|=",
+           "answers":
+           [
+             {
+               "content":  "3",
+               "feedback":"il y a 3 éléments dans l’ensemble, qui sont des paires (ou des couples)",
+                 "correct": true  
+             },
+             {
+			   "content":"4",
+               "feedback":" reviens à la minutes 58:30"
+             },
+             {
+               "content":"6",
+               "feedback":"divisé par 2 "
+             },
+               {
+               "content":"Indéfini",
+               "feedback":"pas du tout"
+             }
+                
+           ]
+         },
+		 "title" : "|{(a,b),(b,c),(b,d)}|=",
+		 "description" : "|{(a,b),(b,c),(b,d)}|="
+      },
+	  "type": "Quizz",
+	  "type_title":"Quizz Module",
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Quizz",
+        "dc:created": "2013-12-19",
+        "dc:modified": "2013-12-19",
+        "dc:creator": "oaubert"
+      },
+      "id": "q9"
+    },  
+    {
+       "begin": 3632854,
+      "end": 3800363,
+      "tags": null,
+      "media": "m20131010",
+      "content": {
+        "mimetype": "application/x-video-quizz",
+        "data": {
+          "type": "unique_choice",
+          "question":"Les personnes qui ont confiance uniquement en Erwann ?",
+           "answers":
+           [
+             {
+               "content":  "A",
+               "feedback":"Nan"
+                 
+             },
+             {
+			   "content":"B",
+               "feedback":" Bien joué",
+             "correct": true 
+             },
+             {
+               "content":"C",
+               "feedback":"Nan"
+             },
+               {
+               "content":"D",
+               "feedback":"pas du tout"
+             }
+                
+           ]
+         },
+		 "title" : "Les personnes qui ont confiance uniquement en Erwann ?",
+		 "description" : "Les personnes qui ont confiance uniquement en Erwann ?"
+      },
+	  "type": "Quizz",
+	  "type_title":"Quizz Module",
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Quizz",
+        "dc:created": "2013-12-19",
+        "dc:modified": "2013-12-19",
+        "dc:creator": "oaubert"
+      },
+      "id": "q10"
+    },         
+    {
+      "begin": 0,
+      "end": 44210,
+      "tags": null,
+      "media": "m20131010",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/00.png"
+        },
+        "title": "Et l’utilisateur là dedans ?",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-19",
+        "dc:modified": "2013-12-19",
+        "dc:creator": "oaubert"
+      },
+      "id": "a1"
+    },
+    {
+      "begin": 44210,
+      "end": 72028,
+      "tags": null,
+      "media": "m20131010",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/01.png"
+        },
+        "title": "Transparent prise de notes",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-19",
+        "dc:modified": "2013-12-19",
+        "dc:creator": "oaubert"
+      },
+      "id": "a2"
+    },
+    {
+      "begin": 72028,
+      "end": 117980,
+      "tags": null,
+      "media": "m20131010",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/02.png"
+        },
+        "title": "Quelques paradoxes",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-19",
+        "dc:modified": "2013-12-19",
+        "dc:creator": "oaubert"
+      },
+      "id": "a3"
+    },
+    {
+      "begin": 117980,
+      "end": 169018,
+      "tags": null,
+      "media": "m20131010",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/03.png"
+        },
+        "title": "Quelle informatique ?",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-19",
+        "dc:modified": "2013-12-19",
+        "dc:creator": "oaubert"
+      },
+      "id": "a4"
+    },
+    {
+      "begin": 169018,
+      "end": 223677,
+      "tags": null,
+      "media": "m20131010",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/04.png"
+        },
+        "title": "Et l’utilisateur ?",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-19",
+        "dc:modified": "2013-12-19",
+        "dc:creator": "oaubert"
+      },
+      "id": "a5"
+    },
+    {
+      "begin": 223677,
+      "end": 330489,
+      "tags": null,
+      "media": "m20131010",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/05.png"
+        },
+        "title": "Quelques exemples de liens hommeinformatique qu’on pourrait étudier",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-19",
+        "dc:modified": "2013-12-19",
+        "dc:creator": "oaubert"
+      },
+      "id": "a6"
+    },
+    {
+      "begin": 330489,
+      "end": 338384,
+      "tags": null,
+      "media": "m20131010",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/06.png"
+        },
+        "title": "1 Les réseaux sociaux",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-19",
+        "dc:modified": "2013-12-19",
+        "dc:creator": "oaubert"
+      },
+      "id": "a7"
+    },
+    {
+      "begin": 338384,
+      "end": 509933,
+      "tags": null,
+      "media": "m20131010",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/07.png"
+        },
+        "title": "Les réseaux sociaux (les exemples connus)",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-19",
+        "dc:modified": "2013-12-19",
+        "dc:creator": "oaubert"
+      },
+      "id": "a8"
+    },
+    {
+      "begin": 509933,
+      "end": 631745,
+      "tags": null,
+      "media": "m20131010",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/08.png"
+        },
+        "title": "D’autres exemples",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-19",
+        "dc:modified": "2013-12-19",
+        "dc:creator": "oaubert"
+      },
+      "id": "a9"
+    },
+    {
+      "begin": 631745,
+      "end": 692745,
+      "tags": null,
+      "media": "m20131010",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/09.png"
+        },
+        "title": "Une idée de base",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-19",
+        "dc:modified": "2013-12-19",
+        "dc:creator": "oaubert"
+      },
+      "id": "a10"
+    },
+    {
+      "begin": 692745,
+      "end": 753766,
+      "tags": null,
+      "media": "m20131010",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/10.png"
+        },
+        "title": "Six degrés de séparation",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-19",
+        "dc:modified": "2013-12-19",
+        "dc:creator": "oaubert"
+      },
+      "id": "a11"
+    },
+    {
+      "begin": 753766,
+      "end": 769927,
+      "tags": null,
+      "media": "m20131010",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/11.png"
+        },
+        "title": "Sur Internet ?",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-19",
+        "dc:modified": "2013-12-19",
+        "dc:creator": "oaubert"
+      },
+      "id": "a12"
+    },
+    {
+      "begin": 769927,
+      "end": 806823,
+      "tags": null,
+      "media": "m20131010",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/12.png"
+        },
+        "title": "Un autre réseau (a?)social",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-19",
+        "dc:modified": "2013-12-19",
+        "dc:creator": "oaubert"
+      },
+      "id": "a13"
+    },
+    {
+      "begin": 806823,
+      "end": 859416,
+      "tags": null,
+      "media": "m20131010",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/13.png"
+        },
+        "title": "Ma résidence .fr",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-19",
+        "dc:modified": "2013-12-19",
+        "dc:creator": "oaubert"
+      },
+      "id": "a14"
+    },
+    {
+      "begin": 859416,
+      "end": 1082723,
+      "tags": null,
+      "media": "m20131010",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/14.png"
+        },
+        "title": "Réseaux sociaux et internet",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-19",
+        "dc:modified": "2013-12-19",
+        "dc:creator": "oaubert"
+      },
+      "id": "a15"
+    },
+    {
+      "begin": 1082723,
+      "end": 1114534,
+      "tags": null,
+      "media": "m20131010",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/15.png"
+        },
+        "title": "2 Les réseaux sociaux comme graphes",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-19",
+        "dc:modified": "2013-12-19",
+        "dc:creator": "oaubert"
+      },
+      "id": "a16"
+    },
+    {
+      "begin": 1114534,
+      "end": 1132158,
+      "tags": null,
+      "media": "m20131010",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/16.png"
+        },
+        "title": "Un réseau social (symbolique)",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-19",
+        "dc:modified": "2013-12-19",
+        "dc:creator": "oaubert"
+      },
+      "id": "a17"
+    },
+    {
+      "begin": 1132158,
+      "end": 1156771,
+      "tags": null,
+      "media": "m20131010",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/17.png"
+        },
+        "title": "Autre réseau social",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-19",
+        "dc:modified": "2013-12-19",
+        "dc:creator": "oaubert"
+      },
+      "id": "a18"
+    },
+    {
+      "begin": 1156771,
+      "end": 1167034,
+      "tags": null,
+      "media": "m20131010",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/18.png"
+        },
+        "title": "Toute petite portion d’un réseau social",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-19",
+        "dc:modified": "2013-12-19",
+        "dc:creator": "oaubert"
+      },
+      "id": "a19"
+    },
+    {
+      "begin": 1167034,
+      "end": 1206067,
+      "tags": null,
+      "media": "m20131010",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/19.png"
+        },
+        "title": "La simulation comme outil",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-19",
+        "dc:modified": "2013-12-19",
+        "dc:creator": "oaubert"
+      },
+      "id": "a20"
+    },
+    {
+      "begin": 1206067,
+      "end": 1282554,
+      "tags": null,
+      "media": "m20131010",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/20.png"
+        },
+        "title": "Le modèle mathématique",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-19",
+        "dc:modified": "2013-12-19",
+        "dc:creator": "oaubert"
+      },
+      "id": "a21"
+    },
+    {
+      "begin": 1282554,
+      "end": 1343785,
+      "tags": null,
+      "media": "m20131010",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/21.png"
+        },
+        "title": "3 Deux exemples de questions réseaux-graphes",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-19",
+        "dc:modified": "2013-12-19",
+        "dc:creator": "oaubert"
+      },
+      "id": "a22"
+    },
+    {
+      "begin": 1343785,
+      "end": 1388274,
+      "tags": null,
+      "media": "m20131010",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/22.png"
+        },
+        "title": "Théories contradictoires",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-19",
+        "dc:modified": "2013-12-19",
+        "dc:creator": "oaubert"
+      },
+      "id": "a23"
+    },
+    {
+      "begin": 1388274,
+      "end": 1448692,
+      "tags": null,
+      "media": "m20131010",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/23.png"
+        },
+        "title": "Le capital social gagne !",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-19",
+        "dc:modified": "2013-12-19",
+        "dc:creator": "oaubert"
+      },
+      "id": "a24"
+    },
+    {
+      "begin": 1448692,
+      "end": 1550326,
+      "tags": null,
+      "media": "m20131010",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/24.png"
+        },
+        "title": "Des applications de la théorie des graphes dans l'analyse des réseaux sociaux",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-19",
+        "dc:modified": "2013-12-19",
+        "dc:creator": "oaubert"
+      },
+      "id": "a25"
+    },
+    {
+      "begin": 1550326,
+      "end": 1601921,
+      "tags": null,
+      "media": "m20131010",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/25.png"
+        },
+        "title": "4 Les graphes",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-19",
+        "dc:modified": "2013-12-19",
+        "dc:creator": "oaubert"
+      },
+      "id": "a26"
+    },
+    {
+      "begin": 1601921,
+      "end": 1720921,
+      "tags": null,
+      "media": "m20131010",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/26.png"
+        },
+        "title": "Un graphe",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-19",
+        "dc:modified": "2013-12-19",
+        "dc:creator": "oaubert"
+      },
+      "id": "a27"
+    },
+    {
+      "begin": 1720921,
+      "end": 1730513,
+      "tags": null,
+      "media": "m20131010",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/27.png"
+        },
+        "title": "Représentation",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-19",
+        "dc:modified": "2013-12-19",
+        "dc:creator": "oaubert"
+      },
+      "id": "a28"
+    },
+    {
+      "begin": 1730513,
+      "end": 1779298,
+      "tags": null,
+      "media": "m20131010",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/28.png"
+        },
+        "title": "Un graphe orienté",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-19",
+        "dc:modified": "2013-12-19",
+        "dc:creator": "oaubert"
+      },
+      "id": "a29"
+    },
+    {
+      "begin": 1779298,
+      "end": 1812433,
+      "tags": null,
+      "media": "m20131010",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/29.png"
+        },
+        "title": "Représentation",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-19",
+        "dc:modified": "2013-12-19",
+        "dc:creator": "oaubert"
+      },
+      "id": "a30"
+    },
+    {
+      "begin": 1812433,
+      "end": 1864260,
+      "tags": null,
+      "media": "m20131010",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/30.png"
+        },
+        "title": "Un problème particulier",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-19",
+        "dc:modified": "2013-12-19",
+        "dc:creator": "oaubert"
+      },
+      "id": "a31"
+    },
+    {
+      "begin": 1864260,
+      "end": 1951242,
+      "tags": null,
+      "media": "m20131010",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/31.png"
+        },
+        "title": "Isomorphes ?",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-19",
+        "dc:modified": "2013-12-19",
+        "dc:creator": "oaubert"
+      },
+      "id": "a32"
+    },
+    {
+      "begin": 1951242,
+      "end": 2000120,
+      "tags": null,
+      "media": "m20131010",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/32.png"
+        },
+        "title": "Isomorphes ?",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-19",
+        "dc:modified": "2013-12-19",
+        "dc:creator": "oaubert"
+      },
+      "id": "a33"
+    },
+    {
+      "begin": 2000120,
+      "end": 2019718,
+      "tags": null,
+      "media": "m20131010",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/33.png"
+        },
+        "title": "Isomorphes ?",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-19",
+        "dc:modified": "2013-12-19",
+        "dc:creator": "oaubert"
+      },
+      "id": "a34"
+    },
+    {
+      "begin": 2019718,
+      "end": 2105074,
+      "tags": null,
+      "media": "m20131010",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/34.png"
+        },
+        "title": "L’isomorphisme de graphes",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-19",
+        "dc:modified": "2013-12-19",
+        "dc:creator": "oaubert"
+      },
+      "id": "a35"
+    },
+    {
+      "begin": 2105074,
+      "end": 2117659,
+      "tags": null,
+      "media": "m20131010",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/35.png"
+        },
+        "title": "Pourquoi utiliser des graphes ?",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-19",
+        "dc:modified": "2013-12-19",
+        "dc:creator": "oaubert"
+      },
+      "id": "a36"
+    },
+    {
+      "begin": 2117659,
+      "end": 2142853,
+      "tags": null,
+      "media": "m20131010",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/36.png"
+        },
+        "title": "Graphes et chimie",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-19",
+        "dc:modified": "2013-12-19",
+        "dc:creator": "oaubert"
+      },
+      "id": "a37"
+    },
+    {
+      "begin": 2142853,
+      "end": 2160709,
+      "tags": null,
+      "media": "m20131010",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/37.png"
+        },
+        "title": "Graphes de Delaunay",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-19",
+        "dc:modified": "2013-12-19",
+        "dc:creator": "oaubert"
+      },
+      "id": "a38"
+    },
+    {
+      "begin": 2160709,
+      "end": 2182280,
+      "tags": null,
+      "media": "m20131010",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/38.png"
+        },
+        "title": "3D",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-19",
+        "dc:modified": "2013-12-19",
+        "dc:creator": "oaubert"
+      },
+      "id": "a39"
+    },
+    {
+      "begin": 2182280,
+      "end": 2184301,
+      "tags": null,
+      "media": "m20131010",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/39.png"
+        },
+        "title": "3D",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-19",
+        "dc:modified": "2013-12-19",
+        "dc:creator": "oaubert"
+      },
+      "id": "a40"
+    },
+    {
+      "begin": 2184301,
+      "end": 2232668,
+      "tags": null,
+      "media": "m20131010",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/40.png"
+        },
+        "title": "Les graphes",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-19",
+        "dc:modified": "2013-12-19",
+        "dc:creator": "oaubert"
+      },
+      "id": "a41"
+    },
+    {
+      "begin": 2232668,
+      "end": 2286631,
+      "tags": null,
+      "media": "m20131010",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/41.png"
+        },
+        "title": "5 Exemple de graphe-réseau social",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-19",
+        "dc:modified": "2013-12-19",
+        "dc:creator": "oaubert"
+      },
+      "id": "a42"
+    },
+    {
+      "begin": 2286631,
+      "end": 2303860,
+      "tags": null,
+      "media": "m20131010",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/42.png"
+        },
+        "title": "Notations",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-19",
+        "dc:modified": "2013-12-19",
+        "dc:creator": "oaubert"
+      },
+      "id": "a43"
+    },
+    {
+      "begin": 2303860,
+      "end": 2363303,
+      "tags": null,
+      "media": "m20131010",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/43.png"
+        },
+        "title": "Fait_confiance",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-19",
+        "dc:modified": "2013-12-19",
+        "dc:creator": "oaubert"
+      },
+      "id": "a44"
+    },
+    {
+      "begin": 2363303,
+      "end": 2436330,
+      "tags": null,
+      "media": "m20131010",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/44.png"
+        },
+        "title": "Notations",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-19",
+        "dc:modified": "2013-12-19",
+        "dc:creator": "oaubert"
+      },
+      "id": "a45"
+    },
+    {
+      "begin": 2436330,
+      "end": 2500556,
+      "tags": null,
+      "media": "m20131010",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/45.png"
+        },
+        "title": "Représentation tabulaire",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-19",
+        "dc:modified": "2013-12-19",
+        "dc:creator": "oaubert"
+      },
+      "id": "a46"
+    },
+    {
+      "begin": 2500556,
+      "end": 2555634,
+      "tags": null,
+      "media": "m20131010",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/46.png"
+        },
+        "title": "Matrice",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-19",
+        "dc:modified": "2013-12-19",
+        "dc:creator": "oaubert"
+      },
+      "id": "a47"
+    },
+    {
+      "begin": 2555634,
+      "end": 2614218,
+      "tags": null,
+      "media": "m20131010",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/47.png"
+        },
+        "title": "Lien entre table et graphe",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-19",
+        "dc:modified": "2013-12-19",
+        "dc:creator": "oaubert"
+      },
+      "id": "a48"
+    },
+    {
+      "begin": 2614218,
+      "end": 2717082,
+      "tags": null,
+      "media": "m20131010",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/48.png"
+        },
+        "title": "Une relation",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-19",
+        "dc:modified": "2013-12-19",
+        "dc:creator": "oaubert"
+      },
+      "id": "a49"
+    },
+    {
+      "begin": 2717082,
+      "end": 2777315,
+      "tags": null,
+      "media": "m20131010",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/49.png"
+        },
+        "title": "6 Un langage pour parler des relations",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-19",
+        "dc:modified": "2013-12-19",
+        "dc:creator": "oaubert"
+      },
+      "id": "a50"
+    },
+    {
+      "begin": 2777315,
+      "end": 2819552,
+      "tags": null,
+      "media": "m20131010",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/50.png"
+        },
+        "title": "Que veut-on ?",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-19",
+        "dc:modified": "2013-12-19",
+        "dc:creator": "oaubert"
+      },
+      "id": "a51"
+    },
+    {
+      "begin": 2819552,
+      "end": 2887169,
+      "tags": null,
+      "media": "m20131010",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/51.png"
+        },
+        "title": "La logique du premier ordre",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-19",
+        "dc:modified": "2013-12-19",
+        "dc:creator": "oaubert"
+      },
+      "id": "a52"
+    },
+    {
+      "begin": 2887169,
+      "end": 2929313,
+      "tags": null,
+      "media": "m20131010",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/52.png"
+        },
+        "title": "Formules du premier ordre",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-19",
+        "dc:modified": "2013-12-19",
+        "dc:creator": "oaubert"
+      },
+      "id": "a53"
+    },
+    {
+      "begin": 2929313,
+      "end": 2968485,
+      "tags": null,
+      "media": "m20131010",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/53.png"
+        },
+        "title": "Notation usuelle",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-19",
+        "dc:modified": "2013-12-19",
+        "dc:creator": "oaubert"
+      },
+      "id": "a54"
+    },
+    {
+      "begin": 2968485,
+      "end": 3078919,
+      "tags": null,
+      "media": "m20131010",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/54.png"
+        },
+        "title": "Exemple (suite)",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-19",
+        "dc:modified": "2013-12-19",
+        "dc:creator": "oaubert"
+      },
+      "id": "a55"
+    },
+    {
+      "begin": 3078919,
+      "end": 3210599,
+      "tags": null,
+      "media": "m20131010",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/55.png"
+        },
+        "title": "Solution graphique",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-19",
+        "dc:modified": "2013-12-19",
+        "dc:creator": "oaubert"
+      },
+      "id": "a56"
+    },
+    {
+      "begin": 3210599,
+      "end": 3265677,
+      "tags": null,
+      "media": "m20131010",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/56.png"
+        },
+        "title": "Exemple (suite)",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-19",
+        "dc:modified": "2013-12-19",
+        "dc:creator": "oaubert"
+      },
+      "id": "a57"
+    },
+    {
+      "begin": 3265677,
+      "end": 3294540,
+      "tags": null,
+      "media": "m20131010",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/57.png"
+        },
+        "title": "Solution {a, b, d}",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-19",
+        "dc:modified": "2013-12-19",
+        "dc:creator": "oaubert"
+      },
+      "id": "a58"
+    },
+    {
+      "begin": 3294540,
+      "end": 3365825,
+      "tags": null,
+      "media": "m20131010",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/58.png"
+        },
+        "title": "Exemple (suite)",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-19",
+        "dc:modified": "2013-12-19",
+        "dc:creator": "oaubert"
+      },
+      "id": "a59"
+    },
+    {
+      "begin": 3365825,
+      "end": 3414825,
+      "tags": null,
+      "media": "m20131010",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/59.png"
+        },
+        "title": "Solution={a,b,d}",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-19",
+        "dc:modified": "2013-12-19",
+        "dc:creator": "oaubert"
+      },
+      "id": "a60"
+    },
+    {
+      "begin": 3414825,
+      "end": 3481716,
+      "tags": null,
+      "media": "m20131010",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/60.png"
+        },
+        "title": "Exemple (suite)",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-19",
+        "dc:modified": "2013-12-19",
+        "dc:creator": "oaubert"
+      },
+      "id": "a61"
+    },
+    {
+      "begin": 3481716,
+      "end": 3632854,
+      "tags": null,
+      "media": "m20131010",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/61.png"
+        },
+        "title": "Solution={a,b,d,e}",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-19",
+        "dc:modified": "2013-12-19",
+        "dc:creator": "oaubert"
+      },
+      "id": "a62"
+    },
+    {
+      "begin": 3632854,
+      "end": 3800363,
+      "tags": null,
+      "media": "m20131010",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/62.png"
+        },
+        "title": "La logique du premier ordre",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-19",
+        "dc:modified": "2013-12-19",
+        "dc:creator": "oaubert"
+      },
+      "id": "a63"
+    },
+    {
+      "begin": 3800363,
+      "end": 3921919,
+      "tags": null,
+      "media": "m20131010",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/63.png"
+        },
+        "title": "Autres exemples",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-19",
+        "dc:modified": "2013-12-19",
+        "dc:creator": "oaubert"
+      },
+      "id": "a64"
+    }
+  ],
+  "annotation-types": [
+    {
+      "dc:contributor": "oaubert",
+      "dc:creator": "oaubert",
+      "dc:title": "Slides",
+      "id": "Slides",
+      "dc:created": "2013-12-19",
+      "dc:description": "",
+      "dc:modified": "2013-12-19"
+    },
+    {
+      "dc:contributor": "advene",
+      "dc:creator": "advene",
+      "dc:title": "Text annotation",
+      "id": "annotation",
+      "dc:created": "2004-06-30",
+      "dc:description": "",
+      "dc:modified": "2004-06-30"
+    },
+    {
+      "dc:contributor": "oaubert",
+      "dc:creator": "oaubert",
+      "dc:title": "Contributions",
+      "dc:description": "Personal user contribution",
+      "dc:modified": "2013-12-19",
+      "dc:created": "2013-12-19",
+      "id": "at_contributions"
+    },
+    {
+      "dc:contributor": "oaubert",
+      "dc:creator": "oaubert",
+      "dc:title": "Quizz Module",
+      "id": "Quizz",
+      "dc:description": "",
+      "dc:modified": "2015-03-04",
+      "dc:created": "2015-03-04"
+    }
+  ]
+}

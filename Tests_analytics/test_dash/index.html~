@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8" />
+	<title>test</title>
+	<script src="d3.min.js" type="text/javascript"></script>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+	<div class="graph_container" id="bar_chart">
+		<div class="graph" id="bar_chart_1"></div>
+	</div>
+	<div class="graph_container" id ="pie_chart">
+		<div class="graph" id="pie_chart_1"></div>	
+	</div>
+	<script src="app.js" type="text/javascript"></script>
+</body>
+</html>

@@ -1,5 +1,5 @@
 var splitter;
-splitter =  $("#content").touchSplit();
+splitter =  $("#content").touchSplit({});
 
 var splitter2;
 splitter2 = $(".MDPlayer").touchSplit({orientation:"vertical"});

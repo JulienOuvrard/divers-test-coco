@@ -80,46 +80,57 @@ function positive(tab){
 
 function similaire(q1,q2){
    
-    if((time[q1] - time[q2]) < _delta_time){
+    if(Math.abs((time[q1] - time[q2])) < _delta_time){
         return true;
     }else {
         return false
     }
 }
 
-
 function getData(data1,data2){
-        console.log('nb_shown : ');
-        nb_shown = countOccurences(data1[0]).shown;
-        console.log(nb_shown);
-        
-        console.log("nb_vote : ");
-        nb_vote = countOccurences(data1[0]).votted;
-        console.log(nb_vote);
-        
-        console.log("positive vote : ");
-        nb_positive_vote = countOccurences(data1[0]).positive_vote;
-        console.log(nb_positive_vote);
-        
-        console.log("global appreciation : ");
-        pos = positive(data1[0]);
-        console.log(pos);
-        
-        console.log("popularity : ");
-        popularity= percentage(nb_positive_vote,nb_vote);
-        console.log(popularity);
-        
-        console.log("Time : ");
-        time = getTime(data2[0]);
-        console.log(time);
-        
-        if(similaire('252484f6-a629-45c4-8f08-058c9229520c','dcf6ceef-a84f-48ac-b5dc-1a8949b2f53a')){
-            console.log('vrai');
-        }else {
-            console.log(faux);
-        }
-        
+    
+    //console.log('nb_shown : ');
+    nb_shown = countOccurences(data1[0]).shown;
+    //console.log(nb_shown);
+    
+    //console.log("nb_vote : ");
+    nb_vote = countOccurences(data1[0]).votted;
+    //console.log(nb_vote);
+    
+    //console.log("positive vote : ");
+    nb_positive_vote = countOccurences(data1[0]).positive_vote;
+    //console.log(nb_positive_vote);
+    
+    //console.log("global appreciation : ");
+    pos = positive(data1[0]);
+    //console.log(pos);
+    
+    //console.log("popularity : ");
+    popularity= percentage(nb_positive_vote,nb_vote);
+    //console.log(popularity);
+    
+    //console.log("Time : ");
+    time = getTime(data2[0]);
+    //console.log(time);
+    
+    
+    $.each(time, function(index, value) {
+        $("#content").append(index+" : ");
+        var temp = $.extend(true, {}, time);
+        delete temp[index];
+        $.each(temp, function(index2, value2) {
+            if(similaire(index,index2)){
+                $("#content").append(index2+" | ");
+            }
+        });
+        $("#content").append("<br>")
+    }); 
+    
+
 };
+
+//url_analytics : http://comin-ocw.org/devpf/api/analytics/
+//url_data : http://comin-ocw.org/devpf/api/annotations/
 
 $.when($.get("analytics.json"), $.get("data.json")).done(function(dat1,dat2){getData(dat1,dat2)});
 

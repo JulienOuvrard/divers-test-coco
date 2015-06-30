@@ -1,0 +1,2336 @@
+{
+  "annotation-types": [
+    {
+      "dc:modified": "2013-12-19",
+      "dc:description": "",
+      "dc:created": "2013-12-19",
+      "id": "Slides",
+      "dc:title": "Slides",
+      "dc:creator": "oaubert",
+      "dc:contributor": "oaubert"
+    },
+    {
+      "dc:modified": "2004-06-30",
+      "dc:description": "",
+      "dc:created": "2004-06-30",
+      "id": "annotation",
+      "dc:title": "Text annotation",
+      "dc:creator": "advene",
+      "dc:contributor": "advene"
+    },
+    {
+      "id": "at_contributions",
+      "dc:created": "2013-12-19",
+      "dc:modified": "2013-12-19",
+      "dc:description": "Personal user contribution",
+      "dc:title": "Contributions",
+      "dc:creator": "oaubert",
+      "dc:contributor": "oaubert"
+    },
+    {
+      "dc:created": "2015-03-04",
+      "dc:modified": "2015-03-04",
+      "dc:description": "",
+      "id": "Quizz",
+      "dc:title": "Quizz Module",
+      "dc:creator": "oaubert",
+      "dc:contributor": "oaubert"
+    }
+  ],
+  "annotations": [
+    {
+      "id": "257db21f-a153-4bfd-a37d-2923a9a5b686",
+      "begin": 330489,
+      "end": 338384,
+      "tags": [
+        {
+          "id-ref": "tag_informatique"
+        },
+        {
+          "id-ref": "tag_culture_generale"
+        }
+      ],
+      "media": "m20131010",
+      "content": {
+        "description": "Qu'est-ce que l'<em>informatique ubiquitaire</em> ?",
+        "title": "Qu'est-ce que l'<em>informatique ubiquitaire</em> ?",
+        "data": {
+          "answers": [
+            {
+              "correct": true,
+              "feedback": "Effectivement, l'<em>informatique ubiquitaire</em>....",
+              "content": "C'est qu'elle est présente <strong>partout</strong>"
+            },
+            {
+              "feedback": "Hélas, comme nous pouvons le voir à 10:20 .... ",
+              "content": "C'est qu'elle a disparu"
+            },
+            {
+              "feedback": "Aucun lien logique avec le cours, retour à 5:20 pour comprendre...",
+              "content": "C'est uniquement pour les Coréens"
+            }
+          ],
+          "question": "Qu'est-ce que l'<em>informatique ubiquitaire</em> ?",
+          "type": "unique_choice"
+        },
+        "mimetype": "application/x-video-quizz"
+      },
+      "type": "Quizz",
+      "type_title": "Quizz Module",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2013-12-19",
+        "dc:created": "2013-12-19",
+        "id-ref": "Quizz",
+        "dc:contributor": "oaubert"
+      }
+    },
+    {
+      "id": "488f484b-ba74-48d6-b54e-7457bf5163f7",
+      "begin": 1082723,
+      "end": 1114534,
+      "tags": null,
+      "media": "m20131010",
+      "content": {
+        "description": "Qu'est-ce que <em>L’effet du petit monde</em> ?",
+        "title": "Qu'est-ce que <em>L’effet du petit monde</em> ?",
+        "data": {
+          "answers": [
+            {
+              "feedback": "Effectivement, c'est la reponse fausse",
+              "content": "Nous permet de comprendre que le monde est petit"
+            },
+            {
+              "correct": true,
+              "feedback": "Effectivement, c'est la reponse bonne",
+              "content": "Permet de comprendre que la distance entre deux individus dans un réseau social est faible"
+            },
+            {
+              "feedback": "Aucun lien logique avec le cours, retour à 5:20 pour comprendre...",
+              "content": "Indique que dès qu’un réseau social est grand,tout le monde se connait"
+            },
+            {
+              "feedback": "Ecoute le cour gars !!!!.",
+              "content": "N’est pas applicable pour la Corée du Nord"
+            }
+          ],
+          "question": "Qu'est-ce que <em>L’effet du petit monde</em> ?",
+          "type": "unique_choice"
+        },
+        "mimetype": "application/x-video-quizz"
+      },
+      "type": "Quizz",
+      "type_title": "Quizz Module",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2013-12-19",
+        "dc:created": "2013-12-19",
+        "id-ref": "Quizz",
+        "dc:contributor": "oaubert"
+      }
+    },
+    {
+      "id": "843c20e8-c79c-478a-9db7-d5057da01aee",
+      "begin": 1864260,
+      "end": 1951242,
+      "tags": null,
+      "media": "m20131010",
+      "content": {
+        "description": "Qu’est ce qui est vrai ?",
+        "title": "Qu’est ce qui est vrai ?",
+        "data": {
+          "answers": [
+            {
+              "feedback": "Effectivement, c'est la reponse fausse",
+              "content": "Il y a 8 arêtes"
+            },
+            {
+              "correct": true,
+              "feedback": "Effectivement, c'est la reponse bonne",
+              "content": "Il y a 6 sommets"
+            },
+            {
+              "feedback": "Aucun lien logique avec le cours",
+              "content": "Le graphe est non orienté"
+            },
+            {
+              "feedback": "Il y en a bien plus que ca .",
+              "content": "Il y a 2 boucles"
+            }
+          ],
+          "resource": "<img src=\"q3.png\">",
+          "question": "Qu’est ce qui est vrai ?",
+          "type": "unique_choice"
+        },
+        "mimetype": "application/x-video-quizz"
+      },
+      "type": "Quizz",
+      "type_title": "Quizz Module",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2013-12-19",
+        "dc:created": "2013-12-19",
+        "id-ref": "Quizz",
+        "dc:contributor": "oaubert"
+      }
+    },
+    {
+      "id": "252484f6-a629-45c4-8f08-058c9229520c",
+      "begin": 2142853,
+      "end": 2151781,
+      "tags": null,
+      "media": "m20131010",
+      "content": {
+        "description": "Quels sont les deux graphes isomorphes ?",
+        "title": "Quels sont les deux graphes isomorphes ?",
+        "data": {
+          "answers": [
+            {
+              "feedback": "<b>Archi faux</b>",
+              "content": "<em>A</em> et K"
+            },
+            {
+              "correct": true,
+              "feedback": "Effectivement, c'est la reponse bonne",
+              "content": "K et X"
+            },
+            {
+              "feedback": "non et non",
+              "content": "F et X"
+            },
+            {
+              "feedback": "pas du tout",
+              "content": "A et F"
+            }
+          ],
+          "resource": "<img src=\"q4.png\">",
+          "question": "Quels sont les deux graphes isomorphes ?",
+          "type": "unique_choice"
+        },
+        "mimetype": "application/x-video-quizz"
+      },
+      "type": "Quizz",
+      "type_title": "Quizz Module",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2013-12-19",
+        "dc:created": "2013-12-19",
+        "id-ref": "Quizz",
+        "dc:contributor": "oaubert"
+      }
+    },
+    {
+      "id": "dcf6ceef-a84f-48ac-b5dc-1a8949b2f53a",
+      "begin": 2151781,
+      "end": 2160709,
+      "tags": null,
+      "media": "m20131010",
+      "content": {
+        "description": "L’isomorphisme de graphes ?",
+        "title": "L’isomorphisme de graphes ?",
+        "data": {
+          "answers": [
+            {
+              "correct": true,
+              "feedback": "tu peux faire Alt+F4 alors ",
+              "content": "Facile"
+            },
+            {
+              "feedback": " il faut bien suivre le cours alors",
+              "content": "Compliqué"
+            },
+            {
+              "feedback": "aie aie faut s'accrocher",
+              "content": "incompréhensible"
+            },
+            {
+              "feedback": "pas du tout",
+              "content": "N’est pas applicable pour la Corée du Nord"
+            }
+          ],
+          "question": "L’isomorphisme de graphes ?",
+          "type": "unique_choice"
+        },
+        "mimetype": "application/x-video-quizz"
+      },
+      "type": "Quizz",
+      "type_title": "Quizz Module",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2013-12-19",
+        "dc:created": "2013-12-19",
+        "id-ref": "Quizz",
+        "dc:contributor": "oaubert"
+      }
+    },
+    {
+      "id": "7687b04e-150e-46a8-9ce0-1c7819c0f82f",
+      "begin": 2717082,
+      "end": 2777315,
+      "tags": null,
+      "media": "m20131010",
+      "content": {
+        "description": "Dans la matrice ci-dessous le 1 en rouge correspond à",
+        "title": "Dans la matrice ci-dessous le 1 en rouge correspond à",
+        "data": {
+          "answers": [
+            {
+              "feedback": "tu peux faire Alt+F4 alors ",
+              "content": "Une boucle sur le sommet 2 "
+            },
+            {
+              "feedback": " on parle d'axe ici reviens a la minutes 48:30",
+              "content": "Une boucle sur le sommet 3"
+            },
+            {
+              "correct": true,
+              "feedback": "oui c'est ca ",
+              "content": "Un arc de 2 vers 3"
+            },
+            {
+              "feedback": "pas du tout",
+              "content": "Un arc de 3 vers 2"
+            }
+          ],
+          "resource": "<img src=\"q6.png\">",
+          "question": "Dans la matrice ci-dessous le 1 en rouge correspond à",
+          "type": "unique_choice"
+        },
+        "mimetype": "application/x-video-quizz"
+      },
+      "type": "Quizz",
+      "type_title": "Quizz Module",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2013-12-19",
+        "dc:created": "2013-12-19",
+        "id-ref": "Quizz",
+        "dc:contributor": "oaubert"
+      }
+    },
+    {
+      "id": "727b0ed8-5e56-402a-8ec9-dc1433806c84",
+      "begin": 2819552,
+      "end": 2887169,
+      "tags": null,
+      "media": "m20131010",
+      "content": {
+        "description": "L’ambigüité ?",
+        "title": "L’ambigüité ?",
+        "data": {
+          "answers": [
+            {
+              "correct": true,
+              "feedback": "Bien joué",
+              "content": "facile"
+            },
+            {
+              "feedback": " revise encore un peu",
+              "content": "compliqué"
+            },
+            {
+              "feedback": " recommence le chapitre",
+              "content": "incompréhensible"
+            },
+            {
+              "feedback": "pas du tout",
+              "content": "N’est pas applicable pour la Corée du Nord"
+            }
+          ],
+          "question": "L’ambigüité ?",
+          "type": "unique_choice"
+        },
+        "mimetype": "application/x-video-quizz"
+      },
+      "type": "Quizz",
+      "type_title": "Quizz Module",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2013-12-19",
+        "dc:created": "2013-12-19",
+        "id-ref": "Quizz",
+        "dc:contributor": "oaubert"
+      }
+    },
+    {
+      "id": "8eab58a2-a1a8-4fbe-9a96-0d705b359c27",
+      "begin": 2887169,
+      "end": 2929313,
+      "tags": null,
+      "media": "m20131010",
+      "content": {
+        "description": "A ou B est vrai",
+        "title": "A ou B est vrai",
+        "data": {
+          "answers": [
+            {
+              "correct": true,
+              "feedback": "tu peux faire Alt+F4 alors ",
+              "content": "sauf quand A et B sont faux en même temps"
+            },
+            {
+              "feedback": " on parle d'axe ici reviens a la minutes 48:30",
+              "content": "si exactement l’un parmi A et B sont vrais"
+            },
+            {
+              "feedback": "oui c'est ca ",
+              "content": "si A et B sont vrais en même temps"
+            },
+            {
+              "feedback": "pas du tout",
+              "content": "Si A=>B"
+            }
+          ],
+          "question": "A ou B est vrai",
+          "type": "unique_choice"
+        },
+        "mimetype": "application/x-video-quizz"
+      },
+      "type": "Quizz",
+      "type_title": "Quizz Module",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2013-12-19",
+        "dc:created": "2013-12-19",
+        "id-ref": "Quizz",
+        "dc:contributor": "oaubert"
+      }
+    },
+    {
+      "id": "1782d15e-48e6-4859-b32c-98756753462a",
+      "begin": 3414825,
+      "end": 3481716,
+      "tags": null,
+      "media": "m20131010",
+      "content": {
+        "description": "|{(a,b),(b,c),(b,d)}|=",
+        "title": "|{(a,b),(b,c),(b,d)}|=",
+        "data": {
+          "answers": [
+            {
+              "correct": true,
+              "feedback": "il y a 3 éléments dans l’ensemble, qui sont des paires (ou des couples)",
+              "content": "3"
+            },
+            {
+              "feedback": " reviens à la minutes 58:30",
+              "content": "4"
+            },
+            {
+              "feedback": "divisé par 2 ",
+              "content": "6"
+            },
+            {
+              "feedback": "pas du tout",
+              "content": "Indéfini"
+            }
+          ],
+          "question": "|{(a,b),(b,c),(b,d)}|=",
+          "type": "unique_choice"
+        },
+        "mimetype": "application/x-video-quizz"
+      },
+      "type": "Quizz",
+      "type_title": "Quizz Module",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2013-12-19",
+        "dc:created": "2013-12-19",
+        "id-ref": "Quizz",
+        "dc:contributor": "oaubert"
+      }
+    },
+    {
+      "id": "c5284058-e0e3-43d4-9c7f-afe8ebc959f2",
+      "begin": 3632854,
+      "end": 3800363,
+      "tags": null,
+      "media": "m20131010",
+      "content": {
+        "description": "Les personnes qui ont confiance uniquement en Erwann ?",
+        "title": "Les personnes qui ont confiance uniquement en Erwann ?",
+        "data": {
+          "answers": [
+            {
+              "feedback": "Nan",
+              "content": "A"
+            },
+            {
+              "correct": true,
+              "feedback": " Bien joué",
+              "content": "B"
+            },
+            {
+              "feedback": "Nan",
+              "content": "C"
+            },
+            {
+              "feedback": "pas du tout",
+              "content": "D"
+            }
+          ],
+          "question": "Les personnes qui ont confiance uniquement en Erwann ?",
+          "type": "unique_choice"
+        },
+        "mimetype": "application/x-video-quizz"
+      },
+      "type": "Quizz",
+      "type_title": "Quizz Module",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2013-12-19",
+        "dc:created": "2013-12-19",
+        "id-ref": "Quizz",
+        "dc:contributor": "oaubert"
+      }
+    },
+    {
+      "id": "b41f4fe6-8541-482b-993b-6bed34339b5b",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2013-12-19",
+        "dc:created": "2013-12-19",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Et l’utilisateur là dedans ?",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131010/imagecache/00.png"
+        },
+        "description": "",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131010",
+      "tags": null,
+      "end": 44210,
+      "begin": 0
+    },
+    {
+      "id": "cc7f9628-136b-449c-adc3-7d43481d943a",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2013-12-19",
+        "dc:created": "2013-12-19",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Transparent prise de notes",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131010/imagecache/01.png"
+        },
+        "description": "",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131010",
+      "tags": null,
+      "end": 72028,
+      "begin": 44210
+    },
+    {
+      "id": "881a95e2-db32-436f-b39e-f077420fac75",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2013-12-19",
+        "dc:created": "2013-12-19",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Quelques paradoxes",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131010/imagecache/02.png"
+        },
+        "description": "",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131010",
+      "tags": null,
+      "end": 117980,
+      "begin": 72028
+    },
+    {
+      "id": "90e6924e-f809-456d-8353-8eb4ca1c040c",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2013-12-19",
+        "dc:created": "2013-12-19",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Quelle informatique ?",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131010/imagecache/03.png"
+        },
+        "description": "",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131010",
+      "tags": null,
+      "end": 169018,
+      "begin": 117980
+    },
+    {
+      "id": "d1dffc8b-8bf2-4b5b-9094-84ceacb17e30",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2013-12-19",
+        "dc:created": "2013-12-19",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Et l’utilisateur ?",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131010/imagecache/04.png"
+        },
+        "description": "",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131010",
+      "tags": null,
+      "end": 223677,
+      "begin": 169018
+    },
+    {
+      "id": "3317dcde-c2ae-4773-a6b3-6e4b852798e7",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2013-12-19",
+        "dc:created": "2013-12-19",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Quelques exemples de liens hommeinformatique qu’on pourrait étudier",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131010/imagecache/05.png"
+        },
+        "description": "",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131010",
+      "tags": null,
+      "end": 330489,
+      "begin": 223677
+    },
+    {
+      "id": "a4faff9e-dbe5-4cfd-9e32-0121bd64e85b",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2013-12-19",
+        "dc:created": "2013-12-19",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "1 Les réseaux sociaux",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131010/imagecache/06.png"
+        },
+        "description": "",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131010",
+      "tags": null,
+      "end": 338384,
+      "begin": 330489
+    },
+    {
+      "id": "b03b14ba-f9a2-483b-b699-fa5fc12ef869",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2013-12-19",
+        "dc:created": "2013-12-19",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Les réseaux sociaux (les exemples connus)",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131010/imagecache/07.png"
+        },
+        "description": "",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131010",
+      "tags": null,
+      "end": 509933,
+      "begin": 338384
+    },
+    {
+      "id": "18e2b0ba-f163-4480-90ca-b52fa56a1a4d",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2013-12-19",
+        "dc:created": "2013-12-19",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "D’autres exemples",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131010/imagecache/08.png"
+        },
+        "description": "",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131010",
+      "tags": null,
+      "end": 631745,
+      "begin": 509933
+    },
+    {
+      "id": "a09a6208-0579-47df-aea0-7515667d4813",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2013-12-19",
+        "dc:created": "2013-12-19",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Une idée de base",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131010/imagecache/09.png"
+        },
+        "description": "",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131010",
+      "tags": null,
+      "end": 692745,
+      "begin": 631745
+    },
+    {
+      "id": "4d795eba-8d3d-4469-b548-f9815a1df1f8",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2013-12-19",
+        "dc:created": "2013-12-19",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Six degrés de séparation",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131010/imagecache/10.png"
+        },
+        "description": "",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131010",
+      "tags": null,
+      "end": 753766,
+      "begin": 692745
+    },
+    {
+      "id": "e9da392b-de9e-42ca-b1fb-3b47eab2939f",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2013-12-19",
+        "dc:created": "2013-12-19",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Sur Internet ?",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131010/imagecache/11.png"
+        },
+        "description": "",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131010",
+      "tags": null,
+      "end": 769927,
+      "begin": 753766
+    },
+    {
+      "id": "a88afa93-2349-4ef6-abb2-3a69992f6179",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2013-12-19",
+        "dc:created": "2013-12-19",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Un autre réseau (a?)social",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131010/imagecache/12.png"
+        },
+        "description": "",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131010",
+      "tags": null,
+      "end": 806823,
+      "begin": 769927
+    },
+    {
+      "id": "406cef36-f2b9-46e2-972d-c9e321a724b9",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2013-12-19",
+        "dc:created": "2013-12-19",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Ma résidence .fr",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131010/imagecache/13.png"
+        },
+        "description": "",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131010",
+      "tags": null,
+      "end": 859416,
+      "begin": 806823
+    },
+    {
+      "id": "bb5c9e75-0e24-44ff-a94a-55735c040048",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2013-12-19",
+        "dc:created": "2013-12-19",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Réseaux sociaux et internet",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131010/imagecache/14.png"
+        },
+        "description": "",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131010",
+      "tags": null,
+      "end": 1082723,
+      "begin": 859416
+    },
+    {
+      "id": "51f72803-ac98-4319-8989-bc59001ca9e6",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2013-12-19",
+        "dc:created": "2013-12-19",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "2 Les réseaux sociaux comme graphes",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131010/imagecache/15.png"
+        },
+        "description": "",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131010",
+      "tags": null,
+      "end": 1114534,
+      "begin": 1082723
+    },
+    {
+      "id": "43213cd5-1e1d-4bf9-a045-70e41c90634f",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2013-12-19",
+        "dc:created": "2013-12-19",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Un réseau social (symbolique)",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131010/imagecache/16.png"
+        },
+        "description": "",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131010",
+      "tags": null,
+      "end": 1132158,
+      "begin": 1114534
+    },
+    {
+      "id": "b8a7e5b3-194b-4cb0-9106-0615547b6ab2",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2013-12-19",
+        "dc:created": "2013-12-19",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Autre réseau social",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131010/imagecache/17.png"
+        },
+        "description": "",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131010",
+      "tags": null,
+      "end": 1156771,
+      "begin": 1132158
+    },
+    {
+      "id": "decd4a62-c4a4-48e9-9bfb-fc82504ec97a",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2013-12-19",
+        "dc:created": "2013-12-19",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Toute petite portion d’un réseau social",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131010/imagecache/18.png"
+        },
+        "description": "",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131010",
+      "tags": null,
+      "end": 1167034,
+      "begin": 1156771
+    },
+    {
+      "id": "9598c25a-f693-4f1e-a4c8-bb07f8933481",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2013-12-19",
+        "dc:created": "2013-12-19",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "La simulation comme outil",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131010/imagecache/19.png"
+        },
+        "description": "",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131010",
+      "tags": null,
+      "end": 1206067,
+      "begin": 1167034
+    },
+    {
+      "id": "4680c650-a912-4416-b466-774568c0d4ae",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2013-12-19",
+        "dc:created": "2013-12-19",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Le modèle mathématique",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131010/imagecache/20.png"
+        },
+        "description": "",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131010",
+      "tags": null,
+      "end": 1282554,
+      "begin": 1206067
+    },
+    {
+      "id": "cb55c79a-6d33-4890-bc54-d597edb2a175",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2013-12-19",
+        "dc:created": "2013-12-19",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "3 Deux exemples de questions réseaux-graphes",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131010/imagecache/21.png"
+        },
+        "description": "",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131010",
+      "tags": null,
+      "end": 1343785,
+      "begin": 1282554
+    },
+    {
+      "id": "70d18bd6-c36b-40fc-bbb7-799b68330cb6",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2013-12-19",
+        "dc:created": "2013-12-19",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Théories contradictoires",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131010/imagecache/22.png"
+        },
+        "description": "",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131010",
+      "tags": null,
+      "end": 1388274,
+      "begin": 1343785
+    },
+    {
+      "id": "b58b039a-b658-4ff5-b2fa-9c990b56fe50",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2013-12-19",
+        "dc:created": "2013-12-19",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Le capital social gagne !",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131010/imagecache/23.png"
+        },
+        "description": "",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131010",
+      "tags": null,
+      "end": 1448692,
+      "begin": 1388274
+    },
+    {
+      "id": "1244d54e-db1f-41dd-bd45-9a549e40836d",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2013-12-19",
+        "dc:created": "2013-12-19",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Des applications de la théorie des graphes dans l'analyse des réseaux sociaux",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131010/imagecache/24.png"
+        },
+        "description": "",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131010",
+      "tags": null,
+      "end": 1550326,
+      "begin": 1448692
+    },
+    {
+      "id": "3fa6dd21-4c36-4397-ad73-ab5689fb66da",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2013-12-19",
+        "dc:created": "2013-12-19",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "4 Les graphes",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131010/imagecache/25.png"
+        },
+        "description": "",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131010",
+      "tags": null,
+      "end": 1601921,
+      "begin": 1550326
+    },
+    {
+      "id": "e57b6c2d-7b5b-491a-ba79-2d373faf5d02",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2013-12-19",
+        "dc:created": "2013-12-19",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Un graphe",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131010/imagecache/26.png"
+        },
+        "description": "",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131010",
+      "tags": null,
+      "end": 1720921,
+      "begin": 1601921
+    },
+    {
+      "id": "c9239e74-6cbc-4856-b4ed-3551d866f497",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2013-12-19",
+        "dc:created": "2013-12-19",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Représentation",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131010/imagecache/27.png"
+        },
+        "description": "",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131010",
+      "tags": null,
+      "end": 1730513,
+      "begin": 1720921
+    },
+    {
+      "id": "46aba768-141a-42ae-8aad-c0130440605c",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2013-12-19",
+        "dc:created": "2013-12-19",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Un graphe orienté",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131010/imagecache/28.png"
+        },
+        "description": "",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131010",
+      "tags": null,
+      "end": 1779298,
+      "begin": 1730513
+    },
+    {
+      "id": "d6ace1ae-bd45-4ae9-8506-e5b4622e4d7a",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2013-12-19",
+        "dc:created": "2013-12-19",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Représentation",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131010/imagecache/29.png"
+        },
+        "description": "",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131010",
+      "tags": null,
+      "end": 1812433,
+      "begin": 1779298
+    },
+    {
+      "id": "4355bc71-c93d-4234-88b4-ee7900f083dd",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2013-12-19",
+        "dc:created": "2013-12-19",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Un problème particulier",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131010/imagecache/30.png"
+        },
+        "description": "",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131010",
+      "tags": null,
+      "end": 1864260,
+      "begin": 1812433
+    },
+    {
+      "id": "d9b342f8-fa41-4920-a943-45b8acaf9ee2",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2013-12-19",
+        "dc:created": "2013-12-19",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Isomorphes ?",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131010/imagecache/31.png"
+        },
+        "description": "",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131010",
+      "tags": null,
+      "end": 1951242,
+      "begin": 1864260
+    },
+    {
+      "id": "2de8d780-020f-4e14-8055-5f0a65e7bd6d",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2013-12-19",
+        "dc:created": "2013-12-19",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Isomorphes ?",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131010/imagecache/32.png"
+        },
+        "description": "",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131010",
+      "tags": null,
+      "end": 2000120,
+      "begin": 1951242
+    },
+    {
+      "id": "014904e0-8d17-4cae-addb-0ad306570eae",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2013-12-19",
+        "dc:created": "2013-12-19",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Isomorphes ?",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131010/imagecache/33.png"
+        },
+        "description": "",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131010",
+      "tags": null,
+      "end": 2019718,
+      "begin": 2000120
+    },
+    {
+      "id": "b80d95df-f820-422a-93fb-c3c012c16a7f",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2013-12-19",
+        "dc:created": "2013-12-19",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "L’isomorphisme de graphes",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131010/imagecache/34.png"
+        },
+        "description": "",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131010",
+      "tags": null,
+      "end": 2105074,
+      "begin": 2019718
+    },
+    {
+      "id": "3aa08222-6ab6-4a89-ba75-04cd7654c4de",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2013-12-19",
+        "dc:created": "2013-12-19",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Pourquoi utiliser des graphes ?",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131010/imagecache/35.png"
+        },
+        "description": "",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131010",
+      "tags": null,
+      "end": 2117659,
+      "begin": 2105074
+    },
+    {
+      "id": "3c032386-d642-4bb2-a993-4590a9676894",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2013-12-19",
+        "dc:created": "2013-12-19",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Graphes et chimie",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131010/imagecache/36.png"
+        },
+        "description": "",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131010",
+      "tags": null,
+      "end": 2142853,
+      "begin": 2117659
+    },
+    {
+      "id": "93c88446-c64b-4cbd-9a26-7fb38bf27d60",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2013-12-19",
+        "dc:created": "2013-12-19",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Graphes de Delaunay",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131010/imagecache/37.png"
+        },
+        "description": "",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131010",
+      "tags": null,
+      "end": 2160709,
+      "begin": 2142853
+    },
+    {
+      "id": "465a9c79-1438-472d-9760-9d3a106b56e1",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2013-12-19",
+        "dc:created": "2013-12-19",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "3D",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131010/imagecache/38.png"
+        },
+        "description": "",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131010",
+      "tags": null,
+      "end": 2182280,
+      "begin": 2160709
+    },
+    {
+      "id": "cd0d76b7-4fec-40ff-bddb-0a3bab00bec2",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2013-12-19",
+        "dc:created": "2013-12-19",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "3D",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131010/imagecache/39.png"
+        },
+        "description": "",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131010",
+      "tags": null,
+      "end": 2184301,
+      "begin": 2182280
+    },
+    {
+      "id": "57f8e8c2-3305-45cd-8eb0-562e409bcf71",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2013-12-19",
+        "dc:created": "2013-12-19",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Les graphes",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131010/imagecache/40.png"
+        },
+        "description": "",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131010",
+      "tags": null,
+      "end": 2232668,
+      "begin": 2184301
+    },
+    {
+      "id": "56fc0dce-13ee-421d-834a-0390a24007d2",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2013-12-19",
+        "dc:created": "2013-12-19",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "5 Exemple de graphe-réseau social",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131010/imagecache/41.png"
+        },
+        "description": "",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131010",
+      "tags": null,
+      "end": 2286631,
+      "begin": 2232668
+    },
+    {
+      "id": "45102cfc-a5ee-412c-b5c0-d49874abf625",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2013-12-19",
+        "dc:created": "2013-12-19",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Notations",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131010/imagecache/42.png"
+        },
+        "description": "",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131010",
+      "tags": null,
+      "end": 2303860,
+      "begin": 2286631
+    },
+    {
+      "id": "7ce08b00-0f2d-4e33-9317-bc88bb37667e",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2013-12-19",
+        "dc:created": "2013-12-19",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Fait_confiance",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131010/imagecache/43.png"
+        },
+        "description": "",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131010",
+      "tags": null,
+      "end": 2363303,
+      "begin": 2303860
+    },
+    {
+      "id": "f6e9aa82-5f43-458c-8de6-dc678b2f3bfc",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2013-12-19",
+        "dc:created": "2013-12-19",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Notations",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131010/imagecache/44.png"
+        },
+        "description": "",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131010",
+      "tags": null,
+      "end": 2436330,
+      "begin": 2363303
+    },
+    {
+      "id": "489681d2-dadf-43d5-acc0-70fb5b939cec",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2013-12-19",
+        "dc:created": "2013-12-19",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Représentation tabulaire",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131010/imagecache/45.png"
+        },
+        "description": "",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131010",
+      "tags": null,
+      "end": 2500556,
+      "begin": 2436330
+    },
+    {
+      "id": "8d666634-79c1-4236-951f-3110df71e9b7",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2013-12-19",
+        "dc:created": "2013-12-19",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Matrice",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131010/imagecache/46.png"
+        },
+        "description": "",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131010",
+      "tags": null,
+      "end": 2555634,
+      "begin": 2500556
+    },
+    {
+      "id": "924cbea5-5860-4484-b92d-7e66905a4754",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2013-12-19",
+        "dc:created": "2013-12-19",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Lien entre table et graphe",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131010/imagecache/47.png"
+        },
+        "description": "",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131010",
+      "tags": null,
+      "end": 2614218,
+      "begin": 2555634
+    },
+    {
+      "id": "b42a631d-df65-40fd-b9e3-b8f43b19569c",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2013-12-19",
+        "dc:created": "2013-12-19",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Une relation",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131010/imagecache/48.png"
+        },
+        "description": "",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131010",
+      "tags": null,
+      "end": 2717082,
+      "begin": 2614218
+    },
+    {
+      "id": "152f6fd6-77b5-46ad-bdd5-0c188ad7cd56",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2013-12-19",
+        "dc:created": "2013-12-19",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "6 Un langage pour parler des relations",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131010/imagecache/49.png"
+        },
+        "description": "",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131010",
+      "tags": null,
+      "end": 2777315,
+      "begin": 2717082
+    },
+    {
+      "id": "4c725513-3e4b-4372-a8b0-7cce8cbe4d22",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2013-12-19",
+        "dc:created": "2013-12-19",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Que veut-on ?",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131010/imagecache/50.png"
+        },
+        "description": "",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131010",
+      "tags": null,
+      "end": 2819552,
+      "begin": 2777315
+    },
+    {
+      "id": "6298b0d5-95b9-4ad8-8491-352ae56a4dbc",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2013-12-19",
+        "dc:created": "2013-12-19",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "La logique du premier ordre",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131010/imagecache/51.png"
+        },
+        "description": "",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131010",
+      "tags": null,
+      "end": 2887169,
+      "begin": 2819552
+    },
+    {
+      "id": "ea25c394-8c0b-4d77-9ce3-5f3254ccac45",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2013-12-19",
+        "dc:created": "2013-12-19",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Formules du premier ordre",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131010/imagecache/52.png"
+        },
+        "description": "",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131010",
+      "tags": null,
+      "end": 2929313,
+      "begin": 2887169
+    },
+    {
+      "id": "a98c7b20-4ff9-44a4-a893-a62c0c6fb063",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2013-12-19",
+        "dc:created": "2013-12-19",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Notation usuelle",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131010/imagecache/53.png"
+        },
+        "description": "",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131010",
+      "tags": null,
+      "end": 2968485,
+      "begin": 2929313
+    },
+    {
+      "id": "8e0f7c53-29c1-41a2-b167-98ae2cecd1ac",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2013-12-19",
+        "dc:created": "2013-12-19",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Exemple (suite)",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131010/imagecache/54.png"
+        },
+        "description": "",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131010",
+      "tags": null,
+      "end": 3078919,
+      "begin": 2968485
+    },
+    {
+      "id": "fb3edf78-45f6-4395-8120-aad6b6a4bd8f",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2013-12-19",
+        "dc:created": "2013-12-19",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Solution graphique",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131010/imagecache/55.png"
+        },
+        "description": "",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131010",
+      "tags": null,
+      "end": 3210599,
+      "begin": 3078919
+    },
+    {
+      "id": "ef488cce-15ac-4054-bdb1-e3004e7277bd",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2013-12-19",
+        "dc:created": "2013-12-19",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Exemple (suite)",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131010/imagecache/56.png"
+        },
+        "description": "",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131010",
+      "tags": null,
+      "end": 3265677,
+      "begin": 3210599
+    },
+    {
+      "id": "7c77ded5-c9b9-4c0c-861f-0c6f2b2578a5",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2013-12-19",
+        "dc:created": "2013-12-19",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Solution {a, b, d}",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131010/imagecache/57.png"
+        },
+        "description": "",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131010",
+      "tags": null,
+      "end": 3294540,
+      "begin": 3265677
+    },
+    {
+      "id": "a875c7dc-cfc0-497c-a2fd-b2bb8dfd4e0d",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2013-12-19",
+        "dc:created": "2013-12-19",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Exemple (suite)",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131010/imagecache/58.png"
+        },
+        "description": "",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131010",
+      "tags": null,
+      "end": 3365825,
+      "begin": 3294540
+    },
+    {
+      "id": "7c63921b-1602-484b-b9a6-394028e18501",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2013-12-19",
+        "dc:created": "2013-12-19",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Solution={a,b,d}",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131010/imagecache/59.png"
+        },
+        "description": "",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131010",
+      "tags": null,
+      "end": 3414825,
+      "begin": 3365825
+    },
+    {
+      "id": "d4435a9e-af7d-415f-b407-e6fc79723acd",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2013-12-19",
+        "dc:created": "2013-12-19",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Exemple (suite)",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131010/imagecache/60.png"
+        },
+        "description": "",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131010",
+      "tags": null,
+      "end": 3481716,
+      "begin": 3414825
+    },
+    {
+      "id": "85a608b0-8185-4b31-ab00-22dfc6d9a866",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2013-12-19",
+        "dc:created": "2013-12-19",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Solution={a,b,d,e}",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131010/imagecache/61.png"
+        },
+        "description": "",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131010",
+      "tags": null,
+      "end": 3632854,
+      "begin": 3481716
+    },
+    {
+      "id": "9edd48fd-a9bb-4e26-8469-644ff061e623",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2013-12-19",
+        "dc:created": "2013-12-19",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "La logique du premier ordre",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131010/imagecache/62.png"
+        },
+        "description": "",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131010",
+      "tags": null,
+      "end": 3800363,
+      "begin": 3632854
+    },
+    {
+      "id": "1fba4737-f9af-412c-99c2-478a3f0cf5c6",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2013-12-19",
+        "dc:created": "2013-12-19",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Autres exemples",
+        "img": {
+          "src": "http://comin-ocw.org/contents/infol1/20131010/imagecache/63.png"
+        },
+        "description": "",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131010",
+      "tags": null,
+      "end": 3921919,
+      "begin": 3800363
+    }
+  ],
+  "meta": {
+    "id": "reseaux_sociaux",
+    "main_media": "m20131010",
+    "dc:created": "2011-02-14T15:15:52.602502",
+    "dc:modified": "2013-12-19",
+    "dc:description": "",
+    "dc:title": "Réseaux sociaux et graphes - Colin de la Higuera - 10/10/2013",
+    "dc:creator": "admin",
+    "dc:contributor": "admin"
+  },
+  "medias": [
+    {
+      "unit": "ms",
+      "id": "m20131010",
+      "meta": {
+        "dc:modified": "2013-12-19",
+        "dc:contributor": "oaubert",
+        "dc:creator": "oaubert",
+        "dc:created.contents": "2013-12-19",
+        "dc:title": "/data2/video/coco/20131010-colin_info_l1/20131010-slides-reference-with-audio.mp4",
+        "dc:creator.contents": "oaubert",
+        "dc:description": "",
+        "dc:created": "2013-12-19",
+        "dc:duration": 3921919
+      },
+      "http://advene.liris.cnrs.fr/ns/frame_of_reference/ms": "o=0",
+      "url": "/data2/video/coco/20131010-colin_info_l1/20131010-slides-reference-with-audio.mp4",
+      "origin": "0"
+    }
+  ],
+  "lists": [],
+  "views": [],
+  "tags": [
+    {
+      "meta": {
+        "dc:modified": "2013-12-19",
+        "dc:created": "2013-12-19",
+        "dc:description": "",
+        "dc:title": "informatique",
+        "dc:creator": "oaubert",
+        "dc:contributor": "oaubert"
+      },
+      "id": "tag_informatique"
+    },
+    {
+      "meta": {
+        "dc:modified": "2013-12-19",
+        "dc:created": "2013-12-19",
+        "dc:description": "",
+        "dc:title": "culture générale",
+        "dc:creator": "oaubert",
+        "dc:contributor": "oaubert"
+      },
+      "id": "tag_culture_generale"
+    }
+  ]
+}

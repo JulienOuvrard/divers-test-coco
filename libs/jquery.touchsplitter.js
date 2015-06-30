@@ -64,7 +64,7 @@
         testEm.remove();
         testCalc = $('<div class="test-calc"></div>');
         testCalc.appendTo(this.element);
-        this.support.calc = false;
+        this.support.calc = true;
         testCalc.remove();
         if (options.orientation != null) {
           if (options.orientation === "vertical") {

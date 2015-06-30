@@ -80,11 +80,8 @@ function positive(tab){
 
 function similaire(q1,q2){
    
-    if(Math.abs((time[q1] - time[q2])) < _delta_time){
-        return true;
-    }else {
-        return false
-    }
+    return (Math.abs((time[q1] - time[q2])) < _delta_time)
+
 }
 
 function getData(data1,data2){
@@ -113,19 +110,19 @@ function getData(data1,data2){
     time = getTime(data2[0]);
     //console.log(time);
     
-    
+    $("#content").append("<ul>");
     $.each(time, function(index, value) {
-        $("#content").append(index+" : ");
+        $("#content").append("<li>"+index+" : ");
         var temp = $.extend(true, {}, time);
         delete temp[index];
         $.each(temp, function(index2, value2) {
             if(similaire(index,index2)){
-                $("#content").append(index2+" | ");
+                $("#content").append("<ul><li>"+index2+"</li></ul>");
             }
         });
-        $("#content").append("<br>")
+        $("#content").append("</li>")
     }); 
-    
+    $("#content").append("</ul>");
 
 };
 

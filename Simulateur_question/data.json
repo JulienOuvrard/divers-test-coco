@@ -1,0 +1,1858 @@
+{
+  "views": [], 
+  "tags": [], 
+  "lists": [], 
+  "medias": [
+    {
+      "origin": "0", 
+      "url": "/data2/video/coco/20131010-colin_info_l1/20131010-slides-reference-with-audio.mp4", 
+      "http://advene.liris.cnrs.fr/ns/frame_of_reference/ms": "o=0", 
+      "meta": {
+        "dc:contributor": "oaubert", 
+        "dc:creator": "oaubert", 
+        "dc:created.contents": "2013-12-19", 
+        "dc:title": "/data2/video/coco/20131010-colin_info_l1/20131010-slides-reference-with-audio.mp4", 
+        "dc:creator.contents": "oaubert", 
+        "dc:modified": "2013-12-19", 
+        "dc:created": "2013-12-19", 
+        "dc:duration": 3921919, 
+        "dc:description": ""
+      }, 
+      "id": "m20131010", 
+      "unit": "ms"
+    }
+  ], 
+  "meta": {
+    "dc:contributor": "admin", 
+    "dc:creator": "admin", 
+    "id": "package1", 
+    "dc:title": "R\u00e9seaux sociaux et graphes - Colin de la Higuera - 10/10/2013", 
+    "dc:description": "", 
+    "dc:created": "2011-02-14T15:15:52.602502", 
+    "main_media": "m20131010", 
+    "dc:modified": "2013-12-19"
+  }, 
+  "annotations": [
+    {
+      "begin": 0, 
+      "end": 44210, 
+      "tags": null, 
+      "media": "m20131010", 
+      "content": {
+        "mimetype": "application/x-ldt-structured", 
+        "description": "Et l\u2019utilisateur l\u00e0 dedans ?\n\nOctobre 2013\nColin de la Higuera\n\n1\n\n", 
+        "img": {
+          "src": "imagecache/00.png"
+        }, 
+        "title": "Et l\u2019utilisateur l\u00e0 dedans ?", 
+        "polemics": [], 
+        "audio": {
+          "mimetype": "audio/mp3", 
+          "src": "", 
+          "href": null
+        }
+      }, 
+      "meta": {
+        "dc:contributor": "oaubert", 
+        "id-ref": "Slides", 
+        "dc:created": "2013-12-19", 
+        "dc:modified": "2013-12-19", 
+        "dc:creator": "oaubert"
+      }, 
+      "id": "a1"
+    }, 
+    {
+      "begin": 44210, 
+      "end": 72028, 
+      "tags": null, 
+      "media": "m20131010", 
+      "content": {
+        "mimetype": "application/x-ldt-structured", 
+        "description": "Transparent prise de notes\n\nCe dessin indique que le transparent\nr\u00e9sume un point particulier et doit \u00eatre\nrecopi\u00e9\n\n2\n\n", 
+        "img": {
+          "src": "imagecache/01.png"
+        }, 
+        "title": "Transparent prise de notes", 
+        "polemics": [], 
+        "audio": {
+          "mimetype": "audio/mp3", 
+          "src": "", 
+          "href": null
+        }
+      }, 
+      "meta": {
+        "dc:contributor": "oaubert", 
+        "id-ref": "Slides", 
+        "dc:created": "2013-12-19", 
+        "dc:modified": "2013-12-19", 
+        "dc:creator": "oaubert"
+      }, 
+      "id": "a2"
+    }, 
+    {
+      "begin": 72028, 
+      "end": 117980, 
+      "tags": null, 
+      "media": "m20131010", 
+      "content": {
+        "mimetype": "application/x-ldt-structured", 
+        "description": "Quelques paradoxes\nl Plus il y a d\u2019informatique, et moins on la\nvoit\nl Notion d\u2019 informatique ubiquitaire\n\nCertains droits r\u00e9serv\u00e9s par Revolweb@flickr\n\n3\n\n", 
+        "img": {
+          "src": "imagecache/02.png"
+        }, 
+        "title": "Quelques paradoxes", 
+        "polemics": [], 
+        "audio": {
+          "mimetype": "audio/mp3", 
+          "src": "", 
+          "href": null
+        }
+      }, 
+      "meta": {
+        "dc:contributor": "oaubert", 
+        "id-ref": "Slides", 
+        "dc:created": "2013-12-19", 
+        "dc:modified": "2013-12-19", 
+        "dc:creator": "oaubert"
+      }, 
+      "id": "a3"
+    }, 
+    {
+      "begin": 117980, 
+      "end": 169018, 
+      "tags": null, 
+      "media": "m20131010", 
+      "content": {
+        "mimetype": "application/x-ldt-structured", 
+        "description": "Quelle informatique ?\nl Quel rapport entre la programmation et le\nmonde num\u00e9rique qui nous entoure ?\nl Quelle culture informatique ?\nl L\u2019informatique et ses concepts :\nl La machine\nl Le codage\nl Le langage\nl L\u2019algorithme\n\n4\n\n", 
+        "img": {
+          "src": "imagecache/03.png"
+        }, 
+        "title": "Quelle informatique ?", 
+        "polemics": [], 
+        "audio": {
+          "mimetype": "audio/mp3", 
+          "src": "", 
+          "href": null
+        }
+      }, 
+      "meta": {
+        "dc:contributor": "oaubert", 
+        "id-ref": "Slides", 
+        "dc:created": "2013-12-19", 
+        "dc:modified": "2013-12-19", 
+        "dc:creator": "oaubert"
+      }, 
+      "id": "a4"
+    }, 
+    {
+      "begin": 169018, 
+      "end": 223677, 
+      "tags": null, 
+      "media": "m20131010", 
+      "content": {
+        "mimetype": "application/x-ldt-structured", 
+        "description": "Et l\u2019utilisateur ?\nl Plus l\u2019ordinateur dispara\u00eet, plus on doit\ns\u2019occuper de l\u2019utilisateur\nl Comme mod\u00e8le, pour faire de l\u2019adaptation\n\nCertains droits r\u00e9serv\u00e9s par rofi@flickr\n\n5\n\n", 
+        "img": {
+          "src": "imagecache/04.png"
+        }, 
+        "title": "Et l\u2019utilisateur ?", 
+        "polemics": [], 
+        "audio": {
+          "mimetype": "audio/mp3", 
+          "src": "", 
+          "href": null
+        }
+      }, 
+      "meta": {
+        "dc:contributor": "oaubert", 
+        "id-ref": "Slides", 
+        "dc:created": "2013-12-19", 
+        "dc:modified": "2013-12-19", 
+        "dc:creator": "oaubert"
+      }, 
+      "id": "a5"
+    }, 
+    {
+      "begin": 223677, 
+      "end": 330489, 
+      "tags": null, 
+      "media": "m20131010", 
+      "content": {
+        "mimetype": "application/x-ldt-structured", 
+        "description": "Quelques exemples de liens homme-informatique qu\u2019on pourrait \u00e9tudier\n\n1.\n\nde\n\nl\u2019utilisateur\n\nLa\nmod\u00e9lisation\nl\u2019adaptation\n2. L\u2019intelligence humaine\nl\u2019intelligence artificielle\n3. La coop\u00e9ration entre l\u2019homme et la machine\npour r\u00e9soudre des probl\u00e8mes\n\ncomme mod\u00e8le\n\net\n\n:\n\n6\n\n", 
+        "img": {
+          "src": "imagecache/05.png"
+        }, 
+        "title": "Quelques exemples de liens hommeinformatique qu\u2019on pourrait \u00e9tudier", 
+        "polemics": [], 
+        "audio": {
+          "mimetype": "audio/mp3", 
+          "src": "", 
+          "href": null
+        }
+      }, 
+      "meta": {
+        "dc:contributor": "oaubert", 
+        "id-ref": "Slides", 
+        "dc:created": "2013-12-19", 
+        "dc:modified": "2013-12-19", 
+        "dc:creator": "oaubert"
+      }, 
+      "id": "a6"
+    }, 
+    {
+      "begin": 330489, 
+      "end": 338384, 
+      "tags": null, 
+      "media": "m20131010", 
+      "content": {
+        "mimetype": "application/x-ldt-structured", 
+        "description": "1 Les r\u00e9seaux sociaux\n\nhttp://stockdaledesigns.deviantart.com\n\n7\n\n", 
+        "img": {
+          "src": "imagecache/06.png"
+        }, 
+        "title": "1 Les r\u00e9seaux sociaux", 
+        "polemics": [], 
+        "audio": {
+          "mimetype": "audio/mp3", 
+          "src": "", 
+          "href": null
+        }
+      }, 
+      "meta": {
+        "dc:contributor": "oaubert", 
+        "id-ref": "Slides", 
+        "dc:created": "2013-12-19", 
+        "dc:modified": "2013-12-19", 
+        "dc:creator": "oaubert"
+      }, 
+      "id": "a7"
+    }, 
+    {
+      "begin": 338384, 
+      "end": 509933, 
+      "tags": null, 
+      "media": "m20131010", 
+      "content": {
+        "mimetype": "application/x-ldt-structured", 
+        "description": "Les r\u00e9seaux sociaux (les exemples connus)\nl Facebook (200 millions d\u2019utilisateurs (mars 09), 57 en\nd\u00e9cembre 2007), (sur?)valoris\u00e9 \u00e0 104 Milliards d\u2019euros\nl 1 Milliard d\u2019utilisateurs (Wall Street Journal du 4/10/2012)\nl 620 millions d'utilisateurs, dont la moiti\u00e9 se connecte au\nmoins une fois par jour, et passe 55 minutes (en moyenne)\npar jour sur le site. Il y a 1 milliard de contenus mis en ligne\npar jour (vid\u00e9os, statuts, photos, articles.. (Wikipedia, en\n2011)\nl Myspace (230 millions en 2008) En juin 2011, Rupert\nMurdochc\u00e8deMyspace\u00e0SpecificMediapour35millionsde\ndollars(soit16foismoinsqueleprixd'acquisitionde2005)\nl Viadeo (45 millions d\u2019inscrits)\nl LinkedIn (238 millions d\u2019inscrits)\nl Twitter (500 millions en f\u00e9vrier 2012)\n\n8\n\n", 
+        "img": {
+          "src": "imagecache/07.png"
+        }, 
+        "title": "Les r\u00e9seaux sociaux (les exemples connus)", 
+        "polemics": [], 
+        "audio": {
+          "mimetype": "audio/mp3", 
+          "src": "", 
+          "href": null
+        }
+      }, 
+      "meta": {
+        "dc:contributor": "oaubert", 
+        "id-ref": "Slides", 
+        "dc:created": "2013-12-19", 
+        "dc:modified": "2013-12-19", 
+        "dc:creator": "oaubert"
+      }, 
+      "id": "a8"
+    }, 
+    {
+      "begin": 509933, 
+      "end": 631745, 
+      "tags": null, 
+      "media": "m20131010", 
+      "content": {
+        "mimetype": "application/x-ldt-structured", 
+        "description": "D\u2019autres exemples\nl L\u2019ONU\nl Toute soci\u00e9t\u00e9 dans laquelle on \u00e9tudie les\nrelations\nentre\nles\nindividus\nou\nles\n\u00e9l\u00e9ments\nl Les acheteurs sur Ebay\nl Les utilisateurs d\u2019Amazon\nl Les participants \u00e0 un MOOC\n\n9\n\n", 
+        "img": {
+          "src": "imagecache/08.png"
+        }, 
+        "title": "D\u2019autres exemples", 
+        "polemics": [], 
+        "audio": {
+          "mimetype": "audio/mp3", 
+          "src": "", 
+          "href": null
+        }
+      }, 
+      "meta": {
+        "dc:contributor": "oaubert", 
+        "id-ref": "Slides", 
+        "dc:created": "2013-12-19", 
+        "dc:modified": "2013-12-19", 
+        "dc:creator": "oaubert"
+      }, 
+      "id": "a9"
+    }, 
+    {
+      "begin": 631745, 
+      "end": 692745, 
+      "tags": null, 
+      "media": "m20131010", 
+      "content": {
+        "mimetype": "application/x-ldt-structured", 
+        "description": "Une id\u00e9e de base\nl L'effet du petit monde est l'hypoth\u00e8se\nque la\nlongueur de la\ncha\u00eene des\nconnaissances sociales requise pour lier\nune personne, arbitrairement choisie \u00e0\nn'importe qu'elle autre sur Terre est\ng\u00e9n\u00e9ralement courte.\n\nR\u00e9f : wikipedia\n\n10\n\n", 
+        "img": {
+          "src": "imagecache/09.png"
+        }, 
+        "title": "Une id\u00e9e de base", 
+        "polemics": [], 
+        "audio": {
+          "mimetype": "audio/mp3", 
+          "src": "", 
+          "href": null
+        }
+      }, 
+      "meta": {
+        "dc:contributor": "oaubert", 
+        "id-ref": "Slides", 
+        "dc:created": "2013-12-19", 
+        "dc:modified": "2013-12-19", 
+        "dc:creator": "oaubert"
+      }, 
+      "id": "a10"
+    }, 
+    {
+      "begin": 692745, 
+      "end": 753766, 
+      "tags": null, 
+      "media": "m20131010", 
+      "content": {
+        "mimetype": "application/x-ldt-structured", 
+        "description": "l Le concept a engendr\u00e9 l'expression\nc\u00e9l\u00e8bre des \"six degr\u00e9s de s\u00e9paration\"\napr\u00e8s l'exp\u00e9rience du petit monde de\npsychologue\nle\npar\nr\u00e9alis\u00e9e\n1967,\nStanley Milgram. Il a constat\u00e9 que deux\ncitoyens\naux\nchoisis\nal\u00e9atoirement\n\u00c9tats-Unis sont reli\u00e9s par, tout au plus,\nsix connaissances, et en tout temps.\n\n11\n\n", 
+        "img": {
+          "src": "imagecache/10.png"
+        }, 
+        "title": "Six degr\u00e9s de s\u00e9paration", 
+        "polemics": [], 
+        "audio": {
+          "mimetype": "audio/mp3", 
+          "src": "", 
+          "href": null
+        }
+      }, 
+      "meta": {
+        "dc:contributor": "oaubert", 
+        "id-ref": "Slides", 
+        "dc:created": "2013-12-19", 
+        "dc:modified": "2013-12-19", 
+        "dc:creator": "oaubert"
+      }, 
+      "id": "a11"
+    }, 
+    {
+      "begin": 753766, 
+      "end": 769927, 
+      "tags": null, 
+      "media": "m20131010", 
+      "content": {
+        "mimetype": "application/x-ldt-structured", 
+        "description": "Sur Internet ?\n\nl Environ cinq \u00e0 sept degr\u00e9s de s\u00e9paration\nsont\nconnecter\npour\nsuffisants\nn'importe quelle personne \u00e0 une autre\npar Internet\n\n12\n\n", 
+        "img": {
+          "src": "imagecache/11.png"
+        }, 
+        "title": "Sur Internet ?", 
+        "polemics": [], 
+        "audio": {
+          "mimetype": "audio/mp3", 
+          "src": "", 
+          "href": null
+        }
+      }, 
+      "meta": {
+        "dc:contributor": "oaubert", 
+        "id-ref": "Slides", 
+        "dc:created": "2013-12-19", 
+        "dc:modified": "2013-12-19", 
+        "dc:creator": "oaubert"
+      }, 
+      "id": "a12"
+    }, 
+    {
+      "begin": 769927, 
+      "end": 806823, 
+      "tags": null, 
+      "media": "m20131010", 
+      "content": {
+        "mimetype": "application/x-ldt-structured", 
+        "description": "Un autre r\u00e9seau (a?)social\nl Hatebook is an anti-social utility that\ndisconnects you from the things YOU\nHATE.\nl Everybody loves to HATE\u2014\nl The enemies of your enemies are your\nfriends \u2013 find them here\u00bb\n\n13\n\n", 
+        "img": {
+          "src": "imagecache/12.png"
+        }, 
+        "title": "Un autre r\u00e9seau (a?)social", 
+        "polemics": [], 
+        "audio": {
+          "mimetype": "audio/mp3", 
+          "src": "", 
+          "href": null
+        }
+      }, 
+      "meta": {
+        "dc:contributor": "oaubert", 
+        "id-ref": "Slides", 
+        "dc:created": "2013-12-19", 
+        "dc:modified": "2013-12-19", 
+        "dc:creator": "oaubert"
+      }, 
+      "id": "a13"
+    }, 
+    {
+      "begin": 806823, 
+      "end": 859416, 
+      "tags": null, 
+      "media": "m20131010", 
+      "content": {
+        "mimetype": "application/x-ldt-structured", 
+        "description": "Ma r\u00e9sidence .com\n\n14\n\n", 
+        "img": {
+          "src": "imagecache/13.png"
+        }, 
+        "title": "Ma r\u00e9sidence .fr", 
+        "polemics": [], 
+        "audio": {
+          "mimetype": "audio/mp3", 
+          "src": "", 
+          "href": null
+        }
+      }, 
+      "meta": {
+        "dc:contributor": "oaubert", 
+        "id-ref": "Slides", 
+        "dc:created": "2013-12-19", 
+        "dc:modified": "2013-12-19", 
+        "dc:creator": "oaubert"
+      }, 
+      "id": "a14"
+    }, 
+    {
+      "begin": 859416, 
+      "end": 1082723, 
+      "tags": null, 
+      "media": "m20131010", 
+      "content": {
+        "mimetype": "application/x-ldt-structured", 
+        "description": "R\u00e9seaux sociaux et internet\n\nl Les r\u00e9seaux sociaux sont objets d\u2019\u00e9tude\ndes sociologues depuis longtemps\nl L\u2019effet du petit monde : on trouve toujours\nune cha\u00eene courte entre deux individus\nl R\u00e9seaux sociaux et internet : enjeux\nsoci\u00e9taux et \u00e9conomiques colossaux\n\n15\n\n", 
+        "img": {
+          "src": "imagecache/14.png"
+        }, 
+        "title": "R\u00e9seaux sociaux et internet", 
+        "polemics": [], 
+        "audio": {
+          "mimetype": "audio/mp3", 
+          "src": "", 
+          "href": null
+        }
+      }, 
+      "meta": {
+        "dc:contributor": "oaubert", 
+        "id-ref": "Slides", 
+        "dc:created": "2013-12-19", 
+        "dc:modified": "2013-12-19", 
+        "dc:creator": "oaubert"
+      }, 
+      "id": "a15"
+    }, 
+    {
+      "begin": 1082723, 
+      "end": 1114534, 
+      "tags": null, 
+      "media": "m20131010", 
+      "content": {
+        "mimetype": "application/x-ldt-structured", 
+        "description": "2 Les r\u00e9seaux sociaux comme graphes\n\nl Les individus sont les sommets du graphe\nl Les relations entre les individus sont des\narcs ou des ar\u00eates dans le graphe\n\n16\n\n", 
+        "img": {
+          "src": "imagecache/15.png"
+        }, 
+        "title": "2 Les r\u00e9seaux sociaux comme graphes", 
+        "polemics": [], 
+        "audio": {
+          "mimetype": "audio/mp3", 
+          "src": "", 
+          "href": null
+        }
+      }, 
+      "meta": {
+        "dc:contributor": "oaubert", 
+        "id-ref": "Slides", 
+        "dc:created": "2013-12-19", 
+        "dc:modified": "2013-12-19", 
+        "dc:creator": "oaubert"
+      }, 
+      "id": "a16"
+    }, 
+    {
+      "begin": 1114534, 
+      "end": 1132158, 
+      "tags": null, 
+      "media": "m20131010", 
+      "content": {
+        "mimetype": "application/x-ldt-structured", 
+        "description": "Un r\u00e9seau social (symbolique)\n\nC\ne\nr\nt\na\ni\nn\ns\n \nd\nr\no\ni\nt\ns\n \nr\n\u00e9\ns\ne\nr\nv\n\u00e9\ns\n\np\na\nr\n \nh\na\nn\ns\np\no\nl\nd\no\nj\na\n@\nf\nl\ni\nc\nk\nr\n \n\n17\n\n", 
+        "img": {
+          "src": "imagecache/16.png"
+        }, 
+        "title": "Un r\u00e9seau social (symbolique)", 
+        "polemics": [], 
+        "audio": {
+          "mimetype": "audio/mp3", 
+          "src": "", 
+          "href": null
+        }
+      }, 
+      "meta": {
+        "dc:contributor": "oaubert", 
+        "id-ref": "Slides", 
+        "dc:created": "2013-12-19", 
+        "dc:modified": "2013-12-19", 
+        "dc:creator": "oaubert"
+      }, 
+      "id": "a17"
+    }, 
+    {
+      "begin": 1132158, 
+      "end": 1156771, 
+      "tags": null, 
+      "media": "m20131010", 
+      "content": {
+        "mimetype": "application/x-ldt-structured", 
+        "description": "Licence Certains droits r\u00e9serv\u00e9s par neil cummings\n18\n\n", 
+        "img": {
+          "src": "imagecache/17.png"
+        }, 
+        "title": "Autre r\u00e9seau social", 
+        "polemics": [], 
+        "audio": {
+          "mimetype": "audio/mp3", 
+          "src": "", 
+          "href": null
+        }
+      }, 
+      "meta": {
+        "dc:contributor": "oaubert", 
+        "id-ref": "Slides", 
+        "dc:created": "2013-12-19", 
+        "dc:modified": "2013-12-19", 
+        "dc:creator": "oaubert"
+      }, 
+      "id": "a18"
+    }, 
+    {
+      "begin": 1156771, 
+      "end": 1167034, 
+      "tags": null, 
+      "media": "m20131010", 
+      "content": {
+        "mimetype": "application/x-ldt-structured", 
+        "description": "Toute petite portion d\u2019un r\u00e9seau social\n\nTous droits r\u00e9serv\u00e9s par xericjames@fl ickr\n\n19\n\n", 
+        "img": {
+          "src": "imagecache/18.png"
+        }, 
+        "title": "Toute petite portion d\u2019un r\u00e9seau social", 
+        "polemics": [], 
+        "audio": {
+          "mimetype": "audio/mp3", 
+          "src": "", 
+          "href": null
+        }
+      }, 
+      "meta": {
+        "dc:contributor": "oaubert", 
+        "id-ref": "Slides", 
+        "dc:created": "2013-12-19", 
+        "dc:modified": "2013-12-19", 
+        "dc:creator": "oaubert"
+      }, 
+      "id": "a19"
+    }, 
+    {
+      "begin": 1167034, 
+      "end": 1206067, 
+      "tags": null, 
+      "media": "m20131010", 
+      "content": {
+        "mimetype": "application/x-ldt-structured", 
+        "description": "La simulation comme outil\nSi on sait g\u00e9n\u00e9rer automatiquement des\ngraphes qui ont les propri\u00e9t\u00e9s voulues, on\npeut inf\u00e9rer le fonctionnement r\u00e9el du\nsyst\u00e8me !\n\n20\n\n", 
+        "img": {
+          "src": "imagecache/19.png"
+        }, 
+        "title": "La simulation comme outil", 
+        "polemics": [], 
+        "audio": {
+          "mimetype": "audio/mp3", 
+          "src": "", 
+          "href": null
+        }
+      }, 
+      "meta": {
+        "dc:contributor": "oaubert", 
+        "id-ref": "Slides", 
+        "dc:created": "2013-12-19", 
+        "dc:modified": "2013-12-19", 
+        "dc:creator": "oaubert"
+      }, 
+      "id": "a20"
+    }, 
+    {
+      "begin": 1206067, 
+      "end": 1282554, 
+      "tags": null, 
+      "media": "m20131010", 
+      "content": {
+        "mimetype": "application/x-ldt-structured", 
+        "description": "Le mod\u00e8le math\u00e9matique\n\nl Les graphes sont utilis\u00e9s pour repr\u00e9senter\nun r\u00e9seau social\nplus\nsont\ngraphiques\navantages\nl Les\ndifficiles \u00e0 cerner quand le r\u00e9seau est de\ntr\u00e8s grande taille\nl La simulation permet de v\u00e9rifier la validit\u00e9\nd\u2019un mod\u00e8le\n\n21\n\n", 
+        "img": {
+          "src": "imagecache/20.png"
+        }, 
+        "title": "Le mod\u00e8le math\u00e9matique", 
+        "polemics": [], 
+        "audio": {
+          "mimetype": "audio/mp3", 
+          "src": "", 
+          "href": null
+        }
+      }, 
+      "meta": {
+        "dc:contributor": "oaubert", 
+        "id-ref": "Slides", 
+        "dc:created": "2013-12-19", 
+        "dc:modified": "2013-12-19", 
+        "dc:creator": "oaubert"
+      }, 
+      "id": "a21"
+    }, 
+    {
+      "begin": 1282554, 
+      "end": 1343785, 
+      "tags": null, 
+      "media": "m20131010", 
+      "content": {
+        "mimetype": "application/x-ldt-structured", 
+        "description": "3 Deux exemples de questions r\u00e9seaux-graphes\nl X a 3 amis qui ne se\nconnaissent pas entre\neux\nl Y a 3 amis qui se\nconnaissent entre eux\nl Qui\nle\njoindre\nva\nr\u00e9seau ?\n\n22\n\n", 
+        "img": {
+          "src": "imagecache/21.png"
+        }, 
+        "title": "3 Deux exemples de questions r\u00e9seaux-graphes", 
+        "polemics": [], 
+        "audio": {
+          "mimetype": "audio/mp3", 
+          "src": "", 
+          "href": null
+        }
+      }, 
+      "meta": {
+        "dc:contributor": "oaubert", 
+        "id-ref": "Slides", 
+        "dc:created": "2013-12-19", 
+        "dc:modified": "2013-12-19", 
+        "dc:creator": "oaubert"
+      }, 
+      "id": "a22"
+    }, 
+    {
+      "begin": 1343785, 
+      "end": 1388274, 
+      "tags": null, 
+      "media": "m20131010", 
+      "content": {
+        "mimetype": "application/x-ldt-structured", 
+        "description": "Th\u00e9ories contradictoires\nl Argument \u00ab th\u00e9orie de l\u2019information \u00bb : les\namis non connect\u00e9s donnent un support\nind\u00e9pendant\n\nl Argumentaire du capital social : il y a un\navantage (s\u00e9curit\u00e9, confiance) \u00e0 avoir des\namis qui se connaissent entre eux\n\n23\n\n", 
+        "img": {
+          "src": "imagecache/22.png"
+        }, 
+        "title": "Th\u00e9ories contradictoires", 
+        "polemics": [], 
+        "audio": {
+          "mimetype": "audio/mp3", 
+          "src": "", 
+          "href": null
+        }
+      }, 
+      "meta": {
+        "dc:contributor": "oaubert", 
+        "id-ref": "Slides", 
+        "dc:created": "2013-12-19", 
+        "dc:modified": "2013-12-19", 
+        "dc:creator": "oaubert"
+      }, 
+      "id": "a23"
+    }, 
+    {
+      "begin": 1388274, 
+      "end": 1448692, 
+      "tags": null, 
+      "media": "m20131010", 
+      "content": {
+        "mimetype": "application/x-ldt-structured", 
+        "description": "Le capital social gagne !\n\n24\n\n", 
+        "img": {
+          "src": "imagecache/23.png"
+        }, 
+        "title": "Le capital social gagne !", 
+        "polemics": [], 
+        "audio": {
+          "mimetype": "audio/mp3", 
+          "src": "", 
+          "href": null
+        }
+      }, 
+      "meta": {
+        "dc:contributor": "oaubert", 
+        "id-ref": "Slides", 
+        "dc:created": "2013-12-19", 
+        "dc:modified": "2013-12-19", 
+        "dc:creator": "oaubert"
+      }, 
+      "id": "a24"
+    }, 
+    {
+      "begin": 1448692, 
+      "end": 1550326, 
+      "tags": null, 
+      "media": "m20131010", 
+      "content": {
+        "mimetype": "application/x-ldt-structured", 
+        "description": "Des applications de la th\u00e9orie des graphes dans l\u2019analyse des r\u00e9seaux sociaux\n\nl Les graphes permettent d\u2019\u00e9tudier, par des\nles\npropri\u00e9t\u00e9s de th\u00e9orie des graphes,\nr\u00e9seaux sociaux\nl Diff\u00e9rents concepts : connexit\u00e9, chemins,\ncliques, coupes du graphe, flux\u2026\n\n25\n\n", 
+        "img": {
+          "src": "imagecache/24.png"
+        }, 
+        "title": "Des applications de la th\u00e9orie des graphes dans l'analyse des r\u00e9seaux sociaux", 
+        "polemics": [], 
+        "audio": {
+          "mimetype": "audio/mp3", 
+          "src": "", 
+          "href": null
+        }
+      }, 
+      "meta": {
+        "dc:contributor": "oaubert", 
+        "id-ref": "Slides", 
+        "dc:created": "2013-12-19", 
+        "dc:modified": "2013-12-19", 
+        "dc:creator": "oaubert"
+      }, 
+      "id": "a25"
+    }, 
+    {
+      "begin": 1550326, 
+      "end": 1601921, 
+      "tags": null, 
+      "media": "m20131010", 
+      "content": {
+        "mimetype": "application/x-ldt-structured", 
+        "description": "4 Les graphes\n\na\n\nb\n\nf\n\ne\n\nh\n\nc\n\nd\n\ng\n\n26\n\n", 
+        "img": {
+          "src": "imagecache/25.png"
+        }, 
+        "title": "4 Les graphes", 
+        "polemics": [], 
+        "audio": {
+          "mimetype": "audio/mp3", 
+          "src": "", 
+          "href": null
+        }
+      }, 
+      "meta": {
+        "dc:contributor": "oaubert", 
+        "id-ref": "Slides", 
+        "dc:created": "2013-12-19", 
+        "dc:modified": "2013-12-19", 
+        "dc:creator": "oaubert"
+      }, 
+      "id": "a26"
+    }, 
+    {
+      "begin": 1601921, 
+      "end": 1720921, 
+      "tags": null, 
+      "media": "m20131010", 
+      "content": {
+        "mimetype": "application/x-ldt-structured", 
+        "description": "Un graphe\n\nnon orient\u00e9, (V,E), avec V un ensemble de\nsommets (vertex), et E un ensemble\nd\u2019ar\u00eates (edge).\nl Peut avoir des boucles.\nl Une ar\u00eate n\u2019est pas orient\u00e9e, c\u2019est donc\nun ensemble de 2 sommets {a,b}. Une\nar\u00eate est incidente \u00e0 2 sommets. Elle a 2\nextremit\u00e9s.\n\n27\n\n", 
+        "img": {
+          "src": "imagecache/26.png"
+        }, 
+        "title": "Un graphe", 
+        "polemics": [], 
+        "audio": {
+          "mimetype": "audio/mp3", 
+          "src": "", 
+          "href": null
+        }
+      }, 
+      "meta": {
+        "dc:contributor": "oaubert", 
+        "id-ref": "Slides", 
+        "dc:created": "2013-12-19", 
+        "dc:modified": "2013-12-19", 
+        "dc:creator": "oaubert"
+      }, 
+      "id": "a27"
+    }, 
+    {
+      "begin": 1720921, 
+      "end": 1730513, 
+      "tags": null, 
+      "media": "m20131010", 
+      "content": {
+        "mimetype": "application/x-ldt-structured", 
+        "description": "c\n\nf\n\na\n\ne\n\nd\n\nune boucle\n\nLe sommet \u00e9tiquet\u00e9 a\n\nl\u2019ar\u00eate {a,b}\n\nb\n\na et b sont adjacents\n\n28\n\n", 
+        "img": {
+          "src": "imagecache/27.png"
+        }, 
+        "title": "Repr\u00e9sentation", 
+        "polemics": [], 
+        "audio": {
+          "mimetype": "audio/mp3", 
+          "src": "", 
+          "href": null
+        }
+      }, 
+      "meta": {
+        "dc:contributor": "oaubert", 
+        "id-ref": "Slides", 
+        "dc:created": "2013-12-19", 
+        "dc:modified": "2013-12-19", 
+        "dc:creator": "oaubert"
+      }, 
+      "id": "a28"
+    }, 
+    {
+      "begin": 1730513, 
+      "end": 1779298, 
+      "tags": null, 
+      "media": "m20131010", 
+      "content": {
+        "mimetype": "application/x-ldt-structured", 
+        "description": "Un graphe orient\u00e9\n\nest un G=(V,A) o\u00f9 Vest un ensemble de\nsommets et A est un ensemble d\u2019arcs.\nUn arc est orient\u00e9 et a une origine et\nune extr\u00e9mit\u00e9.\n\n29\n\n", 
+        "img": {
+          "src": "imagecache/28.png"
+        }, 
+        "title": "Un graphe orient\u00e9", 
+        "polemics": [], 
+        "audio": {
+          "mimetype": "audio/mp3", 
+          "src": "", 
+          "href": null
+        }
+      }, 
+      "meta": {
+        "dc:contributor": "oaubert", 
+        "id-ref": "Slides", 
+        "dc:created": "2013-12-19", 
+        "dc:modified": "2013-12-19", 
+        "dc:creator": "oaubert"
+      }, 
+      "id": "a29"
+    }, 
+    {
+      "begin": 1779298, 
+      "end": 1812433, 
+      "tags": null, 
+      "media": "m20131010", 
+      "content": {
+        "mimetype": "application/x-ldt-structured", 
+        "description": "c\n\nf\n\na\n\ne\n\nd\n\nune boucle\n\nLe sommet \u00e9tiquet\u00e9 a\n\nl\u2019arc (a,b)\n\nb\n\n30\n\n", 
+        "img": {
+          "src": "imagecache/29.png"
+        }, 
+        "title": "Repr\u00e9sentation", 
+        "polemics": [], 
+        "audio": {
+          "mimetype": "audio/mp3", 
+          "src": "", 
+          "href": null
+        }
+      }, 
+      "meta": {
+        "dc:contributor": "oaubert", 
+        "id-ref": "Slides", 
+        "dc:created": "2013-12-19", 
+        "dc:modified": "2013-12-19", 
+        "dc:creator": "oaubert"
+      }, 
+      "id": "a30"
+    }, 
+    {
+      "begin": 1812433, 
+      "end": 1864260, 
+      "tags": null, 
+      "media": "m20131010", 
+      "content": {
+        "mimetype": "application/x-ldt-structured", 
+        "description": "Un probl\u00e8me particulier\nl L\u2019isomorphisme de graphes\nl Deux graphes sont isomorphes si ce sont\nles m\u00eames graphes au dessin pr\u00e8s\nl Exemple\na\n\nb\n\nb\n\nd\n\na\n\nc\n\nc\n\nd\n\n31\n\n", 
+        "img": {
+          "src": "imagecache/30.png"
+        }, 
+        "title": "Un probl\u00e8me particulier", 
+        "polemics": [], 
+        "audio": {
+          "mimetype": "audio/mp3", 
+          "src": "", 
+          "href": null
+        }
+      }, 
+      "meta": {
+        "dc:contributor": "oaubert", 
+        "id-ref": "Slides", 
+        "dc:created": "2013-12-19", 
+        "dc:modified": "2013-12-19", 
+        "dc:creator": "oaubert"
+      }, 
+      "id": "a31"
+    }, 
+    {
+      "begin": 1864260, 
+      "end": 1951242, 
+      "tags": null, 
+      "media": "m20131010", 
+      "content": {
+        "mimetype": "application/x-ldt-structured", 
+        "description": "Isomorphes ?\n\nb\n\na\n\nd\n\ne\n\nf\n\nc\n\nG1\n\n?\n\n?\n\n?\n\n?\n\n?\n\n?\n\nG2\n\n32\n\n", 
+        "img": {
+          "src": "imagecache/31.png"
+        }, 
+        "title": "Isomorphes ?", 
+        "polemics": [], 
+        "audio": {
+          "mimetype": "audio/mp3", 
+          "src": "", 
+          "href": null
+        }
+      }, 
+      "meta": {
+        "dc:contributor": "oaubert", 
+        "id-ref": "Slides", 
+        "dc:created": "2013-12-19", 
+        "dc:modified": "2013-12-19", 
+        "dc:creator": "oaubert"
+      }, 
+      "id": "a32"
+    }, 
+    {
+      "begin": 1951242, 
+      "end": 2000120, 
+      "tags": null, 
+      "media": "m20131010", 
+      "content": {
+        "mimetype": "application/x-ldt-structured", 
+        "description": "Isomorphes ?\n\nb\n\na\n\nc\n\n?\n\n?\n\n?\n\n?\n\nd\n\ne\n\nh\n\ng\n\nf\nG1\n\n?\n\n?\n\n?\n\n?\n\nG2\n\n33\n\n", 
+        "img": {
+          "src": "imagecache/32.png"
+        }, 
+        "title": "Isomorphes ?", 
+        "polemics": [], 
+        "audio": {
+          "mimetype": "audio/mp3", 
+          "src": "", 
+          "href": null
+        }
+      }, 
+      "meta": {
+        "dc:contributor": "oaubert", 
+        "id-ref": "Slides", 
+        "dc:created": "2013-12-19", 
+        "dc:modified": "2013-12-19", 
+        "dc:creator": "oaubert"
+      }, 
+      "id": "a33"
+    }, 
+    {
+      "begin": 2000120, 
+      "end": 2019718, 
+      "tags": null, 
+      "media": "m20131010", 
+      "content": {
+        "mimetype": "application/x-ldt-structured", 
+        "description": "Isomorphes ?\n\nb\n\na\n\nc\n\na\n\nb\n\nc\n\nd\n\nd\n\ne\n\nh\n\ng\n\nf\nG1\n\ne\n\nf\n\ng\n\nh\n\nG2\n\n34\n\n", 
+        "img": {
+          "src": "imagecache/33.png"
+        }, 
+        "title": "Isomorphes ?", 
+        "polemics": [], 
+        "audio": {
+          "mimetype": "audio/mp3", 
+          "src": "", 
+          "href": null
+        }
+      }, 
+      "meta": {
+        "dc:contributor": "oaubert", 
+        "id-ref": "Slides", 
+        "dc:created": "2013-12-19", 
+        "dc:modified": "2013-12-19", 
+        "dc:creator": "oaubert"
+      }, 
+      "id": "a34"
+    }, 
+    {
+      "begin": 2019718, 
+      "end": 2105074, 
+      "tags": null, 
+      "media": "m20131010", 
+      "content": {
+        "mimetype": "application/x-ldt-structured", 
+        "description": "L\u2019isomorphisme de graphes\n\nl Deux graphes sont isomorphes si on peut\nr\u00e9\u00e9tiqueter les sommets de l\u2019un pour\nobtenir l\u2019autre\nl V\u00e9rifier si deux graphes sont isomorphes\nest un probl\u00e8me difficile\n\n35\n\n", 
+        "img": {
+          "src": "imagecache/34.png"
+        }, 
+        "title": "L\u2019isomorphisme de graphes", 
+        "polemics": [], 
+        "audio": {
+          "mimetype": "audio/mp3", 
+          "src": "", 
+          "href": null
+        }
+      }, 
+      "meta": {
+        "dc:contributor": "oaubert", 
+        "id-ref": "Slides", 
+        "dc:created": "2013-12-19", 
+        "dc:modified": "2013-12-19", 
+        "dc:creator": "oaubert"
+      }, 
+      "id": "a35"
+    }, 
+    {
+      "begin": 2105074, 
+      "end": 2117659, 
+      "tags": null, 
+      "media": "m20131010", 
+      "content": {
+        "mimetype": "application/x-ldt-structured", 
+        "description": "Pourquoi utiliser des graphes ?\n\nl Peuvent \u00eatre adapt\u00e9s \u00e0 de nombreuses\nsituations\nl En mod\u00e9lisation, des objets essentiels\n\n36\n\n", 
+        "img": {
+          "src": "imagecache/35.png"
+        }, 
+        "title": "Pourquoi utiliser des graphes ?", 
+        "polemics": [], 
+        "audio": {
+          "mimetype": "audio/mp3", 
+          "src": "", 
+          "href": null
+        }
+      }, 
+      "meta": {
+        "dc:contributor": "oaubert", 
+        "id-ref": "Slides", 
+        "dc:created": "2013-12-19", 
+        "dc:modified": "2013-12-19", 
+        "dc:creator": "oaubert"
+      }, 
+      "id": "a36"
+    }, 
+    {
+      "begin": 2117659, 
+      "end": 2142853, 
+      "tags": null, 
+      "media": "m20131010", 
+      "content": {
+        "mimetype": "application/x-ldt-structured", 
+        "description": "Graphes et chimie\n\n37\n\n", 
+        "img": {
+          "src": "imagecache/36.png"
+        }, 
+        "title": "Graphes et chimie", 
+        "polemics": [], 
+        "audio": {
+          "mimetype": "audio/mp3", 
+          "src": "", 
+          "href": null
+        }
+      }, 
+      "meta": {
+        "dc:contributor": "oaubert", 
+        "id-ref": "Slides", 
+        "dc:created": "2013-12-19", 
+        "dc:modified": "2013-12-19", 
+        "dc:creator": "oaubert"
+      }, 
+      "id": "a37"
+    }, 
+    {
+      "begin": 2142853, 
+      "end": 2160709, 
+      "tags": null, 
+      "media": "m20131010", 
+      "content": {
+        "mimetype": "application/x-ldt-structured", 
+        "description": "Graphes de Delaunay\n\nTous droits r\u00e9serv\u00e9s par Scays\n\n38\n\n", 
+        "img": {
+          "src": "imagecache/37.png"
+        }, 
+        "title": "Graphes de Delaunay", 
+        "polemics": [], 
+        "audio": {
+          "mimetype": "audio/mp3", 
+          "src": "", 
+          "href": null
+        }
+      }, 
+      "meta": {
+        "dc:contributor": "oaubert", 
+        "id-ref": "Slides", 
+        "dc:created": "2013-12-19", 
+        "dc:modified": "2013-12-19", 
+        "dc:creator": "oaubert"
+      }, 
+      "id": "a38"
+    }, 
+    {
+      "begin": 2160709, 
+      "end": 2182280, 
+      "tags": null, 
+      "media": "m20131010", 
+      "content": {
+        "mimetype": "application/x-ldt-structured", 
+        "description": " \n/\ne\nb\n.\ns\nn\no\ni\nt\nc\nu\nd\no\nr\np\no\nr\nu\ne\nn\n.\nw\nw\nw\n\n39\n\n", 
+        "img": {
+          "src": "imagecache/38.png"
+        }, 
+        "title": "3D", 
+        "polemics": [], 
+        "audio": {
+          "mimetype": "audio/mp3", 
+          "src": "", 
+          "href": null
+        }
+      }, 
+      "meta": {
+        "dc:contributor": "oaubert", 
+        "id-ref": "Slides", 
+        "dc:created": "2013-12-19", 
+        "dc:modified": "2013-12-19", 
+        "dc:creator": "oaubert"
+      }, 
+      "id": "a39"
+    }, 
+    {
+      "begin": 2182280, 
+      "end": 2184301, 
+      "tags": null, 
+      "media": "m20131010", 
+      "content": {
+        "mimetype": "application/x-ldt-structured", 
+        "description": "l\n\nCertains droits r\u00e9serv\u00e9s par fdecomite @flickr\n\n40\n\n", 
+        "img": {
+          "src": "imagecache/39.png"
+        }, 
+        "title": "3D", 
+        "polemics": [], 
+        "audio": {
+          "mimetype": "audio/mp3", 
+          "src": "", 
+          "href": null
+        }
+      }, 
+      "meta": {
+        "dc:contributor": "oaubert", 
+        "id-ref": "Slides", 
+        "dc:created": "2013-12-19", 
+        "dc:modified": "2013-12-19", 
+        "dc:creator": "oaubert"
+      }, 
+      "id": "a40"
+    }, 
+    {
+      "begin": 2184301, 
+      "end": 2232668, 
+      "tags": null, 
+      "media": "m20131010", 
+      "content": {
+        "mimetype": "application/x-ldt-structured", 
+        "description": "Les graphes\n\nl Les graphes permettent de mod\u00e9liser :\nl des images\nl des mol\u00e9cules\nl des r\u00e9seaux sociaux\nl des sites web\nl \u2026\n\n41\n\n", 
+        "img": {
+          "src": "imagecache/40.png"
+        }, 
+        "title": "Les graphes", 
+        "polemics": [], 
+        "audio": {
+          "mimetype": "audio/mp3", 
+          "src": "", 
+          "href": null
+        }
+      }, 
+      "meta": {
+        "dc:contributor": "oaubert", 
+        "id-ref": "Slides", 
+        "dc:created": "2013-12-19", 
+        "dc:modified": "2013-12-19", 
+        "dc:creator": "oaubert"
+      }, 
+      "id": "a41"
+    }, 
+    {
+      "begin": 2232668, 
+      "end": 2286631, 
+      "tags": null, 
+      "media": "m20131010", 
+      "content": {
+        "mimetype": "application/x-ldt-structured", 
+        "description": "5 Exemple de graphe-r\u00e9seau social\nl On veut repr\u00e9senter les interactions d\u2019un\nr\u00e9seau social de 5 membres qui se font\nconfiance ou pas.\nl On sait que\nl Alfred ne fait confiance \u00e0 personne\nl Bea fait confiance \u00e0 Charles et Didier\nl Charles fait confiance \u00e0 Alfred\nl Didier fait confiance \u00e0 Erwan et lui-m\u00eame\nl Erwan fait confiance \u00e0 Bea\n\n42\n\n", 
+        "img": {
+          "src": "imagecache/41.png"
+        }, 
+        "title": "5 Exemple de graphe-r\u00e9seau social", 
+        "polemics": [], 
+        "audio": {
+          "mimetype": "audio/mp3", 
+          "src": "", 
+          "href": null
+        }
+      }, 
+      "meta": {
+        "dc:contributor": "oaubert", 
+        "id-ref": "Slides", 
+        "dc:created": "2013-12-19", 
+        "dc:modified": "2013-12-19", 
+        "dc:creator": "oaubert"
+      }, 
+      "id": "a42"
+    }, 
+    {
+      "begin": 2286631, 
+      "end": 2303860, 
+      "tags": null, 
+      "media": "m20131010", 
+      "content": {
+        "mimetype": "application/x-ldt-structured", 
+        "description": "Notations\nl Le groupe est not\u00e9 E\nl Les membres sont not\u00e9s a,b,c,d,e\nl Donc E={a,b,c,d,e}\n\n43\n\n", 
+        "img": {
+          "src": "imagecache/42.png"
+        }, 
+        "title": "Notations", 
+        "polemics": [], 
+        "audio": {
+          "mimetype": "audio/mp3", 
+          "src": "", 
+          "href": null
+        }
+      }, 
+      "meta": {
+        "dc:contributor": "oaubert", 
+        "id-ref": "Slides", 
+        "dc:created": "2013-12-19", 
+        "dc:modified": "2013-12-19", 
+        "dc:creator": "oaubert"
+      }, 
+      "id": "a43"
+    }, 
+    {
+      "begin": 2303860, 
+      "end": 2363303, 
+      "tags": null, 
+      "media": "m20131010", 
+      "content": {
+        "mimetype": "application/x-ldt-structured", 
+        "description": "Fait_confiance est une relation.\nl Elle est compos\u00e9e de paires*\nl Fait_confiance=\n{(b,c),(b,d),(c,a),(d,d),(d,e),(e,b)}\nl On notera (b,c)\u02dbFait_confiance\n\n* Ou couples pour les math\u00e9maticiens\n\n44\n\n", 
+        "img": {
+          "src": "imagecache/43.png"
+        }, 
+        "title": "Fait_confiance", 
+        "polemics": [], 
+        "audio": {
+          "mimetype": "audio/mp3", 
+          "src": "", 
+          "href": null
+        }
+      }, 
+      "meta": {
+        "dc:contributor": "oaubert", 
+        "id-ref": "Slides", 
+        "dc:created": "2013-12-19", 
+        "dc:modified": "2013-12-19", 
+        "dc:creator": "oaubert"
+      }, 
+      "id": "a44"
+    }, 
+    {
+      "begin": 2363303, 
+      "end": 2436330, 
+      "tags": null, 
+      "media": "m20131010", 
+      "content": {
+        "mimetype": "application/x-ldt-structured", 
+        "description": "l On notera aussi\n(x,b)\u02dbFait_confiance\nindiquer\npour\nquelqu\u2019un (inconnu) a confiance en Bea\n\nque\n\n{x\u02dbE : (x,b)\u02dbFait_confiance} pour l\u2019ensemble\ndes gens qui ont confiance en Bea\n\n{x\u02dbE : (a,x)\u02dbFait_confiance} pour l\u2019ensemble\ndes gens en qui Alfred a confiance\n\n45\n\n", 
+        "img": {
+          "src": "imagecache/44.png"
+        }, 
+        "title": "Notations", 
+        "polemics": [], 
+        "audio": {
+          "mimetype": "audio/mp3", 
+          "src": "", 
+          "href": null
+        }
+      }, 
+      "meta": {
+        "dc:contributor": "oaubert", 
+        "id-ref": "Slides", 
+        "dc:created": "2013-12-19", 
+        "dc:modified": "2013-12-19", 
+        "dc:creator": "oaubert"
+      }, 
+      "id": "a45"
+    }, 
+    {
+      "begin": 2436330, 
+      "end": 2500556, 
+      "tags": null, 
+      "media": "m20131010", 
+      "content": {
+        "mimetype": "application/x-ldt-structured", 
+        "description": "On d\u00e9finira avantageusement fait_confiance par une table\n\nFait_conf iance= \n{(b,c),(b,d),(c,a),\n(d,d),(d,e),(e,b)}\n\na\n\nF\n\nF\n\nV\n\nF\n\nF\n\nb\n\nF\n\nF\n\nF\n\nF\n\nV\n\nc\n\nF\n\nV\n\nF\n\nF\n\nF\n\nd\n\nF\n\nV\n\nF\n\nV\n\nF\n\na\n\nb\n\nc\n\nd\n\ne\n\ne\n\nF\n\nF\n\nF\n\nV\n\nF\n\n46\n\n", 
+        "img": {
+          "src": "imagecache/45.png"
+        }, 
+        "title": "Repr\u00e9sentation tabulaire", 
+        "polemics": [], 
+        "audio": {
+          "mimetype": "audio/mp3", 
+          "src": "", 
+          "href": null
+        }
+      }, 
+      "meta": {
+        "dc:contributor": "oaubert", 
+        "id-ref": "Slides", 
+        "dc:created": "2013-12-19", 
+        "dc:modified": "2013-12-19", 
+        "dc:creator": "oaubert"
+      }, 
+      "id": "a46"
+    }, 
+    {
+      "begin": 2500556, 
+      "end": 2555634, 
+      "tags": null, 
+      "media": "m20131010", 
+      "content": {
+        "mimetype": "application/x-ldt-structured", 
+        "description": "La table pourra aussi \u00eatre un autre objet math\u00e9matique : la matrice\n\na\n\nb\n\nc\n\nd\n\ne\n\na\n\nb\n\nc\n\nd\n\ne\n\nV\n\nV\n\nV\n\nV\n\nV\n\nV\n\n0\n\n0\n\n1\n\n0\n\n0\n\n0\n\n0\n\n0\n\n0\n\n1\n\n0\n\n1\n\n0\n\n0\n\n0\n\n0\n\n1\n\n0\n\n1\n\n0\n\n0\n\n0\n\n0\n\n1\n\n0\n\n47\n\n", 
+        "img": {
+          "src": "imagecache/46.png"
+        }, 
+        "title": "Matrice", 
+        "polemics": [], 
+        "audio": {
+          "mimetype": "audio/mp3", 
+          "src": "", 
+          "href": null
+        }
+      }, 
+      "meta": {
+        "dc:contributor": "oaubert", 
+        "id-ref": "Slides", 
+        "dc:created": "2013-12-19", 
+        "dc:modified": "2013-12-19", 
+        "dc:creator": "oaubert"
+      }, 
+      "id": "a47"
+    }, 
+    {
+      "begin": 2555634, 
+      "end": 2614218, 
+      "tags": null, 
+      "media": "m20131010", 
+      "content": {
+        "mimetype": "application/x-ldt-structured", 
+        "description": "Lien entre table et graphe\n\ne\n\nb\n\nd\n\nc\n\na\n\na\n\na\nb V\nc V\nd\ne\n\nb\nV\n\nV\n\nc\n\nd\n\ne\n\nV V\n\nV V\n\n48\n\n", 
+        "img": {
+          "src": "imagecache/47.png"
+        }, 
+        "title": "Lien entre table et graphe", 
+        "polemics": [], 
+        "audio": {
+          "mimetype": "audio/mp3", 
+          "src": "", 
+          "href": null
+        }
+      }, 
+      "meta": {
+        "dc:contributor": "oaubert", 
+        "id-ref": "Slides", 
+        "dc:created": "2013-12-19", 
+        "dc:modified": "2013-12-19", 
+        "dc:creator": "oaubert"
+      }, 
+      "id": "a48"
+    }, 
+    {
+      "begin": 2614218, 
+      "end": 2717082, 
+      "tags": null, 
+      "media": "m20131010", 
+      "content": {
+        "mimetype": "application/x-ldt-structured", 
+        "description": "Une relation\n\nest un ensemble de paires\n\nl Elle peut* \u00eatre repr\u00e9sent\u00e9e par une table,\npar une matrice ou par un graphe\nl Les\ntrois\nrepr\u00e9sentations\nsont\n\u00e9quivalentes, mais dans chaque cas un\nvocabulaire adapt\u00e9 sera utilis\u00e9\n\n* Si la relation est finie\n\n49\n\n", 
+        "img": {
+          "src": "imagecache/48.png"
+        }, 
+        "title": "Une relation", 
+        "polemics": [], 
+        "audio": {
+          "mimetype": "audio/mp3", 
+          "src": "", 
+          "href": null
+        }
+      }, 
+      "meta": {
+        "dc:contributor": "oaubert", 
+        "id-ref": "Slides", 
+        "dc:created": "2013-12-19", 
+        "dc:modified": "2013-12-19", 
+        "dc:creator": "oaubert"
+      }, 
+      "id": "a49"
+    }, 
+    {
+      "begin": 2717082, 
+      "end": 2777315, 
+      "tags": null, 
+      "media": "m20131010", 
+      "content": {
+        "mimetype": "application/x-ldt-structured", 
+        "description": "6 Un langage pour parler des relations\n\nl Les gens qui n\u2019ont effectu\u00e9 aucun achat\nl Les personnes qui ont le plus achet\u00e9\nl Les personnes qui\nsont acheteurs et\nvendeurs\n\n50\n\n", 
+        "img": {
+          "src": "imagecache/49.png"
+        }, 
+        "title": "6 Un langage pour parler des relations", 
+        "polemics": [], 
+        "audio": {
+          "mimetype": "audio/mp3", 
+          "src": "", 
+          "href": null
+        }
+      }, 
+      "meta": {
+        "dc:contributor": "oaubert", 
+        "id-ref": "Slides", 
+        "dc:created": "2013-12-19", 
+        "dc:modified": "2013-12-19", 
+        "dc:creator": "oaubert"
+      }, 
+      "id": "a50"
+    }, 
+    {
+      "begin": 2777315, 
+      "end": 2819552, 
+      "tags": null, 
+      "media": "m20131010", 
+      "content": {
+        "mimetype": "application/x-ldt-structured", 
+        "description": "Que veut-on ?\nl Un langage non ambigu\nl Un langage (assez) simple\nl Un langage (assez) expressif\nl Un langage pouvant \u00eatre interpr\u00e9t\u00e9 par une\nmachine\n\nl Soit la logique des pr\u00e9dicats\n\n51\n\n", 
+        "img": {
+          "src": "imagecache/50.png"
+        }, 
+        "title": "Que veut-on ?", 
+        "polemics": [], 
+        "audio": {
+          "mimetype": "audio/mp3", 
+          "src": "", 
+          "href": null
+        }
+      }, 
+      "meta": {
+        "dc:contributor": "oaubert", 
+        "id-ref": "Slides", 
+        "dc:created": "2013-12-19", 
+        "dc:modified": "2013-12-19", 
+        "dc:creator": "oaubert"
+      }, 
+      "id": "a51"
+    }, 
+    {
+      "begin": 2819552, 
+      "end": 2887169, 
+      "tags": null, 
+      "media": "m20131010", 
+      "content": {
+        "mimetype": "application/x-ldt-structured", 
+        "description": "La logique du premier ordre\nl On pourra utiliser les op\u00e9rateurs\nl (cid:217) (et), (cid:218) (ou), (cid:216) (non)\nl Les quantificateurs\nl Quelque soit \"\nl Il existe $\nl L\u2019appartenance \u02db\u02c7\nl L\u2019implication (cid:222)\n\n52\n\n", 
+        "img": {
+          "src": "imagecache/51.png"
+        }, 
+        "title": "La logique du premier ordre", 
+        "polemics": [], 
+        "audio": {
+          "mimetype": "audio/mp3", 
+          "src": "", 
+          "href": null
+        }
+      }, 
+      "meta": {
+        "dc:contributor": "oaubert", 
+        "id-ref": "Slides", 
+        "dc:created": "2013-12-19", 
+        "dc:modified": "2013-12-19", 
+        "dc:creator": "oaubert"
+      }, 
+      "id": "a52"
+    }, 
+    {
+      "begin": 2887169, 
+      "end": 2929313, 
+      "tags": null, 
+      "media": "m20131010", 
+      "content": {
+        "mimetype": "application/x-ldt-structured", 
+        "description": "On pourra d\u00e9finir des \nensembles par des formules \ndu premier ordre\n\nl {x\u02dbA : \"y\u02dbA (x,y)\u02dbR}\nl {x\u02dbA : $y\u02dbA (x,y)\u02dbR}\nl {x\u02dbA : (x,y)\u02dbR (cid:222) (y,x)\u02dbR}\n\n53\n\n", 
+        "img": {
+          "src": "imagecache/52.png"
+        }, 
+        "title": "Formules du premier ordre", 
+        "polemics": [], 
+        "audio": {
+          "mimetype": "audio/mp3", 
+          "src": "", 
+          "href": null
+        }
+      }, 
+      "meta": {
+        "dc:contributor": "oaubert", 
+        "id-ref": "Slides", 
+        "dc:created": "2013-12-19", 
+        "dc:modified": "2013-12-19", 
+        "dc:creator": "oaubert"
+      }, 
+      "id": "a53"
+    }, 
+    {
+      "begin": 2929313, 
+      "end": 2968485, 
+      "tags": null, 
+      "media": "m20131010", 
+      "content": {
+        "mimetype": "application/x-ldt-structured", 
+        "description": "Notation usuelle\nL\u2019ensemble dans lequel on \nchoisit x\nl {x\u02dbA : P(x)}\n\nLa propri\u00e9t\u00e9 sur x qui doit \n\u00eatre v\u00e9rifi\u00e9e\n\nl Si le premier quantificateur de la propri\u00e9t\u00e9\nla propri\u00e9t\u00e9 est universelle. Si\nest\n\"\nc\u2019est $ la propri\u00e9t\u00e9 est dite existentielle.\n54\n\n", 
+        "img": {
+          "src": "imagecache/53.png"
+        }, 
+        "title": "Notation usuelle", 
+        "polemics": [], 
+        "audio": {
+          "mimetype": "audio/mp3", 
+          "src": "", 
+          "href": null
+        }
+      }, 
+      "meta": {
+        "dc:contributor": "oaubert", 
+        "id-ref": "Slides", 
+        "dc:created": "2013-12-19", 
+        "dc:modified": "2013-12-19", 
+        "dc:creator": "oaubert"
+      }, 
+      "id": "a54"
+    }, 
+    {
+      "begin": 2968485, 
+      "end": 3078919, 
+      "tags": null, 
+      "media": "m20131010", 
+      "content": {
+        "mimetype": "application/x-ldt-structured", 
+        "description": "Exemple (suite)\n{x\u02dbE : (x,b)\u02dbFait_confiance}\nl\u2019ensemble des gens qui ont confiance en Bea\n\n{x\u02dbE : (b,x)\u02dbFait_confiance}\nl\u2019ensemble des gens en qui Bea a confiance\n\n{x\u02dbE : (x,b)\u02dbFait_confiance (cid:217)\n(b,x)\u02dbFait_confiance} \nl\u2019ensemble des gens en qui Bea a confiance et qui\nont confiance en Bea\n55\n\n", 
+        "img": {
+          "src": "imagecache/54.png"
+        }, 
+        "title": "Exemple (suite)", 
+        "polemics": [], 
+        "audio": {
+          "mimetype": "audio/mp3", 
+          "src": "", 
+          "href": null
+        }
+      }, 
+      "meta": {
+        "dc:contributor": "oaubert", 
+        "id-ref": "Slides", 
+        "dc:created": "2013-12-19", 
+        "dc:modified": "2013-12-19", 
+        "dc:creator": "oaubert"
+      }, 
+      "id": "a55"
+    }, 
+    {
+      "begin": 3078919, 
+      "end": 3210599, 
+      "tags": null, 
+      "media": "m20131010", 
+      "content": {
+        "mimetype": "application/x-ldt-structured", 
+        "description": "Solution graphique\n\ne\n\nb\n\nd\n\nc\n\na\n\na\n\na\nb V\nc V\nd\ne\n\nb\nV\n\nV\n\nc\n\nd\n\ne\n\nV V\n\nV V\n\n56\n\n", 
+        "img": {
+          "src": "imagecache/55.png"
+        }, 
+        "title": "Solution graphique", 
+        "polemics": [], 
+        "audio": {
+          "mimetype": "audio/mp3", 
+          "src": "", 
+          "href": null
+        }
+      }, 
+      "meta": {
+        "dc:contributor": "oaubert", 
+        "id-ref": "Slides", 
+        "dc:created": "2013-12-19", 
+        "dc:modified": "2013-12-19", 
+        "dc:creator": "oaubert"
+      }, 
+      "id": "a56"
+    }, 
+    {
+      "begin": 3210599, 
+      "end": 3265677, 
+      "tags": null, 
+      "media": "m20131010", 
+      "content": {
+        "mimetype": "application/x-ldt-structured", 
+        "description": "Exemple (suite)\n{x\u02dbE : $y\u02dbE (x,y)\u02dbFait_confiance (cid:217)\n(y,x)\u02dbFait_confiance }\n\nL\u2019ensemble des personnes qui ont confiance\nen quelqu\u2019un qui a confiance en eux\n\n57\n\n", 
+        "img": {
+          "src": "imagecache/56.png"
+        }, 
+        "title": "Exemple (suite)", 
+        "polemics": [], 
+        "audio": {
+          "mimetype": "audio/mp3", 
+          "src": "", 
+          "href": null
+        }
+      }, 
+      "meta": {
+        "dc:contributor": "oaubert", 
+        "id-ref": "Slides", 
+        "dc:created": "2013-12-19", 
+        "dc:modified": "2013-12-19", 
+        "dc:creator": "oaubert"
+      }, 
+      "id": "a57"
+    }, 
+    {
+      "begin": 3265677, 
+      "end": 3294540, 
+      "tags": null, 
+      "media": "m20131010", 
+      "content": {
+        "mimetype": "application/x-ldt-structured", 
+        "description": "Solution {a, b, d}\n\ne\n\nb\n\nd\n\nc\n\na\n\na\n\na\nb V\nc V\nd\ne\n\nb\nV\n\nV\n\nc\n\nd\n\ne\n\nV V\n\nV V\n\n58\n\n", 
+        "img": {
+          "src": "imagecache/57.png"
+        }, 
+        "title": "Solution {a, b, d}", 
+        "polemics": [], 
+        "audio": {
+          "mimetype": "audio/mp3", 
+          "src": "", 
+          "href": null
+        }
+      }, 
+      "meta": {
+        "dc:contributor": "oaubert", 
+        "id-ref": "Slides", 
+        "dc:created": "2013-12-19", 
+        "dc:modified": "2013-12-19", 
+        "dc:creator": "oaubert"
+      }, 
+      "id": "a58"
+    }, 
+    {
+      "begin": 3294540, 
+      "end": 3365825, 
+      "tags": null, 
+      "media": "m20131010", 
+      "content": {
+        "mimetype": "application/x-ldt-structured", 
+        "description": "Exemple (suite)\n{x\u02dbE : |{y\u02dbE : (y,x)\u02dbFait_confiance}|\u20212 }\n\nL\u2019ensemble des personnes qui ont au moins\ndeux personnes qui leur font confiance\n\nRemarque : |A| est le cardinal de l\u2019ensemble A\n\n59\n\n", 
+        "img": {
+          "src": "imagecache/58.png"
+        }, 
+        "title": "Exemple (suite)", 
+        "polemics": [], 
+        "audio": {
+          "mimetype": "audio/mp3", 
+          "src": "", 
+          "href": null
+        }
+      }, 
+      "meta": {
+        "dc:contributor": "oaubert", 
+        "id-ref": "Slides", 
+        "dc:created": "2013-12-19", 
+        "dc:modified": "2013-12-19", 
+        "dc:creator": "oaubert"
+      }, 
+      "id": "a59"
+    }, 
+    {
+      "begin": 3365825, 
+      "end": 3414825, 
+      "tags": null, 
+      "media": "m20131010", 
+      "content": {
+        "mimetype": "application/x-ldt-structured", 
+        "description": "Solution={a,b,d}\n\ne\n\nb\n\nd\n\nc\n\na\n\na\n\na\nb V\nc V\nd\ne\n\nb\nV\n\nV\n\nc\n\nd\n\ne\n\nV V\n\nV V\n\n60\n\n", 
+        "img": {
+          "src": "imagecache/59.png"
+        }, 
+        "title": "Solution={a,b,d}", 
+        "polemics": [], 
+        "audio": {
+          "mimetype": "audio/mp3", 
+          "src": "", 
+          "href": null
+        }
+      }, 
+      "meta": {
+        "dc:contributor": "oaubert", 
+        "id-ref": "Slides", 
+        "dc:created": "2013-12-19", 
+        "dc:modified": "2013-12-19", 
+        "dc:creator": "oaubert"
+      }, 
+      "id": "a60"
+    }, 
+    {
+      "begin": 3414825, 
+      "end": 3481716, 
+      "tags": null, 
+      "media": "m20131010", 
+      "content": {
+        "mimetype": "application/x-ldt-structured", 
+        "description": "Exemple (suite)\n{x\u02dbE : (b,x)\u02dbFait_confiance  (cid:222)\n(c,x)\u02dbFait_confiance }\n\nLes personnes en qui, si Bea a confiance, \nalors Charles aussi\n\n61\n\n", 
+        "img": {
+          "src": "imagecache/60.png"
+        }, 
+        "title": "Exemple (suite)", 
+        "polemics": [], 
+        "audio": {
+          "mimetype": "audio/mp3", 
+          "src": "", 
+          "href": null
+        }
+      }, 
+      "meta": {
+        "dc:contributor": "oaubert", 
+        "id-ref": "Slides", 
+        "dc:created": "2013-12-19", 
+        "dc:modified": "2013-12-19", 
+        "dc:creator": "oaubert"
+      }, 
+      "id": "a61"
+    }, 
+    {
+      "begin": 3481716, 
+      "end": 3632854, 
+      "tags": null, 
+      "media": "m20131010", 
+      "content": {
+        "mimetype": "application/x-ldt-structured", 
+        "description": "Solution={a,b,d,e}\n\ne\n\nb\n\nd\n\nc\n\n{x\u02dbE : \n(b,x)\u02dbFait_confiance  (cid:222)\n(c,x)\u02dbFait_confiance }\n\na\n\n62\n\n", 
+        "img": {
+          "src": "imagecache/61.png"
+        }, 
+        "title": "Solution={a,b,d,e}", 
+        "polemics": [], 
+        "audio": {
+          "mimetype": "audio/mp3", 
+          "src": "", 
+          "href": null
+        }
+      }, 
+      "meta": {
+        "dc:contributor": "oaubert", 
+        "id-ref": "Slides", 
+        "dc:created": "2013-12-19", 
+        "dc:modified": "2013-12-19", 
+        "dc:creator": "oaubert"
+      }, 
+      "id": "a62"
+    }, 
+    {
+      "begin": 3632854, 
+      "end": 3800363, 
+      "tags": null, 
+      "media": "m20131010", 
+      "content": {
+        "mimetype": "application/x-ldt-structured", 
+        "description": "La logique du premier ordre\n\nl Permet de d\u00e9finir des propri\u00e9t\u00e9s\nl Repose sur le calcul bool\u00e9en\nl Les quantificateurs permettent de dire si\nla propri\u00e9t\u00e9 s\u2019applique \u00e0 tous ou \u00e0 au moins\nun \u00e9l\u00e9ment\n\n63\n\n", 
+        "img": {
+          "src": "imagecache/62.png"
+        }, 
+        "title": "La logique du premier ordre", 
+        "polemics": [], 
+        "audio": {
+          "mimetype": "audio/mp3", 
+          "src": "", 
+          "href": null
+        }
+      }, 
+      "meta": {
+        "dc:contributor": "oaubert", 
+        "id-ref": "Slides", 
+        "dc:created": "2013-12-19", 
+        "dc:modified": "2013-12-19", 
+        "dc:creator": "oaubert"
+      }, 
+      "id": "a63"
+    }, 
+    {
+      "begin": 3800363, 
+      "end": 3921919, 
+      "tags": null, 
+      "media": "m20131010", 
+      "content": {
+        "mimetype": "application/x-ldt-structured", 
+        "description": "Autres exemples\nl Les gens qui ont confiance en exactement\ndeux personnes\nl Un groupe le plus grand possible tel que\ntout le monde a confiance en tout le monde\nl Les personnes en qui les gens ont le plus\nconfiance\n\n64\n\n", 
+        "img": {
+          "src": "imagecache/63.png"
+        }, 
+        "title": "Autres exemples", 
+        "polemics": [], 
+        "audio": {
+          "mimetype": "audio/mp3", 
+          "src": "", 
+          "href": null
+        }
+      }, 
+      "meta": {
+        "dc:contributor": "oaubert", 
+        "id-ref": "Slides", 
+        "dc:created": "2013-12-19", 
+        "dc:modified": "2013-12-19", 
+        "dc:creator": "oaubert"
+      }, 
+      "id": "a64"
+    }
+  ], 
+  "annotation-types": [
+    {
+      "dc:contributor": "oaubert", 
+      "dc:creator": "oaubert", 
+      "dc:title": "Slides", 
+      "id": "Slides", 
+      "dc:modified": "2013-12-19", 
+      "dc:created": "2013-12-19", 
+      "dc:description": ""
+    }, 
+    {
+      "dc:contributor": "advene", 
+      "dc:creator": "advene", 
+      "dc:title": "Text annotation", 
+      "id": "annotation", 
+      "dc:modified": "2004-06-30", 
+      "dc:created": "2004-06-30", 
+      "dc:description": ""
+    }, 
+    {
+      "dc:contributor": "oaubert", 
+      "dc:creator": "oaubert", 
+      "dc:title": "Contributions", 
+      "dc:description": "Personal user contribution", 
+      "dc:created": "2013-12-19", 
+      "id": "at_contributions", 
+      "dc:modified": "2013-12-19"
+    }
+  ]
+}

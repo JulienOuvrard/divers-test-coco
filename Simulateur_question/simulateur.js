@@ -10,7 +10,7 @@ function cleaningText(str){
     return str.toLowerCase()
                 .replace(//g," ")
                 .replace(/\n/g," ")
-                .replace(/[\.,-\/#!$%\^&\*;:{}=\-_`~()\?@]/g," ")
+                .replace(/[\.,-\/#!$%\^&\*;:{}=\-_`~()\?@""]/g," ")
                 .replace(/[\d]/g," ");
 }
 
@@ -88,12 +88,16 @@ function generate(tab,nombre,longMin,longMax,nbRepMin,nbRepMax){
        var obj_ap = tab[idx+1];
        var time = generateTime(obj);
        var mots; 
-       var t1 = obj.texte, t2 = obj_av.texte, t3 = obj_ap.texte;
-       if(idx > 0 && idx < tab.length){
+       var t1 = obj.texte, t2, t3;
+       if(idx > 0 && idx < tab.length - 1){
+           t2 = tab[idx-1].texte;
+           t3 = tab[idx+1].texte;
            mots = t2.concat(t1).concat(t3);
        }else if (idx == 0){
-           mots = t1.concat(t3);
+           t2 = tab[idx+1].texte;
+           mots = t1.concat(t2);
        }else{
+           t2=tab[idx-1].texte;
            mots = t1.concat(t2);
        }
        var quest =  generateQuestion(mots,longMin,longMax,nbRepMin,nbRepMax);
@@ -114,9 +118,10 @@ function main(d1,d2,d3){
     filtering(donnees,stopwords_fr);
     //console.table(donnees);
     
-    var questions =  generate(donnees,40,5,10,2,5);
-    console.table(questions);
+    var questions =  generate(donnees,50,5,10,2,5);
+    //console.table(questions);
     
+    localStorage.setItem('questions', JSON.stringify(questions));
 }
 
 $.when($.get("stop-words_french_1_fr.txt"), $.get("stop-words_french_2_fr.txt"), $.get("data.json"))

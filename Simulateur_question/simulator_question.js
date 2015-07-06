@@ -1,5 +1,24 @@
+function generateUid () {
+      return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
+          var r = Math.random()*16|0, v = c === 'x' ? r : (r&0x3|0x8);
+          return v.toString(16);
+      });
+}
+        
 function pickRandomNumber(min,max){
     return Math.floor(Math.random() * (max - min)) + min;
+}
+
+function arrayUnique(array) {
+    var a = array.concat();
+    for(var i=0; i<a.length; ++i) {
+        for(var j=i+1; j<a.length; ++j) {
+            if(a[i] === a[j])
+                a.splice(j--, 1);
+        }
+    }
+
+    return a;
 }
 
 function getStopWords(data1,data2){
@@ -31,6 +50,14 @@ function getDonnees(data){
     return ret
 }
 
+function getAllWords(data){
+    var words = [];
+    $.each(data,function(index,value){
+        words = words.concat(value.texte);
+    });
+    return arrayUnique(words);
+}
+
 function filterStopWords(str){
     return !($.inArray(str,this) > -1);
 }
@@ -55,32 +82,46 @@ function generateTime(obj){
     return pickRandomNumber(obj.deb,obj.fin);
 }
 
-function generateTxt(tab,l_min,l_max){
+function generateTxt(tab,l_min,l_max,tab_other){
+    var words;
     var txt="";
     var long = pickRandomNumber(l_min,l_max);
+    
+    if((tab_other != null || tab_other.length != 0 || tab_other != undefined) && (tab.length < long)){
+        words = tab.concat(tab_other);
+    }else{
+        words = tab;
+    }
+    
     for(var i=0; i<=long; i++){
-        var index = pickRandomNumber(0,tab.length);
-        txt+= tab[index]+" ";
+            var index = pickRandomNumber(0,words.length);
+            txt+= words[index]+" ";
     }
     return txt;
 }
 
-function generateQuestion(tab_mots,longMin,longMax,nbRepMin,nbRepMax){
+function generateQuestion(tab_mots,longMin,longMax,nbRepMin,nbRepMax,otherTab){
     var question = {};
-    var description = generateTxt(tab_mots,longMin,longMax);
-    var answers = {};
+    var enonce = generateTxt(tab_mots,longMin,longMax,otherTab);
+    var reponses = [];
     var nbRep = pickRandomNumber(nbRepMin,nbRepMax);
+    var correctRep = pickRandomNumber(0,nbRep);
     for(var i = 0; i < nbRep; i++){
-        var rep = generateTxt(tab_mots,longMin,longMax);
-        answers[i] = rep;
+        var ans = {};
+        var rep = generateTxt(tab_mots,longMin,longMax,otherTab);
+        ans.content = rep;
+        if(i == correctRep){
+            ans.correct = true;
+        }
+        reponses[i] = ans;
     }
-    question.enonce = description;
-    question.reponses = answers;
+    question.description = enonce;
+    question.answers = reponses;
     return question;
 }
 
-function generate(tab,nombre,longMin,longMax,nbRepMin,nbRepMax){
-    var retour={};
+function generate(tab,nombre,longMin,longMax,nbRepMin,nbRepMax,otherWords){
+    var retour=[];
     for(var i = 0 ; i < nombre ; i++){
        var idx = pickRandomNumber(0,tab.length);
        var obj = tab[idx];
@@ -100,12 +141,22 @@ function generate(tab,nombre,longMin,longMax,nbRepMin,nbRepMax){
            t2=tab[idx-1].texte;
            mots = t1.concat(t2);
        }
-       var quest =  generateQuestion(mots,longMin,longMax,nbRepMin,nbRepMax);
-       quest.time = time;
+       var quest= {};
+       quest.content =  generateQuestion(mots,longMin,longMax,nbRepMin,nbRepMax,otherWords);
+       quest.begin = time;
+       quest.end = time+3000;
+       quest.type = "Quizz";
+       quest.id = generateUid();
        retour[i] = quest;
     }
 
     return retour;
+}
+
+function downloadJson(data_to_dl,container,texte,filename){
+    var data = "text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(data_to_dl, null, 4));
+
+    $('<a href="data:' + data + '" download="'+filename+'.json">'+texte+'</a>').appendTo(container);
 }
 
 function main(d1,d2,d3){
@@ -118,10 +169,15 @@ function main(d1,d2,d3){
     filtering(donnees,stopwords_fr);
     //console.table(donnees);
     
-    var questions =  generate(donnees,50,5,10,2,5);
-    //console.table(questions);
+    var all_words = getAllWords(donnees);
     
-    localStorage.setItem('questions', JSON.stringify(questions));
+    var questions =  {"annotations" : generate(donnees,50,5,10,2,5,[])};
+    //console.table(questions);
+    downloadJson(questions,'#first','Télécharger les questions sans mots supplémentaire','questions');
+    
+    var questions2 = {"annotations" : generate(donnees,50,5,10,2,5,all_words)};
+    
+    downloadJson(questions2,'#second','Télécharger les questions avec mots supplémentaire','questions2');
 }
 
 $.when($.get("stop-words_french_1_fr.txt"), $.get("stop-words_french_2_fr.txt"), $.get("data.json"))

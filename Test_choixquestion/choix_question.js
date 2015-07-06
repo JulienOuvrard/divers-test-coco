@@ -1,3 +1,35 @@
+function transpose(a) {
+
+      // Calculate the width and height of the Array
+      var w = a.length ? a.length : 0,
+        h = a[0] instanceof Array ? a[0].length : 0;
+
+      // In case it is a zero matrix, no transpose routine needed.
+      if(h === 0 || w === 0) { return []; }
+
+      /**
+       * @var {Number} i Counter
+       * @var {Number} j Counter
+       * @var {Array} t Transposed data is stored in this array.
+       */
+      var i, j, t = [];
+
+      // Loop through every item in the outer array (height)
+      for(i=0; i<h; i++) {
+
+        // Insert a new row (array)
+        t[i] = [];
+
+        // Loop through every item per item in outer array (width)
+        for(j=0; j<w; j++) {
+
+          // Save transposed data.
+          t[i][j] = a[j][i];
+        }
+      }
+
+      return t;
+};
 
 var _delta_time = 10000;
 
@@ -149,19 +181,12 @@ function syntax_similarity(phrase1,phrase2){
         t1[j]=temp;
         ++j;
     })
-    
     //console.log(t1);
-    var cos = [];
-    $.each(t1, function(index, value) {
-        var temp = $.extend(true, {}, t1);
-        delete temp[index];
-        $.each(temp, function(index2, value2) {
-            //console.log(cosine(value,value2));
-            cos.push(cosine(value,value2));
-        });
-    }); 
-    console.log(cos);
-    //return {p1,p2,t1};
+    
+    var t2 = transpose(t1);
+    //console.log(cosine(t2[0],t2[1]));
+    
+    return cosine(t2[0],t2[1]);
 }
 
 function time_similarity(q1,q2){
@@ -198,24 +223,17 @@ function getData(data1,data2){
     enonces = getEnonce(data2[0]);
     //console.log(enonces);
     
-    //$("#content").append("<ul>");
     $.each(time, function(index, value) {
-        //$("#content").append("<li>"+index+" : ");
         var temp = $.extend(true, {}, time);
         delete temp[index];
         $.each(temp, function(index2, value2) {
-            if(time_similarity(index,index2)){
-                //$("#content").append("<ul><li>"+index2+"</li></ul>");
+            /*if(time_similarity(index,index2)){
                 console.log(index2);
-            }
-            /*if(syntax_similarity(enonces[index],enonces[index2])){
-                console.log(enonces[index]+' | '+enonces[index2]);
             }*/
-            syntax_similarity(enonces[index],enonces[index2]);
+            console.log(enonces[index]+"  "+enonces[index2]);
+            console.log(syntax_similarity(enonces[index],enonces[index2]));
         });
-        //$("#content").append("</li>")
-    }); 
-    //$("#content").append("</ul>");
+    });
     
 
 };
@@ -223,4 +241,4 @@ function getData(data1,data2){
 //url_analytics : http://comin-ocw.org/devpf/api/analytics/
 //url_data : http://comin-ocw.org/devpf/api/annotations/
 
-$.when($.get("analytics.json"), $.get("data.json")).done(function(dat1,dat2){getData(dat1,dat2)});
+$.when($.get("answers.json"), $.get("questions.json")).done(function(dat1,dat2){getData(dat1,dat2)});

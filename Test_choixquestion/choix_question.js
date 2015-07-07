@@ -190,7 +190,7 @@ function syntax_similarity(phrase1,phrase2){
 }
 
 function time_similarity(q1,q2){
-    return (Math.abs((time[q1] - time[q2])) < _delta_time);
+    return Math.abs((time[q1] - time[q2]));
 }
 
 function getData(data1,data2){
@@ -227,11 +227,9 @@ function getData(data1,data2){
         var temp = $.extend(true, {}, time);
         delete temp[index];
         $.each(temp, function(index2, value2) {
-            /*if(time_similarity(index,index2)){
-                console.log(index2);
-            }*/
-            console.log(enonces[index]+"  "+enonces[index2]);
-            console.log(syntax_similarity(enonces[index],enonces[index2]));
+            console.log(enonces[index]+" | "+enonces[index2]);
+            console.log("time gap : "+time_similarity(index,index2));
+            console.log("cosine measure : "+syntax_similarity(enonces[index],enonces[index2]));
         });
     });
     

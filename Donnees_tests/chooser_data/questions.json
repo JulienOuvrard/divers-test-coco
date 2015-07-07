@@ -1,0 +1,1066 @@
+{
+    "annotations": [
+        {
+            "content": {
+                "description": "graphes théorie connexité l’information théorie sécurité contradictoires graphes ",
+                "answers": [
+                    {
+                        "content": "réseaux théorie théories donnent permettent cliques cliques argument amis "
+                    },
+                    {
+                        "content": "cliques contradictoires amis gagne graphe théories ",
+                        "correct": true
+                    },
+                    {
+                        "content": "chemins connaissent graphes capital social sécurité social "
+                    },
+                    {
+                        "content": "coupes théories flux… graphe réseaux graphes avantage amis avantage "
+                    }
+                ]
+            },
+            "begin": 1398446,
+            "end": 1401446,
+            "type": "Quizz",
+            "id": "6e2c3cbe-08d8-4f6f-b9ab-28e0910033b8"
+        },
+        {
+            "content": {
+                "description": "représentée matrice n’ont utilisé paires matrice effectué finie matrice ",
+                "answers": [
+                    {
+                        "content": "graphe vocabulaire vendeurs vocabulaire représentations langage "
+                    },
+                    {
+                        "content": "adapté achat vendeurs relation parler paires représentations langage table matrice ",
+                        "correct": true
+                    },
+                    {
+                        "content": "acheté utilisé ensemble relation lien représentations utilisé relation représentations "
+                    }
+                ]
+            },
+            "begin": 2711140,
+            "end": 2714140,
+            "type": "Quizz",
+            "id": "487b403c-2f7c-4e54-ba3d-951d3596d063"
+        },
+        {
+            "content": {
+                "description": "sommets graphes graphes l’un l’un modélisation sommets ",
+                "answers": [
+                    {
+                        "content": "isomorphes isomorphes isomorphes difficile graphes utiliser l’autre ",
+                        "correct": true
+                    },
+                    {
+                        "content": "graphes vérifier isomorphes isomorphes isomorphes graphes utiliser graphes graphes problème "
+                    },
+                    {
+                        "content": "l’un utiliser utiliser isomorphes objets situations adaptés "
+                    },
+                    {
+                        "content": "vérifier vérifier situations situations l’isomorphisme essentiels graphes l’autre objets isomorphes "
+                    }
+                ]
+            },
+            "begin": 2056398,
+            "end": 2059398,
+            "type": "Quizz",
+            "id": "9630990f-bd49-4ab4-9262-e5fae1440876"
+        },
+        {
+            "content": {
+                "description": "l’utilisateur revolweb l’informatique réservés droits culture l’utilisateur ",
+                "answers": [
+                    {
+                        "content": "machine paradoxes langage langage l’utilisateur numérique disparaît culture "
+                    },
+                    {
+                        "content": "voit droits l’utilisateur voit disparaît s’occuper flickr ",
+                        "correct": true
+                    },
+                    {
+                        "content": "l’ordinateur concepts monde langage l’adaptation numérique l’informatique programmation l’ordinateur revolweb "
+                    }
+                ]
+            },
+            "begin": 150673,
+            "end": 153673,
+            "type": "Quizz",
+            "id": "5c3a763b-e433-4f89-bef0-da530a2aa6f6"
+        },
+        {
+            "content": {
+                "description": "exemples informatique stockdaledesigns informatique l’intelligence artificielle ",
+                "answers": [
+                    {
+                        "content": "http sociaux exemples droits informatique disparaît flickr pourrait "
+                    },
+                    {
+                        "content": "deviantart s’occuper machine l’utilisateur http l’intelligence l’utilisateur artificielle rofi humaine ",
+                        "correct": true
+                    },
+                    {
+                        "content": "réseaux modélisation rofi droits l’adaptation http "
+                    },
+                    {
+                        "content": "étudier résoudre problèmes l’intelligence l’ordinateur l’adaptation humaine homme modèle coopération "
+                    }
+                ]
+            },
+            "begin": 325579,
+            "end": 328579,
+            "type": "Quizz",
+            "id": "defdf070-96b6-476f-83e8-98bae514aa1e"
+        },
+        {
+            "content": {
+                "description": "˛fait y˛e exemple ˛fait solution solution x˛e confiance l’ensemble ",
+                "answers": [
+                    {
+                        "content": "x˛e cid l’ensemble exemple suite y˛e exemple confiance ˛fait x˛e ",
+                        "correct": true
+                    },
+                    {
+                        "content": "x˛e ˛fait cardinal l’ensemble suite ˛fait confiance "
+                    },
+                    {
+                        "content": "| confiance confiance y˛e confiance quelqu’un |a| l’ensemble "
+                    }
+                ]
+            },
+            "begin": 3279686,
+            "end": 3282686,
+            "type": "Quizz",
+            "id": "1b6877d5-4422-45da-86b1-ffd7a5c494b0"
+        },
+        {
+            "content": {
+                "description": "sociaux symbolique réseau social sociologues internet graphe économiques réseaux ",
+                "answers": [
+                    {
+                        "content": "monde graphe objets sociaux économiques individus l’effet "
+                    },
+                    {
+                        "content": "réseaux chaîne objets sociaux é objets internet graphe social individus ",
+                        "correct": true
+                    },
+                    {
+                        "content": "graphes social graphe colossaux sommets individus individus "
+                    },
+                    {
+                        "content": "petit sociaux objets sociétaux graphe enjeux trouve "
+                    }
+                ]
+            },
+            "begin": 1098898,
+            "end": 1101898,
+            "type": "Quizz",
+            "id": "f48e0f93-78b7-4083-b561-2df35897ca2c"
+        },
+        {
+            "content": {
+                "description": "d’arêtes coupes connexité graphes d’arêtes ensemble théorie orienté graphes ",
+                "answers": [
+                    {
+                        "content": "permettent graphe extremités graphes flux… extremités concepts orienté graphe ",
+                        "correct": true
+                    },
+                    {
+                        "content": "c’est d’arêtes d’arêtes d’étudier sociaux propriétés "
+                    }
+                ]
+            },
+            "begin": 1562916,
+            "end": 1565916,
+            "type": "Quizz",
+            "id": "62900326-7fdb-4d9e-918a-01c0755f11d1"
+        },
+        {
+            "content": {
+                "description": "isomorphes chimie chimie problème isomorphes essentiels ",
+                "answers": [
+                    {
+                        "content": "graphes réétiqueter graphes problème objets isomorphes vérifier "
+                    },
+                    {
+                        "content": "l’autre adaptés graphes situations difficile l’autre chimie sommets objets obtenir ",
+                        "correct": true
+                    }
+                ]
+            },
+            "begin": 2117641,
+            "end": 2120641,
+            "type": "Quizz",
+            "id": "b620e34b-6ce3-400d-be95-749713e5b009"
+        },
+        {
+            "content": {
+                "description": "graphe chaîne colossaux enjeux sociaux courte l’effet individus sociaux individus ",
+                "answers": [
+                    {
+                        "content": "graphe graphe arêtes courte chaîne réseaux "
+                    },
+                    {
+                        "content": "arêtes colossaux é individus petit colossaux social "
+                    },
+                    {
+                        "content": "chaîne graphe sociaux chaîne sociaux chaîne sociaux arêtes ",
+                        "correct": true
+                    }
+                ]
+            },
+            "begin": 1084487,
+            "end": 1087487,
+            "type": "Quizz",
+            "id": "af1cd92a-651d-4158-a195-10547d315a95"
+        },
+        {
+            "content": {
+                "description": "graphes boucle graphes problème l’isomorphisme étiqueté ",
+                "answers": [
+                    {
+                        "content": "boucle graphes étiqueté graphes dessin graphes problème l’isomorphisme isomorphes "
+                    },
+                    {
+                        "content": "l’isomorphisme sommet problème étiqueté l’isomorphisme étiqueté l’arc ",
+                        "correct": true
+                    },
+                    {
+                        "content": "isomorphes étiqueté l’arc graphes graphes graphes graphes graphes étiqueté étiqueté "
+                    }
+                ]
+            },
+            "begin": 1817934,
+            "end": 1820934,
+            "type": "Quizz",
+            "id": "4c404f39-86b3-42ee-bc0c-5c73744de1cb"
+        },
+        {
+            "content": {
+                "description": "opérateurs cid ˛r ordre langage cid ",
+                "answers": [
+                    {
+                        "content": "cid ˛r cid l’implication pouvant ordre cid l’implication pouvant machine ",
+                        "correct": true
+                    },
+                    {
+                        "content": "cid x˛a formules expressif y˛a x˛a prédicats "
+                    },
+                    {
+                        "content": "opérateurs formules quantificateurs l’implication interprété ordre interprété pourra "
+                    },
+                    {
+                        "content": "logique interprété y˛a interprété cid l’implication "
+                    }
+                ]
+            },
+            "begin": 2845375,
+            "end": 2848375,
+            "type": "Quizz",
+            "id": "de0efd98-3128-4de5-91b3-4204ca27672d"
+        },
+        {
+            "content": {
+                "description": "from an enemies suffisants l'expérience here» ",
+                "answers": [
+                    {
+                        "content": "enemies petit social réseau réalisée choisis états n'importe social hate "
+                    },
+                    {
+                        "content": "réalisée enemies réalisée to n'importe your degrés ",
+                        "correct": true
+                    },
+                    {
+                        "content": "citoyens hatebook your degrés constaté find réseau enemies "
+                    }
+                ]
+            },
+            "begin": 757529,
+            "end": 760529,
+            "type": "Quizz",
+            "id": "0a49a4fa-4ff1-43b3-abdd-b7703c3e4c35"
+        },
+        {
+            "content": {
+                "description": "réétiqueter l’isomorphisme vérifier situations graphes modélisation l’isomorphisme utiliser problème l’un ",
+                "answers": [
+                    {
+                        "content": "isomorphes chimie graphes chimie utiliser graphes essentiels l’un adaptés graphes "
+                    },
+                    {
+                        "content": "modélisation essentiels graphes l’isomorphisme utiliser graphes essentiels isomorphes isomorphes graphes ",
+                        "correct": true
+                    }
+                ]
+            },
+            "begin": 2115710,
+            "end": 2118710,
+            "type": "Quizz",
+            "id": "42bc3e01-7401-459d-937d-51866c3fe9ff"
+        },
+        {
+            "content": {
+                "description": "notera confiance bea quelqu’un paires confiance ˛fait alfred bea ˛fait ",
+                "answers": [
+                    {
+                        "content": "confiance confiance ˛fait confiance confiance alfred ˛fait mathématiciens mathématiciens confiance "
+                    },
+                    {
+                        "content": "notés confiance x˛e x˛e l’ensemble alfred l’ensemble ˛fait ",
+                        "correct": true
+                    },
+                    {
+                        "content": "˛fait confiance x˛e confiance paires confiance ˛fait notera inconnu indiquer "
+                    },
+                    {
+                        "content": "confiance groupe notés x˛e indiquer ˛fait "
+                    }
+                ]
+            },
+            "begin": 2345337,
+            "end": 2348337,
+            "type": "Quizz",
+            "id": "8abe00ef-9d4a-406e-8995-b24b6b2583a1"
+        },
+        {
+            "content": {
+                "description": "d'utilisateurs d’utilisateurs journal milliard murdochcèdemyspaceàspecificmediapour connecte photos connecte ",
+                "answers": [
+                    {
+                        "content": "moitié l’adaptation street millions juin stockdaledesigns février ligne ",
+                        "correct": true
+                    },
+                    {
+                        "content": "liens exemples murdochcèdemyspaceàspecificmediapour myspace mis street "
+                    }
+                ]
+            },
+            "begin": 331549,
+            "end": 334549,
+            "type": "Quizz",
+            "id": "54542019-0d8e-4ecd-b712-1a35da9f4cfe"
+        },
+        {
+            "content": {
+                "description": "d’utilisateurs moyenne connus millions valorisé d'utilisateurs articles minutes ",
+                "answers": [
+                    {
+                        "content": "facebook millions wall journal street com jour "
+                    },
+                    {
+                        "content": "connus minutes exemples millions connus contenus moitié com ",
+                        "correct": true
+                    },
+                    {
+                        "content": "individus street linkedin journal étudie viadeo février millions street milliards "
+                    }
+                ]
+            },
+            "begin": 348914,
+            "end": 351914,
+            "type": "Quizz",
+            "id": "5f3bae0d-719a-4de5-9291-6f62c8e573db"
+        },
+        {
+            "content": {
+                "description": "dessin informatique transparent d’ higuera résume notion informatique informatique ",
+                "answers": [
+                    {
+                        "content": "transparent d’informatique notion résume résume réservés ",
+                        "correct": true
+                    },
+                    {
+                        "content": "informatique transparent flickr revolweb d’ flickr indique d’ "
+                    }
+                ]
+            },
+            "begin": 65044,
+            "end": 68044,
+            "type": "Quizz",
+            "id": "26d7b9e0-0298-48a1-9a55-26a7adb5b841"
+        },
+        {
+            "content": {
+                "description": "graphes l’isomorphisme orienté graphes orienté orienté origine ",
+                "answers": [
+                    {
+                        "content": "l’isomorphisme graphes graphes l’isomorphisme origine origine orienté graphes l’isomorphisme "
+                    },
+                    {
+                        "content": "arc extrémité isomorphes graphes graphes orienté sommets "
+                    },
+                    {
+                        "content": "l’arc graphes isomorphes exemple origine vest étiqueté arc exemple "
+                    },
+                    {
+                        "content": "orienté d’arcs origine boucle ensemble graphe graphes sommet isomorphes boucle ",
+                        "correct": true
+                    }
+                ]
+            },
+            "begin": 1785332,
+            "end": 1788332,
+            "type": "Quizz",
+            "id": "117c70d0-0845-4d88-ba76-4ab898c21807"
+        },
+        {
+            "content": {
+                "description": "informatique codage point réservés voit machine voit ",
+                "answers": [
+                    {
+                        "content": "prise monde d’informatique point l’algorithme dessin d’ notes "
+                    },
+                    {
+                        "content": "résume codage informatique informatique ubiquitaire programmation ",
+                        "correct": true
+                    },
+                    {
+                        "content": "programmation monde informatique transparent prise machine "
+                    }
+                ]
+            },
+            "begin": 108844,
+            "end": 111844,
+            "type": "Quizz",
+            "id": "51f866c3-574a-4215-871b-331fa82c80d0"
+        },
+        {
+            "content": {
+                "description": "graphes graphes delaunay graphes delaunay graphes ",
+                "answers": [
+                    {
+                        "content": "graphes droits essentiels droits essentiels scays graphes droits chimie utiliser ",
+                        "correct": true
+                    },
+                    {
+                        "content": "essentiels utiliser droits objets graphes graphes delaunay essentiels "
+                    },
+                    {
+                        "content": "scays réservés graphes utiliser adaptés modélisation essentiels réservés adaptés delaunay "
+                    }
+                ]
+            },
+            "begin": 2140075,
+            "end": 2143075,
+            "type": "Quizz",
+            "id": "394fd076-58cd-419d-b054-ccddb8c5a265"
+        },
+        {
+            "content": {
+                "description": "ensemble sommets boucle graphe isomorphes graphes sommet étiqueté orienté ",
+                "answers": [
+                    {
+                        "content": "graphes boucle graphes orienté l’arc arc graphes origine graphes exemple ",
+                        "correct": true
+                    },
+                    {
+                        "content": "problème dessin graphe l’arc isomorphes isomorphes dessin orienté "
+                    },
+                    {
+                        "content": "orienté sommet exemple isomorphes arc origine vest "
+                    },
+                    {
+                        "content": "exemple boucle orienté exemple l’isomorphisme dessin isomorphes sommets d’arcs étiqueté "
+                    }
+                ]
+            },
+            "begin": 1788166,
+            "end": 1791166,
+            "type": "Quizz",
+            "id": "804090ed-a0c3-4e98-94a5-7d0b741f952e"
+        },
+        {
+            "content": {
+                "description": "cummings système droits xericjames d’un voulues ",
+                "answers": [
+                    {
+                        "content": "inférer portion fl xericjames d’un fl social petite "
+                    },
+                    {
+                        "content": "générer réservés licence droits social fonctionnement social droits "
+                    },
+                    {
+                        "content": "xericjames portion outil droits graphes propriétés réseau "
+                    },
+                    {
+                        "content": "réservés xericjames simulation fl réel ickr droits graphes ",
+                        "correct": true
+                    }
+                ]
+            },
+            "begin": 1164346,
+            "end": 1167346,
+            "type": "Quizz",
+            "id": "811f9ac8-44e9-4960-a112-89b67cb76bab"
+        },
+        {
+            "content": {
+                "description": "finie relation parler relation acheteurs vocabulaire cas utilisé langage ",
+                "answers": [
+                    {
+                        "content": "relations acheteurs matrice achat relations équivalentes langage table matrice paires "
+                    },
+                    {
+                        "content": "relation vocabulaire relations ensemble effectué table équivalentes "
+                    },
+                    {
+                        "content": "équivalentes graphe relations représentée langage utilisé équivalentes graphe vocabulaire finie ",
+                        "correct": true
+                    }
+                ]
+            },
+            "begin": 2711688,
+            "end": 2714688,
+            "type": "Quizz",
+            "id": "b1b05511-010c-4285-91ea-9ebcb7d5dca2"
+        },
+        {
+            "content": {
+                "description": "réseaux moitié milliard site statuts linkedin viadeo viadeo connecte ",
+                "answers": [
+                    {
+                        "content": "mars d’inscrits étudie relations facebook éléments stockdaledesigns deviantart "
+                    },
+                    {
+                        "content": "milliard contenus photos site contenus articles d’utilisateurs réseaux photos moyenne ",
+                        "correct": true
+                    },
+                    {
+                        "content": "street exemples étudie dollars minutes utilisateurs deviantart "
+                    }
+                ]
+            },
+            "begin": 422425,
+            "end": 425425,
+            "type": "Quizz",
+            "id": "049d6f6e-0fa0-46dd-840a-6c9d8e1562a4"
+        },
+        {
+            "content": {
+                "description": "dessin l’arc graphes isomorphes boucle étiqueté ",
+                "answers": [
+                    {
+                        "content": "l’arc exemple graphes sommet isomorphes graphes "
+                    },
+                    {
+                        "content": "l’isomorphisme exemple étiqueté isomorphes problème boucle sommet ",
+                        "correct": true
+                    }
+                ]
+            },
+            "begin": 1817541,
+            "end": 1820541,
+            "type": "Quizz",
+            "id": "f31ce245-cc62-4137-96c6-262f66cbaabc"
+        },
+        {
+            "content": {
+                "description": "modéliser graphes graphes web sites réseaux images ",
+                "answers": [
+                    {
+                        "content": "réseaux molécules permettent réservés graphes flickr ",
+                        "correct": true
+                    },
+                    {
+                        "content": "droits images réseaux … molécules graphes fdecomite sites réservés "
+                    }
+                ]
+            },
+            "begin": 2184197,
+            "end": 2187197,
+            "type": "Quizz",
+            "id": "ee8f5de6-e65f-480b-ab98-0304b4bb3d15"
+        },
+        {
+            "content": {
+                "description": "chimie delaunay droits chimie chimie réservés delaunay graphes ",
+                "answers": [
+                    {
+                        "content": "notations permet voulues aléatoirement février états l’effet dollars problèmes ",
+                        "correct": true
+                    },
+                    {
+                        "content": "scays droits réservés scays scays chimie réservés "
+                    },
+                    {
+                        "content": "delaunay graphes scays droits delaunay graphes delaunay "
+                    },
+                    {
+                        "content": "graphes chimie chimie graphes graphes scays scays chimie "
+                    }
+                ]
+            },
+            "begin": 2148314,
+            "end": 2151314,
+            "type": "Quizz",
+            "id": "12035a41-8a71-4353-98c1-ab2f8b48fb48"
+        },
+        {
+            "content": {
+                "description": "réseaux permettent graphes sociaux flux… chemins applications ",
+                "answers": [
+                    {
+                        "content": "flux… chemins cliques réseaux graphes graphes permettent coupes flux… "
+                    },
+                    {
+                        "content": "flux… cliques sociaux connexité cliques théorie ",
+                        "correct": true
+                    }
+                ]
+            },
+            "begin": 1523958,
+            "end": 1526958,
+            "type": "Quizz",
+            "id": "d62b381f-d73c-47c1-958c-25d4ad4ab66e"
+        },
+        {
+            "content": {
+                "description": "droits réservés paradoxes d’informatique informatique droits faire codage droits revolweb ",
+                "answers": [
+                    {
+                        "content": "flickr rapport numérique l’ordinateur d’ entoure réservés "
+                    },
+                    {
+                        "content": "réservés faire modèle numérique l’utilisateur d’ "
+                    },
+                    {
+                        "content": "notion concepts l’utilisateur culture l’adaptation disparaît ",
+                        "correct": true
+                    }
+                ]
+            },
+            "begin": 119123,
+            "end": 122123,
+            "type": "Quizz",
+            "id": "7fbb1bf4-1e7b-439b-a693-2c9dbc836fd2"
+        },
+        {
+            "content": {
+                "description": "composée notés erwan interactions mathématiciens charles confiance exemple erwan relation ",
+                "answers": [
+                    {
+                        "content": "membres composée composée bea graphe social ",
+                        "correct": true
+                    },
+                    {
+                        "content": "erwan confiance représenter confiance notations notations ˛fait composée "
+                    },
+                    {
+                        "content": "exemple réseau mathématiciens alfred mathématiciens d’un didier "
+                    }
+                ]
+            },
+            "begin": 2290934,
+            "end": 2293934,
+            "type": "Quizz",
+            "id": "1c4bbd96-ade2-4ff0-8510-e8bcc2f262c8"
+        },
+        {
+            "content": {
+                "description": "machine réservés voit rofi droits l’utilisateur ",
+                "answers": [
+                    {
+                        "content": "flickr langage entoure l’adaptation flickr culture ubiquitaire flickr informatique "
+                    },
+                    {
+                        "content": "notion informatique l’utilisateur s’occuper numérique rapport droits flickr l’ordinateur informatique ",
+                        "correct": true
+                    },
+                    {
+                        "content": "culture l’informatique d’informatique l’informatique programmation monde monde "
+                    },
+                    {
+                        "content": "informatique droits l’utilisateur réservés l’utilisateur codage "
+                    }
+                ]
+            },
+            "begin": 135360,
+            "end": 138360,
+            "type": "Quizz",
+            "id": "f0767060-428c-4b5a-bcc7-51c1bf873f8b"
+        },
+        {
+            "content": {
+                "description": "utilisés permet exemples système avantages validité modèle ",
+                "answers": [
+                    {
+                        "content": "représenter modèle amis amis social représenter cerner générer réseau amis "
+                    },
+                    {
+                        "content": "réel propriétés permet automatiquement social graphes exemples "
+                    },
+                    {
+                        "content": "voulues connaissent amis amis grande difficiles avantages ",
+                        "correct": true
+                    },
+                    {
+                        "content": "graphes modèle connaissent réseaux simulation graphes graphes taille "
+                    }
+                ]
+            },
+            "begin": 1224572,
+            "end": 1227572,
+            "type": "Quizz",
+            "id": "eeed0faf-0480-4f71-93a0-30a9ccb0cfc7"
+        },
+        {
+            "content": {
+                "description": "confiance exemple confiance ˛fait confiance ˛fait confiance ",
+                "answers": [
+                    {
+                        "content": "suite suite confiance bea l’ensemble suite confiance ",
+                        "correct": true
+                    },
+                    {
+                        "content": "confiance cid x˛e ˛fait x˛e confiance ˛fait "
+                    }
+                ]
+            },
+            "begin": 3151013,
+            "end": 3154013,
+            "type": "Quizz",
+            "id": "41759010-a1bf-49be-9a0a-4032769cc455"
+        },
+        {
+            "content": {
+                "description": "d’un social portion avantages outil social ",
+                "answers": [
+                    {
+                        "content": "représenter difficiles automatiquement d’un social outil d’un graphes "
+                    },
+                    {
+                        "content": "réel d’un graphes réservés voulues inférer inférer d’un "
+                    },
+                    {
+                        "content": "simulation réseau mathématique sait social graphiques représenter validité avantages petite ",
+                        "correct": true
+                    },
+                    {
+                        "content": "inférer graphes réseau voulues petite taille modèle "
+                    }
+                ]
+            },
+            "begin": 1191724,
+            "end": 1194724,
+            "type": "Quizz",
+            "id": "77732bc9-e9d0-44d8-8f37-c868df121654"
+        },
+        {
+            "content": {
+                "description": "machine cid cid veut cid langage simple langage expressif acheteurs ",
+                "answers": [
+                    {
+                        "content": "acheteurs pouvant l’implication cid vendeurs langage vendeurs pouvant logique "
+                    },
+                    {
+                        "content": "langage pourra ambigu langage machine expressif existe relations ",
+                        "correct": true
+                    },
+                    {
+                        "content": "cid expressif existe expressif acheté langage machine "
+                    },
+                    {
+                        "content": "˛ˇ n’ont effectué pouvant relations n’ont langage "
+                    }
+                ]
+            },
+            "begin": 2783869,
+            "end": 2786869,
+            "type": "Quizz",
+            "id": "bd2d7cf5-31bc-4818-9b7b-07c3e2337cb9"
+        },
+        {
+            "content": {
+                "description": "bea graphes permettent membres réservés sociaux ",
+                "answers": [
+                    {
+                        "content": "graphe … … confiance … flickr confiance graphes sait ",
+                        "correct": true
+                    },
+                    {
+                        "content": "veut didier bea droits charles réseaux "
+                    }
+                ]
+            },
+            "begin": 2210839,
+            "end": 2213839,
+            "type": "Quizz",
+            "id": "1a78e599-d7b9-4b34-b5f9-fe3059a73409"
+        },
+        {
+            "content": {
+                "description": "graphes isomorphes graphes problème isomorphes graphes graphes isomorphes ",
+                "answers": [
+                    {
+                        "content": "l’isomorphisme graphes graphes graphes exemple exemple dessin graphes graphes ",
+                        "correct": true
+                    },
+                    {
+                        "content": "graphes graphes l’isomorphisme exemple isomorphes graphes dessin exemple "
+                    }
+                ]
+            },
+            "begin": 1902345,
+            "end": 1905345,
+            "type": "Quizz",
+            "id": "9923c86f-33b2-44c6-92e8-a742cfe12aba"
+        },
+        {
+            "content": {
+                "description": "matrice langage table langage paires langage vocabulaire expressif représentée ",
+                "answers": [
+                    {
+                        "content": "interprété expressif veut représentée relations logique paires ",
+                        "correct": true
+                    },
+                    {
+                        "content": "machine pouvant représentations matrice langage simple langage relations machine "
+                    }
+                ]
+            },
+            "begin": 2744724,
+            "end": 2747724,
+            "type": "Quizz",
+            "id": "f451f5b0-8020-40a1-b7a6-88ba7e259af0"
+        },
+        {
+            "content": {
+                "description": "février mis journal d’inscrits réseaux moyenne http ",
+                "answers": [
+                    {
+                        "content": "jour milliard d’inscrits mars modélisation millionsde moitié passe liens journal "
+                    },
+                    {
+                        "content": "machine d’inscrits d’inscrits milliard modèle valorisé photos "
+                    },
+                    {
+                        "content": "milliard réseaux passe millions minutes valorisé myspace modèle ",
+                        "correct": true
+                    }
+                ]
+            },
+            "begin": 336009,
+            "end": 339009,
+            "type": "Quizz",
+            "id": "1ca5d664-35b5-4d07-9ad3-f853f9f495f6"
+        },
+        {
+            "content": {
+                "description": "temps courte l’onu connaissances l’onu d’autres étudie ",
+                "answers": [
+                    {
+                        "content": "société requise degrés l'effet séparation réf courte milgram réalisée chaîne "
+                    },
+                    {
+                        "content": "utilisateurs lier réalisée longueur société célèbre l'expression monde ",
+                        "correct": true
+                    }
+                ]
+            },
+            "begin": 632572,
+            "end": 635572,
+            "type": "Quizz",
+            "id": "d98fa6a7-d825-425c-a3c6-bd1d222144b8"
+        },
+        {
+            "content": {
+                "description": "cardinal bea solution exemple charles confiance ",
+                "answers": [
+                    {
+                        "content": "remarque |a| confiance |a| remarque ˛fait suite "
+                    },
+                    {
+                        "content": "y˛e x˛e ˛fait confiance exemple suite ˛fait charles confiance "
+                    },
+                    {
+                        "content": "y˛e exemple confiance cid remarque cardinal exemple cid remarque l’ensemble ",
+                        "correct": true
+                    }
+                ]
+            },
+            "begin": 3395703,
+            "end": 3398703,
+            "type": "Quizz",
+            "id": "2451c193-c23f-4f2d-b96e-ab000a0f7dd3"
+        },
+        {
+            "content": {
+                "description": "réseaux é cummings symbolique réservés é sommets ",
+                "answers": [
+                    {
+                        "content": "graphes social cummings réseaux cummings réseau symbolique graphe individus licence ",
+                        "correct": true
+                    },
+                    {
+                        "content": "droits relations arcs graphe social arêtes "
+                    },
+                    {
+                        "content": "graphe réseau graphe arcs graphe é é é é "
+                    },
+                    {
+                        "content": "individus licence individus réservés réservés individus individus "
+                    }
+                ]
+            },
+            "begin": 1131483,
+            "end": 1134483,
+            "type": "Quizz",
+            "id": "661e2680-d0b0-4422-847c-f66d51484a2b"
+        },
+        {
+            "content": {
+                "description": "sommet ensemble extrémité sommets ensemble graphes ",
+                "answers": [
+                    {
+                        "content": "graphes orienté origine l’arc orienté orienté "
+                    },
+                    {
+                        "content": "vest d’arcs sommet étiqueté ensemble graphe vest graphes ",
+                        "correct": true
+                    },
+                    {
+                        "content": "graphes extrémité l’isomorphisme graphes sommets graphes "
+                    }
+                ]
+            },
+            "begin": 1796946,
+            "end": 1799946,
+            "type": "Quizz",
+            "id": "0a2a2f42-ea0e-4d31-aa0f-12453e1f5206"
+        },
+        {
+            "content": {
+                "description": "connexité théorie permettent théorie capital sociaux applications social cliques ",
+                "answers": [
+                    {
+                        "content": "réseaux réseaux social social graphes capital applications ",
+                        "correct": true
+                    },
+                    {
+                        "content": "applications cliques capital chemins concepts flux… "
+                    },
+                    {
+                        "content": "sociaux coupes l’analyse cliques capital coupes gagne social capital "
+                    }
+                ]
+            },
+            "begin": 1483420,
+            "end": 1486420,
+            "type": "Quizz",
+            "id": "242091fb-1122-4749-8c2a-004072319d69"
+        },
+        {
+            "content": {
+                "description": "confiance graphe table pourra iance table lien iance ",
+                "answers": [
+                    {
+                        "content": "table table matrice table avantageusement table table matrice conf table "
+                    },
+                    {
+                        "content": "table mathématique table objet graphe avantageusement objet matrice confiance matrice "
+                    },
+                    {
+                        "content": "objet matrice table pourra avantageusement objet matrice avantageusement pourra ",
+                        "correct": true
+                    },
+                    {
+                        "content": "lien table lien mathématique objet graphe "
+                    }
+                ]
+            },
+            "begin": 2506893,
+            "end": 2509893,
+            "type": "Quizz",
+            "id": "1a2068f3-12a8-4370-b288-762b764f4cac"
+        },
+        {
+            "content": {
+                "description": "programmation l’intelligence étudier droits machine pourrait droits ",
+                "answers": [
+                    {
+                        "content": "l’utilisateur informatique s’occuper informatique monde étudier l’adaptation "
+                    },
+                    {
+                        "content": "modèle pourrait flickr artificielle disparaît l’adaptation culture exemples ",
+                        "correct": true
+                    },
+                    {
+                        "content": "rofi l’ordinateur problèmes l’ordinateur faire culture flickr "
+                    }
+                ]
+            },
+            "begin": 204176,
+            "end": 207176,
+            "type": "Quizz",
+            "id": "b4938b70-dc54-4206-932d-55ab2e1cf63b"
+        },
+        {
+            "content": {
+                "description": "utilisé lien matrice table mathématique pourra vocabulaire adapté relation ",
+                "answers": [
+                    {
+                        "content": "ensemble ensemble table relation table table représentée "
+                    },
+                    {
+                        "content": "ensemble ensemble table adapté paires représentée ",
+                        "correct": true
+                    },
+                    {
+                        "content": "représentations matrice relation graphe graphe table utilisé finie table objet "
+                    },
+                    {
+                        "content": "graphe équivalentes lien objet utilisé représentations "
+                    }
+                ]
+            },
+            "begin": 2578673,
+            "end": 2581673,
+            "type": "Quizz",
+            "id": "866ce399-f61e-4207-a7ed-fba1f1460abd"
+        },
+        {
+            "content": {
+                "description": "connectés social donnent donnent gagne contradictoires amis gagne connaissent ",
+                "answers": [
+                    {
+                        "content": "l’information argumentaire réseau argumentaire connaissent support réseau ",
+                        "correct": true
+                    },
+                    {
+                        "content": "social confiance donnent amis connaissent support connaissent » "
+                    },
+                    {
+                        "content": "connectés connaissent support connaissent connaissent amis capital contradictoires "
+                    },
+                    {
+                        "content": "confiance connectés donnent support confiance capital capital joindre "
+                    }
+                ]
+            },
+            "begin": 1359388,
+            "end": 1362388,
+            "type": "Quizz",
+            "id": "463315a5-53bc-415f-b699-b30a65ad89bd"
+        },
+        {
+            "content": {
+                "description": "problème d’arcs graphes isomorphes origine ensemble isomorphes problème ",
+                "answers": [
+                    {
+                        "content": "orienté d’arcs graphes dessin l’isomorphisme d’arcs graphes exemple graphes l’arc "
+                    },
+                    {
+                        "content": "étiqueté extrémité vest arc sommet orienté ",
+                        "correct": true
+                    }
+                ]
+            },
+            "begin": 1784354,
+            "end": 1787354,
+            "type": "Quizz",
+            "id": "c79db701-a3e9-439b-acfd-007639df537f"
+        }
+    ]
+}

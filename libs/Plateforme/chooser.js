@@ -1,39 +1,8 @@
-function transpose(a) {
-
-      // Calculate the width and height of the Array
-      var w = a.length ? a.length : 0,
-        h = a[0] instanceof Array ? a[0].length : 0;
-
-      // In case it is a zero matrix, no transpose routine needed.
-      if(h === 0 || w === 0) { return []; }
-
-      /**
-       * @var {Number} i Counter
-       * @var {Number} j Counter
-       * @var {Array} t Transposed data is stored in this array.
-       */
-      var i, j, t = [];
-
-      // Loop through every item in the outer array (height)
-      for(i=0; i<h; i++) {
-
-        // Insert a new row (array)
-        t[i] = [];
-
-        // Loop through every item per item in outer array (width)
-        for(j=0; j<w; j++) {
-
-          // Save transposed data.
-          t[i][j] = a[j][i];
-        }
-      }
-
-      return t;
-};
+TestsCoco.Simulator.Chooser = function(){};
 
 var _delta_time = 10000;
 
-function countOccurences(tab){
+TestsCoco.Simulator.Chooser.prototype.countOccurences = function (tab){
     
     var shown_properties = ["right_answer","wrong_answer","skipped_answer"];
     var votted_properties = ["usefull","useless","skipped_vote"];
@@ -72,7 +41,7 @@ function countOccurences(tab){
     return {"shown":shown,"votted":votted,"positive_vote":positive_vote};
 }
 
-function percentage(tab1,tab2){
+TestsCoco.Simulator.Chooser.prototype.percentage = function (tab1,tab2){
     var result = {};
     $.each(tab2, function(index, value) {
         if(!tab1[index]){
@@ -84,7 +53,7 @@ function percentage(tab1,tab2){
     return result;
 }
 
-function getTime(tab){
+TestsCoco.Simulator.Chooser.prototype.getTime = function (tab){
     var ret={};
     var ann = tab.annotations;
     ann.forEach(function(elem){
@@ -95,7 +64,7 @@ function getTime(tab){
     return ret;
 }
 
-function getEnonce(tab){
+TestsCoco.Simulator.Chooser.prototype.getEnonce = function (tab){
     var ret={};
     var ann = tab.annotations;
     ann.forEach(function(elem){
@@ -106,11 +75,11 @@ function getEnonce(tab){
     return ret;
 }
 
-function positive(tab){
+TestsCoco.Simulator.Chooser.prototype.positive = function (tab){
     var votted_properties = ["usefull","useless","skipped_vote"];
     var res={};
     tab.forEach(function(elem){
-        if(jQuery.inArray(elem.property,votted_properties) != -1){
+        if($.inArray(elem.property,votted_properties) != -1){
              if(elem.subject in res){
                  res[elem.subject] += elem.value;
              }else {
@@ -121,51 +90,15 @@ function positive(tab){
     return res;
 }
 
-function arrayUnique(array) {
-    var a = array.concat();
-    for(var i=0; i<a.length; ++i) {
-        for(var j=i+1; j<a.length; ++j) {
-            if(a[i] === a[j])
-                a.splice(j--, 1);
-        }
-    }
 
-    return a;
-}
-
-function dot(v1,v2){
-    var res = 0;
-    for(var i = 0;i < v1.length;i++){
-        res+= (v1[i]*v2[i]);
-    }
-    return res;
-}
-
-function norm(v){
-    var res = 0, temp=0;
-    v.forEach(function(elem){
-        temp+=elem*elem
-    });
-    res=Math.sqrt(temp);
-    return res;
-}
-
-function cosine(v1,v2){
-    return (dot(v1,v2)/(norm(v1)*norm(v2)));
-}
-
-function syntax_similarity(phrase1,phrase2){
-    
+TestsCoco.Simulator.Chooser.prototype.syntax_similarity = function (phrase1,phrase2){
+    var tool =  new TestsCoco.Tools();
     natural.PorterStemmerFr.attach();
     p1=phrase1.tokenizeAndStem();
     p2=phrase2.tokenizeAndStem();
 
-    //console.log(p1);
-    //console.log(p2);
+    var words=tool.arrayUnique(p1.concat(p2));
 
-    var words=arrayUnique(p1.concat(p2));
-
-    //console.log(words);
 
     var TfIdf = natural.TfIdf, tfidf = new TfIdf();
     tfidf.addDocument(p1);
@@ -181,62 +114,70 @@ function syntax_similarity(phrase1,phrase2){
         t1[j]=temp;
         ++j;
     })
-    //console.log(t1);
     
-    var t2 = transpose(t1);
-    //console.log(cosine(t2[0],t2[1]));
+    var t2 = tool.transpose(t1);
     
-    return cosine(t2[0],t2[1]);
+    return tool.cosine(t2[0],t2[1]);
 }
 
-function time_similarity(q1,q2){
-    return Math.abs((time[q1] - time[q2]));
+TestsCoco.Simulator.Chooser.prototype.time_similarity = function (t_q1,t_q2){
+    return Math.abs((t_q1 - t_q2));
 }
 
-function getData(data1,data2){
+TestsCoco.Simulator.Chooser.prototype.similarity = function (tab_time,tab_enonce) {
+    var _this =this;
     
-    //console.log('nb_shown : ');
-    nb_shown = countOccurences(data1[0]).shown;
-    //console.log(nb_shown);
+    time_sim = [];
+    synt_sim = [];
     
-    //console.log("nb_vote : ");
-    nb_vote = countOccurences(data1[0]).votted;
-    //console.log(nb_vote);
-    
-    //console.log("positive vote : ");
-    nb_positive_vote = countOccurences(data1[0]).positive_vote;
-    //console.log(nb_positive_vote);
-    
-    //console.log("global appreciation : ");
-    pos = positive(data1[0]);
-    //console.log(pos);
-    
-    //console.log("popularity : ");
-    popularity= percentage(nb_positive_vote,nb_vote);
-    //console.log(popularity);
-    
-    //console.log("Time : ");
-    time = getTime(data2[0]);
-    //console.log(time);
-    
-    //console.log('Enoncés : ');
-    enonces = getEnonce(data2[0]);
-    //console.log(enonces);
-    
-    $.each(time, function(index, value) {
-        var temp = $.extend(true, {}, time);
+    $.each(tab_time, function(index, value) {
+        var temp = $.extend(true, {}, tab_time);
         delete temp[index];
+        time_sim[index] = [];
+        synt_sim[index] = [];
         $.each(temp, function(index2, value2) {
-            console.log(enonces[index]+" | "+enonces[index2]);
-            console.log("time gap : "+time_similarity(index,index2));
-            console.log("cosine measure : "+syntax_similarity(enonces[index],enonces[index2]));
+            //console.log(enonces[index]+" | "+enonces[index2]);
+            time_sim[index][index2] = _this.time_similarity(tab_time[index],tab_time[index2]);
+            //console.log("time gap : "+time_similarity(index,index2));
+            //console.log("cosine measure : "+syntax_similarity(enonces[index],enonces[index2]));
+            synt_sim[index][index2] = _this.syntax_similarity(tab_enonce[index],tab_enonce[index2]);
         });
     });
     
+    console.table(time_sim);
+    console.table(synt_sim);
+}
+
+TestsCoco.Simulator.Chooser.prototype.getData = function (data1,data2){
+    
+    //console.log('nb_shown : ');
+    var nb_shown = this.countOccurences(data1[0]).shown;
+    //console.log(nb_shown);
+    
+    //console.log("nb_vote : ");
+    var nb_vote = this.countOccurences(data1[0]).votted;
+    //console.log(nb_vote);
+    
+    //console.log("positive vote : ");
+    var nb_positive_vote = this.countOccurences(data1[0]).positive_vote;
+    //console.log(nb_positive_vote);
+    
+    //console.log("global appreciation : ");
+    var pos = this.positive(data1[0]);
+    //console.log(pos);
+    
+    //console.log("popularity : ");
+    var popularity= this.percentage(nb_positive_vote,nb_vote);
+    //console.log(popularity);
+    
+    //console.log("Time : ");
+    var time = this.getTime(data2[0]);
+    //console.log(time);
+    
+    //console.log('Enoncés : ');
+    var enonces = this.getEnonce(data2[0]);
+    //console.log(enonces);
+    
+    this.similarity(time,enonces);
 
 };
-
-//url_analytics : http://comin-ocw.org/devpf/api/analytics/
-//url_data : http://comin-ocw.org/devpf/api/annotations/
-
-$.when($.get("answers.json"), $.get("questions.json")).done(function(dat1,dat2){getData(dat1,dat2)});

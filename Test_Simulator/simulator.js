@@ -3,7 +3,9 @@ var ans_sim = new TestsCoco.Simulator.Answers();
 var tool = new TestsCoco.Tools();
 
 function simulate(o){
-    $.when($.get("stop-words_french_1_fr.txt"), $.get("stop-words_french_2_fr.txt"), $.get("data.json"))
+    $.when($.get("../Donnees_tests/simulator_data/stop-words_french_1_fr.txt"),
+            $.get("../Donnees_tests/simulator_data/stop-words_french_2_fr.txt"),
+            $.get("../Donnees_tests/simulator_data/data.json"))
         .done(function(data1,data2,data3){
                 var q = quest_sim.main(data1,data2,data3,o);
                 var a = ans_sim.main(q,o);

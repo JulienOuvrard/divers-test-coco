@@ -49,7 +49,7 @@ TestsCoco.Simulator.Answers.prototype.generateVote = function (q,user_name,user_
     var ans = this.generateAnswer(q,user_name,user_profile,session_start);
     
     if(ans.property != "skipped_answer"){
-        var pickVote = tool.pickRandomNumber(-1,1);
+        var pickVote = tool.pickRandomNumber(-1,2);
         vote.value = pickVote;
         switch (pickVote) {
             case -1:
@@ -59,7 +59,7 @@ TestsCoco.Simulator.Answers.prototype.generateVote = function (q,user_name,user_
                 vote.property = "skipped_vote";
                 break;
             case 1:
-                vote.property = "useless";
+                vote.property = "usefull";
                 break;
         }
         retour = [ans,vote];
@@ -70,18 +70,24 @@ TestsCoco.Simulator.Answers.prototype.generateVote = function (q,user_name,user_
     return retour;
 }
 
-TestsCoco.Simulator.Answers.prototype.generate = function (questions,user_name,user_profile,session_start){
+TestsCoco.Simulator.Answers.prototype.generate = function (questions,numberOfQuestions,user_name,user_profile,session_start){
     var reponses = [];
     var _this = this;
-    $.each(questions,function(index,value){
-        reponses = reponses.concat(_this.generateVote(value,user_name,user_profile,session_start));
-    });
+    var tool = new TestsCoco.Tools();
+
+    for(var k = 0 ; k < numberOfQuestions; k++){
+        var idx = tool.pickRandomNumber(0,questions.length);
+        reponses = reponses.concat(_this.generateVote(questions[idx],user_name,user_profile,session_start));
+    }
     return reponses;
 }
 
-TestsCoco.Simulator.Answers.prototype.main = function (d1,other){
+TestsCoco.Simulator.Answers.prototype.main = function (d1,numberOfQuestions,users,other){
+    var _this = this;
     var tool = new TestsCoco.Tools();
-    var ret = this.generate(d1.annotations,"roger","regular",new Date());
-    ret =  ret.concat(this.generate(d1.annotations,"michel","random",new Date()));
+    var ret = [];
+    $.each(users,function(index,value){
+        ret = ret.concat(_this.generate(d1.annotations,numberOfQuestions,value.name,value.profile,new Date()));
+    });
     return ret;
 }

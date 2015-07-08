@@ -1,8 +1,8 @@
 TestsCoco.Simulator.Chooser = function(){};
 
-var _delta_time = 10000;
-
-TestsCoco.Simulator.Chooser.prototype.countOccurences = function (tab){
+TestsCoco.Simulator.Chooser.prototype.countOccurences = function (tab_ans,tab_quest){
+ 
+    var ann = tab_quest.annotations;
     
     var shown_properties = ["right_answer","wrong_answer","skipped_answer"];
     var votted_properties = ["usefull","useless","skipped_vote"];
@@ -11,7 +11,7 @@ TestsCoco.Simulator.Chooser.prototype.countOccurences = function (tab){
     var votted = {};
     var positive_vote = {};
     
-    tab.forEach(function(elem){
+    tab_ans.forEach(function(elem){
         if(jQuery.inArray(elem.property,shown_properties) != -1){
             if(elem.subject in shown){
                 shown[elem.subject] = ++shown[elem.subject];
@@ -38,6 +38,18 @@ TestsCoco.Simulator.Chooser.prototype.countOccurences = function (tab){
         }
     });
     
+    ann.forEach(function(elem){
+        if(jQuery.inArray(elem.id,Object.keys(shown)) == -1){
+            shown[elem.id] = 0;
+        }
+        if(jQuery.inArray(elem.id,Object.keys(votted)) == -1){
+            votted[elem.id] = 0;
+        }
+        if(jQuery.inArray(elem.id,Object.keys(positive_vote)) == -1){
+            positive_vote[elem.id] = 0;
+        }
+    });
+    
     return {"shown":shown,"votted":votted,"positive_vote":positive_vote};
 }
 
@@ -47,7 +59,7 @@ TestsCoco.Simulator.Chooser.prototype.percentage = function (tab1,tab2){
         if(!tab1[index]){
             result[index]=0;
         }else{
-            result[index]=(tab1[index] / (value) * 100);
+            result[index]=tab1[index] / value;
         }
     });
     return result;
@@ -120,64 +132,142 @@ TestsCoco.Simulator.Chooser.prototype.syntax_similarity = function (phrase1,phra
     return tool.cosine(t2[0],t2[1]);
 }
 
-TestsCoco.Simulator.Chooser.prototype.time_similarity = function (t_q1,t_q2){
-    return Math.abs((t_q1 - t_q2));
+TestsCoco.Simulator.Chooser.prototype.time_similarity = function (t_q1,t_q2,max_time){
+    return 1 - (Math.abs((t_q1 - t_q2)) / max_time);
 }
 
-TestsCoco.Simulator.Chooser.prototype.similarity = function (tab_time,tab_enonce) {
-    var _this =this;
+TestsCoco.Simulator.Chooser.prototype.QuestionSimilarity = function (q1,q2){
+    var tool = new TestsCoco.Tools();
+    var max_time = tool.getMaxOfArray(tool.getValuesOfObject(this.time));
+    var t_sim = this.time_similarity(this.time[q1],this.time[q2],max_time);
+    var s_sim = this.syntax_similarity(this.enonces[q1],this.enonces[q2]);
+    return t_sim * s_sim;
+}
+
+TestsCoco.Simulator.Chooser.prototype.similarity = function (tab) {
+    var _this = this,
+        ret = [];
     
-    time_sim = [];
-    synt_sim = [];
-    
-    $.each(tab_time, function(index, value) {
-        var temp = $.extend(true, {}, tab_time);
-        delete temp[index];
-        time_sim[index] = [];
-        synt_sim[index] = [];
-        $.each(temp, function(index2, value2) {
-            //console.log(enonces[index]+" | "+enonces[index2]);
-            time_sim[index][index2] = _this.time_similarity(tab_time[index],tab_time[index2]);
-            //console.log("time gap : "+time_similarity(index,index2));
-            //console.log("cosine measure : "+syntax_similarity(enonces[index],enonces[index2]));
-            synt_sim[index][index2] = _this.syntax_similarity(tab_enonce[index],tab_enonce[index2]);
+    $.each(tab, function(index, value) {
+        ret[index] = [];
+        $.each(tab, function(index2, value2) {
+            ret[index][index2] = _this.QuestionSimilarity(index,index2);
         });
     });
     
-    console.table(time_sim);
-    console.table(synt_sim);
+    return ret;
 }
 
 TestsCoco.Simulator.Chooser.prototype.getData = function (data1,data2){
     
-    //console.log('nb_shown : ');
-    var nb_shown = this.countOccurences(data1[0]).shown;
-    //console.log(nb_shown);
+    //nombre de fois où la question à été vue
+    this.nb_shown = this.countOccurences(data1,data2).shown;
     
-    //console.log("nb_vote : ");
-    var nb_vote = this.countOccurences(data1[0]).votted;
-    //console.log(nb_vote);
+    //nombre total de vote que la question a reçue
+    this.nb_vote = this.countOccurences(data1,data2).votted;
     
-    //console.log("positive vote : ");
-    var nb_positive_vote = this.countOccurences(data1[0]).positive_vote;
-    //console.log(nb_positive_vote);
-    
-    //console.log("global appreciation : ");
-    var pos = this.positive(data1[0]);
-    //console.log(pos);
-    
-    //console.log("popularity : ");
-    var popularity= this.percentage(nb_positive_vote,nb_vote);
-    //console.log(popularity);
-    
-    //console.log("Time : ");
-    var time = this.getTime(data2[0]);
-    //console.log(time);
-    
-    //console.log('Enoncés : ');
-    var enonces = this.getEnonce(data2[0]);
-    //console.log(enonces);
-    
-    this.similarity(time,enonces);
+    //nombre total de votes positif que la question a reçue
+    this.nb_positive_vote = this.countOccurences(data1,data2).positive_vote;
 
+    //somme de tous les votes
+    this.vote_sum = this.positive(data1);
+
+    //pourcentage de votes positif par rapport au nombre total de votes
+    this.popularity = this.percentage(this.nb_positive_vote,this.nb_vote);
+
+    //tableau contenant tous les timecode de début de question
+    this.time = this.getTime(data2);
+
+    //tableau contenant tous les énoncés de questions
+    this.enonces = this.getEnonce(data2);
+    
 };
+
+TestsCoco.Simulator.Chooser.prototype.getScore = function (q){
+    var score = (this.nb_shown[q.id] < 5) ? 1 : this.popularity[q.id];
+    return score;
+}
+
+TestsCoco.Simulator.Chooser.prototype.getAllScores = function (tab){
+    var _this = this;
+    var scores = {};
+    $.each(tab.annotations, function(index,value){
+        scores[value.id] = _this.getScore(value);
+    });
+    return scores;
+}
+
+TestsCoco.Simulator.Chooser.prototype.getProba = function (q,tab_score){
+    var tool = new TestsCoco.Tools();
+    var array_score = tool.getValuesOfObject(tab_score);
+    var score_sum = array_score.reduce(function(a, b) {
+                                return a + b;
+                    },0);
+    return this.getScore(q) / score_sum ;
+}
+
+TestsCoco.Simulator.Chooser.prototype.getAllProba = function (tab_quest,tab_score){
+    var _this = this;
+    var probas = {};
+    $.each(tab_quest.annotations, function(index,value){
+        probas[value.id] = _this.getProba(value,tab_score);
+    });
+    return probas;
+}
+
+TestsCoco.Simulator.Chooser.prototype.arrayWithProbability = function (tab) {
+    var arr = [];
+    $.each(tab, function(index,value){
+        for(var i = 0; i < value; i++){
+            arr.push(index);
+        }
+    });
+    return arr;
+}
+
+TestsCoco.Simulator.Chooser.prototype.randomWithProbability = function (notRandomQuestions) {
+    var idx = Math.floor(Math.random() * notRandomQuestions.length);
+    return notRandomQuestions[idx];
+}
+
+TestsCoco.Simulator.Chooser.prototype.choose = function (d1,d2,numberOfQuestions) {
+    var _this = this;
+    var questionsToDisplay = [];
+    
+    var sim = this.similarity(this.time);
+    //console.table(sim);
+    var scores = this.getAllScores(d2);
+    //console.log(scores);
+    
+    var probas = this.getAllProba(d2,scores);
+    //console.log(probas);
+
+    var allQuestions = this.arrayWithProbability(scores);
+    
+    do{
+        var quest = _this.randomWithProbability(allQuestions);
+        var good = true;
+        $.each(questionsToDisplay, function(index, value) {
+            if(sim[quest][value] > 0.5){
+                good = false;
+            }
+        });
+        
+        if(good){
+            questionsToDisplay.push(quest);
+        }
+        
+    }while(questionsToDisplay.length < numberOfQuestions)
+    
+    return questionsToDisplay;
+}
+
+TestsCoco.Simulator.Chooser.prototype.main = function (d1,d2,numberOfQuestions){
+    var _this = this;
+    
+    this.getData(d1,d2);
+    
+    var disp = this.choose(d1,d2,numberOfQuestions);
+
+    return disp;
+}

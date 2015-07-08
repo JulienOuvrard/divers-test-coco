@@ -88,3 +88,11 @@ TestsCoco.Tools.prototype.norm = function (v){
 TestsCoco.Tools.prototype.cosine = function (v1,v2){
     return (this.dot(v1,v2)/(this.norm(v1)*this.norm(v2)));
 }
+
+TestsCoco.Tools.prototype.getMaxOfArray = function (numArray) {
+  return Math.max.apply(null, numArray);
+}
+
+TestsCoco.Tools.prototype.getValuesOfObject = function (obj) {
+    return Object.keys(obj).map(function (k) { return obj[k];});
+}

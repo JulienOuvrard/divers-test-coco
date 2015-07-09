@@ -1,4 +1,30 @@
-TestsCoco.Simulator.Answers = function(){};
+TestsCoco.Simulator.Answers = function(){
+    var tool = new TestsCoco.Tools();
+    this.dayInMillisecond = 86400000;
+    this.answer_rate = 0.7;
+    this.regular_day_rate = 1;
+    this.random_day_rate = tool.pickRandomNumber(1,3);
+};
+
+TestsCoco.Simulator.Answers.prototype.getSessionDates = function(start,profile,nb_tours) {
+    var _this = this;
+    var session_dates = [];
+    var d = start;
+    for(var i = 0; i < nb_tours; i++){
+        switch(profile) {
+            case "regular":
+                d.setTime(d.getTime() + _this.regular_day_rate * _this.dayInMillisecond);
+                break;
+            case "random":
+                d.setTime(d.getTime() + _this.random_day_rate * _this.dayInMillisecond);
+                break;
+            default:
+                console.log('Profile not implemented');
+        }
+        session_dates.push(d);
+    }
+    return session_dates;
+}
 
 TestsCoco.Simulator.Answers.prototype.dates = function (session_start,question,profile){
     var d = session_start.getTime(), d2;
@@ -22,7 +48,7 @@ TestsCoco.Simulator.Answers.prototype.generateAnswer = function (q,user_name,use
     ret.username = user_name;
     ret.subject = q.id;
     ret.date = this.dates(session_start,q,user_profile);
-    var pickAns = Math.random() >= 0.5 ? true : false;
+    var pickAns = Math.random() >= this.answer_rate ? true : false;
     if(!pickAns){
         ret.property = "skipped_answer";
         ret.value = 0;
@@ -74,7 +100,7 @@ TestsCoco.Simulator.Answers.prototype.generate = function (questions,numberOfQue
     var reponses = [];
     var _this = this;
     var tool = new TestsCoco.Tools();
-
+    //Générer SessionId
     for(var k = 0 ; k < numberOfQuestions; k++){
         var idx = tool.pickRandomNumber(0,questions.length);
         reponses = reponses.concat(_this.generateVote(questions[idx],user_name,user_profile,session_start));
@@ -82,12 +108,14 @@ TestsCoco.Simulator.Answers.prototype.generate = function (questions,numberOfQue
     return reponses;
 }
 
-TestsCoco.Simulator.Answers.prototype.main = function (d1,numberOfQuestions,users,other){
+TestsCoco.Simulator.Answers.prototype.main = function (d1,numberOfQuestions,user,other,nb_tours){
     var _this = this;
     var tool = new TestsCoco.Tools();
     var ret = [];
-    $.each(users,function(index,value){
-        ret = ret.concat(_this.generate(d1.annotations,numberOfQuestions,value.name,value.profile,new Date()));
-    });
+    var s_dates = this.getSessionDates(new Date(),user.profile,nb_tours);
+    //Générer SessionId
+    for(var i = 0; i < nb_tours; i++){
+        ret = ret.concat(_this.generate(d1.annotations,numberOfQuestions,user.name,user.profile,s_dates[i]));
+    }
     return ret;
 }

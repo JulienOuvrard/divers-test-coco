@@ -215,38 +215,23 @@ TestsCoco.Simulator.Chooser.prototype.getAllProba = function (tab_quest,tab_scor
     return probas;
 }
 
-TestsCoco.Simulator.Chooser.prototype.arrayWithProbability = function (tab) {
-    var arr = [];
-    $.each(tab, function(index,value){
-        for(var i = 0; i < value; i++){
-            arr.push(index);
-        }
-    });
-    return arr;
-}
-
-TestsCoco.Simulator.Chooser.prototype.randomWithProbability = function (notRandomQuestions) {
-    var idx = Math.floor(Math.random() * notRandomQuestions.length);
-    return notRandomQuestions[idx];
-}
-
 TestsCoco.Simulator.Chooser.prototype.choose = function (d1,d2,numberOfQuestions) {
     var _this = this;
+    var tool = new TestsCoco.Tools();
     var questionsToDisplay = [];
     
     var sim = this.similarity(this.time);
-    //console.table(sim);
+
     var scores = this.getAllScores(d2);
-    //console.log(scores);
     
     var probas = this.getAllProba(d2,scores);
-    //console.log(probas);
 
-    var allQuestions = this.arrayWithProbability(scores);
+    var allQuestions = tool.arrayWithProbability(scores);
     
     do{
-        var quest = _this.randomWithProbability(allQuestions);
+        var quest = tool.randomWithProbability(allQuestions);
         var good = true;
+        
         $.each(questionsToDisplay, function(index, value) {
             if(sim[quest][value] > 0.5){
                 good = false;
@@ -261,13 +246,25 @@ TestsCoco.Simulator.Chooser.prototype.choose = function (d1,d2,numberOfQuestions
     
     return questionsToDisplay;
 }
+TestsCoco.Simulator.Chooser.prototype.getChoosenQuestions = function (d1,d2,numberOfQuestions){
+
+    var disp = this.choose(d1,d2,numberOfQuestions);
+
+    var choosenQuestions = [];
+    
+    $.each(d2.annotations, function(index,value){
+        if($.inArray(value.id,disp) != -1){
+            choosenQuestions.push(value);
+        }
+    });
+    
+    return {annotations : choosenQuestions};
+}
 
 TestsCoco.Simulator.Chooser.prototype.main = function (d1,d2,numberOfQuestions){
     var _this = this;
     
     this.getData(d1,d2);
     
-    var disp = this.choose(d1,d2,numberOfQuestions);
-
-    return disp;
+    return this.getChoosenQuestions(d1,d2,numberOfQuestions);
 }

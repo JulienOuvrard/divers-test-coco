@@ -141,7 +141,7 @@ TestsCoco.Simulator.Questions.prototype.generate = function (tab,nombre,longMin,
     return retour;
 }
 
-TestsCoco.Simulator.Questions.prototype.main = function (d1,d2,d3,other){
+TestsCoco.Simulator.Questions.prototype.main = function (d1,d2,d3,other,nb_questions){
     var tool = new TestsCoco.Tools();
     
     var stopwords_fr = this.getStopWords(d1,d2);
@@ -150,16 +150,8 @@ TestsCoco.Simulator.Questions.prototype.main = function (d1,d2,d3,other){
     
     this.filtering(donnees,stopwords_fr);
     
-    var all_words = this.getAllWords(donnees);
+    var all_words = other ? this.getAllWords(donnees) : [];
     
-    var questions;
+    return {"annotations" : this.generate(donnees,nb_questions,5,10,2,5,all_words)};
     
-    if(!other){
-        questions =  {"annotations" : this.generate(donnees,50,5,10,2,5,[])};
-    }else{
-        questions = {"annotations" : this.generate(donnees,50,5,10,2,5,all_words)};
-    }
-    
-    return questions
-        
 }

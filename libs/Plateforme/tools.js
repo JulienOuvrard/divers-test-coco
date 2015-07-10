@@ -96,3 +96,18 @@ TestsCoco.Tools.prototype.getMaxOfArray = function (numArray) {
 TestsCoco.Tools.prototype.getValuesOfObject = function (obj) {
     return Object.keys(obj).map(function (k) { return obj[k];});
 }
+
+TestsCoco.Tools.prototype.arrayWithProbability = function (tab) {
+    var arr = [];
+    $.each(tab, function(index,value){
+        for(var i = 0; i < value; i++){
+            arr.push(index);
+        }
+    });
+    return arr;
+}
+
+TestsCoco.Tools.prototype.randomWithProbability = function (notRandomQuestions) {
+    var idx = Math.floor(Math.random() * notRandomQuestions.length);
+    return notRandomQuestions[idx];
+}

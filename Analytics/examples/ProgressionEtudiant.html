@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link href="../build/nv.d3.css" rel="stylesheet" type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.2/d3.min.js" charset="utf-8"></script>
+    <script src="../build/nv.d3.js"></script>
+
+    <style>
+        text {
+            font: 12px sans-serif;
+        }
+        svg {
+            display: block;
+        }
+        html, body, #chart1, svg {
+            margin: 0px;
+            padding: 0px;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<div id="chart1">
+    <svg></svg>
+</div>
+
+<script>
+
+    // Wrapping in nv.addGraph allows for '0 timeout render', stores rendered charts in nv.graphs,
+    // and may do more in the future... it's NOT required
+    nv.addGraph(function() {
+        var chart = nv.models.cumulativeLineChart()
+            .useInteractiveGuideline(false)
+            .x(function(d) { return d[0] })
+            .y(function(d) { return d[1] })
+            .color(d3.scale.category10().range())
+            .average(function(d) { return d.mean/100; })
+            .duration(300)
+            .clipVoronoi(false);
+        chart.dispatch.on('renderEnd', function() {
+            console.log('render complete: cumulative line with guide line');
+        });
+
+        chart.xAxis.axisLabel('Date');
+		chart.yAxis.axisLabel('Note');
+        chart.xAxis.tickFormat(function(d) {
+            return d3.time.format('%d/%m/%y')(new Date(d))
+        });
+
+        chart.yAxis.tickFormat(d3.format('1'));
+
+        d3.select('#chart1 svg')
+            .datum(data())
+            .call(chart);
+
+        //TODO: Figure out a good way to do this automatically
+        nv.utils.windowResize(chart.update);
+
+        chart.dispatch.on('stateChange', function(e) { nv.log('New State:', JSON.stringify(e)); });
+        chart.state.dispatch.on('change', function(state){
+            nv.log('state', JSON.stringify(state));
+        });
+
+        return chart;
+    });
+
+    function flatTestData() {
+        return [{
+            key: "Snakes",
+            values: [0,1,2,3,4,5,6,7,8,9].map(function(d) {
+                var currentDate = new Date();
+                currentDate.setDate(currentDate.getDate() + d);
+                return [currentDate, 0]
+            })
+        }];
+    }
+    function data() {
+        return [
+            {
+                key: "progression de l'étudiant",
+                 values: [	[new Date(2014,08,22),0],
+							[new Date(2014,10,16),10],
+							[new Date(2014,11,25),14],
+							[new Date(2015,00,01),6],
+							[new Date(2015,01,13),8],
+							[new Date(2015,02,31),12],
+							[new Date(2015,03,14),17],
+							[new Date(2015,04,29),20],
+							[new Date(2015,05,08),20],
+							[new Date(2015,06,10),18]]
+			}
+            
+        ];
+    }
+
+</script>
+</body></html>

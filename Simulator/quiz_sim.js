@@ -4,7 +4,7 @@ var chooser = new TestsCoco.Simulator.Chooser();
 var visualizer = new TestsCoco.DataVis();
 
 var tool = new TestsCoco.Tools();
-
+//TODO : création objet user avec session date
 var users = [{name : "Alfred", profile : "regular"},
             {name : "Bernard", profile : "random"},
             {name : "Charlot", profile : "regular"},
@@ -27,7 +27,7 @@ function simulate(other_words,nb_tours,nb_question_by_tours,nb_questions){
                     selection = chooser.main(answers,questions,nb_question_by_tours);
                     answers = answers.concat(ans_sim.main(selection,nb_question_by_tours,value,nb_tours,max_time));
                 });
-                console.table(answers);
+                //console.table(answers);
                 
                 tool.downloadJson(questions,'#quest',"questions",'questions');
                 tool.downloadJson(answers,'#ans',"answers",'answers');

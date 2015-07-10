@@ -153,5 +153,5 @@ TestsCoco.Simulator.Questions.prototype.main = function (d1,d2,d3,other,nb_quest
     var all_words = other ? this.getAllWords(donnees) : [];
     
     return {"annotations" : this.generate(donnees,nb_questions,5,10,2,5,all_words)};
-        
+    
 }

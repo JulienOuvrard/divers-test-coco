@@ -1,5 +1,6 @@
 var TestsCoco = {
    Simulator : function(){},
    Tools : function(){},
-   DataVis : function(){}
+   DataVis : function(){},
+   User : function(){}
 }

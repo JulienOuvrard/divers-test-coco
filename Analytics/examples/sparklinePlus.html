@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link href="../build/nv.d3.css" rel="stylesheet" type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.2/d3.min.js" charset="utf-8"></script>
+    <script src="../build/nv.d3.js"></script>
+
+    <style>
+        text {
+            font: 12px sans-serif;
+        }
+        svg {
+            display: block;
+        }
+        html, body {
+            margin: 0px;
+            padding: 0px;
+        }
+        svg.sparkline {
+            width: 500px;
+            height: 70px;
+            font-size: 14px;
+            margin-top: -6px;
+        }
+    </style>
+</head>
+<body class='with-3d-shadow with-transitions'>
+	<table border="1">
+	<tr><th>Nom</th><th>Courbe de progression</th><th>Moyenne de l'élève</th><th>Indice de progression</th><th>Satisfaction</th></tr>
+	<tr><td>Michel</td><td><svg id="chart1" class="sparkline"></svg></td><td>36%</td><td>Mauvais</td><td>Mauvaise</td></tr>
+	<tr><td>Julien</td><td><svg id="chart2" class="sparkline"></svg></td><td>75%</td><td>Très bon</td><td>Bonne</td></tr>
+	<tr><td>Olivier</td><td><svg id="chart3" class="sparkline"></svg></td><td>50%</td><td>Moyen</td><td>Moyenne</td></tr>
+</table>
+
+<p></p>
+<p></p>
+<p></p>
+
+<script>
+
+    function defaultChartConfig(containerId, data) {
+        nv.addGraph(function() {
+
+            var chart = nv.models.sparklinePlus();
+            chart.margin({left:70})
+                .x(function(d) { return d[0] })
+                .y(function(d) { return d[1] })
+                .showLastValue(true)
+                .xTickFormat(function(d) {
+                    return d3.time.format('%d/%m/%y')(new Date(d))
+                });
+
+            d3.select(containerId)
+                    .datum(data)
+                    .call(chart);
+
+            return chart;
+        });
+    }
+
+    defaultChartConfig("#chart1",data(1));
+    defaultChartConfig("#chart2", data(2));
+    defaultChartConfig("#chart3", data(3));
+
+
+
+    function data(i) {
+		
+		if (i==1) {
+        return [			[new Date(2014,08,22),0],
+							[new Date(2014,10,16),8],
+							[new Date(2014,11,25),14],
+							[new Date(2015,00,01),2],
+							[new Date(2015,01,13),0],
+							[new Date(2015,02,31),6],
+							[new Date(2015,03,14),1],
+							[new Date(2015,04,29),5],
+							[new Date(2015,05,08),7],
+							[new Date(2015,06,10),20]];
+		}
+		else if (i==2) {
+        return [			[new Date(2014,08,22),20],
+							[new Date(2014,10,16),10],
+							[new Date(2014,11,25),14],
+							[new Date(2015,00,01),6],
+							[new Date(2015,01,13),8],
+							[new Date(2015,02,31),12],
+							[new Date(2015,03,14),17],
+							[new Date(2015,04,29),20],
+							[new Date(2015,05,08),20],
+							[new Date(2015,06,10),18]];
+		}
+		else if (i==3) {
+        return [			[new Date(2014,08,22),14],
+							[new Date(2014,10,16),17],
+							[new Date(2014,11,25),4],
+							[new Date(2015,00,01),1],
+							[new Date(2015,01,13),10],
+							[new Date(2015,02,31),16],
+							[new Date(2015,03,14),8],
+							[new Date(2015,04,29),2],
+							[new Date(2015,05,08),20],
+							[new Date(2015,06,10),19]];
+		}
+							
+
+       
+    }
+
+</script>
+</body>
+</html>

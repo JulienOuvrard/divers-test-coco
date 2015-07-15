@@ -6,40 +6,6 @@ TestsCoco.Simulator.Answers = function(){
     this.answer_rate = 0.7;
 };
 
-TestsCoco.Simulator.Answers.prototype.getSessionDates = function(start,profile,nb_tours,max_time) {
-    var _this = this;
-    var session_dates = [];
-    
-    var cases = {
-      "regular": function(tab) {
-                    tab.push(start);
-                    for(var i = 1; i < nb_tours; i++){
-                        var d = new Date();
-                        var offset = d.getTimezoneOffset();
-                        var temp = tab[i-1];
-                        var hours = _.random(8,20);
-                        d.setTime(temp.getTime() + offset + _.random(1) * _this.dayInMillisecond + max_time + hours * _this.hourInMillisecond);
-                        tab.push(d);
-                    }
-                    return tab;
-                },
-      "random": function(tab) {
-                    tab.push(start);
-                    for(var i = 1; i < nb_tours; i++){
-                        var d = new Date();
-                        var offset = d.getTimezoneOffset();
-                        var temp = tab[i-1];
-                        d.setTime(temp.getTime() + offset + _.random(3) * _this.dayInMillisecond + max_time);
-                        tab.push(d);
-                    }
-                    return tab;
-                },
-      _default: function() { console.log('Profile not implemented'); }
-    };
-
-    return cases[ profile ] ? cases[ profile ](session_dates) : cases._default();
-}
-
 TestsCoco.Simulator.Answers.prototype.dates = function (session_start,question,profile){
     var d = session_start.getTime(), d2;
     switch(profile) {
@@ -123,13 +89,12 @@ TestsCoco.Simulator.Answers.prototype.generate = function (questions,numberOfQue
     return reponses;
 }
 
-TestsCoco.Simulator.Answers.prototype.main = function (d1,numberOfQuestions,user,nb_tours,max_time){
+TestsCoco.Simulator.Answers.prototype.main = function (d1,numberOfQuestions,user){
     var _this = this;
     var tool = new TestsCoco.Tools();
     var ret = [];
-    var s_dates = this.getSessionDates(new Date(),user.profile,nb_tours,max_time);
-    
-    $.each(s_dates,function(index,value){
+
+    $.each(user.session_dates,function(index,value){
         var session_id = tool.generateUid();
         ret = ret.concat(_this.generate(d1.annotations,numberOfQuestions,user.name,user.profile,value,session_id));
     });

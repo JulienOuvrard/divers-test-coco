@@ -1,43 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <link href="../build/nv.d3.css" rel="stylesheet" type="text/css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.2/d3.min.js" charset="utf-8"></script>
-    <script src="../build/nv.d3.js"></script>
 
-    <style>
-        text {
-            font: 12px sans-serif;
-        }
-        svg {
-            display: block;
-        }
-        html, body, #chart1, svg {
-            margin: 0px;
-            padding: 0px;
-            height: 100%;
-            width: 100%;
-        }
-
-        .dashed {
-            stroke-dasharray: 5,5;
-        }
-    </style>
-</head>
-<body class='with-3d-shadow with-transitions'>
-<div style="position:absolute; top: 0; left: 0;">
-    <script>
-        var expandLegend = function() {
-            var exp = chart.legend.expanded();
-            chart.legend.expanded(!exp);
-            chart.update();
-        }
-    </script>
-</div>
-<div id="chart1"></div>
-
-<script>
     // Wrapping in nv.addGraph allows for '0 timeout render', stores rendered charts in nv.graphs, and may do more in the future... it's NOT required
     var chart;
     var data;
@@ -71,8 +32,8 @@
 
         
 
-        d3.select('#chart1').append('svg')
-            .datum(data())
+        d3.select('#histoAllStudents svg')
+            .datum(dataHistoAllStudents())
             .call(chart);
 
         nv.utils.windowResize(chart.update);
@@ -80,13 +41,13 @@
         return chart;
     });
 
-    function data() {
+    function dataHistoAllStudents() {
         
 
         return [
             {
-                key: "Note",
-                values: [	[new Date(2014,08,22),20],
+                key: "Michel",
+                values: [	[new Date(2014,08,22),0],
 							[new Date(2014,10,16),8],
 							[new Date(2014,11,25),14],
 							[new Date(2015,00,01),2],
@@ -96,10 +57,43 @@
 							[new Date(2015,04,29),5],
 							[new Date(2015,05,08),7],
 							[new Date(2015,06,10),20]]
-            }
+            },
+            {
+                key: "Julien",
+                values: [	[new Date(2014,08,22),20],
+							[new Date(2014,10,16),10],
+							[new Date(2014,11,25),14],
+							[new Date(2015,00,01),6],
+							[new Date(2015,01,13),8],
+							[new Date(2015,02,31),12],
+							[new Date(2015,03,14),17],
+							[new Date(2015,04,29),20],
+							[new Date(2015,05,08),20],
+							[new Date(2015,06,10),18]]
+            },
+            {
+                key: "Olivier",
+                 values: [	[new Date(2014,08,22),14],
+							[new Date(2014,10,16),17],
+							[new Date(2014,11,25),4],
+							[new Date(2015,00,01),1],
+							[new Date(2015,01,13),10],
+							[new Date(2015,02,31),16],
+							[new Date(2015,03,14),8],
+							[new Date(2015,04,29),2],
+							[new Date(2015,05,08),20],
+							[new Date(2015,06,10),19]]},
+            {
+                key: "Patrick",
+                 values: [[new Date(2014,08,22),17],
+							[new Date(2014,10,16),16],
+							[new Date(2014,11,25),15],
+							[new Date(2015,00,01),14],
+							[new Date(2015,01,13),13],
+							[new Date(2015,02,31),14],
+							[new Date(2015,03,14),15],
+							[new Date(2015,04,29),16],
+							[new Date(2015,05,08),17],
+							[new Date(2015,06,10),20]]}
         ];
     }
-
-</script>
-</body>
-</html>

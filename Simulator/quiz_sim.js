@@ -35,7 +35,7 @@ function simulate(other_words,nb_tours,nb_question_by_tours,nb_questions){
                 tool.downloadJson(questions,'#quest',"questions",'questions');
                 tool.downloadJson(answers,'#ans',"answers",'answers');
                 
-                //visualizer.main(".analytics",questions,answers);
+                visualizer.main(".analytics",questions,answers);
                 
                 $("#loading").css("display","none");
                 $("#files").css("display","block");

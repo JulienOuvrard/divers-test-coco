@@ -1,30 +1,42 @@
 TestsCoco.DataVis = function(){};
 
 TestsCoco.DataVis.prototype.getPropertiesByKey = function(tab,key,key2) {
-    var answers_group = _.groupBy(tab,key);
-    return _.mapValues(answers_group,function(value){
+    var group = _.groupBy(tab,key);
+    return _.mapValues(group,function(value){
         return _.countBy(value,key2);
     });
 }
 
-TestsCoco.DataVis.prototype.decorate = function(tab) {
-    //var mapped = this.getPropertiesByKey(tab,decor,'username');
-    var user_group = _.groupBy(tab,'subject');
-    var mapped = _.mapValues(user_group,function(value){
-        return _.groupBy(value,'username');
+TestsCoco.DataVis.prototype.aggregate = function(tab,key1,key2,key3) {
+    var group = _.groupBy(tab,key1);
+    
+    var groupByKey2 = _.mapValues(group,function(value){
+        return _.groupBy(value,key2);
     });
-    var prop = _.mapValues(mapped,function(value){
+    
+    return _.mapValues(groupByKey2,function(value){
         return _.mapValues(value,function(value2){
-            return _.countBy(value2,'property');
+            return _.countBy(value2,key3);
         });
     });
-    /*var prop = _.mapValues(tab,function(value){
-        return _.mapValues(value,function(value2){
-            return _.countBy(value2,decor);
-        });
-    });*/
-    return prop;
 }
+
+TestsCoco.DataVis.prototype.getNbAnswerByQuestion = function(tab){
+    var obj = {};
+    var valueByPropertyByQuestion = this.aggregate(tab,'subject','property','value');
+    $.each(valueByPropertyByQuestion,function(index,value){
+        obj[index] = {}
+        $.each(value,function(index2,value2){
+            if(index2.match(/right_answer|wrong_answer/gi) != null){
+                $.each(value2,function(index3,value3){
+                    obj[index][index3]=value3;
+                });
+            }
+        });
+    });
+    return obj;
+}
+
 TestsCoco.DataVis.prototype.main = function(container,questions,answers,users){
     var ann = questions.annotations;
 
@@ -39,11 +51,18 @@ TestsCoco.DataVis.prototype.main = function(container,questions,answers,users){
     
     var propertiesByQuestion = this.getPropertiesByKey(answers,'subject','property');
     var propertiesBySession = this.getPropertiesByKey(answers,'sessionId','property');
+    
     var userBySession = this.getPropertiesByKey(answers,'sessionId','username');
     var userByQuestion = this.getPropertiesByKey(answers,'subject','username');
-    console.table(propertiesByQuestion);
+    
+    var propertiesByUserByQuestion = this.aggregate(answers,'subject','username','property');
+    var propertiesByUserBySession = this.aggregate(answers,'sessionId','username','property');
+    
+    var NbAnswerByQuestion = this.getNbAnswerByQuestion(answers);
+    
+    //console.table(propertiesByQuestion);
     //console.table(propertiesBySession);
-    console.table(this.decorate(answers));
-    //console.table(this.decorate(answers,'subject'));
-    //console.table(this.decorate(userBySession,'property'));
+    //console.table(propertiesByUserByQuestion);
+    //console.table(NbAnswerByQuestion);
+    
 }

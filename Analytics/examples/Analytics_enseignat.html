@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">    
+    <link href="main.css" rel="stylesheet" type="text/css">
+    <link href="../build/nv.d3.css" rel="stylesheet" type="text/css">
+    <script src="../../libs/d3.min.js" charset="utf-8"></script>
+    <script src="../build/nv.d3.js"></script>
+    <script src="progressionEtudiant.js"></script>
+    <script src="voteParReponse.js"></script>
+    <script src="utilePasUtile.js"></script>
+    <script src="reponseUtile.js"></script>
+    <script src="nbViewer.js"></script>    
+    <script src="historicStudent_allVideos.js"></script>
+    <script src="historicAllStudents.js"></script>
+    <script src="BonneMauvaiseSkip.js"></script>
+    <script src="sparklines.js"></script>
+
+</head>
+<body class='with-3d-shadow with-transitions'>
+
+<div> <h1>Outils de l'enseignant</h1>	
+<div><h2>Pour la vidéo</h2>
+<div id="nbViewer" align="center"><h1>Nombre de vues de la vidéo</h1><svg></svg></div></div>
+<div id="histoAllStudents" align="center"><h1>Progression des étudiants sur la vidéo</h1><svg></svg></div><br><br><br><br>
+<div align="center"><h1>Tableau de progression des étudiants</h1>
+<table border="1">
+	<tr><th>Nom</th><th>Courbe de progression</th><th>Moyenne de l'élève</th><th>Indice de progression</th><th>Satisfaction</th></tr>
+	<tr><td>Michel</td><td><svg id="chart1" class="sparkline"></svg></td><td>36%</td><td>Mauvais</td><td>Mauvaise</td></tr>
+	<tr><td>Julien</td><td><svg id="chart2" class="sparkline"></svg></td><td>75%</td><td>Très bon</td><td>Bonne</td></tr>
+	<tr><td>Olivier</td><td><svg id="chart3" class="sparkline"></svg></td><td>50%</td><td>Moyen</td><td>Moyenne</td></tr>
+</table></div>
+<div id="repUtile" align="center"><h1>Utilité de la question en fonction de la réponse (bonne ou mauvaise)</h1><svg></svg></div><br><br><br><br>
+<div id="voteParRep" align="center"><h1>Détails du nombre de votes par réponse</h1><svg></svg></div>
+</div>
+</div>
+</body>
+</html>

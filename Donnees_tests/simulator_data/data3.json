@@ -1,0 +1,1857 @@
+{
+  "views": [],
+  "tags": [],
+  "lists": [],
+  "medias": [
+    {
+      "origin": "0",
+      "url": "20131115-camera-reference.mp4",
+      "http://advene.liris.cnrs.fr/ns/frame_of_reference/ms": "o=0",
+      "meta": {
+        "dc:contributor": "oaubert",
+        "dc:creator": "oaubert",
+        "dc:created.contents": "2013-12-17",
+        "dc:title": "20131115-camera-reference.mp4",
+        "dc:creator.contents": "oaubert",
+        "dc:modified": "2013-12-17",
+        "dc:created": "2013-12-17",
+        "dc:duration": 4336512,
+        "dc:description": ""
+      },
+      "id": "m20131115",
+      "unit": "ms"
+    }
+  ],
+  "meta": {
+    "dc:contributor": "admin",
+    "dc:creator": "admin",
+    "id": "package1",
+    "dc:title": "Analysis of 20131115-camera-reference.mp4",
+    "dc:description": "",
+    "dc:created": "2011-02-14T15:15:52.602502",
+    "main_media": "m20131115",
+    "dc:modified": "2013-12-17"
+  },
+  "annotations": [
+    {
+      "begin": 0,
+      "end": 99818,
+      "tags": null,
+      "media": "m20131115",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/00.png"
+        },
+        "title": "Langage naturel probl\u00e8mes et solutions informatiques",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-17",
+        "dc:modified": "2013-12-17",
+        "dc:creator": "oaubert"
+      },
+      "id": "a1"
+    },
+    {
+      "begin": 99818,
+      "end": 145813,
+      "tags": null,
+      "media": "m20131115",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/01.png"
+        },
+        "title": "2001, L'Odyss\u00e9e de l'espace",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-17",
+        "dc:modified": "2013-12-17",
+        "dc:creator": "oaubert"
+      },
+      "id": "a2"
+    },
+    {
+      "begin": 145813,
+      "end": 162071,
+      "tags": null,
+      "media": "m20131115",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/02.png"
+        },
+        "title": "2001, L'Odyss\u00e9e de l'espace",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-17",
+        "dc:modified": "2013-12-17",
+        "dc:creator": "oaubert"
+      },
+      "id": "a3"
+    },
+    {
+      "begin": 162071,
+      "end": 338453,
+      "tags": null,
+      "media": "m20131115",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/03.png"
+        },
+        "title": "Applications du TALN",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-17",
+        "dc:modified": "2013-12-17",
+        "dc:creator": "oaubert"
+      },
+      "id": "a4"
+    },
+    {
+      "begin": 338453,
+      "end": 455872,
+      "tags": null,
+      "media": "m20131115",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/04.png"
+        },
+        "title": "Applications du TALN",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-17",
+        "dc:modified": "2013-12-17",
+        "dc:creator": "oaubert"
+      },
+      "id": "a6"
+    },
+    {
+      "begin": 455872,
+      "end": 493164,
+      "tags": null,
+      "media": "m20131115",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/05.png"
+        },
+        "title": "Plan de l'expos\u00e9",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-17",
+        "dc:modified": "2013-12-17",
+        "dc:creator": "oaubert"
+      },
+      "id": "a7"
+    },
+    {
+      "begin": 493164,
+      "end": 515216,
+      "tags": null,
+      "media": "m20131115",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/06.png"
+        },
+        "title": "Les bases",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-17",
+        "dc:modified": "2013-12-17",
+        "dc:creator": "oaubert"
+      },
+      "id": "a8"
+    },
+    {
+      "begin": 515216,
+      "end": 613397,
+      "tags": null,
+      "media": "m20131115",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/07.png"
+        },
+        "title": "Caract\u00e8re (au sens informatique)",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-17",
+        "dc:modified": "2013-12-17",
+        "dc:creator": "oaubert"
+      },
+      "id": "a9"
+    },
+    {
+      "begin": 613397,
+      "end": 685482,
+      "tags": null,
+      "media": "m20131115",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/08.png"
+        },
+        "title": "Crit\u00e8res des codes",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-17",
+        "dc:modified": "2013-12-17",
+        "dc:creator": "oaubert"
+      },
+      "id": "a10"
+    },
+    {
+      "begin": 685482,
+      "end": 792264,
+      "tags": null,
+      "media": "m20131115",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/09.png"
+        },
+        "title": "Codes normalis\u00e9s (1)",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-17",
+        "dc:modified": "2013-12-17",
+        "dc:creator": "oaubert"
+      },
+      "id": "a11"
+    },
+    {
+      "begin": 792264,
+      "end": 873414,
+      "tags": null,
+      "media": "m20131115",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/10.png"
+        },
+        "title": "Code ASCII \u2013 Table",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-17",
+        "dc:modified": "2013-12-17",
+        "dc:creator": "oaubert"
+      },
+      "id": "a12"
+    },
+    {
+      "begin": 873414,
+      "end": 1151277,
+      "tags": null,
+      "media": "m20131115",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/11.png"
+        },
+        "title": "Codes normalis\u00e9s (2)",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-17",
+        "dc:modified": "2013-12-17",
+        "dc:creator": "oaubert"
+      },
+      "id": "a13"
+    },
+    {
+      "begin": 1151277,
+      "end": 1332405,
+      "tags": null,
+      "media": "m20131115",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/12.png"
+        },
+        "title": "Codes normalis\u00e9s (3)",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-17",
+        "dc:modified": "2013-12-17",
+        "dc:creator": "oaubert"
+      },
+      "id": "a14"
+    },
+    {
+      "begin": 1332405,
+      "end": 1381729,
+      "tags": null,
+      "media": "m20131115",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/13.png"
+        },
+        "title": "UTF8",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-17",
+        "dc:modified": "2013-12-17",
+        "dc:creator": "oaubert"
+      },
+      "id": "a15"
+    },
+    {
+      "begin": 1381729,
+      "end": 1432687,
+      "tags": null,
+      "media": "m20131115",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/14.png"
+        },
+        "title": "UTF8 \u2013 Exemple",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-17",
+        "dc:modified": "2013-12-17",
+        "dc:creator": "oaubert"
+      },
+      "id": "a16"
+    },
+    {
+      "begin": 1432687,
+      "end": 1535850,
+      "tags": null,
+      "media": "m20131115",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/15.png"
+        },
+        "title": "Commandes LINUX",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-17",
+        "dc:modified": "2013-12-17",
+        "dc:creator": "oaubert"
+      },
+      "id": "a17"
+    },
+    {
+      "begin": 1535850,
+      "end": 1799082,
+      "tags": null,
+      "media": "m20131115",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/16.png"
+        },
+        "title": "Cha\u00eene de caract\u00e8res / Mot (au sens informatique)",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-17",
+        "dc:modified": "2013-12-17",
+        "dc:creator": "oaubert"
+      },
+      "id": "a18"
+    },
+    {
+      "begin": 1799082,
+      "end": 1894912,
+      "tags": null,
+      "media": "m20131115",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/17.png"
+        },
+        "title": "Phrase (au sens informatique)",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-17",
+        "dc:modified": "2013-12-17",
+        "dc:creator": "oaubert"
+      },
+      "id": "a19"
+    },
+    {
+      "begin": 1894912,
+      "end": 2145225,
+      "tags": null,
+      "media": "m20131115",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/18.png"
+        },
+        "title": "Texte et Tris",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-17",
+        "dc:modified": "2013-12-17",
+        "dc:creator": "oaubert"
+      },
+      "id": "a20"
+    },
+    {
+      "begin": 2145225,
+      "end": 2251031,
+      "tags": null,
+      "media": "m20131115",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/19.png"
+        },
+        "title": "Loi de Zipf",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-17",
+        "dc:modified": "2013-12-17",
+        "dc:creator": "oaubert"
+      },
+      "id": "a21"
+    },
+    {
+      "begin": 2251031,
+      "end": 2299908,
+      "tags": null,
+      "media": "m20131115",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/20.png"
+        },
+        "title": "Loi de Zipf",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-17",
+        "dc:modified": "2013-12-17",
+        "dc:creator": "oaubert"
+      },
+      "id": "a22"
+    },
+    {
+      "begin": 2299908,
+      "end": 2364218,
+      "tags": null,
+      "media": "m20131115",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/21.png"
+        },
+        "title": "Liste de fr\u00e9quence des mots",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-17",
+        "dc:modified": "2013-12-17",
+        "dc:creator": "oaubert"
+      },
+      "id": "a23"
+    },
+    {
+      "begin": 2364218,
+      "end": 2376556,
+      "tags": null,
+      "media": "m20131115",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/22.png"
+        },
+        "title": "Plan de l'expos\u00e9",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-17",
+        "dc:modified": "2013-12-17",
+        "dc:creator": "oaubert"
+      },
+      "id": "a24"
+    },
+    {
+      "begin": 2376556,
+      "end": 2402693,
+      "tags": null,
+      "media": "m20131115",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/23.png"
+        },
+        "title": "Eliza",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-17",
+        "dc:modified": "2013-12-17",
+        "dc:creator": "oaubert"
+      },
+      "id": "a25"
+    },
+    {
+      "begin": 2402693,
+      "end": 2442193,
+      "tags": null,
+      "media": "m20131115",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/24.png"
+        },
+        "title": "Eliza : exemples",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-17",
+        "dc:modified": "2013-12-17",
+        "dc:creator": "oaubert"
+      },
+      "id": "a26"
+    },
+    {
+      "begin": 2442193,
+      "end": 2457852,
+      "tags": null,
+      "media": "m20131115",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/25.png"
+        },
+        "title": "Eliza : exemples",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-17",
+        "dc:modified": "2013-12-17",
+        "dc:creator": "oaubert"
+      },
+      "id": "a27"
+    },
+    {
+      "begin": 2457852,
+      "end": 2477239,
+      "tags": null,
+      "media": "m20131115",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/26.png"
+        },
+        "title": "Eliza : exemples",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-17",
+        "dc:modified": "2013-12-17",
+        "dc:creator": "oaubert"
+      },
+      "id": "a28"
+    },
+    {
+      "begin": 2477239,
+      "end": 2515208,
+      "tags": null,
+      "media": "m20131115",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/27.png"
+        },
+        "title": "Eliza : Analyse de l'exemple",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-17",
+        "dc:modified": "2013-12-17",
+        "dc:creator": "oaubert"
+      },
+      "id": "a29"
+    },
+    {
+      "begin": 2515208,
+      "end": 2548422,
+      "tags": null,
+      "media": "m20131115",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/28.png"
+        },
+        "title": "Eliza : Analyse de l'exemple",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-17",
+        "dc:modified": "2013-12-17",
+        "dc:creator": "oaubert"
+      },
+      "id": "a30"
+    },
+    {
+      "begin": 2548422,
+      "end": 2611840,
+      "tags": null,
+      "media": "m20131115",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/29.png"
+        },
+        "title": "Eliza : Analyse de l'exemple",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-17",
+        "dc:modified": "2013-12-17",
+        "dc:creator": "oaubert"
+      },
+      "id": "a31"
+    },
+    {
+      "begin": 2611840,
+      "end": 2649957,
+      "tags": null,
+      "media": "m20131115",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/30.png"
+        },
+        "title": "Bilan sur Eliza",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-17",
+        "dc:modified": "2013-12-17",
+        "dc:creator": "oaubert"
+      },
+      "id": "a32"
+    },
+    {
+      "begin": 2649957,
+      "end": 2690460,
+      "tags": null,
+      "media": "m20131115",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/31.png"
+        },
+        "title": "Recherche de motifs",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-17",
+        "dc:modified": "2013-12-17",
+        "dc:creator": "oaubert"
+      },
+      "id": "a33"
+    },
+    {
+      "begin": 2690460,
+      "end": 2741546,
+      "tags": null,
+      "media": "m20131115",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/32.png"
+        },
+        "title": "Expressions r\u00e9guli\u00e8res",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-17",
+        "dc:modified": "2013-12-17",
+        "dc:creator": "oaubert"
+      },
+      "id": "a34"
+    },
+    {
+      "begin": 2741546,
+      "end": 2844443,
+      "tags": null,
+      "media": "m20131115",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/33.png"
+        },
+        "title": "Expressions r\u00e9guli\u00e8res - syntaxe",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-17",
+        "dc:modified": "2013-12-17",
+        "dc:creator": "oaubert"
+      },
+      "id": "a35"
+    },
+    {
+      "begin": 2844443,
+      "end": 2899754,
+      "tags": null,
+      "media": "m20131115",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/34.png"
+        },
+        "title": "Expressions r\u00e9guli\u00e8res - classe de caract\u00e8res",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-17",
+        "dc:modified": "2013-12-17",
+        "dc:creator": "oaubert"
+      },
+      "id": "a36"
+    },
+    {
+      "begin": 2899754,
+      "end": 2971067,
+      "tags": null,
+      "media": "m20131115",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/35.png"
+        },
+        "title": "Expressions r\u00e9guli\u00e8res -  n\u00e9gateur",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-17",
+        "dc:modified": "2013-12-17",
+        "dc:creator": "oaubert"
+      },
+      "id": "a37"
+    },
+    {
+      "begin": 2971067,
+      "end": 3074833,
+      "tags": null,
+      "media": "m20131115",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/36.png"
+        },
+        "title": "Expressions r\u00e9guli\u00e8res - quantificateurs",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-17",
+        "dc:modified": "2013-12-17",
+        "dc:creator": "oaubert"
+      },
+      "id": "a38"
+    },
+    {
+      "begin": 3074833,
+      "end": 3088235,
+      "tags": null,
+      "media": "m20131115",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/37.png"
+        },
+        "title": "Expressions r\u00e9guli\u00e8res - quantificateurs",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-17",
+        "dc:modified": "2013-12-17",
+        "dc:creator": "oaubert"
+      },
+      "id": "a39"
+    },
+    {
+      "begin": 3088235,
+      "end": 3279962,
+      "tags": null,
+      "media": "m20131115",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/38.png"
+        },
+        "title": "Expressions r\u00e9guli\u00e8res - m\u00e9tacaract\u00e8res",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-17",
+        "dc:modified": "2013-12-17",
+        "dc:creator": "oaubert"
+      },
+      "id": "a40"
+    },
+    {
+      "begin": 3279962,
+      "end": 3447581,
+      "tags": null,
+      "media": "m20131115",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/39.png"
+        },
+        "title": "Exemple",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-17",
+        "dc:modified": "2013-12-17",
+        "dc:creator": "oaubert"
+      },
+      "id": "a41"
+    },
+    {
+      "begin": 3447581,
+      "end": 3487713,
+      "tags": null,
+      "media": "m20131115",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/40.png"
+        },
+        "title": "Erreurs",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-17",
+        "dc:modified": "2013-12-17",
+        "dc:creator": "oaubert"
+      },
+      "id": "a42"
+    },
+    {
+      "begin": 3487713,
+      "end": 3555432,
+      "tags": null,
+      "media": "m20131115",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/41.png"
+        },
+        "title": "R\u00e9duire les erreurs",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-17",
+        "dc:modified": "2013-12-17",
+        "dc:creator": "oaubert"
+      },
+      "id": "a43"
+    },
+    {
+      "begin": 3555432,
+      "end": 3663629,
+      "tags": null,
+      "media": "m20131115",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/42.png"
+        },
+        "title": "Remplacement et m\u00e9morisation",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-17",
+        "dc:modified": "2013-12-17",
+        "dc:creator": "oaubert"
+      },
+      "id": "a44"
+    },
+    {
+      "begin": 3663629,
+      "end": 3682299,
+      "tags": null,
+      "media": "m20131115",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/43.png"
+        },
+        "title": "Eliza : exemples",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-17",
+        "dc:modified": "2013-12-17",
+        "dc:creator": "oaubert"
+      },
+      "id": "a45"
+    },
+    {
+      "begin": 3682299,
+      "end": 3799793,
+      "tags": null,
+      "media": "m20131115",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/44.png"
+        },
+        "title": "Eliza : expressions r\u00e9guli\u00e8res",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-17",
+        "dc:modified": "2013-12-17",
+        "dc:creator": "oaubert"
+      },
+      "id": "a46"
+    },
+    {
+      "begin": 3799793,
+      "end": 3818939,
+      "tags": null,
+      "media": "m20131115",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/45.png"
+        },
+        "title": "Bilan sur les expressions",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-17",
+        "dc:modified": "2013-12-17",
+        "dc:creator": "oaubert"
+      },
+      "id": "a47"
+    },
+    {
+      "begin": 3818939,
+      "end": 3864778,
+      "tags": null,
+      "media": "m20131115",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/46.png"
+        },
+        "title": "Automates \u00e0 \u00e9tats finis",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-17",
+        "dc:modified": "2013-12-17",
+        "dc:creator": "oaubert"
+      },
+      "id": "a48"
+    },
+    {
+      "begin": 3864778,
+      "end": 3970449,
+      "tags": null,
+      "media": "m20131115",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/47.png"
+        },
+        "title": "Automates \u00e0 \u00e9tats finis",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-17",
+        "dc:modified": "2013-12-17",
+        "dc:creator": "oaubert"
+      },
+      "id": "a49"
+    },
+    {
+      "begin": 3970449,
+      "end": 3973006,
+      "tags": null,
+      "media": "m20131115",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/48.png"
+        },
+        "title": "Automate du mouton",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-17",
+        "dc:modified": "2013-12-17",
+        "dc:creator": "oaubert"
+      },
+      "id": "a50"
+    },
+    {
+      "begin": 3973006,
+      "end": 4003294,
+      "tags": null,
+      "media": "m20131115",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/49.png"
+        },
+        "title": "D\u00e9finir un automate \u00e0 \u00e9tats finis",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-17",
+        "dc:modified": "2013-12-17",
+        "dc:creator": "oaubert"
+      },
+      "id": "a51"
+    },
+    {
+      "begin": 4003294,
+      "end": 4083233,
+      "tags": null,
+      "media": "m20131115",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/50.png"
+        },
+        "title": "Une autre formulation",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-17",
+        "dc:modified": "2013-12-17",
+        "dc:creator": "oaubert"
+      },
+      "id": "a52"
+    },
+    {
+      "begin": 4083233,
+      "end": 4113287,
+      "tags": null,
+      "media": "m20131115",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/51.png"
+        },
+        "title": "Reconnaissance",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-17",
+        "dc:modified": "2013-12-17",
+        "dc:creator": "oaubert"
+      },
+      "id": "a53"
+    },
+    {
+      "begin": 4113287,
+      "end": 4133594,
+      "tags": null,
+      "media": "m20131115",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/52.png"
+        },
+        "title": "Cha\u00eene d'entr\u00e9e",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-17",
+        "dc:modified": "2013-12-17",
+        "dc:creator": "oaubert"
+      },
+      "id": "a54"
+    },
+    {
+      "begin": 4133594,
+      "end": 4154268,
+      "tags": null,
+      "media": "m20131115",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/53.png"
+        },
+        "title": "Cha\u00eene d'entr\u00e9e",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-17",
+        "dc:modified": "2013-12-17",
+        "dc:creator": "oaubert"
+      },
+      "id": "a55"
+    },
+    {
+      "begin": 4154268,
+      "end": 4336512,
+      "tags": null,
+      "media": "m20131115",
+      "content": {
+        "mimetype": "application/x-ldt-structured",
+        "description": "",
+        "img": {
+          "src": "imagecache/54.png"
+        },
+        "title": "Algorithme de reconnaissance",
+        "polemics": [],
+        "audio": {
+          "mimetype": "audio/mp3",
+          "src": "",
+          "href": null
+        }
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "Slides",
+        "dc:created": "2013-12-17",
+        "dc:modified": "2013-12-17",
+        "dc:creator": "oaubert"
+      },
+      "id": "a56"
+    },
+    {
+      "begin": 300000,
+      "end": 310000,
+      "tags": null,
+      "media": "m20131115",
+      "content": {
+        "mimetype": "application/x-video-quizz",
+        "data": {
+          "type": "unique_choice",
+          "question": "Qu\u2019est ce que le langage naturel?",
+          "answers": [
+            {
+              "content": "Syst\u00e8me de communication propre \u00e0 l\u2019humain ",
+              "correct": true,
+              "feedback": "Effectivement"
+            },
+            {
+              "content": "L\u2019art de parler de la nature",
+              "feedback": "As tu vraiment compris ce qu'est le langage naturel? "
+            },
+            {
+              "content": "Une fonction en informatique",
+              "feedback": "As tu vraiment compris ce qu'est le langage naturel?"
+            }
+          ]
+        },
+        "description": "Qu\u2019est ce que le langage naturel?",
+        "title": "Qu\u2019est ce que le langage naturel?"
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "at_quiz",
+        "dc:created": "2013-12-19",
+        "dc:modified": "2013-12-19",
+        "dc:creator": "oaubert"
+      },
+      "id": "bea6b73d-68a2-4828-8334-ee4c3b87c809"
+    },
+    {
+      "begin": 330000,
+      "end": 340000,
+      "tags": null,
+      "media": "m20131115",
+      "content": {
+        "mimetype": "application/x-video-quizz",
+        "data": {
+          "type": "unique_choice",
+          "question": "Que signifie le <em>TALN</em>?",
+          "answers": [
+            {
+              "content": "Th\u00e9orie Automatique du Langage National ",
+              "feedback": "Pas du tout"
+            },
+            {
+              "content": "Th\u00e9orie et Apprentissage du Langage Naturel",
+              "feedback": "A deux mot pr\u00e8s, c'est dommage"
+            },
+            {
+              "content": "Traitement Automatique du Langage Naturel ",
+              "correct": true,
+              "feedback": "Bien jou\u00e9"
+            }
+          ]
+        },
+        "description": "Que signifie le <em>TALN</em>?",
+        "title": "Que signifie le <em>TALN</em>?"
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "at_quiz",
+        "dc:created": "2013-12-19",
+        "dc:modified": "2013-12-19",
+        "dc:creator": "oaubert"
+      },
+      "id": "b50c88da-e993-4f84-9391-ad4eef51c7a3"
+    },
+    {
+      "begin": 2400000,
+      "end": 2410000,
+      "tags": null,
+      "media": "m20131115",
+      "content": {
+        "mimetype": "application/x-video-quizz",
+        "data": {
+          "type": "multiple_choice",
+          "question": "Lesquelles de ces abr\u00e9viations est un code normalis\u00e9 en informatique?",
+          "answers": [
+            {
+              "content": "ASCII ",
+              "correct": true,
+              "feedback": "Effectivement c\u2019est l\u2019une des premi\u00e8res normes"
+            },
+            {
+              "content": "UTF-16",
+              "correct": true,
+              "feedback": "Oui contient plus de caractere que l\u2019UTF-8"
+            },
+            {
+              "content": " NF-C 15100",
+              "feedback": "C\u2019est bien une norme mais pour l\u2019\u00e9lectricit\u00e9"
+            },
+            {
+              "content": "ISO-LATIN1",
+              "correct": true,
+              "feedback": "Bien vu l'aveugle"
+            },
+            {
+              "content": "CRD-1389",
+              "feedback": "Ah non!"
+            },
+            {
+              "content": "EU - FR",
+              "feedback": "Ah non!"
+            }
+          ]
+        },
+        "description": "Lesquelles de ces abr\u00e9viations est un code normalis\u00e9 en informatique?",
+        "title": "Lesquelles de ces abr\u00e9viations est un code normalis\u00e9 en informatique?"
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "at_quiz",
+        "dc:created": "2013-12-19",
+        "dc:modified": "2013-12-19",
+        "dc:creator": "oaubert"
+      },
+      "id": "352e8657-73e9-4bd0-8e5a-b8ce0db242bf"
+    },
+    {
+      "begin": 2420000,
+      "end": 2430000,
+      "tags": null,
+      "media": "m20131115",
+      "content": {
+        "mimetype": "application/x-video-quizz",
+        "data": {
+          "type": "unique_choice",
+          "question": "Quel est le principe de la loi de Zipf?",
+          "answers": [
+            {
+              "content": "Une observation compl\u00e8te sur la position des mots dans un texte",
+              "feedback": "Absolument pas !"
+            },
+            {
+              "content": "Une observation empirique sur la fr\u00e9quence des mots dans un texte",
+              "correct": true,
+              "feedback": "Bien vu l'aveugle"
+            },
+            {
+              "content": "Une observation sur le nombre de mots dans un texte",
+              "feedback": "Pas du tout"
+            }
+          ]
+        },
+        "description": "Quel est le principe de la loi de Zipf?",
+        "title": "Quel est le principe de la loi de Zipf?"
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "at_quiz",
+        "dc:created": "2013-12-19",
+        "dc:modified": "2013-12-19",
+        "dc:creator": "oaubert"
+      },
+      "id": "881f01a8-ed95-4ec2-91e5-fc1ab5229470"
+    },
+    {
+      "begin": 3279000,
+      "end": 3280000,
+      "tags": null,
+      "media": "m20131115",
+      "content": {
+        "mimetype": "application/x-video-quizz",
+        "data": {
+          "type": "unique_choice",
+          "question": "Que repr\u00e9sente cette expression r\u00e9guli\u00e8re : ^[st]ac?",
+          "answers": [
+            {
+              "content": "sac ou tac dans un phrase ",
+              "feedback": "l\u2019expression r\u00e9guli\u00e8re serait [st]ac"
+            },
+            {
+              "content": "sac ou tac en d\u00e9but de phrase",
+              "correct": true,
+              "feedback": "C'est gagn\u00e9"
+            },
+            {
+              "content": "sac ou tac en fin de phrase",
+              "feedback": "non pour la fin de phrase on mettrait : [st]ac$"
+            }
+          ]
+        },
+        "description": "Que repr\u00e9sente cette expression r\u00e9guli\u00e8re : ^[st]ac?",
+        "title": "Que repr\u00e9sente cette expression r\u00e9guli\u00e8re : ^[st]ac?"
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "at_quiz",
+        "dc:created": "2013-12-19",
+        "dc:modified": "2013-12-19",
+        "dc:creator": "oaubert"
+      },
+      "id": "b95ced5d-99a8-432a-a4b4-0f762562a2fc"
+    },
+    {
+      "begin": 3281000,
+      "end": 3282000,
+      "tags": null,
+      "media": "m20131115",
+      "content": {
+        "mimetype": "application/x-video-quizz",
+        "data": {
+          "type": "unique_choice",
+          "question": "Que signifie le point d\u2019interogation (?) en expression r\u00e9guli\u00e8re?",
+          "answers": [
+            {
+              "content": "0 ou 1 fois",
+              "correct": true,
+              "feedback": "Exactement"
+            },
+            {
+              "content": "1 ou + fois",
+              "feedback": "correspond plut\u00f4t au \u201c+\u201d"
+            },
+            {
+              "content": "0 ou + fois",
+              "feedback": "correspond plut\u00f4t au \u201c*\u201d"
+            }
+          ]
+        },
+        "description": "Que signifie le point d\u2019interogation (?) en expression r\u00e9guli\u00e8re?",
+        "title": "Que signifie le point d\u2019interogation (?) en expression r\u00e9guli\u00e8re?"
+      },
+      "meta": {
+        "dc:contributor": "oaubert",
+        "id-ref": "at_quiz",
+        "dc:created": "2013-12-19",
+        "dc:modified": "2013-12-19",
+        "dc:creator": "oaubert"
+      },
+      "id": "aa69b2dc-6e03-42cb-bf6e-6e18fed38411"
+    }
+  ],
+  "annotation-types": [
+    {
+      "dc:contributor": "oaubert",
+      "dc:creator": "oaubert",
+      "dc:title": "Slides",
+      "id": "Slides",
+      "dc:modified": "2013-12-17",
+      "dc:created": "2013-12-17",
+      "dc:description": ""
+    },
+    {
+      "dc:contributor": "advene",
+      "dc:creator": "advene",
+      "dc:title": "Text annotation",
+      "id": "annotation",
+      "dc:modified": "2004-06-30",
+      "dc:created": "2004-06-30",
+      "dc:description": ""
+    },
+    {
+      "dc:contributor": "oaubert",
+      "dc:creator": "oaubert",
+      "dc:title": "Quiz",
+      "dc:description": "Quiz question",
+      "dc:modified": "2015-01-20",
+      "dc:created": "2013-01-20",
+      "id": "at_quiz"
+    },
+    {
+      "dc:contributor": "oaubert",
+      "dc:creator": "oaubert",
+      "dc:title": "Contributions",
+      "dc:description": "Personal user contribution",
+      "dc:created": "2013-12-17",
+      "id": "at_contributions",
+      "dc:modified": "2013-12-17"
+    }
+  ]
+}

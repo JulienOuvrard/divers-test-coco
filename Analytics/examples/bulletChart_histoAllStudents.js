@@ -1,12 +1,8 @@
- var width = 960,
+ var width = 760,
         height = 80,
         margin = {top: 5, right: 40, bottom: 20, left: 120};
 
     var chart = nv.models.bulletChart()
-            .width(width - margin.right - margin.left)
-            .height(height - margin.top - margin.bottom);
-
-    var chart2 = nv.models.bulletChart()
             .width(width - margin.right - margin.left)
             .height(height - margin.top - margin.bottom);
 

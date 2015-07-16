@@ -11,7 +11,6 @@ svg {
 	padding: 0px;
 	height: 10%;
 	width: 100%;
-	max-width: 750px; 
 	font-family: sans-serif;
  }
 
@@ -27,6 +26,8 @@ svg {
 }
 table {
 	text-align: center;
+	width:100%;
+	height: 100%
 }
 
 svg.sparkline {
@@ -35,7 +36,7 @@ svg.sparkline {
             font-size: 14px;
             margin-top: -6px;
 }
-#histoStudentAllVideos, #histoAllStudents, #repUtile {
-	height: 500px;
-	width: 100%;
+#progEtu1, #histoStudentAllVideos, #histoAllStudents, #repUtile {
+	height: 300px;
+	width: 900px;
 }

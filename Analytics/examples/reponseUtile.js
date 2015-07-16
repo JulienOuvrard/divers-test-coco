@@ -34,10 +34,12 @@
 			{
                 "values": 
                 [{
+					"label":"dary",
 					"x": 1,
 					"y": 1
 				}, 
 				{
+					"title":"zizi",
 					"x": 0,
 					"y": 0
 				}, 

@@ -6,21 +6,36 @@ text{
 svg {
 		display: block;
 }
-
- #repUtile, #histoAllStudents, #histoStudentAllVideos, svg {
+ html, body { 
 	margin: 0px;
 	padding: 0px;
-	height: 50%;
+	height: 10%;
 	width: 100%;
-}
+	max-width: 750px; 
+	font-family: sans-serif;
+ }
 
+
+.dashed {
+            stroke-dasharray: 5,5;
+        }
  #chart1, #chart2, #chart3 {
 	margin: 0px;
 	padding: 0px;
 	height: 50%;
-	width: 100%;
+	width: 400px;
 }
-
 table {
 	text-align: center;
+}
+
+svg.sparkline {
+            width: 500px;
+            height: 70px;
+            font-size: 14px;
+            margin-top: -6px;
+}
+#histoStudentAllVideos, #histoAllStudents, #repUtile {
+	height: 500px;
+	width: 100%;
 }

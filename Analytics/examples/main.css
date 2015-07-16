@@ -1,13 +1,26 @@
 
 text{
 		font: 12px sans-serif;
-	}
+}
+
 svg {
 		display: block;
-	}
+}
+
  #repUtile, #histoAllStudents, #histoStudentAllVideos, svg {
 	margin: 0px;
 	padding: 0px;
 	height: 50%;
 	width: 100%;
+}
+
+ #chart1, #chart2, #chart3 {
+	margin: 0px;
+	padding: 0px;
+	height: 50%;
+	width: 100%;
+}
+
+table {
+	text-align: center;
 }

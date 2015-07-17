@@ -38,7 +38,7 @@ TestsCoco.Simulator.Chooser.prototype.countOccurences = function (tab_ans,tab_qu
         }
     });
     
-    ann.forEach(function(elem){
+    tab_quest.forEach(function(elem){
         if(jQuery.inArray(elem.id,Object.keys(shown)) == -1){
             shown[elem.id] = 0;
         }
@@ -68,7 +68,7 @@ TestsCoco.Simulator.Chooser.prototype.percentage = function (tab1,tab2){
 TestsCoco.Simulator.Chooser.prototype.getTime = function (tab){
     var ret={};
     var ann = tab.annotations;
-    ann.forEach(function(elem){
+    tab.forEach(function(elem){
         if(elem.type == "Quizz"){
             ret[elem.id] = elem.begin;
         }
@@ -79,7 +79,7 @@ TestsCoco.Simulator.Chooser.prototype.getTime = function (tab){
 TestsCoco.Simulator.Chooser.prototype.getEnonce = function (tab){
     var ret={};
     var ann = tab.annotations;
-    ann.forEach(function(elem){
+    tab.forEach(function(elem){
         if(elem.type == "Quizz"){
             ret[elem.id] = elem.content.description;
         }
@@ -191,7 +191,7 @@ TestsCoco.Simulator.Chooser.prototype.getScore = function (q){
 TestsCoco.Simulator.Chooser.prototype.getAllScores = function (tab){
     var _this = this;
     var scores = {};
-    $.each(tab.annotations, function(index,value){
+    $.each(tab, function(index,value){
         scores[value.id] = _this.getScore(value);
     });
     return scores;
@@ -209,7 +209,7 @@ TestsCoco.Simulator.Chooser.prototype.getProba = function (q,tab_score){
 TestsCoco.Simulator.Chooser.prototype.getAllProba = function (tab_quest,tab_score){
     var _this = this;
     var probas = {};
-    $.each(tab_quest.annotations, function(index,value){
+    $.each(tab_quest, function(index,value){
         probas[value.id] = _this.getProba(value,tab_score);
     });
     return probas;
@@ -252,7 +252,7 @@ TestsCoco.Simulator.Chooser.prototype.getChoosenQuestions = function (d1,d2,numb
 
     var choosenQuestions = [];
     
-    $.each(d2.annotations, function(index,value){
+    $.each(d2, function(index,value){
         if($.inArray(value.id,disp) != -1){
             choosenQuestions.push(value);
         }
@@ -261,10 +261,12 @@ TestsCoco.Simulator.Chooser.prototype.getChoosenQuestions = function (d1,d2,numb
     return {annotations : choosenQuestions};
 }
 
-TestsCoco.Simulator.Chooser.prototype.main = function (d1,d2,numberOfQuestions,media){
+TestsCoco.Simulator.Chooser.prototype.main = function (answers,questions,numberOfQuestions,media){
     var _this = this;
-    console.log(_.groupBy(d2,'medias'));
-    this.getData(d1,d2);
+
+    var medias = _.groupBy(questions.annotations,'media');
+
+    this.getData(d1,medias[media]);
     
-    return this.getChoosenQuestions(d1,d2,numberOfQuestions);
+    return this.getChoosenQuestions(answers,medias[media],numberOfQuestions);
 }

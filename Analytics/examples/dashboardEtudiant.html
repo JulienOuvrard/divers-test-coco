@@ -9,17 +9,22 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Coco - Dashboard enseignant</title>
+    <title>Coco - Dashboard Student</title>
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="main.css" rel="stylesheet" type="text/css">
-    <link href="../build/nv.d3.css" rel="stylesheet" type="text/css">
-    <script src="../../libs/d3.min.js" charset="utf-8"></script>
-    <script src="../build/nv.d3.js"></script>
-    <script src="js/progressionEtudiant.js"></script>
-    <script src="js/utilePasUtile.js"></script>
-    <script src="js/historicStudent_allVideos.js"></script>
-    <script src="js/BonneMauvaiseSkip.js"></script>
+    <link href="../../libs/nv.d3.min.css" rel="stylesheet" type="text/css" />
+    
+    <script src="../../libs/jquery.min.js"></script>
+    <script src="../../libs/lodash.min.js" type="text/javascript"></script>
+    <script src="../../libs/d3.min.js" type="text/javascript"></script>
+    <script src="../../libs/Plateforme/test_plateforme.js"></script>
+    <script src="../../libs/Plateforme/questions.js" type="text/javascript"></script>
+    <script src="../../libs/Plateforme/answers.js" type="text/javascript"></script>
+    <script src="../../libs/Plateforme/tools.js" type="text/javascript"></script>
+    <script src="../../libs/Plateforme/datavis.js" type="text/javascript"></script>
+    <script src="../../libs/nv.d3.min.js" type="text/javascript"></script>
+
     <script type="text/javascript">
 			function toutAfficher()
 			{
@@ -100,6 +105,11 @@
                         <div class="panel-body">
                             <div id="bonneMauvaiseSkip" align="center"><svg></svg></div>
                         </div>
+                        
+                        <div class="panel-body">
+                            <table border='0'><tr><td><table border='0' style="background-color:blue;"><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr></table></td><td>&nbsp;: Nombre de réponses données par l'étudiant sur la vidéo</td></tr></table>
+                            <table border='0'><tr><td><table border='0' style="background-color:green;"><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr></table></td><td>&nbsp;: Nombre total de réponses données par les étudiants sur la vidéo</td></tr></table>
+                        </div>
                     </div>
                      <!-- Fin Graph 1 -->
                     
@@ -168,5 +178,23 @@
                     </div>
                     
                     </div><!-- Fin Graph 5 -->
+                    
+                    <script type="text/javascript">
+                        var quest_sim = new TestsCoco.Simulator.Questions();
+                        var ans_sim = new TestsCoco.Simulator.Answers();
+                        var tool = new TestsCoco.Tools();
+                        var visualizer = new TestsCoco.DataVis("#page-wrapper");
+
+                        function simulate(){
+                            $.when($.get("../../Donnees_tests/questions_1file.json"),
+                                    $.get("../../Donnees_tests/answers_1file.json"))
+                                .done(function(data1,data2){
+                                        visualizer.main(data1[0],data2[0],'student');
+                                    }
+                                );
+                        }
+
+                        simulate();
+                    </script>
 </body>
 </html>

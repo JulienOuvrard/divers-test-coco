@@ -7,8 +7,7 @@
             .showDistY(true)
             .useVoronoi(true)
             .color(d3.scale.category10().range())
-            .duration(300)
-        ;
+            .duration(300);
 
         chart.xAxis.axisLabel('Utilité de la question');
 		chart.yAxis.axisLabel('Justesse de la réponse');
@@ -17,7 +16,12 @@
 		
         d3.select('#repUtile svg')
             .datum(dataUtileOk())
-            .call(chart);
+            .call(chart)
+			.on("click", function( ) { window.open("detailsQuestion.html"); });
+            //Configure how the tooltip looks.
+    chart.tooltipContent(function () {
+        return '<center><b>Question:</b></center>';
+    });
 
         nv.utils.windowResize(chart.update);
 		
@@ -27,19 +31,17 @@
 
     function dataUtileOk() { 
         
-        var shapes = [ 'circle'];
+        var shapes = ['circle'];
 
 
         return [
-			{
+			{	
                 "values": 
                 [{
-					"label":"dary",
 					"x": 1,
 					"y": 1
 				}, 
 				{
-					"title":"zizi",
 					"x": 0,
 					"y": 0
 				}, 

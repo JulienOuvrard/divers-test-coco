@@ -172,7 +172,7 @@ TestsCoco.DataVis.prototype.dataForHisto_Answers = function(tab,info_questions) 
         var correct = info_questions[index].correct;
         for(var i = 0 ; i < long ; i++){
             var ans = {};
-            ans['label'] = i;
+            ans['label'] = (i+1);
             ans['value'] = (value[i] != undefined) ? value[i] : 0;
             ans['color'] = correct[i] ? 'green' : 'grey';
             obj['values'].push(ans);
@@ -441,16 +441,18 @@ TestsCoco.DataVis.prototype.generateGraphTeacher = function(){
 }
 
 TestsCoco.DataVis.prototype.generateAnswerDetails = function (question_id){
-    this.makeHistogram(this.data_Histo_ans_total['8f5146de-9424-4c0f-9fdd-3e18dc8c93c7'],'voteParRep','Nombre de réponses');
+    this.makeHistogram(this.data_Histo_ans_total[question_id],'voteParRep','Nombre de réponses');
 }
 
 TestsCoco.DataVis.prototype.main = function(questions,answers,type){
     
     this.getAllData(questions,answers);
-    
     if(type=='student'){
         this.generateGraphStudent('Alfred');
-    }else{
+    }
+    else if(type=='teacher'){
         this.generateGraphTeacher();
     }
+    else{ this.generateAnswerDetails('8f5146de-9424-4c0f-9fdd-3e18dc8c93c7');
+   }
 }

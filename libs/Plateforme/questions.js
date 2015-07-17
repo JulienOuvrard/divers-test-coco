@@ -15,7 +15,7 @@ TestsCoco.Simulator.Questions.prototype.cleaningText = function (str){
 TestsCoco.Simulator.Questions.prototype.getDonnees = function (data){
     var _this = this;
     var ret = [];
-    var annotations = data[0].annotations;
+    var annotations = data.annotations;
     annotations.forEach(function(elem,index){
         if(elem.meta["id-ref"] == "Slides"){
             var donnee = {};
@@ -106,7 +106,7 @@ TestsCoco.Simulator.Questions.prototype.generateQuestion = function (tab_mots,lo
     return question;
 }
 
-TestsCoco.Simulator.Questions.prototype.generate = function (tab,nombre,longMin,longMax,nbRepMin,nbRepMax,otherWords){
+TestsCoco.Simulator.Questions.prototype.generate = function (tab,media,nombre,longMin,longMax,nbRepMin,nbRepMax,otherWords){
     var tool = new TestsCoco.Tools();
     var _this = this;
     var retour=[];
@@ -134,6 +134,7 @@ TestsCoco.Simulator.Questions.prototype.generate = function (tab,nombre,longMin,
        quest.begin = time;
        quest.end = time+3000;
        quest.type = "Quizz";
+       quest.media = media;
        quest.id = tool.generateUid();
        retour[i] = quest;
     }
@@ -141,17 +142,22 @@ TestsCoco.Simulator.Questions.prototype.generate = function (tab,nombre,longMin,
     return retour;
 }
 
-TestsCoco.Simulator.Questions.prototype.main = function (d1,d2,d3,other,nb_questions){
-    var tool = new TestsCoco.Tools();
+TestsCoco.Simulator.Questions.prototype.main = function (stop_word1,stop_word2,documents,other,nb_questions){
+    var _this = this;
+    var stopwords_fr = this.getStopWords(stop_word1,stop_word2);
+    var allQuest = [];
+    documents.forEach(function(elem){
+
+        var media = elem.medias[0].id;
+        var donnees = _this.getDonnees(elem);
+        
+        _this.filtering(donnees,stopwords_fr);
+        
+        var all_words = other ? _this.getAllWords(donnees) : [];
+        
+        allQuest = allQuest.concat(_this.generate(donnees,media,nb_questions,5,10,2,5,all_words));
+    });
     
-    var stopwords_fr = this.getStopWords(d1,d2);
-    
-    var donnees = this.getDonnees(d3);
-    
-    this.filtering(donnees,stopwords_fr);
-    
-    var all_words = other ? this.getAllWords(donnees) : [];
-    
-    return {"annotations" : this.generate(donnees,nb_questions,5,10,2,5,all_words)};
+    return {"annotations" : allQuest};
     
 }

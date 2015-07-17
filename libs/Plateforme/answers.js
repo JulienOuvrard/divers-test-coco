@@ -89,15 +89,17 @@ TestsCoco.Simulator.Answers.prototype.generate = function (questions,numberOfQue
     return reponses;
 }
 
-TestsCoco.Simulator.Answers.prototype.main = function (d1,numberOfQuestions,user){
+TestsCoco.Simulator.Answers.prototype.main = function (d1,numberOfQuestions,user,session_date){
     var _this = this;
     var tool = new TestsCoco.Tools();
     var ret = [];
-
+/*
     $.each(user.session_dates,function(index,value){
         var session_id = tool.generateUid();
-        ret = ret.concat(_this.generate(d1.annotations,numberOfQuestions,user.name,user.profile,value,session_id));
+        ret = ret.concat(_this.generate(d1.annotations,numberOfQuestions,user.name,user.profile,value.date,session_id));
     });
-    
+    */
+    var session_id = tool.generateUid();
+    ret = ret.concat(_this.generate(d1.annotations,numberOfQuestions,user.name,user.profile,session_date,session_id));
     return ret;
 }

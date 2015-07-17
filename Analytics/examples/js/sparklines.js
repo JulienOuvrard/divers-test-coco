@@ -1,44 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <link href="../build/nv.d3.css" rel="stylesheet" type="text/css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.2/d3.min.js" charset="utf-8"></script>
-    <script src="../build/nv.d3.js"></script>
-
-    <style>
-        text {
-            font: 12px sans-serif;
-        }
-        svg {
-            display: block;
-        }
-        html, body {
-            margin: 0px;
-            padding: 0px;
-        }
-        svg.sparkline {
-            width: 500px;
-            height: 70px;
-            font-size: 14px;
-            margin-top: -6px;
-        }
-    </style>
-</head>
-<body class='with-3d-shadow with-transitions'>
-	<table border="1">
-	<tr><th>Nom</th><th>Courbe de progression</th><th>Moyenne de l'élève</th><th>Indice de progression</th><th>Satisfaction</th></tr>
-	<tr><td>Michel</td><td><svg id="chart1" class="sparkline"></svg></td><td>36%</td><td>Mauvais</td><td>Mauvaise</td></tr>
-	<tr><td>Julien</td><td><svg id="chart2" class="sparkline"></svg></td><td>75%</td><td>Très bon</td><td>Bonne</td></tr>
-	<tr><td>Olivier</td><td><svg id="chart3" class="sparkline"></svg></td><td>50%</td><td>Moyen</td><td>Moyenne</td></tr>
-</table>
-
-<p></p>
-<p></p>
-<p></p>
-
-<script>
-
     function defaultChartConfig(containerId, data) {
         nv.addGraph(function() {
 
@@ -59,13 +18,13 @@
         });
     }
 
-    defaultChartConfig("#chart1",data(1));
-    defaultChartConfig("#chart2", data(2));
-    defaultChartConfig("#chart3", data(3));
+    defaultChartConfig("#chart1",dataSparklines(1));
+    defaultChartConfig("#chart2", dataSparklines(2));
+    defaultChartConfig("#chart3", dataSparklines(3));
 
 
 
-    function data(i) {
+    function dataSparklines(i) {
 		
 		if (i==1) {
         return [			[new Date(2014,08,22),0],
@@ -107,7 +66,3 @@
 
        
     }
-
-</script>
-</body>
-</html>

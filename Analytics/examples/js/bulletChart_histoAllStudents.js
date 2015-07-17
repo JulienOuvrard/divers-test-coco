@@ -1,35 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <link href="../build/nv.d3.css" rel="stylesheet" type="text/css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.2/d3.min.js" charset="utf-8"></script>
-    <script src="../build/nv.d3.js"></script>
-
-    <style>
-        text {
-            font: 12px sans-serif;
-        }
-        svg {
-            display: block;
-        }
-        html, body, svg {
-            margin: 0px;
-            padding: 0px;
-            height: 100%;
-            width: 100%;
-        }
-    </style>
-</head>
-<body>
-
-Historique sur les vidéos
-<div class="gallery with-transitions" id="chart"></div>
-
-
-<script>
-
-    var width = 960,
+ var width = 760,
         height = 80,
         margin = {top: 5, right: 40, bottom: 20, left: 120};
 
@@ -39,42 +8,37 @@ Historique sur les vidéos
 
     data = [
         {
-			"title":"Historique",
+			"title":"Moyenne",
 			"subtitle":"vidéo 1",
 			"ranges":[0,0,20],
 			"measures":[12],
 			"markers":[17],
 			"markerLabels":['Moyenne générale'],
-			"rangeLabels":[''],
 			"measureLabels":['Moyenne étudiant']
         },
         
         {
-			"title":"Historique",
+			"title":"Moyenne",
 			"subtitle":"vidéo 2",
 			"ranges":[0,0,20],
 			"measures":[8],
 			"markers":[12],
 			"markerLabels":['Moyenne générale'],
-			"rangeLabels":[''],
 			"measureLabels":['Moyenne étudiant']
 		},
         {
-			"title":"Historique",
+			"title":"Moyenne",
 			"subtitle":"vidéo 3",
 			"ranges":[0,0,20],
 			"measures":[18],
 			"markers":[9],
 			"markerLabels":['Moyenne générale'],
-			"rangeLabels":[''],
 			"measureLabels":['Moyenne étudiant']
 		}
     ];
-
     
-
     //TODO: to be consistent with other models, should be appending a g to an already made svg, not creating the svg element
-    var vis = d3.select("#chart").selectAll("svg")
+    var vis = d3.select("#bulletChartAllStudents").selectAll("svg")
         .data(data)
         .enter().append("svg")
         .attr("class", "bullet nvd3")
@@ -82,9 +46,3 @@ Historique sur les vidéos
         .attr("height", height);
 
     vis.transition().duration(1000).call(chart);
-
-   
-
-</script>
-</body>
-</html>

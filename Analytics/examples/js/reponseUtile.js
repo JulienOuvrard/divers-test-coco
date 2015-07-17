@@ -1,33 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <link href="../build/nv.d3.css" rel="stylesheet" type="text/css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.2/d3.min.js" charset="utf-8"></script>
-    <script src="../build/nv.d3.js"></script>
-
-    <style>
-        text {
-            font: 12px sans-serif;
-        }
-        svg {
-            display: block;
-        }
-        html, body, #test1, svg {
-            margin: 0px;
-            padding: 0px;
-            height: 100%;
-            width: 100%;
-        }
-    </style>
-</head>
-<body>
-
-<div id="test1" class='with-3d-shadow with-transitions'>
-    <svg></svg>
-</div>
-
-<script>
 
     // create the chart
     var chart;
@@ -37,15 +7,16 @@
             .showDistY(true)
             .useVoronoi(true)
             .color(d3.scale.category10().range())
-            .duration(300);
+            .duration(300)
+        ;
 
         chart.xAxis.axisLabel('Utilité de la question');
 		chart.yAxis.axisLabel('Justesse de la réponse');
         chart.xAxis.tickFormat(d3.format('.02f'));
         chart.yAxis.tickFormat(d3.format('.02f'));
 		
-        d3.select('#test1 svg')
-            .datum(data())
+        d3.select('#repUtile svg')
+            .datum(dataUtileOk())
             .call(chart);
 
         nv.utils.windowResize(chart.update);
@@ -54,7 +25,7 @@
     });
 
 
-    function data() { 
+    function dataUtileOk() { 
         
         var shapes = [ 'circle'];
 
@@ -63,10 +34,12 @@
 			{
                 "values": 
                 [{
+					"label":"dary",
 					"x": 1,
 					"y": 1
 				}, 
 				{
+					"title":"zizi",
 					"x": 0,
 					"y": 0
 				}, 
@@ -117,7 +90,3 @@
 			}];
     }
 
-
-</script>
-</body>
-</html>

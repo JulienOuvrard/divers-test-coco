@@ -1,43 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <link href="../build/nv.d3.css" rel="stylesheet" type="text/css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.2/d3.min.js" charset="utf-8"></script>
-    <script src="../build/nv.d3.js"></script>
 
-    <style>
-        text {
-            font: 12px sans-serif;
-        }
-        svg {
-            display: block;
-        }
-        html, body, #chart1, svg {
-            margin: 0px;
-            padding: 0px;
-            height: 100%;
-            width: 100%;
-        }
-
-        .dashed {
-            stroke-dasharray: 5,5;
-        }
-    </style>
-</head>
-<body class='with-3d-shadow with-transitions'>
-<div style="position:absolute; top: 0; left: 0;">
-    <script>
-        var expandLegend = function() {
-            var exp = chart.legend.expanded();
-            chart.legend.expanded(!exp);
-            chart.update();
-        }
-    </script>
-</div>
-<div id="chart1"></div>
-
-<script>
     // Wrapping in nv.addGraph allows for '0 timeout render', stores rendered charts in nv.graphs, and may do more in the future... it's NOT required
     var chart;
     var data;
@@ -71,8 +32,8 @@
 
         
 
-        d3.select('#chart1').append('svg')
-            .datum(data())
+        d3.select('#histoAllStudents svg')
+            .datum(dataHistoAllStudents())
             .call(chart);
 
         nv.utils.windowResize(chart.update);
@@ -80,7 +41,7 @@
         return chart;
     });
 
-    function data() {
+    function dataHistoAllStudents() {
         
 
         return [
@@ -136,7 +97,3 @@
 							[new Date(2015,06,10),20]]}
         ];
     }
-
-</script>
-</body>
-</html>

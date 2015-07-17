@@ -6,22 +6,22 @@
                 {
                     "label" : "A" ,
                     "value" : 3 ,
-                    "color" : "blue"
+                    "color" : "gray"
                 } ,
                 {
                     "label" : "B" ,
-                    "value" : 7,
-                    "color" : "red"
+                    "value" : 1,
+                    "color" : "green"
                 } ,
                 {
                     "label" : "C" ,
-                    "value" : 2,
+                    "value" : 1,
                     "color" : "gray"
                 } ,
                 {
                     "label" : "D" ,
-                    "value" : 5,
-                    "color" : "green"
+                    "value" : 1,
+                    "color" : "gray"
                 }
             ]
         }

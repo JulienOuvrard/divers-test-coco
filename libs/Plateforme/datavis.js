@@ -422,7 +422,7 @@ TestsCoco.DataVis.prototype.getAllData = function (questions,answers) {
 
 TestsCoco.DataVis.prototype.generateGraphStudent = function(username){
     
-    this.makeHistogram(this.data_Histo_answer[username][1],'bonneMauvaiseSkip','Nombre de réponse');
+    this.makeHistogram(this.data_Histo_answer[username][1],'bonneMauvaiseSkip','Nombre de réponses');
     
     this.makeHistogram(this.data_Histo_vote[username][1],'utilePasUtile','Votes');
     

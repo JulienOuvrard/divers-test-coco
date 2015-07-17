@@ -25,9 +25,12 @@ svg {
 	height: 50%;
 	width: 400px;
 }
- #tabSparkline {
+ #table_spark {
 	text-align: center;
 	margin-right:-700px;
+}
+ #utPUt {
+	margin-top: 200px;
 }
 
 svg.sparkline {

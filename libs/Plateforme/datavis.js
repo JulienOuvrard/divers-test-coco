@@ -314,14 +314,13 @@ TestsCoco.DataVis.prototype.makeLineGraph = function(data,container){
 
 TestsCoco.DataVis.prototype.makeSparkLine = function(data,container){
     var users = _.keys(data);
-    if(document.getElementById(container) === null){
-        var str = '<table id='+container+' border="1"><tr><th>Nom</th><th>Courbe de progression</th><th>Moyenne de l\'élève</th><th>Indice de progression</th><th>Satisfaction</th></tr>';
-        users.forEach(function(elem){
-            str+='<tr><td>'+elem+'</td><td><svg id="chart_'+elem+'" class="sparkline"></svg></td><td id="average_'+elem+'"></td><td id="progression_'+elem+'"></td><td id="satisfaction_'+elem+'"></td></tr>';
-        });
-        str+='</table>';
-        $(this.container).append(str);
-    }
+    
+    var str = '<tr><th>Nom</th><th>Courbe de progression</th><th>Moyenne de l\'élève</th><th>Indice de progression</th><th>Satisfaction</th></tr>';
+    users.forEach(function(elem){
+        str+='<tr><td>'+elem+'</td><td><svg id="chart_'+elem+'" class="sparkline"></svg></td><td id="average_'+elem+'"></td><td id="progression_'+elem+'"></td><td id="satisfaction_'+elem+'"></td></tr>';
+    });
+    $('#'+container).append(str);
+    
     
     users.forEach(function(user){
         var chart_selector = '#chart_'+user,
@@ -384,74 +383,71 @@ TestsCoco.DataVis.prototype.combine = function(tab){
     return ret;
 }
 
-TestsCoco.DataVis.prototype.main = function(questions,answers){
+TestsCoco.DataVis.prototype.getAllData = function (questions,answers) {
     var ann = questions.annotations;
 
-    var max_time = _.max(ann,'begin');
-    //console.log(max_time.begin);
+    this.max_time = _.max(ann,'begin');
         
-    var times = _.pluck(_.filter(ann, 'type', 'Quizz'), 'begin');
-    //console.table(times);
+    this.times = _.pluck(_.filter(ann, 'type', 'Quizz'), 'begin');
     
-    var properties_count = _.countBy(answers,'property');
-    //console.log(properties_count);
+    this.properties_count = _.countBy(answers,'property');
     
-    var propertiesByQuestion = this.getPropertiesByKey(answers,'subject','property');
-    var propertiesBySession = this.getPropertiesByKey(answers,'sessionId','property');
+    this.propertiesByQuestion = this.getPropertiesByKey(answers,'subject','property');
+    this.propertiesBySession = this.getPropertiesByKey(answers,'sessionId','property');
     
-    var userBySession = this.getPropertiesByKey(answers,'sessionId','username');
-    var userByQuestion = this.getPropertiesByKey(answers,'subject','username');
+    this.userBySession = this.getPropertiesByKey(answers,'sessionId','username');
+    this.userByQuestion = this.getPropertiesByKey(answers,'subject','username');
     
-    var propertiesByUserByQuestion = this.aggregate(answers,'subject','username','property');
-    var propertiesByUserBySession = this.aggregate(answers,'sessionId','username','property');
+    this.propertiesByUserByQuestion = this.aggregate(answers,'subject','username','property');
+    this.propertiesByUserBySession = this.aggregate(answers,'sessionId','username','property');
     
-    var propertiesByQuestionByUser = this.aggregate(answers,'username','subject','property');
-    var propertiesBySessionByUser = this.aggregate(answers,'username','sessionId','property');
+    this.propertiesByQuestionByUser = this.aggregate(answers,'username','subject','property');
+    this.propertiesBySessionByUser = this.aggregate(answers,'username','sessionId','property');
     
-    var NbAnswerByQuestion = this.getNbAnswerByQuestion(answers);
+    this.NbAnswerByQuestion = this.getNbAnswerByQuestion(answers);
     
-    //console.table(propertiesByQuestion);
-    //console.table(this.sortAndComplete(propertiesByQuestion));
-    //console.log(propertiesByQuestion);
-    //console.table(propertiesBySession);
-    //console.table(propertiesByUserByQuestion);
-    //console.table(NbAnswerByQuestion);
-    //console.table(propertiesByQuestionByUser);
-    //console.table(propertiesBySessionByUser);
+    this.session_date = this.getSessionDate(answers);
     
-    var data_Histo_answer = this.dataForHisto(['right_answer','wrong_answer','skipped_answer'],propertiesByQuestion,propertiesByQuestionByUser,true);
-    //console.log(data_Histo_answer);
+    /** Data For Both **/
+    this.data_Line = this.dataForLineGraph(this.session_date,this.propertiesBySessionByUser);
+    
+    /** Data For Student **/
+    this.data_Histo_answer = this.dataForHisto(['right_answer','wrong_answer','skipped_answer'],this.propertiesByQuestion,this.propertiesByQuestionByUser,true);
+    this.data_Histo_vote = this.dataForHisto(['usefull','useless','skipped_vote'],this.propertiesByQuestion,this.propertiesByQuestionByUser);
+    
+    /** Data For Teacher **/
+    this.data_Scatter = this.dataForScatter(this.propertiesByQuestion);
+    this.data_Histo_ans_total = this.dataForHisto_Answers(this.NbAnswerByQuestion,this.getInfoQuestions(questions));
+}
 
-    var data_Histo_vote = this.dataForHisto(['usefull','useless','skipped_vote'],propertiesByQuestion,propertiesByQuestionByUser);
-    //console.log(data_Histo_vote);
+TestsCoco.DataVis.prototype.generateGraphStudent = function(username){
     
-    this.makeHistogram(data_Histo_answer['Alfred'][1],'chart1','Nombre de réponse');
-    this.makeHistogram(data_Histo_vote['Alfred'][1],'chart2','Votes');
-   
-    var data_Scatter = this.dataForScatter(propertiesByQuestion);
-    //console.log(data_Scatter);
+    this.makeHistogram(this.data_Histo_answer[username][1],'bonneMauvaiseSkip','Nombre de réponse');
     
-    this.makeScatterGraph(data_Scatter,'scatt');
+    this.makeHistogram(this.data_Histo_vote[username][1],'utilePasUtile','Votes');
     
-    var session_date = this.getSessionDate(answers);
-    //console.table(session_date);
-    
-    var data_Line = this.dataForLineGraph(session_date,propertiesBySessionByUser);
-    //console.log(data_Line['Alfred']);
-    
-    this.makeLineGraph(data_Line['Alfred'],'prog1');
-    /*this.makeLineGraph(data_Line['Bernard'],'prog2');
-    this.makeLineGraph(data_Line['Charlot'],'prog3');
-    this.makeLineGraph(data_Line['Daniel'],'prog4');
-    this.makeLineGraph(data_Line['Eric'],'prog5');
-    this.makeLineGraph(data_Line['Francky'],'prog6');*/
-    
-    this.makeSparkLine(data_Line,'spark');
+    this.makeLineGraph(this.data_Line[username],'progEtu1');
 
-    this.makeLineGraph(this.combine(data_Line),'allprog');
-    
-    
-    var data_Histo_ans_total = this.dataForHisto_Answers(NbAnswerByQuestion,this.getInfoQuestions(questions));
+}
 
-    this.makeHistogram(data_Histo_ans_total['8f5146de-9424-4c0f-9fdd-3e18dc8c93c7'],'chart_total','Nombre de réponses')
+TestsCoco.DataVis.prototype.generateGraphTeacher = function(){
+    
+    this.makeScatterGraph(this.data_Scatter,'repUtile');
+    
+    this.makeSparkLine(this.data_Line,'table_spark');
+
+    this.makeLineGraph(this.combine(this.data_Line),'histoAllStudents');
+
+    this.makeHistogram(this.data_Histo_ans_total['8f5146de-9424-4c0f-9fdd-3e18dc8c93c7'],'voteParRep','Nombre de réponses')
+}
+
+TestsCoco.DataVis.prototype.main = function(questions,answers,type){
+    
+    this.getAllData(questions,answers);
+    
+    if(type=='student'){
+        this.generateGraphStudent('Alfred');
+    }else{
+        this.generateGraphTeacher();
+    }
 }

@@ -11,8 +11,8 @@ var users = [{name : "marcel", profile : "regular"},
             {name : "alfred", profile : "regular"}];
             
 function simulate(){
-    $.when($.get("../Donnees_tests/questions.json"),
-            $.get("../Donnees_tests/answers.json"))
+    $.when($.get("../Donnees_tests/questions_1file.json"),
+            $.get("../Donnees_tests/answers_1file.json"))
         .done(function(data1,data2){
                 visualizer.main(data1[0],data2[0]);
             }

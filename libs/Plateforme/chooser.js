@@ -261,9 +261,9 @@ TestsCoco.Simulator.Chooser.prototype.getChoosenQuestions = function (d1,d2,numb
     return {annotations : choosenQuestions};
 }
 
-TestsCoco.Simulator.Chooser.prototype.main = function (d1,d2,numberOfQuestions){
+TestsCoco.Simulator.Chooser.prototype.main = function (d1,d2,numberOfQuestions,media){
     var _this = this;
-    
+    console.log(_.groupBy(d2,'medias'));
     this.getData(d1,d2);
     
     return this.getChoosenQuestions(d1,d2,numberOfQuestions);

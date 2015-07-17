@@ -438,7 +438,10 @@ TestsCoco.DataVis.prototype.generateGraphTeacher = function(){
 
     this.makeLineGraph(this.combine(this.data_Line),'histoAllStudents');
 
-    this.makeHistogram(this.data_Histo_ans_total['8f5146de-9424-4c0f-9fdd-3e18dc8c93c7'],'voteParRep','Nombre de réponses')
+}
+
+TestsCoco.DataVis.prototype.generateAnswerDetails = function (question_id){
+    this.makeHistogram(this.data_Histo_ans_total['8f5146de-9424-4c0f-9fdd-3e18dc8c93c7'],'voteParRep','Nombre de réponses');
 }
 
 TestsCoco.DataVis.prototype.main = function(questions,answers,type){

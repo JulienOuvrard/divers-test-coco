@@ -1,35 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <link href="../build/nv.d3.css" rel="stylesheet" type="text/css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.2/d3.min.js" charset="utf-8"></script>
-    <script src="../build/nv.d3.js"></script>
 
-    <style>
-        text {
-            font: 12px sans-serif;
-        }
-        svg {
-            display: block;
-        }
-        html, body, #chart1, svg {
-            margin: 0px;
-            padding: 0px;
-            height: 100%;
-            width: 100%;
-        }
-    </style>
-</head>
-<body>
-
-<div id="chart1">
-    <svg></svg>
-</div>
-
-<script>
-
-    historicalBarChart = [
+    dataBonneMauvaiseSkip = [
         {
             key: "Cumulative Return",
             values: [
@@ -79,15 +49,10 @@
             
 		chart.yAxis.axisLabel('Nombre de réponses');
 
-        d3.select('#chart1 svg')
-            .datum(historicalBarChart)
+        d3.select('#bonneMauvaiseSkip svg')
+            .datum(dataBonneMauvaiseSkip)
             .call(chart);
 
         nv.utils.windowResize(chart.update);
         return chart;
     });
-
-
-</script>
-</body>
-</html>

@@ -56,6 +56,34 @@ TestsCoco.DataVis.prototype.getNbAnswerByQuestion = function(tab){
     });
     return obj;
 }
+
+TestsCoco.DataVis.prototype.getInfoQuestions = function(tab){
+    
+    var ret = {};
+    
+    var ann = tab.annotations;
+
+    $.each(ann,function(index,value){
+        if(value.type === 'Quizz'){
+            var q_id = value.id;
+            var desc = value.content.description;
+            var ans = value.content.answers;
+            var correct =[];
+            var content=[];
+            $.each(ans,function(ans_index,ans_value){
+                content.push(ans_value.content);
+                correct.push(ans_value.correct);
+            });
+            ret[q_id]={};
+            ret[q_id]['enonce']=desc;
+            ret[q_id]['answers']=content;
+            ret[q_id]['correct']=correct;
+        }
+    });
+    
+    return ret;
+}
+
 TestsCoco.DataVis.prototype.makeRegExp = function (tab){
     var str = '';
     $.each(tab,function(index,value){
@@ -129,6 +157,28 @@ TestsCoco.DataVis.prototype.dataForHisto = function(wantedData,tab_total,tab_use
         });
     });
         
+    return ret;
+}
+
+TestsCoco.DataVis.prototype.dataForHisto_Answers = function(tab,info_questions) {
+    var ret = {};
+    
+    $.each(tab,function(index,value){
+        ret[index]=[];
+        var obj = {};
+        obj['key'] = index;
+        obj['values'] = [];
+        var long = info_questions[index].answers.length;
+        var correct = info_questions[index].correct;
+        for(var i = 0 ; i < long ; i++){
+            var ans = {};
+            ans['label'] = i;
+            ans['value'] = (value[i] != undefined) ? value[i] : 0;
+            ans['color'] = correct[i] ? 'green' : 'grey';
+            obj['values'].push(ans);
+        }
+        ret[index].push(obj);
+    });
     return ret;
 }
 
@@ -400,5 +450,8 @@ TestsCoco.DataVis.prototype.main = function(questions,answers){
 
     this.makeLineGraph(this.combine(data_Line),'allprog');
     
-    //TODO faire graphe nbanswerby question 
+    
+    var data_Histo_ans_total = this.dataForHisto_Answers(NbAnswerByQuestion,this.getInfoQuestions(questions));
+
+    this.makeHistogram(data_Histo_ans_total['8f5146de-9424-4c0f-9fdd-3e18dc8c93c7'],'chart_total','Nombre de réponses')
 }

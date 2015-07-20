@@ -24,36 +24,6 @@
     <script src="../libs/Plateforme/tools.js" type="text/javascript"></script>
     <script src="../libs/Plateforme/datavis.js" type="text/javascript"></script>
     <script src="../libs/nv.d3.min.js" type="text/javascript"></script>
-    
-    <script type="text/javascript">
-			function toutAfficher()
-			{
-			divInfo1 = document.getElementById('allVideos');
-			divInfo2 = document.getElementById('uniqueVideo');
-			if (divInfo.style.display == 'none') {
-			divInfo1.style.display = 'block';
-			divInfo2.style.display = 'block';
-			}
-			}
-			function cacherAllVideos()
-			{
-			divInfo = document.getElementById('allVideos');
-			if (divInfo.style.display == 'none')
-			divInfo.style.display = 'block';
-			else
-			divInfo.style.display = 'none';
-			document.getElementById('uniqueVideo').style.display = 'block';
-			}
-			function cacherUniqueVideos()
-			{
-			divInfo = document.getElementById('uniqueVideo');
-			if (divInfo.style.display == 'none')
-			divInfo.style.display = 'block';
-			else
-			divInfo.style.display = 'none';
-			document.getElementById('allVideos').style.display = 'block';
-			}
-	</script>
 
 </head>
 
@@ -76,12 +46,6 @@
                         <li>
                              <a href="javascript:history.go(-1)"><i class="fa fa-edit fa-fw"></i> Retour à la leçon</a>
                         </li>
-                        <li>
-                             <a href="javascript: cacherAllVideos();"><i class="fa fa-line-chart fa-fw"></i> Dashboard sur la leçon</a>
-                        </li>
-                        <li>
-                             <a href="javascript: cacherUniqueVideos();"><i class="fa fa-line-chart fa-fw"></i> Dashboard sur toutes les leçons</a>
-                        </li>
                     </ul>
                 </div>
                 <!-- /.sidebar-collapse -->
@@ -100,7 +64,6 @@
             </div>
             <div class="row">
                 <div class="col-lg-8">
-					<div id="uniqueVideo">
                     <!-- Début Graph 1 -->
                     <div class="panel panel-default">
                         <div class="panel-heading">
@@ -127,8 +90,6 @@
                         </div>
                     </div>
                     <!-- Fin Graph 2 -->
-                    </div>
-                    <div id="allVideos">
                     <!-- Début Graph 3 -->
                     <div class="panel panel-default">
                         <div class="panel-heading">
@@ -166,7 +127,6 @@
                         </div>
                     </div>
                     <!-- Fin Graph 4 -->
-                    </div>
                     
 					<script type="text/javascript">
                         var quest_sim = new TestsCoco.Simulator.Questions();

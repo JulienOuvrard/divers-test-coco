@@ -235,21 +235,43 @@ TestsCoco.DataVis.prototype.makeScatterGraph = function(data,container){
     
     nv.addGraph(function() {
         var chart = nv.models.scatterChart()
-            .showDistX(true)
-            .showDistY(true)
+			.xDomain([-1,1])
+			.yDomain([-1,1])
+            .showXAxis(true)
+            .showYAxis(true)
             .useVoronoi(true)
             .color(d3.scale.category10().range())
-            .duration(300)
-        ;
+            .duration(300);
 
         chart.xAxis.axisLabel('Utilité de la question');
         chart.yAxis.axisLabel('Justesse de la réponse');
         chart.xAxis.tickFormat(d3.format('.02f'));
         chart.yAxis.tickFormat(d3.format('.02f'));
+        chart.xAxis.ticks(10);
+        chart.yAxis.ticks(10);
 
         d3.select(selector)
             .datum(data)
             .call(chart);
+            
+            var line1 = d3.select(selector)
+							.append('line')
+							.attr({
+								x1: 75 + chart.xAxis.scale()(-1),
+								y1: 30 + chart.yAxis.scale()(0),
+								x2: 75 + chart.xAxis.scale()(1),
+								y2: 30 + chart.yAxis.scale()(0)
+							})
+							.style("stroke", "#000000");
+            var line = d3.select(selector)
+							.append('line')
+							.attr({
+								x1: 75 + chart.xAxis.scale()(0),
+								y1: 30 + chart.yAxis.scale()(-1),
+								x2: 75 + chart.xAxis.scale()(0),
+								y2: 30 + chart.yAxis.scale()(1)
+							})
+							.style("stroke", "#000000");
 
         nv.utils.windowResize(chart.update);
 

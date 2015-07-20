@@ -1,0 +1,3485 @@
+{
+  "annotation-types": [
+    {
+      "dc:modified": "2013-12-20",
+      "dc:description": "",
+      "dc:created": "2013-12-20",
+      "id": "Slides",
+      "dc:title": "Slides",
+      "dc:creator": "morais-c",
+      "dc:contributor": "morais-c"
+    },
+    {
+      "dc:modified": "2004-06-30",
+      "dc:description": "",
+      "dc:created": "2004-06-30",
+      "id": "annotation",
+      "dc:title": "Text annotation",
+      "dc:creator": "advene",
+      "dc:contributor": "advene"
+    },
+    {
+      "id": "at_quiz",
+      "dc:created": "2013-01-20",
+      "dc:modified": "2015-01-20",
+      "dc:description": "Quiz question",
+      "dc:title": "Quiz",
+      "dc:creator": "oaubert",
+      "dc:contributor": "oaubert"
+    },
+    {
+      "dc:description": "Personal user contribution",
+      "id": "at_contributions",
+      "dc:created": "2013-12-20",
+      "dc:modified": "2013-12-20",
+      "dc:title": "Contributions",
+      "dc:creator": "morais-c",
+      "dc:contributor": "morais-c"
+    }
+  ],
+  "annotations": [
+    {
+      "id": "a1",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 0,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "ELEMENTS DE CRYPTOGRAPHIE",
+        "img": {
+          "src": "imagecache/000.png"
+        },
+        "description": "ELEMENTS DE CRYPTOGRAPHIE\nDe l’antiquité à la cryptographie moderne",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 40874,
+      "begin": 0
+    },
+    {
+      "id": "a2",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 1,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Avant de commencer 1/2",
+        "img": {
+          "src": "imagecache/001.png"
+        },
+        "description": "Avant de commencer 1/2\n«Coder l’information»\nOn ne sait bien mémoriser que des «bits» (interrupteurs)\n\nentiers : écriture binaire\nex: 135 = 100001112 = 1*128+0*64+0*32+0*16+0*8+1*4+1*2+1*1\nréels ➛ flottants (mantisse, exposant) (12.47 = 1247e-4)\n\ncaractères ➛code ASCII (‘A’ = 65)\nEt de l’information ?\n\ncouleur d’un point d’une image: rgb(126,142,135)\n son : tableau de fréquences entières \nBilan: du point de vue de la machine, l’information c’est une suite de bits...",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 240170,
+      "begin": 40874
+    },
+    {
+      "id": "a3",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 2,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Avant de commencer 1/2",
+        "img": {
+          "src": "imagecache/002.png"
+        },
+        "description": "Avant de commencer 1/2\n«Coder l’information»\nOn ne sait bien mémoriser que des «bits» (interrupteurs)\n\nentiers : écriture binaire\nex: 135 = 100001112 = 1*128+0*64+0*32+0*16+0*8+1*4+1*2+1*1\nréels ➛ flottants (mantisse, exposant) (12.47 = 1247e-4)\n\ncaractères ➛code ASCII (‘A’ = 65)\nEt de l’information ?\n\ncouleur d’un point d’une image: rgb(126,142,135)\n son : tableau de fréquences entières \nBilan: du point de vue de la machine, l’information c’est une suite de bits...",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 249834,
+      "begin": 240170
+    },
+    {
+      "id": "a4",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 3,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Avant de commencer 1/2",
+        "img": {
+          "src": "imagecache/003.png"
+        },
+        "description": "Avant de commencer 1/2\n«Coder l’information»\nOn ne sait bien mémoriser que des «bits» (interrupteurs)\nInitialiser();\nentiers : écriture binaire\nvar x1 = 0,\ny1 = 200;\nvar x2 = 200*Math.sqrt(3)/2,\nex: 135 = 100001112 = 1*128+0*64+0*32+0*16+0*8+1*4+1*2+1*1\ny2 = -100;\nvar x3 = -x2,\ny3 = -100;\nréels ➛ flottants (mantisse, exposant) (12.47 = 1247e-4)\nfor (var x = 0; x &lt; 256; x += 2) {\n  var t1 = x / 256;\n  for (var y = 0; y &lt; 256; y += 2) {\n    var t2 = y / 256;\ncaractères ➛code ASCII (‘A’ = 65)\n    for (var z = 0; z &lt; 256; z += 2) {\n      var t3 = z / 256;\n      RectanglePlein(500+t1 * x1 + t2 * x2 + t3 * x3, 250+t1 * y1 + t2 * y2 + t3 * y3, 2, 2, rgb(x, y, z));\n    }\nEt de l’information ?\n  }\n}\n\ncouleur d’un point d’une image: rgb(126,142,135)\n son : tableau de fréquences entières \nBilan: du point de vue de la machine, l’information c’est une suite de bits...",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 277637,
+      "begin": 249834
+    },
+    {
+      "id": "a5",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 4,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Avant de commencer 1/2",
+        "img": {
+          "src": "imagecache/004.png"
+        },
+        "description": "Avant de commencer 1/2\n«Coder l’information»\nOn ne sait bien mémoriser que des «bits» (interrupteurs)\nInitialiser();\nentiers : écriture binaire\nvar x1 = 0,\ny1 = 200;\nvar x2 = 200*Math.sqrt(3)/2,\nex: 135 = 100001112 = 1*128+0*64+0*32+0*16+0*8+1*4+1*2+1*1\ny2 = -100;\nvar x3 = -x2,\ny3 = -100;\nréels ➛ flottants (mantisse, exposant) (12.47 = 1247e-4)\nfor (var x = 0; x &lt; 256; x += 2) {\n  var t1 = x / 256;\n  for (var y = 0; y &lt; 256; y += 2) {\n    var t2 = y / 256;\ncaractères ➛code ASCII (‘A’ = 65)\n    for (var z = 0; z &lt; 256; z += 2) {\n      var t3 = z / 256;\n      RectanglePlein(500+t1 * x1 + t2 * x2 + t3 * x3, 250+t1 * y1 + t2 * y2 + t3 * y3, 2, 2, rgb(x, y, z));\n    }\nEt de l’information ?\n  }\n}\n\ncouleur d’un point d’une image: rgb(126,142,135)\n son : tableau de fréquences entières \nBilan: du point de vue de la machine, l’information c’est une suite de bits...",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 281130,
+      "begin": 277637
+    },
+    {
+      "id": "a6",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 5,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Avant de commencer 1/2",
+        "img": {
+          "src": "imagecache/005.png"
+        },
+        "description": "Avant de commencer 1/2\n«Coder l’information»\nOn ne sait bien mémoriser que des «bits» (interrupteurs)\nInitialiser();\nentiers : écriture binaire\nvar x1 = 0,\ny1 = 200;\nvar x2 = 200*Math.sqrt(3)/2,\nex: 135 = 100001112 = 1*128+0*64+0*32+0*16+0*8+1*4+1*2+1*1\ny2 = -100;\nvar x3 = -x2,\ny3 = -100;\nréels ➛ flottants (mantisse, exposant) (12.47 = 1247e-4)\nfor (var x = 0; x &lt; 256; x += 2) {\n  var t1 = x / 256;\n  for (var y = 0; y &lt; 256; y += 2) {\n    var t2 = y / 256;\ncaractères ➛code ASCII (‘A’ = 65)\n    for (var z = 0; z &lt; 256; z += 2) {\n      var t3 = z / 256;\n      RectanglePlein(500+t1 * x1 + t2 * x2 + t3 * x3, 250+t1 * y1 + t2 * y2 + t3 * y3, 2, 2, rgb(x, y, z));\n    }\nEt de l’information ?\n  }\n}\n\ncouleur d’un point d’une image: rgb(126,142,135)\n son : tableau de fréquences entières \nBilan: du point de vue de la machine, l’information c’est une suite de bits...",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 351808,
+      "begin": 281130
+    },
+    {
+      "id": "a7",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 6,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Avant de commencer 2/2",
+        "img": {
+          "src": "imagecache/006.png"
+        },
+        "description": "Avant de commencer 2/2\nLa «théorie de l’information»\nOn s’intéresse à la manière de transmettre l’information (pas à l’information elle-\nmême).\nPréoccupation n° 1: que l’information envoyée soit la même que celle qui est \nreçue (ou qu’on se rende compte qu’elle est différente). Détection et \ncorrection d’erreurs (ex: un CD rayé fonctionne toujours car il y a réparation \ndes erreurs).\n\nPréoccupation n°2: que l’information se transmette rapidement. Techniques \nde compression (ex: mp3, images sur internet jpeg mais surtout vidéo, TNT \n(on transmet 6 chaînes parfaitement là où avant on n’en transmettait qu’une).\n\nPréoccupation n°3: que certaines informations soient protégées (ex: codes \nde cartes bleues, certaines conversations,...). Cryptographie !!!",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 417861,
+      "begin": 351808
+    },
+    {
+      "id": "a8",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 7,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Avant de commencer 2/2",
+        "img": {
+          "src": "imagecache/007.png"
+        },
+        "description": "Avant de commencer 2/2\nLa «théorie de l’information»\nBit de parité :      01011010 01111101 11011011 00010010\nOn s’intéresse à la manière de transmettre l’information (pas à l’information elle-\nmême).\n↯transmission avec erreurs   \nPréoccupation n° 1: que l’information envoyée soit la même que celle qui est \nreçue (ou qu’on se rende compte qu’elle est différente). Détection et \n01111010 01111101 11011011 00000010\ncorrection d’erreurs (ex: un CD rayé fonctionne toujours car il y a réparation \nErreurs de transmission dans les blocs 1 et 4\ndes erreurs).\nIl faut ajouter 1 bit pour 7 bits (taille + 14%)\nPréoccupation n°2: que l’information se transmette rapidement. Techniques \nde compression (ex: mp3, images sur internet jpeg mais surtout vidéo, TNT \n(on transmet 6 chaînes parfaitement là où avant on n’en transmettait qu’une).\n\nPréoccupation n°3: que certaines informations soient protégées (ex: codes \nde cartes bleues, certaines conversations,...). Cryptographie !!!",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 541056,
+      "begin": 417861
+    },
+    {
+      "id": "a9",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 8,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Avant de commencer 2/2",
+        "img": {
+          "src": "imagecache/008.png"
+        },
+        "description": "Avant de commencer 2/2\nLa «théorie de l’information»\nOn s’intéresse à la manière de transmettre l’information (pas à l’information elle-\nmême).\nPréoccupation n° 1: que l’information envoyée soit la même que celle qui est \nreçue (ou qu’on se rende compte qu’elle est différente). Détection et \ncorrection d’erreurs (ex: un CD rayé fonctionne toujours car il y a réparation \ndes erreurs).\n\nPréoccupation n°2: que l’information se transmette rapidement. Techniques \nde compression (ex: mp3, images sur internet jpeg mais surtout vidéo, TNT \n(on transmet 6 chaînes parfaitement là où avant on n’en transmettait qu’une).\n\nPréoccupation n°3: que certaines informations soient protégées (ex: codes \nde cartes bleues, certaines conversations,...). Cryptographie !!!",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 739989,
+      "begin": 541056
+    },
+    {
+      "id": "a10",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 9,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Avant de commencer 2/2",
+        "img": {
+          "src": "imagecache/009.png"
+        },
+        "description": "Avant de commencer 2/2\nLa «théorie de l’information»\nCompression: petit calcul autour de la vidéo HD (16 millions de couleurs):\nOn s’intéresse à la manière de transmettre l’information (pas à l’information elle-\n - image 1024*1080*(8*3) = 33 000 000 bits par images\nmême).\n - 30 images par secondes -&gt; 1 000 000 000 bits par seconde = 1 Gbits par seconde = 125 Mo/s\n - Contenance d’un CD: 700Mo = 700 000 000 = 5 600 000 000 bits -&gt; 5,6 s. vidéo non compressée\nPréoccupation n° 1: que l’information envoyée soit la même que celle qui est \n - Contenance d’un DVD: 8Go -&gt; 1 minute de vidéo non compressée\n - Le Parrain : 168min -&gt; 168 DVD si non compressé or, en divx, Le Parrain tient sur 1 CD.\nreçue (ou qu’on se rende compte qu’elle est différente). Détection et \ncorrection d’erreurs (ex: un CD rayé fonctionne toujours car il y a réparation \n - débit TNT : 24 000 000 bits par seconde maxi mais limité à 8 000 000 bits/s à cause des erreurs \ndes erreurs).\nd’émission sur le canal.\nPréoccupation n°2: que l’information se transmette rapidement. Techniques \n-&gt; sans compression, pas de DVD\nde compression (ex: mp3, images sur internet jpeg mais surtout vidéo, TNT \n-&gt; sans compression et correction d’erreur, pas de TNT\n-&gt; sans compression et correction d’erreur et cryptographie, pas de canal+ sur TNT.\n(on transmet 6 chaînes parfaitement là où avant on n’en transmettait qu’une).\n\nPréoccupation n°3: que certaines informations soient protégées (ex: codes \nde cartes bleues, certaines conversations,...). Cryptographie !!!",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 786453,
+      "begin": 739989
+    },
+    {
+      "id": "a11",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 10,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Avant de commencer 2/2",
+        "img": {
+          "src": "imagecache/010.png"
+        },
+        "description": "Avant de commencer 2/2\nLa «théorie de l’information»\nOn s’intéresse à la manière de transmettre l’information (pas à l’information elle-\nmême).\nPréoccupation n° 1: que l’information envoyée soit la même que celle qui est \nreçue (ou qu’on se rende compte qu’elle est différente). Détection et \ncorrection d’erreurs (ex: un CD rayé fonctionne toujours car il y a réparation \ndes erreurs).\n\nPréoccupation n°2: que l’information se transmette rapidement. Techniques \nde compression (ex: mp3, images sur internet jpeg mais surtout vidéo, TNT \n(on transmet 6 chaînes parfaitement là où avant on n’en transmettait qu’une).\n\nPréoccupation n°3: que certaines informations soient protégées (ex: codes \nde cartes bleues, certaines conversations,...). Cryptographie !!!",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 899242,
+      "begin": 786453
+    },
+    {
+      "id": "a12",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 11,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Avant de commencer 2/2",
+        "img": {
+          "src": "imagecache/011.png"
+        },
+        "description": "Avant de commencer 2/2\nLa «théorie de l’information»\nOn s’intéresse à la manière de transmettre l’information (pas à l’information elle-\nmême).\nUn concept important : la «redondance»\nPréoccupation n° 1: que l’information envoyée soit la même que celle qui est \nreçue (ou qu’on se rende compte qu’elle est différente). Détection et \nMon nom est: Jérémie BOURDON\ncorrection d’erreurs (ex: un CD rayé fonctionne toujours car il y a réparation \nMon téléphone est: 02 51 12 58 25\ndes erreurs).\n\nRetirer de la redondance pour compresser\nPréoccupation n°2: que l’information se transmette rapidement. Techniques \nde compression (ex: mp3, images sur internet jpeg mais surtout vidéo, TNT \nAjouter de la redondance pour repérer les erreurs\n(on transmet 6 chaînes parfaitement là où avant on n’en transmettait qu’une).\nUtiliser la redondance pour attaquer un système cr ypto\nPréoccupation n°3: que certaines informations soient protégées (ex: codes \nde cartes bleues, certaines conversations,...). Cryptographie !!!",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 930730,
+      "begin": 899242
+    },
+    {
+      "id": "a13",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 12,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Plan",
+        "img": {
+          "src": "imagecache/012.png"
+        },
+        "description": "Plan\n\n1.Historique, terminologie et premières définitions\n\nQuelques techniques pour camouflage\n\nQuelques attaques\n\n2.Cryptographie «moderne»\n\nCryptographie vs cryptanalyse\n\nSécurité et chiffrement",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 1025237,
+      "begin": 930730
+    },
+    {
+      "id": "a14",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 13,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Bref historique",
+        "img": {
+          "src": "imagecache/013.png"
+        },
+        "description": "Bref historique\nDepuis l’antiquité, on trouve des traces de méthodes destinées à chiffrer des \nmessages\nLongtemps cantonnée à des fins militaires\nLa cryptographie\nse «démocratise» avec le développement massif de l’informatique \npersonnelle\n\ndoit s’adapter à des applications de plus en plus diverses (chiffrement de \ntexte, de son ou de video; authentification; signature électronique; vote \nélectronique,. . . )\nsubit la croissance exponentielle de la puissance de calcul des ordinateurs",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 1045445,
+      "begin": 1025237
+    },
+    {
+      "id": "a15",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 14,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Petit schéma général",
+        "img": {
+          "src": "imagecache/014.png"
+        },
+        "description": "Petit schéma général",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 1054378,
+      "begin": 1045445
+    },
+    {
+      "id": "a16",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 15,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Petit schéma général",
+        "img": {
+          "src": "imagecache/015.png"
+        },
+        "description": "Petit schéma général",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 1061678,
+      "begin": 1054378
+    },
+    {
+      "id": "a17",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 16,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Petit schéma général",
+        "img": {
+          "src": "imagecache/016.png"
+        },
+        "description": "Petit schéma général",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 1070144,
+      "begin": 1061678
+    },
+    {
+      "id": "a18",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 17,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Petit schéma général",
+        "img": {
+          "src": "imagecache/017.png"
+        },
+        "description": "Petit schéma général",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 1076357,
+      "begin": 1070144
+    },
+    {
+      "id": "a19",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 18,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Petit schéma général",
+        "img": {
+          "src": "imagecache/018.png"
+        },
+        "description": "Petit schéma général",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 1085354,
+      "begin": 1076357
+    },
+    {
+      "id": "a20",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 19,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Petit schéma général",
+        "img": {
+          "src": "imagecache/019.png"
+        },
+        "description": "Petit schéma général",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 1093578,
+      "begin": 1085354
+    },
+    {
+      "id": "a21",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 20,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Petit schéma général",
+        "img": {
+          "src": "imagecache/020.png"
+        },
+        "description": "Petit schéma général",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 1111914,
+      "begin": 1093578
+    },
+    {
+      "id": "a22",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 21,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Petit schéma général",
+        "img": {
+          "src": "imagecache/021.png"
+        },
+        "description": "Petit schéma général",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 1121642,
+      "begin": 1111914
+    },
+    {
+      "id": "a23",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 22,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Petit schéma général",
+        "img": {
+          "src": "imagecache/022.png"
+        },
+        "description": "Petit schéma général\nqualité de la clé ?",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 1125701,
+      "begin": 1121642
+    },
+    {
+      "id": "a24",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 23,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Petit schéma général",
+        "img": {
+          "src": "imagecache/023.png"
+        },
+        "description": "Petit schéma général\nqualité de la clé ?\n\nX",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 1139765,
+      "begin": 1125701
+    },
+    {
+      "id": "a25",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 24,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Petit schéma général",
+        "img": {
+          "src": "imagecache/024.png"
+        },
+        "description": "Petit schéma général\nqualité de la clé ?\n\nX",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 1152085,
+      "begin": 1139765
+    },
+    {
+      "id": "a26",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 25,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Petit schéma général",
+        "img": {
+          "src": "imagecache/025.png"
+        },
+        "description": "Petit schéma général\nqualité de la clé ?\n\nqualité du coffre ?\n\nX",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 1153477,
+      "begin": 1152085
+    },
+    {
+      "id": "a27",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 26,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Petit schéma général",
+        "img": {
+          "src": "imagecache/026.png"
+        },
+        "description": "Petit schéma général\nqualité de la clé ?\n\nX\n\nqualité du coffre ?\nX",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 1163632,
+      "begin": 1153477
+    },
+    {
+      "id": "a28",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 27,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Petit schéma général",
+        "img": {
+          "src": "imagecache/027.png"
+        },
+        "description": "Petit schéma général\nqualité de la clé ?\n\nX\n\nqualité du coffre ?\nX",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 1187320,
+      "begin": 1163632
+    },
+    {
+      "id": "a29",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 28,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Petit schéma général",
+        "img": {
+          "src": "imagecache/028.png"
+        },
+        "description": "Petit schéma général\nqualité de la clé ?\n\ns’échanger la clé\n\nX\n\nqualité du coffre ?\nX",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 1236208,
+      "begin": 1187320
+    },
+    {
+      "id": "a30",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 29,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Le mélange Grec 500 av JC: le transcodage",
+        "img": {
+          "src": "imagecache/029.png"
+        },
+        "description": "Le mélange Grec 500 av JC: le transcodage\n\nDès l’antiquité, les Grecs échangeaient des messages chiffrés \nobtenus en mélangeant les lettres du message.\n\nLe mélange était obtenu en enroulant des bandes de papier sur \nun cylindre et en y inscrivant le message verticalement. Pour lire \nle message, il fallait posséder un cylindre du même diamètre.\n\nLe transcodage est une technique de cryptage qui consiste à \nmélanger les symboles qui composent le message.",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 1249450,
+      "begin": 1236208
+    },
+    {
+      "id": "a31",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 30,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Le mélange Grec 500 av JC: le transcodage",
+        "img": {
+          "src": "imagecache/030.png"
+        },
+        "description": "Le mélange Grec 500 av JC: le transcodage\n\nDès l’antiquité, les Grecs échangeaient des messages chiffrés \nobtenus en mélangeant les lettres du message.\n\nLe mélange était obtenu en enroulant des bandes de papier sur \nun cylindre et en y inscrivant le message verticalement. Pour lire \nle message, il fallait posséder un cylindre du même diamètre.\n\nLe transcodage est une technique de cryptage qui consiste à \nmélanger les symboles qui composent le message.",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 1252912,
+      "begin": 1249450
+    },
+    {
+      "id": "a32",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 31,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Le mélange Grec 500 av JC: le transcodage",
+        "img": {
+          "src": "imagecache/031.png"
+        },
+        "description": "Le mélange Grec 500 av JC: le transcodage\n\nDès l’antiquité, les Grecs échangeaient des messages chiffrés \nobtenus en mélangeant les lettres du message.\n\nLe mélange était obtenu en enroulant des bandes de papier sur \nun cylindre et en y inscrivant le message verticalement. Pour lire \nle message, il fallait posséder un cylindre du même diamètre.\n\nLe transcodage est une technique de cryptage qui consiste à \nmélanger les symboles qui composent le message.",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 1256389,
+      "begin": 1252912
+    },
+    {
+      "id": "a33",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 32,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Le mélange Grec 500 av JC: le transcodage",
+        "img": {
+          "src": "imagecache/032.png"
+        },
+        "description": "Le mélange Grec 500 av JC: le transcodage\n\nDès l’antiquité, les Grecs échangeaient des messages chiffrés \nobtenus en mélangeant les lettres du message.\nL\nS\nC\nE\nS\nR\nE\nLe mélange était obtenu en enroulant des bandes de papier sur \nA\nS\nI\nun cylindre et en y inscrivant le message verticalement. Pour lire \nM\nG\nT\nT\nle message, il fallait posséder un cylindre du même diamètre.\nEE\nE\nLe transcodage est une technique de cryptage qui consiste à \nmélanger les symboles qui composent le message.",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 1264213,
+      "begin": 1256389
+    },
+    {
+      "id": "a34",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 33,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Le mélange Grec 500 av JC: le transcodage",
+        "img": {
+          "src": "imagecache/033.png"
+        },
+        "description": "Le mélange Grec 500 av JC: le transcodage\nI\nS\nA\nE\nC\nEE\nM\nE\n\nS\n\nL\n\nS\n\nE\n\nR\n\nG\n\nT\n\nT\n\nDès l’antiquité, les Grecs échangeaient des messages chiffrés \nobtenus en mélangeant les lettres du message.\n\nLe mélange était obtenu en enroulant des bandes de papier sur \nun cylindre et en y inscrivant le message verticalement. Pour lire \nle message, il fallait posséder un cylindre du même diamètre.\n\nLe transcodage est une technique de cryptage qui consiste à \nmélanger les symboles qui composent le message.",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 1290048,
+      "begin": 1264213
+    },
+    {
+      "id": "a35",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 34,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Le mélange Grec 500 av JC: le transcodage",
+        "img": {
+          "src": "imagecache/034.png"
+        },
+        "description": "Le mélange Grec 500 av JC: le transcodage\nI\nS\nA\nE\nC\nEE\nM\nE\n\nS\n\nL\n\nS\n\nE\n\nR\n\nG\n\nT\n\nT\n\nDès l’antiquité, les Grecs échangeaient des messages chiffrés \nobtenus en mélangeant les lettres du message.\nLa clé, c’est le diamètre du tuyau\nLe mélange était obtenu en enroulant des bandes de papier sur \n(ou plutôt le nombre de symboles\nun cylindre et en y inscrivant le message verticalement. Pour lire \n à passer dans la lecture)\nle message, il fallait posséder un cylindre du même diamètre.\n\nLe transcodage est une technique de cryptage qui consiste à \nmélanger les symboles qui composent le message.",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 1333034,
+      "begin": 1290048
+    },
+    {
+      "id": "a36",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 35,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "S",
+        "img": {
+          "src": "imagecache/035.png"
+        },
+        "description": "S\n\nL\n\nLe mélange Grec 500 av JC: le transcodage\nI\nS\nA\nE\nC\nEE\nM\nE\nCombien de codages différents (clés) ?\nG\nS\nE\nT\nR\nT\nL est la longueur du message\nDès l’antiquité, les Grecs échangeaient des messages chiffrés \nobtenus en mélangeant les lettres du message.\nCodage «grec» : L clés\nLa clé, c’est le diamètre du tuyau\nTrancodage général: L! clés\nLe mélange était obtenu en enroulant des bandes de papier sur \n(ou plutôt le nombre de symboles\nun cylindre et en y inscrivant le message verticalement. Pour lire \n à passer dans la lecture)\nle message, il fallait posséder un cylindre du même diamètre.\n\nLe transcodage est une technique de cryptage qui consiste à \nmélanger les symboles qui composent le message.",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 1335658,
+      "begin": 1333034
+    },
+    {
+      "id": "a37",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 36,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Jules Verne",
+        "img": {
+          "src": "imagecache/036.png"
+        },
+        "description": "Jules Verne",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 1371221,
+      "begin": 1335658
+    },
+    {
+      "id": "a38",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 37,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Jules Verne",
+        "img": {
+          "src": "imagecache/037.png"
+        },
+        "description": "Jules Verne",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 1469530,
+      "begin": 1371221
+    },
+    {
+      "id": "a39",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 38,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Le codage de César 40 av JC : la substitution",
+        "img": {
+          "src": "imagecache/038.png"
+        },
+        "description": "Le codage de César 40 av JC : la substitution\n\nIl s’agit d’un codage mono-alphabétique défini par une rotation circulaire des lettres\nA B C D F F G H I\nJ K L M N O P Q R S T U V W X Y Z\n↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓\nD\nE F G H I\nJ K L M N O P Q R S T U V W X Y Z A B C\nTexte clair : coder des messages, qu’elle drole d’idée !\nF\nTexte codé : frghu dhv phvvdjhv, tx’hooh guroh g’lghh !\nDécrit par Suétone (écrivain romain) dans la vie des douze Césars\nSa sécurité est très faible puisqu’au plus 26 essais suffisent à retrouver le message initial\n\nSimple d’utilisation : utilisé par les sudistes et même par l’armée russe en 1915. Utilisé \naussi sur les forums USENET sous le nom de ROT-13 pour éviter qu’un message soit lu \ninvolontairement (ex: devinettes)\nLa substitution (ou codage mono-alphabétique) est une technique de cryptage qui \nconsiste à permuter les lettres de l’alphabet.",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 1568213,
+      "begin": 1469530
+    },
+    {
+      "id": "a40",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 39,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Le codage de César 40 av JC : la substitution",
+        "img": {
+          "src": "imagecache/039.png"
+        },
+        "description": "Le codage de César 40 av JC : la substitution\n\nIl s’agit d’un codage mono-alphabétique défini par une rotation circulaire des lettres\nA B C D F F G H I\nJ K L M N O P Q R S T U V W X Y Z\n↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓\nCombien de codages différents (clés) ?\nD\nE F G H I\nJ K L M N O P Q R S T U V W X Y Z A B C\nTexte clair : coder des messages, qu’elle drole d’idée !\nF\nTexte codé : frghu dhv phvvdjhv, tx’hooh guroh g’lghh !\nIndépendant de la longueur du message\nDécrit par Suétone (écrivain romain) dans la vie des douze Césars\nCodage «César» : 26 clés\nSa sécurité est très faible puisqu’au plus 26 essais suffisent à retrouver le message initial\nSubstitution générale: 26!=4.1026 clés\nSimple d’utilisation : utilisé par les sudistes et même par l’armée russe en 1915. Utilisé \nUn humain qui traite 100000 c lés par seconde mettra\naussi sur les forums USENET sous le nom de ROT-13 pour éviter qu’un message soit lu \nplus de 1012 sièc les (l’univers à 1,37.108 sièc les) pour \ninvolontairement (ex: devinettes)\ntoutes les tester et pour tant ce n’est pas un bon cr yptosystème !\nLa substitution (ou codage mono-alphabétique) est une technique de cryptage qui \nconsiste à permuter les lettres de l’alphabet.",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 1645354,
+      "begin": 1568213
+    },
+    {
+      "id": "a41",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 40,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Chiffre de Vigénère: Substitution poly-alphabétique",
+        "img": {
+          "src": "imagecache/040.png"
+        },
+        "description": "Chiffre de Vigénère: Substitution poly-alphabétique\n\nOn utilise un mot clé et des décalages de César. Par exemple, lorsque la clé \nest ‘FEU’, on utilise alternativement les décalages :\nJ K L M N O P Q R S T U V W X Y Z\nA B C D F F G H I\n↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓\nF G H I\nJ K L M N O P Q R S T U V W X Y Z A B C D F\n\nA B C D F F G H I\nJ K L M N O P Q R S T U V W X Y Z\n↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓\nJ K L M N O P Q R S T U V W X Y Z A B C D\nE F G H I\n\nA B C D F F G H I\nJ K L M N O P Q R S T U V W X Y Z\n↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓\nJ K L M N O P Q R S T\nU V W X Y Z A B C D F F G H I\nBONJOUR est codé par GSHOSOW !\n\nLa longueur de la clé est une donnée importante !",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 1691114,
+      "begin": 1645354
+    },
+    {
+      "id": "a42",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 41,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Chiffre de Vigénère: Substitution poly-alphabétique",
+        "img": {
+          "src": "imagecache/041.png"
+        },
+        "description": "Chiffre de Vigénère: Substitution poly-alphabétique\n\nOn utilise un mot clé et des décalages de César. Par exemple, lorsque la clé \nest ‘FEU’, on utilise alternativement les décalages :\nJ K L M N O P Q R S T U V W X Y Z\nA B C D F F G H I\n↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓\nCombien de codages différents (clés) ?\nF G H I\nJ K L M N O P Q R S T U V W X Y Z A B C D F\n\nA B C D F F G H I\nJ K L M N O P Q R S T U V W X Y Z\nIndépendant de la longueur du message , K= longueur de la c lé\n↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓\nE F G H I\nJ K L M N O P Q R S T U V W X Y Z A B C D\nCodage «Vigénère» : 26K clés\nA B C D F F G H I\nJ K L M N O P Q R S T U V W X Y Z\n↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓\nEn général: (26!)K\nU V W X Y Z A B C D F F G H I\nJ K L M N O P Q R S T\nBONJOUR est codé par GSHOSOW !\n\nLa longueur de la clé est une donnée importante !",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 1734464,
+      "begin": 1691114
+    },
+    {
+      "id": "a43",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 42,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Lithanie de Trithène : Stéganographie",
+        "img": {
+          "src": "imagecache/042.png"
+        },
+        "description": "Lithanie de Trithène : Stéganographie\n\nL’abbé de Trithène (1499) est le premier à écrire un ouvrage \nPolygraphiae traitant de cryptographie\nC’est le premier à introduire le principe de stéganographie. \n\nLe message est caché dans un texte ou une image a priori anodin \npour une personne non informée.",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 1782768,
+      "begin": 1734464
+    },
+    {
+      "id": "a44",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 43,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Lithanie de Trithène : Stéganographie",
+        "img": {
+          "src": "imagecache/043.png"
+        },
+        "description": "Lithanie de Trithène : Stéganographie\nExemple : une lithanie de Trithène\nL’abbé de Trithène (1499) est le premier à écrire un ouvrage \nDans la félicité à perpétuité,\nPolygraphiae traitant de cryptographie\nDans son royaume à perpétuité,\nEn paradis à perpétuité,\nAinsi qu'en toute éternité.\nC’est le premier à introduire le principe de stéganographie. \nDans la gloire à perpétuité,\nMais dans son règne\nSempiternel, toujours dans la félicité,\nLe message est caché dans un texte ou une image a priori anodin \nTant dans la lumière que dans la béatitude, \npour une personne non informée.\nEt toujours dans la gloire à perpétuité,\nMais dans son règne",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 1787397,
+      "begin": 1782768
+    },
+    {
+      "id": "a45",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 44,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Lithanie de Trithène : Stéganographie",
+        "img": {
+          "src": "imagecache/044.png"
+        },
+        "description": "Lithanie de Trithène : Stéganographie\nExemple : une lithanie de Trithène\nL’abbé de Trithène (1499) est le premier à écrire un ouvrage \nDans la félicité à perpétuité,\nE\nPolygraphiae traitant de cryptographie\nDans son royaume à perpétuité,\nEn paradis à perpétuité,\nAinsi qu'en toute éternité.\nC’est le premier à introduire le principe de stéganographie. \nDans la gloire à perpétuité,\nMais dans son règne\nSempiternel, toujours dans la félicité,\nLe message est caché dans un texte ou une image a priori anodin \nTant dans la lumière que dans la béatitude, \npour une personne non informée.\nEt toujours dans la gloire à perpétuité,\nMais dans son règne",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 1807130,
+      "begin": 1787397
+    },
+    {
+      "id": "a46",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 45,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Lithanie de Trithène : Stéganographie",
+        "img": {
+          "src": "imagecache/045.png"
+        },
+        "description": "Lithanie de Trithène : Stéganographie\nExemple : une lithanie de Trithène\nL’abbé de Trithène (1499) est le premier à écrire un ouvrage \nDans la félicité à perpétuité,\nE\nPolygraphiae traitant de cryptographie\nDans son royaume à perpétuité,\nE\nEn paradis à perpétuité,\nE\nAinsi qu'en toute éternité.\nC’est le premier à introduire le principe de stéganographie. \nDans la gloire à perpétuité,\nE\nMais dans son règne\nSempiternel, toujours dans la félicité,\nLe message est caché dans un texte ou une image a priori anodin \nTant dans la lumière que dans la béatitude, \npour une personne non informée.\nEt toujours dans la gloire à perpétuité,\nE\nMais dans son règne",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 1833653,
+      "begin": 1807130
+    },
+    {
+      "id": "a47",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 46,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Lithanie de Trithène : Stéganographie",
+        "img": {
+          "src": "imagecache/046.png"
+        },
+        "description": "Lithanie de Trithène : Stéganographie\nExemple : une lithanie de Trithène\nL’abbé de Trithène (1499) est le premier à écrire un ouvrage \nDans la félicité à perpétuité,\nR\nE\nPolygraphiae traitant de cryptographie\nDans son royaume à perpétuité,\nT\nE\nEn paradis à perpétuité,\nN\nE\nAinsi qu'en toute éternité.\nZ\nC’est le premier à introduire le principe de stéganographie. \nDans la gloire à perpétuité,\nL\nE\nMais dans son règne\nS\nSempiternel, toujours dans la félicité,\nLe message est caché dans un texte ou une image a priori anodin \nF\nO\nR\nTant dans la lumière que dans la béatitude, \nU\nM\npour une personne non informée.\nEt toujours dans la gloire à perpétuité,\nL\nE\nMais dans son règne\nS",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 1895402,
+      "begin": 1833653
+    },
+    {
+      "id": "a48",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 47,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Lithanie de Trithène : Stéganographie",
+        "img": {
+          "src": "imagecache/047.png"
+        },
+        "description": "Lithanie de Trithène : Stéganographie\nExemple : une lithanie de Trithène\nL’abbé de Trithène (1499) est le premier à écrire un ouvrage \nDans la félicité à perpétuité,\nR\nE\nPolygraphiae traitant de cryptographie\nDans son royaume à perpétuité,\nT\nE\nEn paradis à perpétuité,\nN\nE\nAinsi qu'en toute éternité.\nZ\nC’est le premier à introduire le principe de stéganographie. \nDans la gloire à perpétuité,\nL\nE\nMais dans son règne\nS\nSempiternel, toujours dans la félicité,\nLe message est caché dans un texte ou une image a priori anodin \nF\nO\nR\nTant dans la lumière que dans la béatitude, \nU\nM\npour une personne non informée.\nEt toujours dans la gloire à perpétuité,\nL\nE\nMais dans son règne\nS",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 1984256,
+      "begin": 1895402
+    },
+    {
+      "id": "a49",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 48,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Lithanie de Trithène : Stéganographie",
+        "img": {
+          "src": "imagecache/048.png"
+        },
+        "description": "Lithanie de Trithène : Stéganographie\nExemple : une lithanie de Trithène\nL’abbé de Trithène (1499) est le premier à écrire un ouvrage \nDans la félicité à perpétuité,\nR\nE\nPolygraphiae traitant de cryptographie\nDans son royaume à perpétuité,\nT\nE\nEn paradis à perpétuité,\nN\nE\nAinsi qu'en toute éternité.\nZ\nC’est le premier à introduire le principe de stéganographie. \nDans la gloire à perpétuité,\nL\nE\nMais dans son règne\nS\nSempiternel, toujours dans la félicité,\nLe message est caché dans un texte ou une image a priori anodin \nF\nO\nR\nTant dans la lumière que dans la béatitude, \nU\nM\npour une personne non informée.\nEt toujours dans la gloire à perpétuité,\nL\nE\nMais dans son règne\nS",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 2043312,
+      "begin": 1984256
+    },
+    {
+      "id": "a50",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 49,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "La machine Enigma (1945)",
+        "img": {
+          "src": "imagecache/049.png"
+        },
+        "description": "La machine Enigma (1945)\nC’est une machine (plusieurs modèles) de cryptage de message utilisée par \nl’armée allemande pendant la seconde guerre mondiale. L’histoire dit que les \nalliés, en se procurant les plans de la machine, on réussi à décrypter près de \n18000 messages échangés entre les différentes division allemandes, ce qui a \névidemment contribué fortement à leur victoire.",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 2132480,
+      "begin": 2043312
+    },
+    {
+      "id": "a51",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 50,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "La machine Enigma (1945)",
+        "img": {
+          "src": "imagecache/050.png"
+        },
+        "description": "La machine Enigma (1945)\nC’est une machine (plusieurs modèles) de cryptage de message utilisée par \nl’armée allemande pendant la seconde guerre mondiale. L’histoire dit que les \nalliés, en se procurant les plans de la machine, on réussi à décrypter près de \n18000 messages échangés entre les différentes division allemandes, ce qui a \névidemment contribué fortement à leur victoire.",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 2169514,
+      "begin": 2132480
+    },
+    {
+      "id": "a52",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 51,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Enigma : PRINCIPES",
+        "img": {
+          "src": "imagecache/051.png"
+        },
+        "description": "Enigma : PRINCIPES\nC’est une machine à rotors\n\nChaque rotor est une substitution mono-alphabétique. il y en a donc \nplusieurs en série.\n\nA chaque codage de lettre, le rotor tourne et la substitution change.",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 2200597,
+      "begin": 2169514
+    },
+    {
+      "id": "a53",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 52,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Enigma : PRINCIPES",
+        "img": {
+          "src": "imagecache/052.png"
+        },
+        "description": "Enigma : PRINCIPES\nC’est une machine à rotors\n\nChaque rotor est une substitution mono-alphabétique. il y en a donc \nplusieurs en série.\n\nA chaque codage de lettre, le rotor tourne et la substitution change.",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 2268976,
+      "begin": 2200597
+    },
+    {
+      "id": "a54",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 53,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Enigma : PRINCIPES",
+        "img": {
+          "src": "imagecache/053.png"
+        },
+        "description": "Enigma : PRINCIPES\nCombien de codages différents (clés) ?\nC’est une machine à rotors\n la position des 6 ﬁches du tableau de connexion\n\nl'ordre des rotors\n\nla position initiale des rotors\n\nEn tout : 1016 clés !\n\nUn humain qui traite 100000 c lés par seconde mettra\nplus de 30 sièc les pour toutes les tester et pour tant ce n’est pas un \nChaque rotor est une substitution mono-alphabétique. il y en a donc \nbon cr yptosystème ! \nplusieurs en série.\n\nA chaque codage de lettre, le rotor tourne et la substitution change.",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 2417216,
+      "begin": 2268976
+    },
+    {
+      "id": "a55",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 54,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Système de Vernam et téléphone rouge",
+        "img": {
+          "src": "imagecache/054.png"
+        },
+        "description": "Système de Vernam et téléphone rouge\n\nC’est un système à clé secrète partagée entre deux parties.\nTexte clair\n0 1 1 0 1 0 0 1 1 0 0 0 1 1 0\n\nClé sécrète\n\n0 0 1\n\n1 0 0 0 1 0 1 1 0 1 0 1\n\n0 1 0 0 1 0 0 0 1 1 1 0 0 1 1\nTexte chiffré\nC’est le seul cryptosystème prouvé (mathématiquement) \ninconditionnellement sûr (par Shannon) si la clé est parfaitement aléatoire \net n’est utilisée qu’une fois.\n\nIl a longtemps été utilisé pour crypter les conversations du téléphone rouge \n(clé envoyée entre les pays par valise diplomatique).\nIl marque le début de la recherche «moderne» en cryptographie.",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 2561216,
+      "begin": 2417216
+    },
+    {
+      "id": "a56",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 55,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Principes de Kerckhoffs (fin XIXe)",
+        "img": {
+          "src": "imagecache/055.png"
+        },
+        "description": "Principes de Kerckhoffs (fin XIXe)\nTraité de cryptographie militaire\n1. Une information codée ne doit en aucun cas pouvoir être déchiffrée sans la \nconnaissance de sa clé.\n\n2. Les interlocuteurs ne doivent pas subir de dégâts au cas où le système de \ncodage serait dévoilé.\n\n3. La clé doit être simple et modifiable à souhait.\n4. Les cryptogrammes doivent être transportables, c’est-à-dire télégraphiables.\n\n5. L’appareil de codage et les documents doivent être transportables.\n6. Le système doit être simple d’utilisation.\n\n7. Le système de chiffrage doit être au préalable examiné par des experts.",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 2593877,
+      "begin": 2561216
+    },
+    {
+      "id": "a57",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 56,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Principes de Kerckhoffs (fin XIXe)",
+        "img": {
+          "src": "imagecache/056.png"
+        },
+        "description": "Principes de Kerckhoffs (fin XIXe)\nTraité de cryptographie militaire\n1. Une information codée ne doit en aucun cas pouvoir être déchiffrée sans la \nconnaissance de sa clé.\nTOUS LES CRYPTOSYSTEMES MODERNES\n2. Les interlocuteurs ne doivent pas subir de dégâts au cas où le système de \nRESPECTENT CES PRINCIPES (SAUF QUELQUES\ncodage serait dévoilé.\nCRYPTOSYSTEMES MILITAIRES)\n3. La clé doit être simple et modifiable à souhait.\n4. Les cryptogrammes doivent être transportables, c’est-à-dire télégraphiables.\nRq: Maxime de Shannon: l’adversaire connaît le système .\n5. L’appareil de codage et les documents doivent être transportables.\n6. Le système doit être simple d’utilisation.\n\n7. Le système de chiffrage doit être au préalable examiné par des experts.",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 2617157,
+      "begin": 2593877
+    },
+    {
+      "id": "a58",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 57,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Quelques attaques",
+        "img": {
+          "src": "imagecache/057.png"
+        },
+        "description": "Quelques attaques\nsur les cryptosystèmes",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 2689749,
+      "begin": 2617157
+    },
+    {
+      "id": "a59",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 58,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "L’attaque exhaustive",
+        "img": {
+          "src": "imagecache/058.png"
+        },
+        "description": "L’attaque exhaustive\nou force brute\nElle consiste à tester toutes les clés possibles aﬁn de retrouver le \nmessage clair.\n• Dans le cas du transcodage, si on mélange les n symboles qui \ncomposent le message, il y a n! possibilités (mais toutes les \npermutations ne sont pas aussi bonnes). Mais dès que l'on connait \nun peu plus la règle de transcodage, le nombre de tests à réaliser \nchute (n dans le cas du mélange à la grecque).\n• Dans le cas de la substitution mono-alphabétique, il faut a priori \ntester toutes les permutations de symboles 26!=286 mais on peut \nsupposer que le message devient lisible dès qu'on a bien placé la \nmoitié des symboles (voire moins). Quand on connaît la règle de \nsubstitution, ce nombre chute (26 pour le codage de César,...)",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 2815898,
+      "begin": 2689749
+    },
+    {
+      "id": "a60",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 59,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "L'attaque par analyse",
+        "img": {
+          "src": "imagecache/059.png"
+        },
+        "description": "L'attaque par analyse \ndes fréquences\nElle s'adapte très bien au attaques sur les substitutions mono-alphabétiques.\n\nLes fréquences des lettres du français sont plus ou moins ﬁxes d'un texte à \nl'autre.\nIl faut que le message codé soit sufﬁsamment long pour que les fréquences aient \nun sens «probabiliste» (loi des grands nombres). Dans les autres cas, on n'obtient \nquand même une bonne indication.",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 2980864,
+      "begin": 2815898
+    },
+    {
+      "id": "a61",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 60,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Autres attaques classiques",
+        "img": {
+          "src": "imagecache/060.png"
+        },
+        "description": "Autres attaques classiques\n\nTechnique du mot probable (cribbing) : on suppose qu'on mot \ncourant de la langue française (susceptible d'apparaître plusieurs fois \ndans le message) sera toujours représenté par la même suite de \nsymbole.\n\nTest de Friedman : Calcul d'un nombre qui permet de déterminer si \nun message est codé par substitution monoalphabétique ou \npolyalphabétique et donne une méthode pour décrypter les messages \ncodés par le chiffre de Vigénère.\n\nMéthode de Babbage/Kasiski : repérage des séquences de lettres  \nqui se répètent dans le texte.",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 2996933,
+      "begin": 2980864
+    },
+    {
+      "id": "a62",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 61,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "CRYPTOGRAPHIE MODERNE",
+        "img": {
+          "src": "imagecache/061.png"
+        },
+        "description": "CRYPTOGRAPHIE MODERNE\nCRYPTOGRAPHIE VS CRYPTANALYSE",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 3062208,
+      "begin": 2996933
+    },
+    {
+      "id": "a63",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 62,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Cryptologie",
+        "img": {
+          "src": "imagecache/062.png"
+        },
+        "description": "Cryptologie\nLa cryptologie est une science qui comporte deux branches:\nLa cryptographie est l’étude des méthodes qui permettent de \ntransmettre des données de manière confidentielle. Elle consiste en \nla mise au point de procédés pour chiffrer et déchiffrer des messages.\nLa cryptanalyse est l’étude des procédés cryptographiques en vue de \nleurs trouver d’éventuelles faiblesses. Ceci afin de décrypter les \nmessages codés sans connaître le secret qui permet de le faire \nfacilement.",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 3083162,
+      "begin": 3062208
+    },
+    {
+      "id": "a64",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 63,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Cryptologie",
+        "img": {
+          "src": "imagecache/063.png"
+        },
+        "description": "Cryptologie\nLa cryptologie est une science qui comporte deux branches:\nClé de chiffrement\nClé de déchiffrement\nLa cryptographie est l’étude des méthodes qui permettent de \nTexte chiffré ou\nTexte en clair\nTexte en clair\nChiffrement\nDéchiffrement\ncryptogramme\ntransmettre des données de manière confidentielle. Elle consiste en \nla mise au point de procédés pour chiffrer et déchiffrer des messages.\nDécryptement\nLa cryptanalyse est l’étude des procédés cryptographiques en vue de \nleurs trouver d’éventuelles faiblesses. Ceci afin de décrypter les \nTexte en clair\nmessages codés sans connaître le secret qui permet de le faire \net/ou clé\nfacilement.",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 3109104,
+      "begin": 3083162
+    },
+    {
+      "id": "a65",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 64,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Cryptologie",
+        "img": {
+          "src": "imagecache/064.png"
+        },
+        "description": "Cryptologie\nfonction Chiffrement(clair,clé) : chaîne\nLa cryptologie est une science qui comporte deux branches:\nClé de chiffrement\nClé de déchiffrement\nLa cryptographie est l’étude des méthodes qui permettent de \nTexte chiffré ou\nTexte en clair\nTexte en clair\nChiffrement\nDéchiffrement\ncryptogramme\ntransmettre des données de manière confidentielle. Elle consiste en \nla mise au point de procédés pour chiffrer et déchiffrer des messages.\nDécryptement\nLa cryptanalyse est l’étude des procédés cryptographiques en vue de \nleurs trouver d’éventuelles faiblesses. Ceci afin de décrypter les \nTexte en clair\nmessages codés sans connaître le secret qui permet de le faire \net/ou clé\nfacilement.",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 3123946,
+      "begin": 3109104
+    },
+    {
+      "id": "a66",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 65,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "fonction Dechiffrement(codé,clé) : chaîne",
+        "img": {
+          "src": "imagecache/065.png"
+        },
+        "description": "fonction Dechiffrement(codé,clé) : chaîne\nCryptologie\nfonction Chiffrement(clair,clé) : chaîne\nLa cryptologie est une science qui comporte deux branches:\nClé de chiffrement\nClé de déchiffrement\nLa cryptographie est l’étude des méthodes qui permettent de \nTexte chiffré ou\nTexte en clair\nTexte en clair\nChiffrement\nDéchiffrement\ncryptogramme\ntransmettre des données de manière confidentielle. Elle consiste en \nla mise au point de procédés pour chiffrer et déchiffrer des messages.\nDécryptement\nLa cryptanalyse est l’étude des procédés cryptographiques en vue de \nleurs trouver d’éventuelles faiblesses. Ceci afin de décrypter les \nTexte en clair\nmessages codés sans connaître le secret qui permet de le faire \net/ou clé\nfacilement.",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 3145600,
+      "begin": 3123946
+    },
+    {
+      "id": "a67",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 66,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "fonction Dechiffrement(codé,clé) : chaîne",
+        "img": {
+          "src": "imagecache/066.png"
+        },
+        "description": "fonction Dechiffrement(codé,clé) : chaîne\nCryptologie\nfonction Chiffrement(clair,clé) : chaîne\nLa cryptologie est une science qui comporte deux branches:\nClé de chiffrement\nClé de déchiffrement\nLa cryptographie est l’étude des méthodes qui permettent de \nTexte chiffré ou\nTexte en clair\nTexte en clair\nChiffrement\nDéchiffrement\ncryptogramme\ntransmettre des données de manière confidentielle. Elle consiste en \nla mise au point de procédés pour chiffrer et déchiffrer des messages.\nDécryptement\nLa cryptanalyse est l’étude des procédés cryptographiques en vue de \nleurs trouver d’éventuelles faiblesses. Ceci afin de décrypter les \nTexte en clair\nmessages codés sans connaître le secret qui permet de le faire \net/ou clé\nfacilement.\nfonction Decryptement(codé) : chaîne",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 3288960,
+      "begin": 3145600
+    },
+    {
+      "id": "a68",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 67,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Sécurité et chiffrement",
+        "img": {
+          "src": "imagecache/067.png"
+        },
+        "description": "Sécurité et chiffrement \nMécanismes et services de sécurité\nBut de la cryptographie moderne : fournir un certain nombre de services de \nsécurité\nConfidentialité\nIntégrité\nAuthentification de l’origine des données ou d’un tiers\nNon-répudiation\nPreuves à apport nul de connaissance\nMoyens mis en oeuvre : mécanismes de sécurité construits au moyen d'outils \ncryptographiques (fonctions, algorithmes, générateurs aléatoires, protocoles,...)\nChiffrement\nScellement et signature\nProtocoles d’authentification mutuelle avec échange de clés",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 3315136,
+      "begin": 3288960
+    },
+    {
+      "id": "a69",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 68,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Sécurité et chiffrement",
+        "img": {
+          "src": "imagecache/068.png"
+        },
+        "description": "Sécurité et chiffrement \nMécanismes et services de sécurité\nBut de la cryptographie moderne : fournir un certain nombre de services de \nsécurité\nConfidentialité\nLes utilisations de la cryptographie mélangent\nIntégrité\nen général plusieurs services de sécurité qui sont \nAuthentification de l’origine des données ou d’un tiers\nNon-répudiation\nbasés sur plusieurs mécanismes de sécurité !!!\nPreuves à apport nul de connaissance\nMoyens mis en oeuvre : mécanismes de sécurité construits au moyen d'outils \ncryptographiques (fonctions, algorithmes, générateurs aléatoires, protocoles,...)\nChiffrement\nScellement et signature\nProtocoles d’authentification mutuelle avec échange de clés",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 3321882,
+      "begin": 3315136
+    },
+    {
+      "id": "a70",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 69,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Vocabulaire",
+        "img": {
+          "src": "imagecache/069.png"
+        },
+        "description": "Vocabulaire\n\nConfidentialité = Assurer que les données concernées ne pourront \nêtre dévoilées qu’aux personnes autorisées.\nIntégrité = Assurer que les données ne seront pas altérées \n(intensionnellement ou non) pendant leur transmission ou leur \nstockage.\nAuthentification/Identification = Prouver l’origine d’une donnée \nou l’identité d’une personne.\nSignature (non-répudiation) = Permet à une personne de prendre \npart à un contrat avec impossibilité de renier ensuite ses engagements.",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 3461226,
+      "begin": 3321882
+    },
+    {
+      "id": "a71",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 70,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Confidentialité et algorithmes de",
+        "img": {
+          "src": "imagecache/070.png"
+        },
+        "description": "Confidentialité et algorithmes de \nchiffrement\n\nLa confidentialité est le problème de base de la cryptographie, il se résout par la notion de \nchiffrement.\nDeux types d’algorithmes:\nAlgorithmes symétriques ou à clé secrète\nPlus rapides donc préférés pour le chiffrement de données}\n\nLes clés doivent résister à une attaque exhaustive (&gt;56 bits, 128 bits).\nAlgorithmes asymétriques ou à clé publique\nEchange de clés secrètes\n\nSignature\n\nLa clé publique donne une info supplémentaire pour casser la clé (&gt;512 bits, 1024 bits).",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 3515626,
+      "begin": 3461226
+    },
+    {
+      "id": "a72",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 71,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Confidentialité et algorithmes de",
+        "img": {
+          "src": "imagecache/071.png"
+        },
+        "description": "Confidentialité et algorithmes de \nchiffrement\n\nLa confidentialité est le problème de base de la cryptographie, il se résout par la notion de \nchiffrement.\nDeux types d’algorithmes:\nAlgorithmes symétriques ou à clé secrète\n1000 personnes veulent se parler, il faut 499500 clés !!!\nPlus rapides donc préférés pour le chiffrement de données}\n1000000 personnes veulent se parler, il faut 500 milliards de clés !!!\nLes clés doivent résister à une attaque exhaustive (&gt;56 bits, 128 bits).\nAlgorithmes asymétriques ou à clé publique\nEchange de clés secrètes\n\nSignature\n\nLa clé publique donne une info supplémentaire pour casser la clé (&gt;512 bits, 1024 bits).",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 3554090,
+      "begin": 3515626
+    },
+    {
+      "id": "a73",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 72,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Confidentialité et algorithmes de",
+        "img": {
+          "src": "imagecache/072.png"
+        },
+        "description": "Confidentialité et algorithmes de \nchiffrement\n\nLa confidentialité est le problème de base de la cryptographie, il se résout par la notion de \nchiffrement.\nDeux types d’algorithmes:\nAlgorithmes symétriques ou à clé secrète\n1000 personnes veulent se parler, il faut 499500 clés !!!\nPlus rapides donc préférés pour le chiffrement de données}\n1000000 personnes veulent se parler, il faut 500 milliards de clés !!!\nLes clés doivent résister à une attaque exhaustive (&gt;56 bits, 128 bits).\nAlgorithmes asymétriques ou à clé publique\nEchange de clés secrètes\n1000 personnes veulent se parler, il faut 1000 clés !!!\nSignature\n1000000 personnes veulent se parler, il faut 1000000 de clés !!!\nLa clé publique donne une info supplémentaire pour casser la clé (&gt;512 bits, 1024 bits).",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 3586496,
+      "begin": 3554090
+    },
+    {
+      "id": "a74",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 73,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Algorithmes symétriques",
+        "img": {
+          "src": "imagecache/073.png"
+        },
+        "description": "Algorithmes symétriques\n(ou à clé privée)\n\nAlice\n\nK\nMessage M\n\nBob\n\nK",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 3589056,
+      "begin": 3586496
+    },
+    {
+      "id": "a75",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 74,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Algorithmes symétriques",
+        "img": {
+          "src": "imagecache/074.png"
+        },
+        "description": "Algorithmes symétriques\n(ou à clé privée)\n\nAlice veut envoyer le message M à Bob\n\nAlice\n\nK\nMessage M\n\nBob\n\nK",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 3602048,
+      "begin": 3589056
+    },
+    {
+      "id": "a76",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 75,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Algorithmes symétriques",
+        "img": {
+          "src": "imagecache/075.png"
+        },
+        "description": "Algorithmes symétriques\n(ou à clé privée)\n\nAlice calcule C=encode(M,K) et l’envoie à Bob\n\nAlice\n\nK\nMessage M\n\nBob\n\nK",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 3608981,
+      "begin": 3602048
+    },
+    {
+      "id": "a77",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 76,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Algorithmes symétriques",
+        "img": {
+          "src": "imagecache/076.png"
+        },
+        "description": "Algorithmes symétriques\n(ou à clé privée)\n\nBob calcule M=decode(C ,K) et lit le message\n\nAlice\n\nK\nMessage M\n\nBob\n\nK",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 3610069,
+      "begin": 3608981
+    },
+    {
+      "id": "a78",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 77,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Algorithmes symétriques",
+        "img": {
+          "src": "imagecache/077.png"
+        },
+        "description": "Algorithmes symétriques\n(ou à clé privée)\n\nBob calcule M=decode(C ,K) et lit le message\nC\n\nAlice\n\nK\nMessage M\n\nBob\n\nK",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 3655658,
+      "begin": 3610069
+    },
+    {
+      "id": "a79",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 78,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Algorithmes symétriques",
+        "img": {
+          "src": "imagecache/078.png"
+        },
+        "description": "Algorithmes symétriques\n(ou à clé privée)\n\nBob calcule M=decode(C ,K) et lit le message\nC\n\nAlice\n\nK\nMessage M\nCryptosystèmes «utilisés»:\n\nBob\n\nK\n\nAvant 2000: DES, clés de 56 bits (chaîne de 7 caractères)\n\nDepuis: AES, clés de 128 à 256bits (chaînes de 16 ou 32 caractères)",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 3769621,
+      "begin": 3655658
+    },
+    {
+      "id": "a80",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 79,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Algorithmes symétriques",
+        "img": {
+          "src": "imagecache/079.png"
+        },
+        "description": "Algorithmes symétriques\n(ou à clé privée)\n\nBob calcule M=decode(C ,K) et lit le message\nSi on est capable de tester 1000000 de clés par secondes pour DES\nC\nIl faut 2200 ans pour décoder le message....\nAlice\nBob\nMAIS si on branche 10000 ordinateurs qui testent chacun \nK\nK\nune partie des clés, il ne faut que 80 jours !!!\nMessage M\nCryptosystèmes «utilisés»:\n\nAvant 2000: DES, clés de 56 bits (chaîne de 7 caractères)\n\nDepuis: AES, clés de 128 à 256bits (chaînes de 16 ou 32 caractères)",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 3817008,
+      "begin": 3769621
+    },
+    {
+      "id": "a81",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 80,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "S’échanger une clé",
+        "img": {
+          "src": "imagecache/080.png"
+        },
+        "description": "S’échanger une clé\nprotocole de Diffie-Hellman\n\nAlice\n\nBob",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 3867114,
+      "begin": 3817008
+    },
+    {
+      "id": "a82",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 81,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "S’échanger une clé",
+        "img": {
+          "src": "imagecache/081.png"
+        },
+        "description": "S’échanger une clé\nprotocole de Diffie-Hellman\nAlice et Bob se mettent d’accord sur deux nombres\np grand nombre premier et g nombre inférieur à p\n\nAlice\np,g\n\nBob\np,g",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 3891648,
+      "begin": 3867114
+    },
+    {
+      "id": "a83",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 82,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "S’échanger une clé",
+        "img": {
+          "src": "imagecache/082.png"
+        },
+        "description": "S’échanger une clé\nprotocole de Diffie-Hellman\nAlice choisit un nombre secret a et calcule\nA=ga modulo p\n\nAlice\np,g\n,a,A\n\nBob\np,g",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 3897728,
+      "begin": 3891648
+    },
+    {
+      "id": "a84",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 83,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "S’échanger une clé",
+        "img": {
+          "src": "imagecache/083.png"
+        },
+        "description": "S’échanger une clé\nprotocole de Diffie-Hellman\nAlice envoie A à Bob, a reste secret\nA\n\nAlice\np,g\n,a,A\n\nBob\np,g\n\n,A",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 3906602,
+      "begin": 3897728
+    },
+    {
+      "id": "a85",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 84,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "S’échanger une clé",
+        "img": {
+          "src": "imagecache/084.png"
+        },
+        "description": "S’échanger une clé\nprotocole de Diffie-Hellman\nBob choisit un nombre secret b et calcule\nB=gb modulo p\nA\n\nAlice\np,g\n,a,A\n\nBob\np,g\n,b,B,A",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 3912298,
+      "begin": 3906602
+    },
+    {
+      "id": "a86",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 85,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "S’échanger une clé",
+        "img": {
+          "src": "imagecache/085.png"
+        },
+        "description": "S’échanger une clé\nprotocole de Diffie-Hellman\nBob envoie B à Alice, b reste secret\nA\nB\n\nBob\np,g\n,b,B\n\n,A\n\nAlice\np,g\n,a,A\n\n,B",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 3964288,
+      "begin": 3912298
+    },
+    {
+      "id": "a87",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 86,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "S’échanger une clé",
+        "img": {
+          "src": "imagecache/086.png"
+        },
+        "description": "S’échanger une clé\nprotocole de Diffie-Hellman\n\nA\nB\n\nAlice\nBob\np,g\np,g\n,b,B\n,A\n,a,A\n,B\nLa clé est K=gab modulo p\nAlice la calcule (sans connaître b) car K=Ba modulo p\nBob la calcule (sans connaître a) car K=Ab modulo p\nIl est matériellement impossible (si p grand) de calculer K\nsi on ne connaît pas a et b",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 3969664,
+      "begin": 3964288
+    },
+    {
+      "id": "a88",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 87,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "S’échanger une clé",
+        "img": {
+          "src": "imagecache/087.png"
+        },
+        "description": "S’échanger une clé\nprotocole de Diffie-Hellman\n\nA\nExercice: l’attaque de l’homme au milieu. Imaginons que Colin \nB\nse place au milieu entre toutes les conversations entre Alice et \nBob\nAlice\nBob (il se fait passer pour Bob vis-a-vis d’Alice et pour Alice vis-\na-vis de Bob. Quelles opérations Colin peut-il faire pour pouvoir \np,g\np,g\n,b,B\n,A\n,a,A\n,B\nécouter toutes les conversations chiffrées qui suivront cet \nLa clé est K=gab modulo p\néchange de clé ?\nAlice la calcule (sans connaître b) car K=Ba modulo p\nBob la calcule (sans connaître a) car K=Ab modulo p\nIl est matériellement impossible (si p grand) de calculer K\nsi on ne connaît pas a et b",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 4011882,
+      "begin": 3969664
+    },
+    {
+      "id": "a89",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 88,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Algorithmes asymétriques",
+        "img": {
+          "src": "imagecache/088.png"
+        },
+        "description": "Algorithmes asymétriques\n(ou à clé publique)\n\nAlice\n\n(eA,dA,nA)\n\nBob\n\n(eB,dB,nB)",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 4039786,
+      "begin": 4011882
+    },
+    {
+      "id": "a90",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 89,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Algorithmes asymétriques",
+        "img": {
+          "src": "imagecache/089.png"
+        },
+        "description": "Algorithmes asymétriques\n(ou à clé publique)\n\nAnnuaire\nAlice: (eA,nA)\nBob: (eB,nB)\n\nAlice\n\n(eA,dA,nA)\n\nBob\n\n(eB,dB,nB)",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 4103786,
+      "begin": 4039786
+    },
+    {
+      "id": "a91",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 90,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Algorithmes asymétriques",
+        "img": {
+          "src": "imagecache/090.png"
+        },
+        "description": "Algorithmes asymétriques\n(ou à clé publique)\n\nAnnuaire\nAlice: (eA,nA)\nBob: (eB,nB)\n\nAlice\n\n(eA,dA,nA)\n\nBob\n\n(eB,dB,nB)",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 4110303,
+      "begin": 4103786
+    },
+    {
+      "id": "a92",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 91,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Algorithmes asymétriques",
+        "img": {
+          "src": "imagecache/091.png"
+        },
+        "description": "Algorithmes asymétriques\n(ou à clé publique)\n\nAnnuaire\nAlice: (eA,nA)\nBob: (eB,nB)\n\nAlice\n\n(eA,dA,nA)\n\nBob\n\n(eB,dB,nB)",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 4117040,
+      "begin": 4110303
+    },
+    {
+      "id": "a93",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 92,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Algorithmes asymétriques",
+        "img": {
+          "src": "imagecache/092.png"
+        },
+        "description": "Algorithmes asymétriques\n(ou à clé publique)\nAlice veut parler à Bob, elle récupère (eB,nB)\n\nAnnuaire\nAlice: (eA,nA)\nBob: (eB,nB)\n\nAlice\n\n(eA,dA,nA)\n\nBob\n\n(eB,dB,nB)",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 4119792,
+      "begin": 4117040
+    },
+    {
+      "id": "a94",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 93,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Algorithmes asymétriques",
+        "img": {
+          "src": "imagecache/093.png"
+        },
+        "description": "Algorithmes asymétriques\n(ou à clé publique)\nAlice veut parler à Bob, elle récupère (eB,nB)\n\nAnnuaire\nAlice: (eA,nA)\nBob: (eB,nB)\n\nAlice\n\n(eA,dA,nA)\nMessage clair M\n\nBob\n\n(eB,dB,nB)",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 4130621,
+      "begin": 4119792
+    },
+    {
+      "id": "a95",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 94,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Algorithmes asymétriques",
+        "img": {
+          "src": "imagecache/094.png"
+        },
+        "description": "Algorithmes asymétriques\n(ou à clé publique)\nAlice calcule C=F(M, (eB,nB))  et l’envoie à Bob\n\nAnnuaire\nAlice: (eA,nA)\nBob: (eB,nB)\n\nAlice\n\n(eA,dA,nA)\nMessage clair M\n\nBob\n\n(eB,dB,nB)",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 4229824,
+      "begin": 4130621
+    },
+    {
+      "id": "a96",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 95,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Algorithmes asymétriques",
+        "img": {
+          "src": "imagecache/095.png"
+        },
+        "description": "Algorithmes asymétriques\n(ou à clé publique)\nAlice calcule C=F(M, (eB,nB))  et l’envoie à Bob\n\nAnnuaire\nAlice: (eA,nA)\nBob: (eB,nB)\n\nAlice\n\nBob\n\n(eA,dA,nA)\n(eB,dB,nB)\nEn fait F(M,(e,n)) est une fonction dite à trappe, c’est à dire qu’il \nMessage clair M\nest facile de calculer l’inverse de F quand on connaît la trappe (ici \nd) mais très difﬁcile quand on ne la connaît pas\nex (RSA): C=F(M,(e ,n))=Me modulo n, avec ed=1 modulo φ(n)\nconnaissant C ,e ,n, impossible de retrouver M, mais si on connaît d,\nM= Cd modulo n    = (Med modulo n) = (M1 modulo n)",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 4230976,
+      "begin": 4229824
+    },
+    {
+      "id": "a97",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 96,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Algorithmes asymétriques",
+        "img": {
+          "src": "imagecache/096.png"
+        },
+        "description": "Algorithmes asymétriques\n(ou à clé publique)\nAlice calcule C=F(M, (eB,nB))  et l’envoie à Bob\n\nAnnuaire\nAlice: (eA,nA)\nBob: (eB,nB)\n\nAlice\n\n(eA,dA,nA)\nMessage clair M\n\nBob\n\n(eB,dB,nB)",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 4231072,
+      "begin": 4230976
+    },
+    {
+      "id": "a98",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 97,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Algorithmes asymétriques",
+        "img": {
+          "src": "imagecache/097.png"
+        },
+        "description": "Algorithmes asymétriques\n(ou à clé publique)\nAlice calcule C=F(M, (eB,nB))  et l’envoie à Bob\n\nAnnuaire\nAlice: (eA,nA)\nBob: (eB,nB)\n\nAlice\n\n(eA,dA,nA)\nMessage clair M\n\nC\n\nBob\n\n(eB,dB,nB)",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 4237674,
+      "begin": 4231072
+    },
+    {
+      "id": "a99",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 98,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Algorithmes asymétriques",
+        "img": {
+          "src": "imagecache/098.png"
+        },
+        "description": "Algorithmes asymétriques\n(ou à clé publique)\nBob calcule M=F-1(C , (dB,nB))  et lit le message !\n\nAnnuaire\nAlice: (eA,nA)\nBob: (eB,nB)\n\nAlice\n\n(eA,dA,nA)\nMessage clair M\n\nC\n\nBob\n\n(eB,dB,nB)",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 4407898,
+      "begin": 4237674
+    },
+    {
+      "id": "a100",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 99,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "RSA générer (e,d,n)",
+        "img": {
+          "src": "imagecache/099.png"
+        },
+        "description": "RSA générer (e,d,n)\n\nComment générer un triplet valide et qui assure un bon niveau de sécurité ?\n1.Tirer au hasard deux très grand nombres premiers p et q (100 à 200 chiffres). \nOn pose n=pq et φ(n)=(p-1)(q-1)\n2.Choisir au hasard e (petit entier tel que PGCD(e,φ(n))=1).\n3.Calculer d tel que ed=1 modulo  φ(n) [facile: algorithme d’Euclide généralisé]\n\nToute la sécurité de RSA repose sur le fait qu’il est très difficile de retrouver p et q à \npartir de n (problème de la factorisation de grands entiers, pas d’autre méthode que \nd’essayer tous les nombres, donc matériellement difficile si p et q sont grands 2128)",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 4426266,
+      "begin": 4407898
+    },
+    {
+      "id": "a101",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 100,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "RSA générer (e,d,n)",
+        "img": {
+          "src": "imagecache/100.png"
+        },
+        "description": "RSA générer (e,d,n)\n\nComment générer un triplet valide et qui assure un bon niveau de sécurité ?\n1.Tirer au hasard deux très grand nombres premiers p et q (100 à 200 chiffres). \nOn pose n=pq et φ(n)=(p-1)(q-1)\nSi on est capable de tester 1000000 de nombres par secondes\n2.Choisir au hasard e (petit entier tel que PGCD(e,φ(n))=1).\nIl faut 1023 siècles pour factoriser n\n3.Calculer d tel que ed=1 modulo  φ(n) [facile: algorithme d’Euclide généralisé]\n\nToute la sécurité de RSA repose sur le fait qu’il est très difficile de retrouver p et q à \npartir de n (problème de la factorisation de grands entiers, pas d’autre méthode que \nd’essayer tous les nombres, donc matériellement difficile si p et q sont grands 2128)",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 4435114,
+      "begin": 4426266
+    },
+    {
+      "id": "a102",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 101,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "RSA générer (e,d,n)",
+        "img": {
+          "src": "imagecache/101.png"
+        },
+        "description": "RSA générer (e,d,n)\n\nComment générer un triplet valide et qui assure un bon niveau de sécurité ?\n1.Tirer au hasard deux très grand nombres premiers p et q (100 à 200 chiffres). \nOn pose n=pq et φ(n)=(p-1)(q-1)\nSi on est capable de tester 1000000 de nombres par secondes\n2.Choisir au hasard e (petit entier tel que PGCD(e,φ(n))=1).\nIl faut 1023 siècles pour factoriser n\n3.Calculer d tel que ed=1 modulo  φ(n) [facile: algorithme d’Euclide généralisé]\n\nToute la sécurité de RSA repose sur le fait qu’il est très difficile de retrouver p et q à \npartir de n (problème de la factorisation de grands entiers, pas d’autre méthode que \nd’essayer tous les nombres, donc matériellement difficile si p et q sont grands 2128)",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 4437696,
+      "begin": 4435114
+    },
+    {
+      "id": "a103",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 102,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "RSA générer (e,d,n)",
+        "img": {
+          "src": "imagecache/102.png"
+        },
+        "description": "RSA générer (e,d,n)\n\nComment générer un triplet valide et qui assure un bon niveau de sécurité ?\n1.Tirer au hasard deux très grand nombres premiers p et q (100 à 200 chiffres). \nOn pose n=pq et φ(n)=(p-1)(q-1)\nSi on est capable de tester 1000000 de nombres par secondes\n2.Choisir au hasard e (petit entier tel que PGCD(e,φ(n))=1).\nIl faut 1023 siècles pour factoriser n\n3.Calculer d tel que ed=1 modulo  φ(n) [facile: algorithme d’Euclide généralisé]\n\nToute la sécurité de RSA repose sur le fait qu’il est très difficile de retrouver p et q à \npartir de n (problème de la factorisation de grands entiers, pas d’autre méthode que \nd’essayer tous les nombres, donc matériellement difficile si p et q sont grands 2128)",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 4465621,
+      "begin": 4437696
+    },
+    {
+      "id": "a104",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 103,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "RSA générer (e,d,n)",
+        "img": {
+          "src": "imagecache/103.png"
+        },
+        "description": "RSA générer (e,d,n)\n\nComment générer un triplet valide et qui assure un bon niveau de sécurité ?\n1.Tirer au hasard deux très grand nombres premiers p et q (100 à 200 chiffres). \nOn pose n=pq et φ(n)=(p-1)(q-1)\nSi on est capable de tester 1000000 de nombres par secondes\n2.Choisir au hasard e (petit entier tel que PGCD(e,φ(n))=1).\nIl faut 1023 siècles pour factoriser n\n3.Calculer d tel que ed=1 modulo  φ(n) [facile: algorithme d’Euclide généralisé]\n\nToute la sécurité de RSA repose sur le fait qu’il est très difficile de retrouver p et q à \npartir de n (problème de la factorisation de grands entiers, pas d’autre méthode que \nd’essayer tous les nombres, donc matériellement difficile si p et q sont grands 2128)",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 4612442,
+      "begin": 4465621
+    },
+    {
+      "id": "a105",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 104,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Signature numérique",
+        "img": {
+          "src": "imagecache/104.png"
+        },
+        "description": "Signature numérique\nCahier des charges\ncalculable par le signataire quel que soit le message M (doit dépendre \ndu signataire et de M)\ntout individu tout pouvoir vérifier la signature\nelle doit être infalsifiable\nl’expéditeur ne peut pas dire que sa signature a été imitée.\nUn exemple de mise en œuvre, signature par RSA\nAlice veut signer un message (rappel ses clés sont (eA,dA,nA))\nAlice calcule: \nS=Signature(M, (dA,nA))=MdA modulo nA\npour vérifier la signature (sur le message qui a été transmit à part par \nAlice à Bob)\nver(M,S, (eA,nA)) = vrai (cid:15483)SeA = M modulo nA",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 4702229,
+      "begin": 4612442
+    },
+    {
+      "id": "a106",
+      "meta": {
+        "dc:modified": "2013-12-20",
+        "dc:created": "2013-12-20",
+        "advene:num": 105,
+        "id-ref": "Slides",
+        "dc:creator": "morais-c",
+        "dc:contributor": "morais-c"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Conclusion",
+        "img": {
+          "src": "imagecache/105.png"
+        },
+        "description": "Conclusion\nTout le reste va reposer sur une suite de protocoles\nComment envoyer un message très long (découpage par blocs) ?\nComment bien partager un secret ?\nComment générer du bon (pseudo-)aléatoire ?\n\nComment signer un message ?\nAvec des problèmes algorithmiques à résoudre\nComment générer des grands nombres premiers ?\nComment trouver et calculer rapidement des fonctions à trappe, dont celle de RSA ?\netc,etc,...",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 4779433,
+      "begin": 4702229
+    },
+    {
+      "id": "f6b184f7-7c4b-44a7-a523-86357646b150",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2015-06-01",
+        "dc:created": "2015-06-01",
+        "id-ref": "at_quiz",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "title": "Quel nombre décimal se cache derrière la chaîne 10010101 ?",
+        "description": "Quel nombre décimal se cache derrière la chaîne 10010101 ?",
+        "data": {
+          "answers": [
+            {
+              "feedback": "Complètement faux",
+              "content": "28"
+            },
+            {
+              "feedback": "Pas loin",
+              "content": "102"
+            },
+            {
+              "feedback": "Exactement !",
+              "correct": true,
+              "content": "149"
+            },
+            {
+              "feedback": "Tu y est presque",
+              "content": "205"
+            }
+          ],
+          "question": "Quel nombre décimal se cache derrière la chaîne 10010101 ?",
+          "type": "unique_choice"
+        },
+        "mimetype": "application/x-video-quizz"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 243000,
+      "begin": 240000
+    },
+    {
+      "id": "8a8371a1-3b0a-4fae-88c4-3a3b77dde755",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2015-06-01",
+        "dc:created": "2015-06-01",
+        "id-ref": "at_quiz",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "title": "Selon vous, pour quel usage a-t-on besoin de la Cryptographie ?",
+        "description": "Selon vous, pour quel usage a-t-on besoin de la Cryptographie ?",
+        "data": {
+          "answers": [
+            {
+              "feedback": "Tous les communications entre militaire sont chiffrées",
+              "correct": true,
+              "content": "Usage militaire"
+            },
+            {
+              "feedback": "La télévision a aussi besoin de chiffrement pour les chaînes par exemple (Canal Plus)",
+              "correct": true,
+              "content": "Usage télévisuel"
+            },
+            {
+              "feedback": "Afin de cacher les coordonnées bancaires lors d’une transaction, celles-ci sont chiffrées",
+              "correct": true,
+              "content": "Usage bancaire"
+            },
+            {
+              "feedback": "Les mails sont chiffrés par exemple",
+              "correct": true,
+              "content": "Usage communicatif"
+            }
+          ],
+          "question": "Selon vous, pour quel usage a-t-on besoin de la Cryptographie ?",
+          "type": "multiple_choice"
+        },
+        "mimetype": "application/x-video-quizz"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 1057000,
+      "begin": 1054000
+    },
+    {
+      "id": "3e4ddc7a-a496-469e-8a20-e1508c447f20",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2015-06-01",
+        "dc:created": "2015-06-01",
+        "id-ref": "at_quiz",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "title": "Laquelle de ces technologies ne porte pas sur le cryptage ?",
+        "description": "Laquelle de ces technologies ne porte pas sur le cryptage ?",
+        "data": {
+          "answers": [
+            {
+              "feedback": "La table de Mendeleïev correspond au tableau périodique des éléments en chimie.",
+              "correct": true,
+              "content": "Table de Mendeleïev"
+            },
+            {
+              "feedback": "Oui, c'est un chiffrement par substitution",
+              "content": "Chiffre de Vigénère"
+            },
+            {
+              "feedback": "C’est l'ancêtre du chiffrement.",
+              "content": "La machine Enigma"
+            },
+            {
+              "feedback": "Vu juste avant la machine Enigma",
+              "content": "Lithanie de Trithène "
+            }
+          ],
+          "question": "Laquelle de ces technologies ne porte pas sur le cryptage ?",
+          "type": "unique_choice"
+        },
+        "mimetype": "application/x-video-quizz"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 2583000,
+      "begin": 2580000
+    },
+    {
+      "id": "a661d28a-7d26-4663-8c1b-7c4303d0955f",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2015-06-01",
+        "dc:created": "2015-06-01",
+        "id-ref": "at_quiz",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "title": "Qu’est que l’attaque exhaustive ?",
+        "description": "Qu’est que l’attaque exhaustive ?",
+        "data": {
+          "answers": [
+            {
+              "feedback": "Non ça c’est l’attaque par analyse des fréquences",
+              "content": "Regarder la fréquence des mots pour déchiffrer"
+            },
+            {
+              "feedback": "Rien a voir avec la cryptographie",
+              "content": "Un combat de vaisseaux spatiaux"
+            },
+            {
+              "feedback": "Aussi appelé Brute-Force",
+              "correct": true,
+              "content": "Tester toutes les combinaisons possibles"
+            }
+          ],
+          "question": "Qu’est que l’attaque exhaustive ?",
+          "type": "unique_choice"
+        },
+        "mimetype": "application/x-video-quizz"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 3003000,
+      "begin": 3e+06
+    },
+    {
+      "id": "044b482a-661d-4d98-8e44-7771b69a3c69",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2015-06-01",
+        "dc:created": "2015-06-01",
+        "id-ref": "at_quiz",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "title": "Quelles sont les 2 branches de la Cryptologie ?",
+        "description": "Quelles sont les 2 branches de la Cryptologie ?",
+        "data": {
+          "answers": [
+            {
+              "feedback": "Bonne réponse (voir 51:00)",
+              "correct": true,
+              "content": "Cryptographie et Cryptanalyse "
+            },
+            {
+              "feedback": "Rien a voir avec la cryptographie",
+              "content": "Cryptholographie et Cryptogame"
+            },
+            {
+              "feedback": "A coté de la plaque",
+              "content": "Cryptholographie et Cryptanalyse"
+            },
+            {
+              "feedback": "Vous n'avez rien suivi !?",
+              "content": "Cryptographie et Cryptopapier"
+            }
+          ],
+          "question": "Quelles sont les 2 branches de la Cryptologie ?",
+          "type": "unique_choice"
+        },
+        "mimetype": "application/x-video-quizz"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 3303000,
+      "begin": 3300000
+    },
+    {
+      "id": "9eb32c46-5851-4bd4-86e2-59dc84ca841c",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2015-06-02",
+        "dc:created": "2015-06-02",
+        "id-ref": "at_quiz",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "title": "Sur le dessin, à quoi correspondent 1, 2, 3 ?",
+        "description": "Sur le dessin, à quoi correspondent 1, 2, 3 ?",
+        "data": {
+          "type": "unique_choice",
+          "answers": [
+            {
+              "feedback": "Avez vous vraiment écouté ?",
+              "content": "1. Arthur - 2. Sophie - 3. Grégory"
+            },
+            {
+              "feedback": "Vous y êtes presque",
+              "content": "1.Déchiffrement - 2.Decryptement - 3. Chiffrement"
+            },
+            {
+              "feedback": "Exactement !",
+              "correct": true,
+              "content": "1.Chiffrement - 2.Déchiffrement - 3 Décryptement"
+            },
+            {
+              "feedback": "Vous y êtes presque",
+              "content": "1.Chiffrement - 2.Décryptement - 3 Déchiffrement"
+            }
+          ],
+          "resource": "<img src=\"q6.png\">",
+          "question": "Sur le dessin, à quoi correspondent 1, 2, 3 ?"
+        },
+        "mimetype": "application/x-video-quizz"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 3543000,
+      "begin": 3540000
+    },
+    {
+      "id": "3d65b942-d59e-4441-b4df-aa8cd2c1f04b",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2015-06-02",
+        "dc:created": "2015-06-02",
+        "id-ref": "at_quiz",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "title": "Si notre algorithme est asynchrone, combien de clés va t’il générer pour 2500 personnes ?",
+        "description": "Si notre algorithme est asynchrone, combien de clés va t’il générer pour 2500 personnes ?",
+        "data": {
+          "answers": [
+            {
+              "feedback": "Tout à fait",
+              "correct": true,
+              "content": "2500"
+            },
+            {
+              "feedback": "Le système est asynchrone il en faut donc le nombre exact",
+              "content": "5000"
+            },
+            {
+              "feedback": "Beaucoup trop!",
+              "content": "25000"
+            },
+            {
+              "feedback": "Vous n'avez pas écouté, retour à 59:00",
+              "content": "100000"
+            }
+          ],
+          "question": "Si notre algorithme est asynchrone, combien de clés va t’il générer pour 2500 personnes ?",
+          "type": "unique_choice"
+        },
+        "mimetype": "application/x-video-quizz"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 3549000,
+      "begin": 3545000
+    },
+    {
+      "id": "2dd1e823-c812-45f3-97ea-6fa2df92fb6c",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2015-06-02",
+        "dc:created": "2015-06-02",
+        "id-ref": "at_quiz",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "title": "À l’heure actuelle, quels sont les 2 systèmes de clé privée possibles ?",
+        "description": "À l’heure actuelle, quels sont les 2 systèmes de clé privée possibles ?",
+        "data": {
+          "answers": [
+            {
+              "feedback": "AES l'est bien mais ETR non",
+              "content": "AES et ETR"
+            },
+            {
+              "feedback": "Exactement !",
+              "correct": true,
+              "content": "DES et AES"
+            },
+            {
+              "feedback": "Ce ne sont pas les bons systèmes",
+              "content": "AEF et DRF"
+            },
+            {
+              "feedback": "Avez vous bien écouté ?",
+              "content": "DAS et EAS"
+            }
+          ],
+          "question": "À l’heure actuelle, quels sont les 2 systèmes de clé privée possibles ?",
+          "type": "unique_choice"
+        },
+        "mimetype": "application/x-video-quizz"
+      },
+      "media": "m20131025",
+      "tags": null,
+      "end": 3783000,
+      "begin": 3780000
+    }
+  ],
+  "meta": {
+    "dc:description": "",
+    "main_media": "m20131025",
+    "dc:created": "2011-02-14T15:15:52.602502",
+    "dc:modified": "2013-12-19",
+    "id": "package1",
+    "dc:title": "Éléments de cryptographie - Jérémie Bourdon - 25/10/2013",
+    "dc:creator": "admin",
+    "dc:contributor": "admin"
+  },
+  "medias": [
+    {
+      "unit": "ms",
+      "id": "m20131025",
+      "meta": {
+        "dc:modified": "2013-12-19",
+        "dc:contributor": "morais-c",
+        "dc:creator": "morais-c",
+        "dc:created.contents": "2013-12-19",
+        "dc:title": "/data2/video/coco/20131025-jeremie_info_l1/20131025-camera-reference.mp4",
+        "dc:creator.contents": "morais-c",
+        "dc:description": "",
+        "dc:created": "2013-12-19",
+        "dc:duration": 4779433
+      },
+      "http://advene.liris.cnrs.fr/ns/frame_of_reference/ms": "o=0",
+      "url": "/data2/video/coco/20131025-jeremie_info_l1/20131025-camera-reference.mp4",
+      "origin": "0"
+    }
+  ],
+  "lists": [],
+  "views": [],
+  "tags": []
+}

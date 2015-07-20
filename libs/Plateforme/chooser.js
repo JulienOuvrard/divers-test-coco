@@ -1,4 +1,6 @@
-TestsCoco.Simulator.Chooser = function(){};
+TestsCoco.Simulator.Chooser = function(sim_threshold){
+    this.similarity_threshold = sim_threshold;
+};
 
 TestsCoco.Simulator.Chooser.prototype.countOccurences = function (tab_ans,tab_quest){
  
@@ -128,7 +130,7 @@ TestsCoco.Simulator.Chooser.prototype.syntax_similarity = function (phrase1,phra
     })
     
     var t2 = tool.transpose(t1);
-    
+    console.log(t2);
     return tool.cosine(t2[0],t2[1]);
 }
 
@@ -233,7 +235,8 @@ TestsCoco.Simulator.Chooser.prototype.choose = function (d1,d2,numberOfQuestions
         var good = true;
         
         $.each(questionsToDisplay, function(index, value) {
-            if(sim[quest][value] > 0.5){
+            
+            if(sim[quest][value] > this.similarity_threshold){
                 good = false;
             }
         });
@@ -246,6 +249,7 @@ TestsCoco.Simulator.Chooser.prototype.choose = function (d1,d2,numberOfQuestions
     
     return questionsToDisplay;
 }
+
 TestsCoco.Simulator.Chooser.prototype.getChoosenQuestions = function (d1,d2,numberOfQuestions){
 
     var disp = this.choose(d1,d2,numberOfQuestions);
@@ -266,7 +270,6 @@ TestsCoco.Simulator.Chooser.prototype.main = function (answers,questions,numberO
 
     var medias = _.groupBy(questions.annotations,'media');
 
-    this.getData(d1,medias[media]);
-    
+    this.getData(answers,medias[media]);
     return this.getChoosenQuestions(answers,medias[media],numberOfQuestions);
 }

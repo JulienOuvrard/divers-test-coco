@@ -11,14 +11,17 @@ TestsCoco.User = function(name,profile,session_dates){
 
 TestsCoco.User.prototype.setSessionDates = function(start,nb_tours,documents) {
     var _this = this;
+    var tool = new TestsCoco.Tools();
     var dates = [];
     
     var cases = {
       "regular": function(tab) {
                     var doc = _.random(documents.length-1);
                     var media = documents[doc].medias[0].id;
-                    tab.push({'date':start,'media':media});
+                    var session_id = tool.generateUid();
+                    tab.push({'id':session_id,'date':start,'media':media});
                     for(var i = 1; i < nb_tours; i++){
+                        var session_id = tool.generateUid();
                         var doc = _.random(documents.length-1);
                         var media = documents[doc].medias[0].id;
                         var max_time = _.max(documents[doc].annotations,"end").end;
@@ -27,15 +30,17 @@ TestsCoco.User.prototype.setSessionDates = function(start,nb_tours,documents) {
                         var temp = tab[i-1].date;
                         var hours = _.random(9,20);
                         d.setTime(temp.getTime() + offset + _.random(1) * _this.date_property.dayInMillisecond + max_time + hours * _this.date_property.hourInMillisecond);
-                        tab.push({'date':d,'media':media});
+                        tab.push({'id':session_id,'date':d,'media':media});
                     }
                     return tab;
                 },
       "random": function(tab) {
                     var doc = _.random(documents.length-1);
                     var media = documents[doc].medias[0].id;
-                    tab.push({'date':start,'media':media});
+                    var session_id = tool.generateUid();
+                    tab.push({'id':session_id,'date':start,'media':media});
                     for(var i = 1; i < nb_tours; i++){
+                        var session_id = tool.generateUid();
                         var doc = _.random(documents.length-1);
                         var media = documents[doc].medias[0].id;
                         var max_time = _.max(documents[doc].annotations,"end").end;
@@ -43,7 +48,7 @@ TestsCoco.User.prototype.setSessionDates = function(start,nb_tours,documents) {
                         var offset = d.getTimezoneOffset();
                         var temp = tab[i-1].date;
                         d.setTime(temp.getTime() + offset + _.random(3) * _this.date_property.dayInMillisecond + max_time);
-                        tab.push({'date':d,'media':media});
+                        tab.push({'id':session_id,'date':d,'media':media});
                     }
                     return tab;
                 },

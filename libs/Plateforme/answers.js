@@ -55,7 +55,7 @@ TestsCoco.Simulator.Answers.prototype.generateVote = function (q,user_name,user_
     vote.sessionId = session_id;
     
     var ans = this.generateAnswer(q,user_name,user_profile,session_start,session_id);
-    
+    //Ajouter propriété pondération vote usefull
     if(ans.property != "skipped_answer"){
         var pickVote = tool.pickRandomNumber(-1,2);
         vote.value = pickVote;
@@ -81,7 +81,6 @@ TestsCoco.Simulator.Answers.prototype.generateVote = function (q,user_name,user_
 TestsCoco.Simulator.Answers.prototype.generate = function (questions,numberOfQuestions,user_name,user_profile,session_start,session_id){
     var reponses = [];
     var _this = this;
-    var tool = new TestsCoco.Tools();
     
     $.each(questions,function(index,value){
         reponses = reponses.concat(_this.generateVote(value,user_name,user_profile,session_start,session_id));
@@ -89,17 +88,10 @@ TestsCoco.Simulator.Answers.prototype.generate = function (questions,numberOfQue
     return reponses;
 }
 
-TestsCoco.Simulator.Answers.prototype.main = function (questions,numberOfQuestions,user,session_date){
+TestsCoco.Simulator.Answers.prototype.main = function (questions,numberOfQuestions,user,session){
     var _this = this;
-    var tool = new TestsCoco.Tools();
     var ret = [];
-/*
-    $.each(user.session_dates,function(index,value){
-        var session_id = tool.generateUid();
-        ret = ret.concat(_this.generate(d1.annotations,numberOfQuestions,user.name,user.profile,value.date,session_id));
-    });
-    */
-    var session_id = tool.generateUid();
-    ret = ret.concat(_this.generate(questions.annotations,numberOfQuestions,user.name,user.profile,session_date,session_id));
+
+    ret = ret.concat(_this.generate(questions.annotations,numberOfQuestions,user.name,user.profile,session.date,session.id));
     return ret;
 }

@@ -1,0 +1,3271 @@
+{
+    "annotations": [
+        {
+            "content": {
+                "description": "résoudre problèmes l’informatique rapport culture exemples numérique ",
+                "answers": [
+                    {
+                        "content": "l’homme étudier concepts numérique l’algorithme numérique faire modélisation ",
+                        "correct": true
+                    },
+                    {
+                        "content": "l’adaptation machine l’utilisateur l’utilisateur humaine homme l’ordinateur "
+                    },
+                    {
+                        "content": "l’adaptation l’intelligence programmation résoudre modèle codage l’utilisateur modèle "
+                    }
+                ]
+            },
+            "begin": 194935,
+            "end": 197935,
+            "type": "Quizz",
+            "media": "m20131010",
+            "id": "c50941f1-2844-4578-94e5-353046fc38ac"
+        },
+        {
+            "content": {
+                "description": "réseaux are l’effet enemies them l’effet the sociaux ",
+                "answers": [
+                    {
+                        "content": "here» things here» réseaux here» hate— disconnects that "
+                    },
+                    {
+                        "content": "sociaux internet réseaux are réseau réseaux "
+                    },
+                    {
+                        "content": "monde an petit utility réseaux com "
+                    },
+                    {
+                        "content": "sociologues loves enjeux réseaux enjeux enemies utility enemies from ",
+                        "correct": true
+                    }
+                ]
+            },
+            "begin": 844876,
+            "end": 847876,
+            "type": "Quizz",
+            "media": "m20131010",
+            "id": "6b4a8326-f4eb-4546-a8a3-0151f07f70b6"
+        },
+        {
+            "content": {
+                "description": "l’informatique modèle droits modèle rofi entoure paradoxes ",
+                "answers": [
+                    {
+                        "content": "l’algorithme culture réservés disparaît d’informatique l’utilisateur l’utilisateur langage codage programmation "
+                    },
+                    {
+                        "content": "informatique flickr culture droits flickr flickr ",
+                        "correct": true
+                    },
+                    {
+                        "content": "d’ programmation revolweb flickr informatique numérique "
+                    },
+                    {
+                        "content": "l’informatique notion l’utilisateur s’occuper flickr codage réservés concepts "
+                    }
+                ]
+            },
+            "begin": 143050,
+            "end": 146050,
+            "type": "Quizz",
+            "media": "m20131010",
+            "id": "cde3750b-bb48-42c4-a860-113427e00641"
+        },
+        {
+            "content": {
+                "description": "réétiqueter objets modélisation graphes graphes l’isomorphisme modélisation graphes modélisation l’isomorphisme ",
+                "answers": [
+                    {
+                        "content": "difficile graphes essentiels situations réétiqueter isomorphes graphes réétiqueter "
+                    },
+                    {
+                        "content": "obtenir difficile situations situations graphes objets adaptés "
+                    },
+                    {
+                        "content": "graphes obtenir réétiqueter problème réétiqueter modélisation problème graphes ",
+                        "correct": true
+                    }
+                ]
+            },
+            "begin": 2035794,
+            "end": 2038794,
+            "type": "Quizz",
+            "media": "m20131010",
+            "id": "ae255dc7-a5ca-4154-bbc6-a66b5010ae2d"
+        },
+        {
+            "content": {
+                "description": "l’autre situations sommets graphes isomorphes graphes sommets objets vérifier ",
+                "answers": [
+                    {
+                        "content": "essentiels modélisation réétiqueter graphes problème vérifier problème ",
+                        "correct": true
+                    },
+                    {
+                        "content": "problème vérifier essentiels difficile graphes isomorphes adaptés l’autre vérifier situations "
+                    },
+                    {
+                        "content": "adaptés graphes l’autre l’un sommets graphes graphes vérifier vérifier "
+                    }
+                ]
+            },
+            "begin": 2066702,
+            "end": 2069702,
+            "type": "Quizz",
+            "media": "m20131010",
+            "id": "390a467f-f522-478a-b28a-5d0f62353a9c"
+        },
+        {
+            "content": {
+                "description": "notion d’informatique transparent informatique résume transparent recopié notes d’informatique revolweb ",
+                "answers": [
+                    {
+                        "content": "rapport transparent résume machine informatique recopié rapport point ",
+                        "correct": true
+                    },
+                    {
+                        "content": "résume concepts résume transparent recopié d’informatique recopié notes réservés "
+                    },
+                    {
+                        "content": "l’informatique culture informatique monde numérique notion prise flickr monde "
+                    }
+                ]
+            },
+            "begin": 80790,
+            "end": 83790,
+            "type": "Quizz",
+            "media": "m20131010",
+            "id": "f4a632eb-1906-41e2-9d66-a1f608f208f1"
+        },
+        {
+            "content": {
+                "description": "colin point revolweb higuera résume ubiquitaire d’ transparent indique ",
+                "answers": [
+                    {
+                        "content": "transparent d’ réservés d’ prise voit droits "
+                    },
+                    {
+                        "content": "droits informatique paradoxes l’utilisateur indique transparent dessin réservés d’ ",
+                        "correct": true
+                    },
+                    {
+                        "content": "higuera l’utilisateur ubiquitaire revolweb droits paradoxes revolweb d’ transparent recopié "
+                    }
+                ]
+            },
+            "begin": 63976,
+            "end": 66976,
+            "type": "Quizz",
+            "media": "m20131010",
+            "id": "710519a7-a1da-4195-9415-eb9ed9424602"
+        },
+        {
+            "content": {
+                "description": "the them loves sociaux com friends l’effet colossaux sociaux social ",
+                "answers": [
+                    {
+                        "content": "colossaux sociaux an économiques your them internet d’étude you trouve "
+                    },
+                    {
+                        "content": "enemies is your the you social enemies "
+                    },
+                    {
+                        "content": "the to trouve everybody to you to hate— "
+                    },
+                    {
+                        "content": "sociaux hatebook utility find sociaux them utility ",
+                        "correct": true
+                    }
+                ]
+            },
+            "begin": 829262,
+            "end": 832262,
+            "type": "Quizz",
+            "media": "m20131010",
+            "id": "dce92a6d-6cb4-4e8a-988b-59a3b990d03c"
+        },
+        {
+            "content": {
+                "description": "fonctionnement droits sait inférer réel droits système système générer ",
+                "answers": [
+                    {
+                        "content": "voulues social réseau graphes générer réservés droits système propriétés ",
+                        "correct": true
+                    },
+                    {
+                        "content": "automatiquement réservés sait système ickr ickr social "
+                    },
+                    {
+                        "content": "réel d’un droits portion voulues voulues ickr voulues droits licence "
+                    },
+                    {
+                        "content": "xericjames système simulation générer réservés système réservés fonctionnement fl "
+                    }
+                ]
+            },
+            "begin": 1162556,
+            "end": 1165556,
+            "type": "Quizz",
+            "media": "m20131010",
+            "id": "fdc14fa1-b1d2-4f15-9e93-3fe3d9ec3009"
+        },
+        {
+            "content": {
+                "description": "avantageusement objet graphe table lien iance table ",
+                "answers": [
+                    {
+                        "content": "table table objet définira lien pourra "
+                    },
+                    {
+                        "content": "objet iance définira objet avantageusement graphe mathématique ",
+                        "correct": true
+                    }
+                ]
+            },
+            "begin": 2514880,
+            "end": 2517880,
+            "type": "Quizz",
+            "media": "m20131010",
+            "id": "eea31a0c-5689-445e-9a19-7a5d25b56804"
+        },
+        {
+            "content": {
+                "description": "support réseau contradictoires exemples avantage » argumentaire ",
+                "answers": [
+                    {
+                        "content": "connaissent réseaux réseau connaissent l’information graphes argument "
+                    },
+                    {
+                        "content": "avantage réseaux « théories théorie social connaissent confiance ",
+                        "correct": true
+                    },
+                    {
+                        "content": "capital social amis donnent l’information « argument support gagne sécurité "
+                    }
+                ]
+            },
+            "begin": 1380292,
+            "end": 1383292,
+            "type": "Quizz",
+            "media": "m20131010",
+            "id": "d1aedec4-33df-43a9-bb46-a2ffc84c316d"
+        },
+        {
+            "content": {
+                "description": "bea confiance l’ensemble exemple bea l’ensemble confiance quelqu’un confiance ",
+                "answers": [
+                    {
+                        "content": "confiance confiance confiance confiance bea confiance "
+                    },
+                    {
+                        "content": "cid confiance confiance solution confiance confiance confiance solution ",
+                        "correct": true
+                    }
+                ]
+            },
+            "begin": 3130410,
+            "end": 3133410,
+            "type": "Quizz",
+            "media": "m20131010",
+            "id": "839c285e-3cf7-49a6-a901-120a9c7d8717"
+        },
+        {
+            "content": {
+                "description": "social sociaux théorie sociaux applications propriétés ",
+                "answers": [
+                    {
+                        "content": "graphes propriétés graphe graphes graphe propriétés applications coupes "
+                    },
+                    {
+                        "content": "applications propriétés connexité graphe théorie l’analyse "
+                    },
+                    {
+                        "content": "applications graphe chemins réseaux cliques théorie graphe coupes l’analyse graphes ",
+                        "correct": true
+                    }
+                ]
+            },
+            "begin": 1480410,
+            "end": 1483410,
+            "type": "Quizz",
+            "media": "m20131010",
+            "id": "aaeda636-b5d9-4056-a420-beeeab5b3cca"
+        },
+        {
+            "content": {
+                "description": "théorie contradictoires sociaux réseaux théorie sociaux ",
+                "answers": [
+                    {
+                        "content": "support avantage sécurité social capital théorie social graphe "
+                    },
+                    {
+                        "content": "donnent flux… théorie connaissent théorie permettent coupes l’information réseaux l’analyse ",
+                        "correct": true
+                    },
+                    {
+                        "content": "concepts graphes d’étudier graphes d’étudier confiance "
+                    }
+                ]
+            },
+            "begin": 1434128,
+            "end": 1437128,
+            "type": "Quizz",
+            "media": "m20131010",
+            "id": "562d3411-a5a5-428d-be57-4ca7742f3330"
+        },
+        {
+            "content": {
+                "description": "colin ubiquitaire point recopié d’ notion ",
+                "answers": [
+                    {
+                        "content": "l’utilisateur notion informatique réservés notes droits notes "
+                    },
+                    {
+                        "content": "ubiquitaire flickr l’utilisateur résume transparent dessin "
+                    },
+                    {
+                        "content": "notes revolweb flickr l’utilisateur informatique flickr ubiquitaire ",
+                        "correct": true
+                    }
+                ]
+            },
+            "begin": 65046,
+            "end": 68046,
+            "type": "Quizz",
+            "media": "m20131010",
+            "id": "f41f9e7f-16e6-450f-a37f-2b22ecb40d91"
+        },
+        {
+            "content": {
+                "description": "capital contradictoires l’information avantage donnent amis réseau ",
+                "answers": [
+                    {
+                        "content": "donnent contradictoires argumentaire capital exemples social l’information réseaux "
+                    },
+                    {
+                        "content": "» support sécurité connaissent amis réseau argumentaire amis ",
+                        "correct": true
+                    }
+                ]
+            },
+            "begin": 1385753,
+            "end": 1388753,
+            "type": "Quizz",
+            "media": "m20131010",
+            "id": "b39ebe90-929c-4df6-a887-d747992fbb05"
+        },
+        {
+            "content": {
+                "description": "exemple ensemble problème orienté extrémité extrémité l’arc ",
+                "answers": [
+                    {
+                        "content": "ensemble graphe sommets l’isomorphisme sommet boucle sommets "
+                    },
+                    {
+                        "content": "boucle origine origine problème isomorphes graphes origine extrémité "
+                    },
+                    {
+                        "content": "étiqueté ensemble origine orienté graphes problème sommets sommet isomorphes sommet ",
+                        "correct": true
+                    }
+                ]
+            },
+            "begin": 1809279,
+            "end": 1812279,
+            "type": "Quizz",
+            "media": "m20131010",
+            "id": "3d98c652-e017-4b56-81e9-135f2ec3d317"
+        },
+        {
+            "content": {
+                "description": "d’arêtes ensemble sommets étiqueté sommets sommets sommets ",
+                "answers": [
+                    {
+                        "content": "incidente n’est l’arête c’est sommet vertex ensemble ensemble sommets vertex ",
+                        "correct": true
+                    },
+                    {
+                        "content": "vertex boucle l’arête graphes sommets étiqueté sommets sommets n’est ensemble "
+                    },
+                    {
+                        "content": "graphe l’arête edge graphe ensemble extremités arête graphe extremités d’arêtes "
+                    },
+                    {
+                        "content": "boucle sommets sommets ensemble c’est boucle orientée orienté n’est arête "
+                    }
+                ]
+            },
+            "begin": 1611105,
+            "end": 1614105,
+            "type": "Quizz",
+            "media": "m20131010",
+            "id": "cd0e2c00-5c36-4a9f-bf50-ddcbde49177f"
+        },
+        {
+            "content": {
+                "description": "l’arête étiqueté adjacents ensemble graphe boucle ensemble l’arête ",
+                "answers": [
+                    {
+                        "content": "étiqueté extrémité boucle d’arcs sommet ensemble vest ",
+                        "correct": true
+                    },
+                    {
+                        "content": "arc sommets boucle sommets étiqueté ensemble "
+                    },
+                    {
+                        "content": "adjacents adjacents étiqueté extrémité étiqueté graphe l’arête "
+                    }
+                ]
+            },
+            "begin": 1776458,
+            "end": 1779458,
+            "type": "Quizz",
+            "media": "m20131010",
+            "id": "9df573f8-b692-4a57-b8c8-208d869d89b0"
+        },
+        {
+            "content": {
+                "description": "logique cid cid formules interprété cid interprété langage définir ",
+                "answers": [
+                    {
+                        "content": "prédicats définir x˛a simple quantificateurs langage ambigu ",
+                        "correct": true
+                    },
+                    {
+                        "content": "ensembles cid cid formules utiliser cid opérateurs expressif formules "
+                    }
+                ]
+            },
+            "begin": 2827928,
+            "end": 2830928,
+            "type": "Quizz",
+            "media": "m20131010",
+            "id": "49ecc10a-4165-4f40-ba1f-e5b521229530"
+        },
+        {
+            "content": {
+                "description": "l’autre graphes graphes essentiels obtenir situations ",
+                "answers": [
+                    {
+                        "content": "graphes l’un vérifier réétiqueter modélisation essentiels isomorphes graphes modélisation "
+                    },
+                    {
+                        "content": "situations l’isomorphisme objets l’un l’autre graphes "
+                    },
+                    {
+                        "content": "adaptés adaptés l’autre graphes isomorphes l’isomorphisme ",
+                        "correct": true
+                    }
+                ]
+            },
+            "begin": 2096283,
+            "end": 2099283,
+            "type": "Quizz",
+            "media": "m20131010",
+            "id": "b10b0324-6a36-4079-aa73-ae84b6b147ce"
+        },
+        {
+            "content": {
+                "description": "ordre booléen solution exemple cid logique cid ",
+                "answers": [
+                    {
+                        "content": "quantificateurs ordre confiance définir x˛e cid ˛fait "
+                    },
+                    {
+                        "content": "logique propriété ˛fait calcul calcul confiance permettent ˛fait ",
+                        "correct": true
+                    },
+                    {
+                        "content": "quantificateurs propriétés ˛fait confiance x˛e confiance confiance confiance permettent "
+                    },
+                    {
+                        "content": "solution permettent solution bea x˛e charles ˛fait "
+                    }
+                ]
+            },
+            "begin": 3593038,
+            "end": 3596038,
+            "type": "Quizz",
+            "media": "m20131010",
+            "id": "8e7e0d50-4c16-4699-ba15-5542c2ded602"
+        },
+        {
+            "content": {
+                "description": "˛fait membres couples confiance ˛fait confiance confiance confiance ",
+                "answers": [
+                    {
+                        "content": "confiance l’ensemble x˛e noté bea notations "
+                    },
+                    {
+                        "content": "composée notera ˛fait ˛fait notera paires bea ˛fait ",
+                        "correct": true
+                    }
+                ]
+            },
+            "begin": 2307184,
+            "end": 2310184,
+            "type": "Quizz",
+            "media": "m20131010",
+            "id": "a86a3542-ebfd-4638-aae5-67876198331c"
+        },
+        {
+            "content": {
+                "description": "erwan réseau molécules sociaux sait membres sociaux réseaux permettent notations ",
+                "answers": [
+                    {
+                        "content": "réseau confiance exemple … confiance d’un représenter "
+                    },
+                    {
+                        "content": "social social représenter graphe erwan notés confiance bea … "
+                    },
+                    {
+                        "content": "notés confiance confiance réseau charles réseaux bea didier noté ",
+                        "correct": true
+                    },
+                    {
+                        "content": "modéliser modéliser sites sites erwan réseau didier "
+                    }
+                ]
+            },
+            "begin": 2242158,
+            "end": 2245158,
+            "type": "Quizz",
+            "media": "m20131010",
+            "id": "d0e9804b-de15-4622-bb37-7155aaa7fc1d"
+        },
+        {
+            "content": {
+                "description": "suite pouvant repose choisie codage effectué argument alfred base millions ",
+                "answers": [
+                    {
+                        "content": "articles booléen permet l’ordinateur incidente éléments idée "
+                    },
+                    {
+                        "content": "arbitrairement ickr reliés individus d’étude x˛a connecte connus petit ",
+                        "correct": true
+                    }
+                ]
+            },
+            "begin": 1997894,
+            "end": 2000894,
+            "type": "Quizz",
+            "media": "m20131010",
+            "id": "02be0ee5-0eb5-4713-8358-1d7f48cdc63e"
+        },
+        {
+            "content": {
+                "description": "octobre transparent transparent octobre colin indique résume prise notes l’utilisateur ",
+                "answers": [
+                    {
+                        "content": "résume transparent notes point l’utilisateur point ",
+                        "correct": true
+                    },
+                    {
+                        "content": "prise recopié dessin transparent résume octobre dessin l’utilisateur colin "
+                    },
+                    {
+                        "content": "notes colin transparent prise notes prise "
+                    }
+                ]
+            },
+            "begin": 20798,
+            "end": 23798,
+            "type": "Quizz",
+            "media": "m20131010",
+            "id": "881fd465-429a-460f-810c-f4c94cbe0c56"
+        },
+        {
+            "content": {
+                "description": "l’ensemble solution exemple confiance ˛fait solution |a| suite exemple cardinal ",
+                "answers": [
+                    {
+                        "content": "remarque solution l’ensemble solution | cardinal solution cardinal "
+                    },
+                    {
+                        "content": "x˛e ˛fait solution suite confiance y˛e confiance solution ",
+                        "correct": true
+                    },
+                    {
+                        "content": "l’ensemble remarque |‡ remarque y˛e cardinal |‡ "
+                    },
+                    {
+                        "content": "|‡ solution l’ensemble confiance | y˛e suite confiance |‡ "
+                    }
+                ]
+            },
+            "begin": 3326085,
+            "end": 3329085,
+            "type": "Quizz",
+            "media": "m20131010",
+            "id": "4d1be677-177d-4a7b-8289-b79f3226629b"
+        },
+        {
+            "content": {
+                "description": "problème ensemble boucle graphes graphe arc boucle graphes arc graphes ",
+                "answers": [
+                    {
+                        "content": "problème vest graphes graphes orienté sommets d’arcs problème ",
+                        "correct": true
+                    },
+                    {
+                        "content": "exemple problème graphes sommets extrémité problème graphes extrémité "
+                    }
+                ]
+            },
+            "begin": 1784094,
+            "end": 1787094,
+            "type": "Quizz",
+            "media": "m20131010",
+            "id": "92e52148-69e5-4523-bf64-5d781e99e24b"
+        },
+        {
+            "content": {
+                "description": "sociales suffisants choisie choisie séparation milgram ",
+                "answers": [
+                    {
+                        "content": "aléatoirement base milgram monde engendré petit l'effet ",
+                        "correct": true
+                    },
+                    {
+                        "content": "wikipedia suffisants l'hypothèse choisis degrés idée degrés requise "
+                    },
+                    {
+                        "content": "wikipedia monde l'expérience chaîne constaté l'effet citoyens qu'elle terre qu'elle "
+                    }
+                ]
+            },
+            "begin": 722727,
+            "end": 725727,
+            "type": "Quizz",
+            "media": "m20131010",
+            "id": "8466eec3-5b4e-4bb1-89af-3e587805d414"
+        },
+        {
+            "content": {
+                "description": "fdecomite flickr web fdecomite graphes graphes réservés graphes droits ",
+                "answers": [
+                    {
+                        "content": "droits graphes flickr réservés sociaux réservés "
+                    },
+                    {
+                        "content": "graphes réseaux … réservés sociaux fdecomite … sociaux "
+                    },
+                    {
+                        "content": "droits droits graphes fdecomite web … fdecomite "
+                    },
+                    {
+                        "content": "fdecomite flickr flickr droits … flickr permettent réservés ",
+                        "correct": true
+                    }
+                ]
+            },
+            "begin": 2183485,
+            "end": 2186485,
+            "type": "Quizz",
+            "media": "m20131010",
+            "id": "15648775-bfdf-492e-b80a-1c4653c14bec"
+        },
+        {
+            "content": {
+                "description": "vest boucle graphe ensemble orienté graphe l’arête ",
+                "answers": [
+                    {
+                        "content": "sommets vest sommet l’arc étiqueté d’arcs l’arc l’arc sommet "
+                    },
+                    {
+                        "content": "adjacents boucle adjacents étiqueté adjacents étiqueté ",
+                        "correct": true
+                    }
+                ]
+            },
+            "begin": 1732948,
+            "end": 1735948,
+            "type": "Quizz",
+            "media": "m20131010",
+            "id": "9793c139-ea30-441b-934b-21e2e7f55f11"
+        },
+        {
+            "content": {
+                "description": "ubiquitaire droits numérique concepts recopié flickr ",
+                "answers": [
+                    {
+                        "content": "indique codage monde ubiquitaire rapport droits "
+                    },
+                    {
+                        "content": "rapport flickr ubiquitaire informatique l’algorithme informatique ",
+                        "correct": true
+                    }
+                ]
+            },
+            "begin": 117315,
+            "end": 120315,
+            "type": "Quizz",
+            "media": "m20131010",
+            "id": "6b22796b-55a6-42ef-83d4-be434136b5d2"
+        },
+        {
+            "content": {
+                "description": "réservés fdecomite réservés scays droits réservés graphes fdecomite ",
+                "answers": [
+                    {
+                        "content": "delaunay flickr graphes graphes droits fdecomite graphes fdecomite droits ",
+                        "correct": true
+                    },
+                    {
+                        "content": "graphes fdecomite réservés droits delaunay réservés delaunay "
+                    }
+                ]
+            },
+            "begin": 2162322,
+            "end": 2165322,
+            "type": "Quizz",
+            "media": "m20131010",
+            "id": "90584d86-99c2-46c9-8cf1-2e2a21d9cb51"
+        },
+        {
+            "content": {
+                "description": "xericjames réseau réseau voulues xericjames portion inférer voulues neil ",
+                "answers": [
+                    {
+                        "content": "inférer automatiquement graphes réservés droits licence réseau propriétés réseau "
+                    },
+                    {
+                        "content": "licence sait cummings système droits fonctionnement simulation sait réseau ",
+                        "correct": true
+                    },
+                    {
+                        "content": "fl réservés système d’un réservés système graphes fl fl "
+                    }
+                ]
+            },
+            "begin": 1166587,
+            "end": 1169587,
+            "type": "Quizz",
+            "media": "m20131010",
+            "id": "a9c38291-5d9e-42eb-b7ba-bb1c194cbc6f"
+        },
+        {
+            "content": {
+                "description": "questions théorie connaissent permet graphes donnent ",
+                "answers": [
+                    {
+                        "content": "exemples connaissent taille taille réseau donnent confiance graphes connectés l’information ",
+                        "correct": true
+                    },
+                    {
+                        "content": "réseau modèle permet réseaux connaissent difficiles théories "
+                    },
+                    {
+                        "content": "difficiles contradictoires modèle permet vérifier connaissent questions vérifier difficiles indépendant "
+                    }
+                ]
+            },
+            "begin": 1342892,
+            "end": 1345892,
+            "type": "Quizz",
+            "media": "m20131010",
+            "id": "c730de62-5155-42c8-a0bf-368e58295436"
+        },
+        {
+            "content": {
+                "description": "internet économiques relations réseaux symbolique é relations ",
+                "answers": [
+                    {
+                        "content": "graphe courte colossaux graphe réseaux individus trouve ",
+                        "correct": true
+                    },
+                    {
+                        "content": "symbolique arêtes symbolique petit internet graphes social "
+                    },
+                    {
+                        "content": "arêtes social réseaux monde é sociologues sociaux "
+                    }
+                ]
+            },
+            "begin": 1100575,
+            "end": 1103575,
+            "type": "Quizz",
+            "media": "m20131010",
+            "id": "9491d193-722a-4865-89d0-d3bf633ed6be"
+        },
+        {
+            "content": {
+                "description": "programmation disparaît notion notion l’utilisateur informatique entoure monde ",
+                "answers": [
+                    {
+                        "content": "revolweb l’informatique programmation l’utilisateur d’ l’ordinateur voit revolweb machine "
+                    },
+                    {
+                        "content": "rofi réservés disparaît réservés flickr numérique informatique culture ",
+                        "correct": true
+                    }
+                ]
+            },
+            "begin": 132616,
+            "end": 135616,
+            "type": "Quizz",
+            "media": "m20131010",
+            "id": "6e4a2239-700e-4889-824d-e0fc2eb1c686"
+        },
+        {
+            "content": {
+                "description": "argumentaire social graphes social sociaux « connectés ",
+                "answers": [
+                    {
+                        "content": "théorie théorie théorie l’information graphes connectés "
+                    },
+                    {
+                        "content": "sociaux graphes connectés graphe concepts l’analyse applications graphes connectés graphe "
+                    },
+                    {
+                        "content": "amis graphe applications graphe capital flux… « coupes "
+                    },
+                    {
+                        "content": "confiance flux… graphes réseaux sociaux donnent argumentaire gagne l’analyse ",
+                        "correct": true
+                    }
+                ]
+            },
+            "begin": 1395603,
+            "end": 1398603,
+            "type": "Quizz",
+            "media": "m20131010",
+            "id": "65b9c6a8-82f7-4b17-82b2-17844aeaf262"
+        },
+        {
+            "content": {
+                "description": "propriétés applications graphes concepts applications connexité graphes théorie ",
+                "answers": [
+                    {
+                        "content": "connexité permettent coupes graphes réseaux coupes ",
+                        "correct": true
+                    },
+                    {
+                        "content": "théorie graphes théorie graphes propriétés concepts capital gagne "
+                    }
+                ]
+            },
+            "begin": 1455644,
+            "end": 1458644,
+            "type": "Quizz",
+            "media": "m20131010",
+            "id": "70f7c26c-960c-4902-b153-8f0e617e9e0a"
+        },
+        {
+            "content": {
+                "description": "é droits licence droits é droits neil ",
+                "answers": [
+                    {
+                        "content": "portion réseau é petite réservés droits "
+                    },
+                    {
+                        "content": "neil réseau neil é réservés xericjames é réservés é droits ",
+                        "correct": true
+                    },
+                    {
+                        "content": "réseau petite droits social réservés réservés d’un "
+                    }
+                ]
+            },
+            "begin": 1155204,
+            "end": 1158204,
+            "type": "Quizz",
+            "media": "m20131010",
+            "id": "a6c1e5fa-650b-405c-b558-2650d28035ad"
+        },
+        {
+            "content": {
+                "description": "élément ˛fait permettent confiance confiance solution quantificateurs calcul bea confiance ",
+                "answers": [
+                    {
+                        "content": "confiance définir booléen permet cid booléen ˛fait ˛fait "
+                    },
+                    {
+                        "content": "˛fait repose confiance confiance bea confiance "
+                    },
+                    {
+                        "content": "permet suite calcul confiance confiance cid calcul permet "
+                    },
+                    {
+                        "content": "permet repose cid confiance élément calcul ",
+                        "correct": true
+                    }
+                ]
+            },
+            "begin": 3609699,
+            "end": 3612699,
+            "type": "Quizz",
+            "media": "m20131010",
+            "id": "e78b5739-08ae-449d-9d1e-2550bc14ce47"
+        },
+        {
+            "content": {
+                "description": "charles veut charles membres alfred veut réseau composée groupe ",
+                "answers": [
+                    {
+                        "content": "graphe bea confiance confiance sait confiance erwan veut social ",
+                        "correct": true
+                    },
+                    {
+                        "content": "confiance charles alfred exemple notés groupe relation couples membres "
+                    }
+                ]
+            },
+            "begin": 2303076,
+            "end": 2306076,
+            "type": "Quizz",
+            "media": "m20131010",
+            "id": "fe070072-f6e4-4837-b6c5-90c41f91695e"
+        },
+        {
+            "content": {
+                "description": "contradictoires réseau théories avantages graphiques amis connaissent connectés ",
+                "answers": [
+                    {
+                        "content": "confiance réseau joindre permet représenter cerner capital "
+                    },
+                    {
+                        "content": "amis théories connectés simulation réseau argumentaire capital avantage joindre ",
+                        "correct": true
+                    },
+                    {
+                        "content": "social permet simulation difficiles réseau social donnent support "
+                    },
+                    {
+                        "content": "grande confiance support connectés mathématique questions contradictoires "
+                    }
+                ]
+            },
+            "begin": 1317603,
+            "end": 1320603,
+            "type": "Quizz",
+            "media": "m20131010",
+            "id": "da44b4af-d0d6-4181-b77d-15425046e1bc"
+        },
+        {
+            "content": {
+                "description": "chimie vérifier utiliser graphes isomorphes l’autre isomorphes ",
+                "answers": [
+                    {
+                        "content": "graphes graphes chimie vérifier graphes problème difficile ",
+                        "correct": true
+                    },
+                    {
+                        "content": "essentiels chimie isomorphes isomorphes l’autre objets modélisation graphes l’isomorphisme "
+                    },
+                    {
+                        "content": "difficile graphes graphes obtenir chimie graphes isomorphes obtenir "
+                    }
+                ]
+            },
+            "begin": 2109450,
+            "end": 2112450,
+            "type": "Quizz",
+            "media": "m20131010",
+            "id": "7322fe1b-4b8d-4604-83ca-9dcda932d3df"
+        },
+        {
+            "content": {
+                "description": "confiance ˛fait l’ensemble ˛fait confiance propriété vérifiée ",
+                "answers": [
+                    {
+                        "content": "propriété vérifiée solution x˛a bea ˛fait suite l’ensemble vérifiée "
+                    },
+                    {
+                        "content": "l’ensemble confiance graphique notation l’ensemble confiance x˛e dite suite "
+                    },
+                    {
+                        "content": "vérifiée confiance l’ensemble cid cid ˛fait bea ˛fait l’ensemble ˛fait "
+                    },
+                    {
+                        "content": "˛fait propriété propriété c’est propriété suite ",
+                        "correct": true
+                    }
+                ]
+            },
+            "begin": 2987357,
+            "end": 2990357,
+            "type": "Quizz",
+            "media": "m20131010",
+            "id": "cf8ec19b-80cb-4552-a75c-3a1582f850bc"
+        },
+        {
+            "content": {
+                "description": "suite x˛e cid y˛e x˛e exemple ",
+                "answers": [
+                    {
+                        "content": "confiance cid solution solution l’ensemble solution confiance "
+                    },
+                    {
+                        "content": "y˛e exemple solution ˛fait confiance suite ˛fait confiance ",
+                        "correct": true
+                    }
+                ]
+            },
+            "begin": 3261699,
+            "end": 3264699,
+            "type": "Quizz",
+            "media": "m20131010",
+            "id": "b44a36ef-dfe8-407b-b419-24ad6bf8e0a1"
+        },
+        {
+            "content": {
+                "description": "problème isomorphes isomorphes l’isomorphisme isomorphes problème problème isomorphes exemple exemple ",
+                "answers": [
+                    {
+                        "content": "problème isomorphes l’isomorphisme graphes isomorphes exemple graphes isomorphes isomorphes problème "
+                    },
+                    {
+                        "content": "graphes problème dessin exemple dessin isomorphes isomorphes l’isomorphisme isomorphes "
+                    },
+                    {
+                        "content": "isomorphes l’isomorphisme isomorphes isomorphes dessin dessin l’isomorphisme graphes graphes problème ",
+                        "correct": true
+                    }
+                ]
+            },
+            "begin": 1890059,
+            "end": 1893059,
+            "type": "Quizz",
+            "media": "m20131010",
+            "id": "7f6ba4eb-7e05-4fdf-8ca4-0cee0d31d20b"
+        },
+        {
+            "content": {
+                "description": "dessin graphes graphes isomorphes isomorphes graphes isomorphes problème l’isomorphisme ",
+                "answers": [
+                    {
+                        "content": "problème l’isomorphisme l’isomorphisme problème isomorphes exemple exemple problème isomorphes graphes "
+                    },
+                    {
+                        "content": "graphes isomorphes exemple isomorphes isomorphes isomorphes isomorphes graphes ",
+                        "correct": true
+                    }
+                ]
+            },
+            "begin": 1874143,
+            "end": 1877143,
+            "type": "Quizz",
+            "media": "m20131010",
+            "id": "3d3903b8-6477-4393-a7b5-b3760495e91a"
+        },
+        {
+            "content": {
+                "description": "connaissent graphes réseau connaissent exemples graphiques vérifier ",
+                "answers": [
+                    {
+                        "content": "argumentaire réseaux l’information théories l’information théories "
+                    },
+                    {
+                        "content": "capital « modèle avantages l’information taille utilisés réseaux argument simulation ",
+                        "correct": true
+                    }
+                ]
+            },
+            "begin": 1301708,
+            "end": 1304708,
+            "type": "Quizz",
+            "media": "m20131010",
+            "id": "6364442a-01be-482c-ae70-e489c477f1fc"
+        },
+        {
+            "content": {
+                "description": "existe cid logique pouvant quantificateurs logique ensembles ",
+                "answers": [
+                    {
+                        "content": "langage ˛r x˛a ambigu simple langage formules interprété pourra ordre ",
+                        "correct": true
+                    },
+                    {
+                        "content": "x˛a x˛a ambigu ensembles langage langage opérateurs "
+                    }
+                ]
+            },
+            "begin": 2855398,
+            "end": 2858398,
+            "type": "Quizz",
+            "media": "m20131010",
+            "id": "1d4609da-ab3e-488b-8e31-6e282bac5718"
+        },
+        {
+            "content": {
+                "description": "cas possibilités règle cas transcodage indication consiste loi ",
+                "answers": [
+                    {
+                        "content": "l’attaque lettres codés nombre français répètent lettres s'adapte ",
+                        "correct": true
+                    },
+                    {
+                        "content": "l'autre langue d'un indication repérage attaques chute d'un "
+                    }
+                ]
+            },
+            "begin": 2914708,
+            "end": 2917708,
+            "type": "Quizz",
+            "media": "m20131025",
+            "id": "f91460d7-efa0-4439-a04f-404124748bd5"
+        },
+        {
+            "content": {
+                "description": "calculer d’euclide repose φ φ difficile capable ",
+                "answers": [
+                    {
+                        "content": "grand difficile nombres sécurité repose pq capable siècles "
+                    },
+                    {
+                        "content": "difficile petit φ φ hasard d’autre calculer nombres "
+                    },
+                    {
+                        "content": "nombres générer méthode d’essayer méthode grands chiffres algorithme grands algorithme ",
+                        "correct": true
+                    },
+                    {
+                        "content": "petit sécurité premiers problème φ pgcd pgcd tirer "
+                    }
+                ]
+            },
+            "begin": 4463129,
+            "end": 4466129,
+            "type": "Quizz",
+            "media": "m20131025",
+            "id": "43dd7c81-ec0f-4767-a3f9-f3a71aa1d05c"
+        },
+        {
+            "content": {
+                "description": "codée subir télégraphiables militaire système xixe modifiable experts codage ",
+                "answers": [
+                    {
+                        "content": "cryptosystemes principes militaire dégâts codage cas cryptogrammes télégraphiables ",
+                        "correct": true
+                    },
+                    {
+                        "content": "kerckhoffs rq transportables simple serait modernes clé "
+                    },
+                    {
+                        "content": "examiné cryptosystemes transportables principes cryptogrammes transportables transportables shannon cryptosystemes "
+                    },
+                    {
+                        "content": "principes transportables transportables souhait transportables documents examiné modernes fin "
+                    }
+                ]
+            },
+            "begin": 2604287,
+            "end": 2607287,
+            "type": "Quizz",
+            "media": "m20131025",
+            "id": "5de3ea5e-7231-459b-815a-02ed8b6f8318"
+        },
+        {
+            "content": {
+                "description": "système kerckhoffs documents cryptosystèmes brute modernes chiffrage cas ",
+                "answers": [
+                    {
+                        "content": "brute chute subir devient codée l’attaque ",
+                        "correct": true
+                    },
+                    {
+                        "content": "permutations règle clé connaît l’attaque xixe permutations respectent "
+                    }
+                ]
+            },
+            "begin": 2642552,
+            "end": 2645552,
+            "type": "Quizz",
+            "media": "m20131025",
+            "id": "362a8705-e04c-4b59-ba39-1ce3a2ba0a57"
+        },
+        {
+            "content": {
+                "description": "permet mélangent stockage transmission but moderne authentification ",
+                "answers": [
+                    {
+                        "content": "d’un l’origine cryptographie but l’identité données chiffrement mécanismes transmission ",
+                        "correct": true
+                    },
+                    {
+                        "content": "clés cryptographiques l’identité sécurité répudiation construits intensionnellement "
+                    }
+                ]
+            },
+            "begin": 3315342,
+            "end": 3318342,
+            "type": "Quizz",
+            "media": "m20131025",
+            "id": "db654a07-867e-44a9-807f-71946601fcfb"
+        },
+        {
+            "content": {
+                "description": "dépendre imitée d’euclide cid résoudre grands bob [facile rappel secret ",
+                "answers": [
+                    {
+                        "content": "message modulo entiers faut trouver triplet signature modulo ",
+                        "correct": true
+                    },
+                    {
+                        "content": "message charges bob valide message triplet message chiffres envoyer "
+                    },
+                    {
+                        "content": "générer mda envoyer rapidement ver signataire alice alice vérifier protocoles "
+                    }
+                ]
+            },
+            "begin": 4615597,
+            "end": 4618597,
+            "type": "Quizz",
+            "media": "m20131025",
+            "id": "133bf70d-e412-40f4-a7d9-24508c800e37"
+        },
+        {
+            "content": {
+                "description": "+ var image   ‘a’ initialiser ",
+                "answers": [
+                    {
+                        "content": "for bits entiers   interrupteurs mémoriser for mantisse commencer "
+                    },
+                    {
+                        "content": "rectangleplein var mémoriser c’est + couleur "
+                    },
+                    {
+                        "content": "rgb lt rgb d’un lt + + rgb math rgb "
+                    },
+                    {
+                        "content": "+   + var for var écriture + lt ",
+                        "correct": true
+                    }
+                ]
+            },
+            "begin": 278084,
+            "end": 281084,
+            "type": "Quizz",
+            "media": "m20131025",
+            "id": "3c9333ae-8a52-4d58-a5c7-45c5030093f9"
+        },
+        {
+            "content": {
+                "description": "symboles papier message cylindre transcodage cryptage obtenu fallait composent posséder ",
+                "answers": [
+                    {
+                        "content": "transcodage lettres message posséder diamètre bandes mélangeant lire consiste mélanger "
+                    },
+                    {
+                        "content": "message symboles consiste transcodage grecs inscrivant lettres lettres posséder inscrivant "
+                    },
+                    {
+                        "content": "obtenu message grec l’antiquité symboles lettres lire technique mélange av "
+                    },
+                    {
+                        "content": "message transcodage cylindre jc consiste chiffrés ",
+                        "correct": true
+                    }
+                ]
+            },
+            "begin": 1250049,
+            "end": 1253049,
+            "type": "Quizz",
+            "media": "m20131025",
+            "id": "ed48556a-9bff-4069-a3c4-b36aa0301ff9"
+        },
+        {
+            "content": {
+                "description": "qualité général schéma qualité qualité coffre schéma ",
+                "answers": [
+                    {
+                        "content": "schéma qualité schéma qualité clé coffre qualité clé schéma "
+                    },
+                    {
+                        "content": "général schéma clé qualité schéma qualité ",
+                        "correct": true
+                    }
+                ]
+            },
+            "begin": 1160435,
+            "end": 1163435,
+            "type": "Quizz",
+            "media": "m20131025",
+            "id": "975fdeca-1915-45d7-b96d-e11cf90ab83c"
+        },
+        {
+            "content": {
+                "description": "eb alice nb ea clé ea ",
+                "answers": [
+                    {
+                        "content": "bob bob publique alice nb annuaire nb publique alice clé "
+                    },
+                    {
+                        "content": "bob eb asymétriques bob algorithmes asymétriques alice ",
+                        "correct": true
+                    }
+                ]
+            },
+            "begin": 4106071,
+            "end": 4109071,
+            "type": "Quizz",
+            "media": "m20131025",
+            "id": "c24fdc67-8866-4919-b7de-7dc8c5400626"
+        },
+        {
+            "content": {
+                "description": "échangeaient diamètre symboles symboles enroulant message obtenus ",
+                "answers": [
+                    {
+                        "content": "papier lire symboles grecs mélangeant lire transcodage message obtenus lire ",
+                        "correct": true
+                    },
+                    {
+                        "content": "lire mélanger inscrivant composent fallait bandes transcodage "
+                    }
+                ]
+            },
+            "begin": 1267064,
+            "end": 1270064,
+            "type": "Quizz",
+            "media": "m20131025",
+            "id": "e0ea32f5-eedb-45c8-b549-2cab591a7321"
+        },
+        {
+            "content": {
+                "description": "message messages grecs transcodage message cryptage message tuyau lire message ",
+                "answers": [
+                    {
+                        "content": "mélangeant lire composent mélange obtenus lettres jc échangeaient transcodage ee ",
+                        "correct": true
+                    },
+                    {
+                        "content": "bandes jc inscrivant grec échangeaient message fallait bandes verticalement "
+                    },
+                    {
+                        "content": "cryptage messages inscrivant mélangeant message message jc papier "
+                    },
+                    {
+                        "content": "mélange messages ee symboles obtenu symboles "
+                    }
+                ]
+            },
+            "begin": 1281675,
+            "end": 1284675,
+            "type": "Quizz",
+            "media": "m20131025",
+            "id": "2864161d-fe3e-4f9f-9701-8d9a2784f05a"
+        },
+        {
+            "content": {
+                "description": "annuaire nb clé eb bob alice bob publique ea nb ",
+                "answers": [
+                    {
+                        "content": "nb alice annuaire bob db asymétriques publique algorithmes bob clé ",
+                        "correct": true
+                    },
+                    {
+                        "content": "alice asymétriques nb algorithmes bob publique eb alice bob "
+                    }
+                ]
+            },
+            "begin": 4115477,
+            "end": 4118477,
+            "type": "Quizz",
+            "media": "m20131025",
+            "id": "07137d7c-2e57-4136-be50-e1e54a13fb9a"
+        },
+        {
+            "content": {
+                "description": "n° reçue «théorie rayé détection jpeg envoyée qu’une transmet fonctionne ",
+                "answers": [
+                    {
+                        "content": "compte qu’elle l’information ex détection qu’elle n° «théorie l’information "
+                    },
+                    {
+                        "content": "informations correction s’intéresse ex ex transmettre ",
+                        "correct": true
+                    }
+                ]
+            },
+            "begin": 428683,
+            "end": 431683,
+            "type": "Quizz",
+            "media": "m20131025",
+            "id": "cef9b7a8-0f2d-41d9-96c5-f0ce9f38c0f9"
+        },
+        {
+            "content": {
+                "description": "évidemment machine l’histoire évidemment messages modèles évidemment ",
+                "answers": [
+                    {
+                        "content": "tourne substitution modèles réussi machine machine c’est "
+                    },
+                    {
+                        "content": "division allemandes l’histoire substitution substitution modèles seconde contribué alliés l’armée "
+                    },
+                    {
+                        "content": "lettre enigma contribué rotor échangés plans machine échangés ",
+                        "correct": true
+                    },
+                    {
+                        "content": "modèles principes rotor échangés cryptage cryptage l’armée "
+                    }
+                ]
+            },
+            "begin": 2140049,
+            "end": 2143049,
+            "type": "Quizz",
+            "media": "m20131025",
+            "id": "11c25f02-657b-437f-9326-cc93a9fbeb46"
+        },
+        {
+            "content": {
+                "description": "message préalable possibilités possibles cryptosystemes césar ",
+                "answers": [
+                    {
+                        "content": "militaire clé attaques tests bonnes transportables l'on "
+                    },
+                    {
+                        "content": "cas transcodage règle réaliser chute alphabétique ",
+                        "correct": true
+                    }
+                ]
+            },
+            "begin": 2646041,
+            "end": 2649041,
+            "type": "Quizz",
+            "media": "m20131025",
+            "id": "a193450c-9e9f-4ffe-87d0-b7e1d8967f67"
+        },
+        {
+            "content": {
+                "description": "décrypter texte chiffrement clé chiffrement faire branches ",
+                "answers": [
+                    {
+                        "content": "point messages décrypter faire codés clé texte clé décryptement "
+                    },
+                    {
+                        "content": "vue clair cryptanalyse trouver transmettre déchiffrement permet faire comporte texte "
+                    },
+                    {
+                        "content": "l’étude branches codés chiffrement fonction permettent "
+                    },
+                    {
+                        "content": "clair branches fonction texte cryptanalyse faire chiffrement comporte connaître permettent ",
+                        "correct": true
+                    }
+                ]
+            },
+            "begin": 3119035,
+            "end": 3122035,
+            "type": "Quizz",
+            "media": "m20131025",
+            "id": "542cf72e-ebdc-4552-8f8b-c069109f5a2e"
+        },
+        {
+            "content": {
+                "description": "échangeaient clés «grec» verne transcodage lettres ",
+                "answers": [
+                    {
+                        "content": "obtenus jc trancodage ee message verticalement tuyau tuyau général message ",
+                        "correct": true
+                    },
+                    {
+                        "content": "diamètre grecs lecture grec nombre bandes obtenu posséder cylindre "
+                    }
+                ]
+            },
+            "begin": 1334964,
+            "end": 1337964,
+            "type": "Quizz",
+            "media": "m20131025",
+            "id": "03a88d96-a618-435f-869c-f5bb971e36cd"
+        },
+        {
+            "content": {
+                "description": "français texte texte fréquences symboles connait ",
+                "answers": [
+                    {
+                        "content": "moitié nombre cas répètent brute possibilités alphabétiques l'attaque répètent "
+                    },
+                    {
+                        "content": "nombre méthode cas cas ﬁxes codé réaliser "
+                    },
+                    {
+                        "content": "séquences probable retrouver vigénère ﬁxes symboles ",
+                        "correct": true
+                    }
+                ]
+            },
+            "begin": 2956261,
+            "end": 2959261,
+            "type": "Quizz",
+            "media": "m20131025",
+            "id": "6f3d40db-ed13-447d-887e-972c86d15fa1"
+        },
+        {
+            "content": {
+                "description": "comporte codé tiers mise codé cryptographie fournir protocoles services ",
+                "answers": [
+                    {
+                        "content": "chiffrement l’origine sécurité texte oeuvre algorithmes d’authentification mise "
+                    },
+                    {
+                        "content": "intégrité sécurité mécanismes chiffrement vue cryptographiques clé l’étude cryptologie fournir "
+                    },
+                    {
+                        "content": "clair vue tiers texte permettent d'outils signature facilement clé ",
+                        "correct": true
+                    }
+                ]
+            },
+            "begin": 3197996,
+            "end": 3200996,
+            "type": "Quizz",
+            "media": "m20131025",
+            "id": "02c1ebb7-76f0-466e-83cb-ec2cd7c54149"
+        },
+        {
+            "content": {
+                "description": "petit schéma schéma général schéma petit général petit schéma schéma ",
+                "answers": [
+                    {
+                        "content": "général petit général général schéma général "
+                    },
+                    {
+                        "content": "schéma petit schéma schéma petit petit général petit général ",
+                        "correct": true
+                    }
+                ]
+            },
+            "begin": 1056523,
+            "end": 1059523,
+            "type": "Quizz",
+            "media": "m20131025",
+            "id": "f6888329-af02-4f70-8f6b-fcd00f9da3b8"
+        },
+        {
+            "content": {
+                "description": "secret point faire procédés cryptographie test décrypter vue comporte ",
+                "answers": [
+                    {
+                        "content": "classiques l’étude déchiffrer courant technique friedman friedman substitution confidentielle "
+                    },
+                    {
+                        "content": "représenté permet manière texte science substitution déchiffrer manière séquences "
+                    },
+                    {
+                        "content": "point chiffrer d'apparaître symbole séquences d'apparaître trouver "
+                    },
+                    {
+                        "content": "méthodes facilement cribbing message messages méthode cryptographie confidentielle l’étude ",
+                        "correct": true
+                    }
+                ]
+            },
+            "begin": 3016992,
+            "end": 3019992,
+            "type": "Quizz",
+            "media": "m20131025",
+            "id": "d2fedc4b-8f52-4a21-99c7-6778b2dd9975"
+        },
+        {
+            "content": {
+                "description": "schéma schéma petit général général général schéma ",
+                "answers": [
+                    {
+                        "content": "petit schéma schéma schéma général petit général ",
+                        "correct": true
+                    },
+                    {
+                        "content": "général schéma petit petit général schéma général général "
+                    },
+                    {
+                        "content": "petit schéma général général schéma petit général schéma schéma petit "
+                    }
+                ]
+            },
+            "begin": 1089336,
+            "end": 1092336,
+            "type": "Quizz",
+            "media": "m20131025",
+            "id": "0a6113d9-b3c0-49b6-96ec-f92af3120dbd"
+        },
+        {
+            "content": {
+                "description": "siècles grand secondes [facile [facile modulo d’essayer ",
+                "answers": [
+                    {
+                        "content": "grands retrouver φ générer φ retrouver pq "
+                    },
+                    {
+                        "content": "partir entiers premiers premiers retrouver repose difficile partir φ sécurité ",
+                        "correct": true
+                    },
+                    {
+                        "content": "secondes tirer entier généralisé] matériellement sécurité générer "
+                    }
+                ]
+            },
+            "begin": 4458845,
+            "end": 4461845,
+            "type": "Quizz",
+            "media": "m20131025",
+            "id": "98b484fd-b99d-45df-93a1-eabe3e285be5"
+        },
+        {
+            "content": {
+                "description": "texte préalable tourne «moderne» clés clé xixe ",
+                "answers": [
+                    {
+                        "content": "cryptographie traité clair clé connexion fin "
+                    },
+                    {
+                        "content": "c’est conversations utilisée secrète initiale clair traite mathématiquement subir ",
+                        "correct": true
+                    },
+                    {
+                        "content": "fin secrète mettra position prouvé yptosystème mathématiquement clé utilisé "
+                    },
+                    {
+                        "content": "conversations qu’une sécrète cas mettra rotor préalable l'ordre rotors "
+                    }
+                ]
+            },
+            "begin": 2514791,
+            "end": 2517791,
+            "type": "Quizz",
+            "media": "m20131025",
+            "id": "94d0a0e3-f771-42a2-9331-02875562a604"
+        },
+        {
+            "content": {
+                "description": "faut chiffres veut calculer valide part entier qu’il petit ",
+                "answers": [
+                    {
+                        "content": "message secondes choisir signature nombres signature niveau vérifier matériellement rsa "
+                    },
+                    {
+                        "content": "d’essayer [facile bob partir imitée charges valide "
+                    },
+                    {
+                        "content": "hasard ea sécurité capable d’euclide calculer générer assure "
+                    },
+                    {
+                        "content": "signature valide signature cahier nombres φ ",
+                        "correct": true
+                    }
+                ]
+            },
+            "begin": 4486383,
+            "end": 4489383,
+            "type": "Quizz",
+            "media": "m20131025",
+            "id": "1f04dc5f-42ad-453a-b7db-673da4bcb0d4"
+        },
+        {
+            "content": {
+                "description": "résister veulent cryptographie parler d’algorithmes gt base veulent ",
+                "answers": [
+                    {
+                        "content": "asymétriques veulent echange d’algorithmes confidentialité bits asymétriques d’algorithmes ",
+                        "correct": true
+                    },
+                    {
+                        "content": "clé milliards casser secrète algorithmes supplémentaire "
+                    },
+                    {
+                        "content": "milliards gt clés signature préférés données bits confidentialité algorithmes "
+                    }
+                ]
+            },
+            "begin": 3576235,
+            "end": 3579235,
+            "type": "Quizz",
+            "media": "m20131025",
+            "id": "7dfc5ec1-cf4b-4f54-8c8f-7d0117f34bcd"
+        },
+        {
+            "content": {
+                "description": "détection l’information ➛   blocs erreurs d’erreurs fonctionne l’information» initialiser ",
+                "answers": [
+                    {
+                        "content": "commencer cd techniques + ➛ jpeg cryptographie «bits» tnt d’erreurs "
+                    },
+                    {
+                        "content": "+t ➛ internet l’information qu’une «théorie parfaitement +t lt "
+                    },
+                    {
+                        "content": "compression l’information transmet images var n’en fonctionne «coder bits ",
+                        "correct": true
+                    }
+                ]
+            },
+            "begin": 385519,
+            "end": 388519,
+            "type": "Quizz",
+            "media": "m20131025",
+            "id": "767471d9-39c9-4792-b9e5-6962548fc011"
+        },
+        {
+            "content": {
+                "description": "mono ↓ qu’un vie mono clés éviter ↓ suétone ",
+                "answers": [
+                    {
+                        "content": "↓ ↓ éviter traite seconde ↓ ",
+                        "correct": true
+                    },
+                    {
+                        "content": "s’agit permuter d’un rotation ↓ ↓ "
+                    }
+                ]
+            },
+            "begin": 1600334,
+            "end": 1603334,
+            "type": "Quizz",
+            "media": "m20131025",
+            "id": "98a28dab-4dff-4284-a16f-5df09db1170d"
+        },
+        {
+            "content": {
+                "description": "position sièc tester codage recherche rotor seul serait clé système ",
+                "answers": [
+                    {
+                        "content": "l'ordre change rotor système téléphone inconditionnellement enigma modifiable "
+                    },
+                    {
+                        "content": "n’est principes transportables clés seul subir clé texte rotors "
+                    },
+                    {
+                        "content": "système simple change préalable clé humain position substitution utilisée envoyée ",
+                        "correct": true
+                    },
+                    {
+                        "content": "cas alphabétique cas machine parties mathématiquement rouge conversations "
+                    }
+                ]
+            },
+            "begin": 2549044,
+            "end": 2552044,
+            "type": "Quizz",
+            "media": "m20131025",
+            "id": "555c10f1-b09c-43ce-973d-f8e46d1bc8f6"
+        },
+        {
+            "content": {
+                "description": "retrouver message retrouver partir d’autre [facile d’essayer eb ",
+                "answers": [
+                    {
+                        "content": "annuaire petit [facile publique factorisation triplet ea difficile ",
+                        "correct": true
+                    },
+                    {
+                        "content": "bob capable repose hasard triplet assure choisir "
+                    },
+                    {
+                        "content": "nb niveau nombres niveau pose d’autre pose ed choisir "
+                    },
+                    {
+                        "content": "grand factorisation repose ed sécurité bob partir nb tirer clé "
+                    }
+                ]
+            },
+            "begin": 4419573,
+            "end": 4422573,
+            "type": "Quizz",
+            "media": "m20131025",
+            "id": "2e641108-241d-4452-8525-405ff6efac4c"
+        },
+        {
+            "content": {
+                "description": "point messages permettent décryptement manière chaîne permettent science codés ",
+                "answers": [
+                    {
+                        "content": "dechiffrement d’éventuelles facilement déchiffrement chiffrer déchiffrement "
+                    },
+                    {
+                        "content": "clair procédés clair déchiffrement méthodes chaîne texte texte ",
+                        "correct": true
+                    }
+                ]
+            },
+            "begin": 3124607,
+            "end": 3127607,
+            "type": "Quizz",
+            "media": "m20131025",
+            "id": "792844aa-bef5-410d-a8e4-27fc73a821e0"
+        },
+        {
+            "content": {
+                "description": "envoie diffie connaître pouvoir bob modulo diffie s’échanger bob ab ",
+                "answers": [
+                    {
+                        "content": "colin modulo clé connaître clé clé "
+                    },
+                    {
+                        "content": "bob clé s’échanger exercice protocole modulo secret ",
+                        "correct": true
+                    }
+                ]
+            },
+            "begin": 3964784,
+            "end": 3967784,
+            "type": "Quizz",
+            "media": "m20131025",
+            "id": "e0cebb61-9f5d-4bdc-a6f6-0a927304a098"
+        },
+        {
+            "content": {
+                "description": "bob rsa valide triplet alice ea bob hasard ",
+                "answers": [
+                    {
+                        "content": "nb alice asymétriques grands eb généralisé] lit lit db message "
+                    },
+                    {
+                        "content": "publique φ petit chiffres ed clé ",
+                        "correct": true
+                    },
+                    {
+                        "content": "bob grand petit sécurité eb ed publique bob partir "
+                    }
+                ]
+            },
+            "begin": 4321034,
+            "end": 4324034,
+            "type": "Quizz",
+            "media": "m20131025",
+            "id": "bd0c40bd-ce48-47ba-8f0b-709e0e8df473"
+        },
+        {
+            "content": {
+                "description": "ajouter rende qu’elle l’information» erreurs cryptographie conversations reçue ",
+                "answers": [
+                    {
+                        "content": "n° cryptographie qu’on qu’on erreurs n° ",
+                        "correct": true
+                    },
+                    {
+                        "content": "tnt l’information» ajouter reçue compresser l’information transmette important préoccupation "
+                    },
+                    {
+                        "content": "transmet n° préoccupation l’information» historique ex "
+                    },
+                    {
+                        "content": "n’en transmettre codes erreurs concept cryptographie premières transmettre plan "
+                    }
+                ]
+            },
+            "begin": 903413,
+            "end": 906413,
+            "type": "Quizz",
+            "media": "m20131025",
+            "id": "ce78020e-c9c1-4ea5-a23b-a2f28137b76e"
+        },
+        {
+            "content": {
+                "description": "bob secret envoie alice bob alice nombre alice bob ",
+                "answers": [
+                    {
+                        "content": "clé diffie choisit gb hellman bob secret "
+                    },
+                    {
+                        "content": "secret bob modulo alice gb s’échanger secret reste nombre envoie ",
+                        "correct": true
+                    }
+                ]
+            },
+            "begin": 3909520,
+            "end": 3912520,
+            "type": "Quizz",
+            "media": "m20131025",
+            "id": "d938cbdd-d5c7-4b62-90aa-7816f5d03fc5"
+        },
+        {
+            "content": {
+                "description": "militaire système dévoilé pouvoir diplomatique kerckhoffs cas ",
+                "answers": [
+                    {
+                        "content": "téléphone inconditionnellement xixe pays système d’utilisation "
+                    },
+                    {
+                        "content": "c’est souhait télégraphiables utilisée subir clé ",
+                        "correct": true
+                    },
+                    {
+                        "content": "recherche envoyée fin connaissance traité clé diplomatique clé serait modifiable "
+                    },
+                    {
+                        "content": "parfaitement clé cryptographie c’est examiné l’adversaire parties cryptographie "
+                    }
+                ]
+            },
+            "begin": 2567093,
+            "end": 2570093,
+            "type": "Quizz",
+            "media": "m20131025",
+            "id": "9aca2c07-e2ae-4306-a9f6-0683c58b3bc0"
+        },
+        {
+            "content": {
+                "description": "priori priori symboles tests suppose méthode ",
+                "answers": [
+                    {
+                        "content": "texte faut permet tester vigénère calcul méthode vigénère codé l'attaque ",
+                        "correct": true
+                    },
+                    {
+                        "content": "langue vigénère voire cas chute mélange "
+                    },
+                    {
+                        "content": "cas donne d'un long cas classiques "
+                    },
+                    {
+                        "content": "substitution vigénère transcodage cribbing règle donne "
+                    }
+                ]
+            },
+            "begin": 2835443,
+            "end": 2838443,
+            "type": "Quizz",
+            "media": "m20131025",
+            "id": "ae66153e-6cb6-413e-ae51-2cb96fbdc3d9"
+        },
+        {
+            "content": {
+                "description": "l’information» s’intéresse cryptographie commencer redondance bourdon cryptographie ",
+                "answers": [
+                    {
+                        "content": "informations attaques reçue bourdon transmettait vidéo s’intéresse qu’on qu’elle "
+                    },
+                    {
+                        "content": "protégées rayé techniques préoccupation qu’elle repérer chaînes attaques n° ",
+                        "correct": true
+                    },
+                    {
+                        "content": "détection «redondance» l’information» réparation vidéo «théorie chaînes sécurité "
+                    }
+                ]
+            },
+            "begin": 903767,
+            "end": 906767,
+            "type": "Quizz",
+            "media": "m20131025",
+            "id": "d47d9a94-3174-439c-b96d-d372ed47b55f"
+        },
+        {
+            "content": {
+                "description": "préoccupation compressée qu’une qu’elle manière canal ",
+                "answers": [
+                    {
+                        "content": "rapidement minute gbits d’émission l’information ex préoccupation protégées s’intéresse "
+                    },
+                    {
+                        "content": "d’erreurs bleues envoyée tient gt limité "
+                    },
+                    {
+                        "content": "gt l’information informations reçue mp manière transmettre "
+                    },
+                    {
+                        "content": "images utiliser l’information» calcul «théorie n’en correction ",
+                        "correct": true
+                    }
+                ]
+            },
+            "begin": 792740,
+            "end": 795740,
+            "type": "Quizz",
+            "media": "m20131025",
+            "id": "3c05cc04-ee28-423e-8d15-d9eaf119f480"
+        },
+        {
+            "content": {
+                "description": "partager grands bob résoudre alice ea découpage dépendre modulo ",
+                "answers": [
+                    {
+                        "content": "signature individu alice individu fonctions vrai trouver trappe problèmes algorithmiques ",
+                        "correct": true
+                    },
+                    {
+                        "content": "cahier signature bob vrai aléatoire signataire trouver vrai clés signature "
+                    },
+                    {
+                        "content": "signature signature ea calculer signature calculer "
+                    }
+                ]
+            },
+            "begin": 4736115,
+            "end": 4739115,
+            "type": "Quizz",
+            "media": "m20131025",
+            "id": "e6ed7bbc-f1d1-4a19-9685-e81fa6314cf9"
+        },
+        {
+            "content": {
+                "description": "parrain l’information rapidement cryptographie l’information» rapidement ",
+                "answers": [
+                    {
+                        "content": "transmette préoccupation fonctionne n° l’information rayé rayé erreurs "
+                    },
+                    {
+                        "content": "codes l’information» techniques envoyée transmet d’erreur détection reçue dvd ",
+                        "correct": true
+                    },
+                    {
+                        "content": "d’émission chaînes compression images compression calcul cryptographie transmettait "
+                    }
+                ]
+            },
+            "begin": 762219,
+            "end": 765219,
+            "type": "Quizz",
+            "media": "m20131025",
+            "id": "0a563105-4b2d-4e3c-887b-878364f38393"
+        },
+        {
+            "content": {
+                "description": "traitant gloire perpétuité perpétuité sempiternel règne ",
+                "answers": [
+                    {
+                        "content": "texte béatitude traitant exemple messages machine félicité ",
+                        "correct": true
+                    },
+                    {
+                        "content": "fortement trithène plans l’abbé anodin paradis enigma éternité règne "
+                    },
+                    {
+                        "content": "écrire anodin priori modèles caché fortement "
+                    }
+                ]
+            },
+            "begin": 2001851,
+            "end": 2004851,
+            "type": "Quizz",
+            "media": "m20131025",
+            "id": "f9cb7020-cb60-408f-a779-f8723697aeb4"
+        },
+        {
+            "content": {
+                "description": "qualité qualité qualité schéma général général qualité coffre schéma schéma ",
+                "answers": [
+                    {
+                        "content": "qualité petit général qualité qualité petit clé ",
+                        "correct": true
+                    },
+                    {
+                        "content": "clé coffre clé coffre schéma petit général "
+                    }
+                ]
+            },
+            "begin": 1152885,
+            "end": 1155885,
+            "type": "Quizz",
+            "media": "m20131025",
+            "id": "da641891-aa7a-4aa0-b3c8-39e9becd179f"
+        },
+        {
+            "content": {
+                "description": "nb clair nb db eb db eb clair algorithmes nb ",
+                "answers": [
+                    {
+                        "content": "eb alice message bob algorithmes eb eb message "
+                    },
+                    {
+                        "content": "asymétriques l’envoie bob ea calcule alice ",
+                        "correct": true
+                    }
+                ]
+            },
+            "begin": 4236270,
+            "end": 4239270,
+            "type": "Quizz",
+            "media": "m20131025",
+            "id": "2f68a027-2d34-4343-a60a-28454fc0383d"
+        },
+        {
+            "content": {
+                "description": "↓ ↓ codé l’univers frghu forums ↓ permuter d’idée ",
+                "answers": [
+                    {
+                        "content": "mono sudistes consiste césars sièc jc essais "
+                    },
+                    {
+                        "content": "suétone d’idée ↓ ↓ nom substitution ↓ ↓ ",
+                        "correct": true
+                    },
+                    {
+                        "content": "↓ puisqu’au ↓ seconde forums décrit puisqu’au technique codage "
+                    }
+                ]
+            },
+            "begin": 1503604,
+            "end": 1506604,
+            "type": "Quizz",
+            "media": "m20131025",
+            "id": "3bb7c528-5d35-4e8e-9491-79c8ec3b8349"
+        },
+        {
+            "content": {
+                "description": "qualité schéma qualité général petit général général clé ",
+                "answers": [
+                    {
+                        "content": "petit qualité schéma coffre qualité schéma qualité qualité ",
+                        "correct": true
+                    },
+                    {
+                        "content": "clé général général général coffre coffre petit qualité petit "
+                    },
+                    {
+                        "content": "schéma petit coffre petit schéma qualité "
+                    }
+                ]
+            },
+            "begin": 1161302,
+            "end": 1164302,
+            "type": "Quizz",
+            "media": "m20131025",
+            "id": "484e7cc8-73f1-46f4-bab3-ff34bcb0ec01"
+        },
+        {
+            "content": {
+                "description": "possibles «probabiliste» loi sufﬁsamment message règle message grecque chute fréquences ",
+                "answers": [
+                    {
+                        "content": "mono clair • sens chute attaques fréquences symboles exhaustive "
+                    },
+                    {
+                        "content": "symboles nombre devient retrouver bonnes l'autre fréquences exhaustive "
+                    },
+                    {
+                        "content": "chute codé • codé fréquences chute "
+                    },
+                    {
+                        "content": "règle • «probabiliste» n'obtient cas priori alphabétique ",
+                        "correct": true
+                    }
+                ]
+            },
+            "begin": 2726809,
+            "end": 2729809,
+            "type": "Quizz",
+            "media": "m20131025",
+            "id": "1d02e750-cc8e-4337-b499-ded84a85103a"
+        },
+        {
+            "content": {
+                "description": "cryptographie détection image images or transmettre cd erreurs correction ",
+                "answers": [
+                    {
+                        "content": "informations transmettre tnt bits ex conversations canal+ compte seconde "
+                    },
+                    {
+                        "content": "techniques l’information cartes qu’une codes parfaitement mp bleues divx "
+                    },
+                    {
+                        "content": "compte ex d’un tnt erreurs bleues préoccupation tnt "
+                    },
+                    {
+                        "content": "transmette contenance or qu’une erreurs dvd parrain d’erreurs rende ",
+                        "correct": true
+                    }
+                ]
+            },
+            "begin": 875543,
+            "end": 878543,
+            "type": "Quizz",
+            "media": "m20131025",
+            "id": "1efe0618-a6a1-4d81-8941-d7cb0f16ce77"
+        },
+        {
+            "content": {
+                "description": "sait point elements entiers elements ➛code entiers bits + ‘a’ ",
+                "answers": [
+                    {
+                        "content": "moderne couleur d’une entiers binaire point ‘a’ ",
+                        "correct": true
+                    },
+                    {
+                        "content": "vue réels couleur ➛code d’une «coder + ➛code "
+                    },
+                    {
+                        "content": "sait caractères caractères image écriture d’une "
+                    }
+                ]
+            },
+            "begin": 5381,
+            "end": 8381,
+            "type": "Quizz",
+            "media": "m20131025",
+            "id": "acfa4e8e-f06a-4b20-81c3-c746744d3227"
+        },
+        {
+            "content": {
+                "description": "publique eb ea message message eb ",
+                "answers": [
+                    {
+                        "content": "clair nb eb nb clé bob annuaire algorithmes bob ",
+                        "correct": true
+                    },
+                    {
+                        "content": "alice nb bob veut bob bob bob bob ea ea "
+                    },
+                    {
+                        "content": "db algorithmes ea publique algorithmes annuaire "
+                    }
+                ]
+            },
+            "begin": 4129969,
+            "end": 4132969,
+            "type": "Quizz",
+            "media": "m20131025",
+            "id": "b3642254-30d6-4b3a-a0c0-b1e845581d6a"
+        },
+        {
+            "content": {
+                "description": "qualité qualité petit clé clé coffre qualité schéma clé ",
+                "answers": [
+                    {
+                        "content": "petit qualité général qualité schéma qualité "
+                    },
+                    {
+                        "content": "petit général général qualité petit petit ",
+                        "correct": true
+                    }
+                ]
+            },
+            "begin": 1140503,
+            "end": 1143503,
+            "type": "Quizz",
+            "media": "m20131025",
+            "id": "fd7f9eae-d1ee-4ad5-a1c6-5ef55b440264"
+        },
+        {
+            "content": {
+                "description": "↓ ↓ messages faible cryptage messages écrivain s’agit césars utilisé ",
+                "answers": [
+                    {
+                        "content": "guroh initial jules lettres vie utilisé césars ↓ consiste ↓ ",
+                        "correct": true
+                    },
+                    {
+                        "content": "retrouver ↓ ↓ ↓ technique ↓ "
+                    },
+                    {
+                        "content": "jules tx’hooh av message ↓ ↓ circulaire ↓ "
+                    }
+                ]
+            },
+            "begin": 1428952,
+            "end": 1431952,
+            "type": "Quizz",
+            "media": "m20131025",
+            "id": "77d72aa5-4a98-4ec8-91c6-e0607c3ed72c"
+        },
+        {
+            "content": {
+                "description": "+ + + var var «coder +t bilan l’information var ",
+                "answers": [
+                    {
+                        "content": "          fréquences l’information     caractères ",
+                        "correct": true
+                    },
+                    {
+                        "content": "➛code var machine ➛     sait suite "
+                    }
+                ]
+            },
+            "begin": 267761,
+            "end": 270761,
+            "type": "Quizz",
+            "media": "m20131025",
+            "id": "ccbbcea4-dcd6-4844-8dc8-76db2c2af7ba"
+        },
+        {
+            "content": {
+                "description": "petit schéma petit petit schéma général général ",
+                "answers": [
+                    {
+                        "content": "général petit général petit petit schéma petit ",
+                        "correct": true
+                    },
+                    {
+                        "content": "schéma schéma général petit schéma général petit schéma "
+                    }
+                ]
+            },
+            "begin": 1092993,
+            "end": 1095993,
+            "type": "Quizz",
+            "media": "m20131025",
+            "id": "3ee13772-3ee2-4df8-9699-afbebade4d09"
+        },
+        {
+            "content": {
+                "description": "seconde tourne codage rotor rotors c’est connexion rotor ",
+                "answers": [
+                    {
+                        "content": "enigma rotor lettre alphabétique position connexion position substitution "
+                    },
+                    {
+                        "content": "lettre tableau substitution machine connexion alphabétique codage "
+                    },
+                    {
+                        "content": "rotors substitution clés rotors série rotors "
+                    },
+                    {
+                        "content": "lettre humain enigma tourne machine lés ",
+                        "correct": true
+                    }
+                ]
+            },
+            "begin": 2251305,
+            "end": 2254305,
+            "type": "Quizz",
+            "media": "m20131025",
+            "id": "e026a486-16be-4c04-bc8e-5a0b1359773c"
+        },
+        {
+            "content": {
+                "description": "trancodage transcodage symboles clé obtenus transcodage jc posséder ",
+                "answers": [
+                    {
+                        "content": "c’est enroulant cylindre cylindre codage enroulant l’antiquité ",
+                        "correct": true
+                    },
+                    {
+                        "content": "verticalement général fallait bandes cylindre verticalement composent "
+                    },
+                    {
+                        "content": "inscrivant codage cylindre verne symboles cylindre lire consiste verticalement symboles "
+                    },
+                    {
+                        "content": "obtenu l’antiquité bandes transcodage transcodage posséder clé "
+                    }
+                ]
+            },
+            "begin": 1333149,
+            "end": 1336149,
+            "type": "Quizz",
+            "media": "m20131025",
+            "id": "944f6228-23f4-45f8-a51a-d11d3ab3cd3c"
+        },
+        {
+            "content": {
+                "description": "cryptographie perpétuité gloire lithanie perpétuité traitant message l’abbé lithanie lithanie ",
+                "answers": [
+                    {
+                        "content": "trithène gloire perpétuité ouvrage cryptographie c’est principe cryptographie "
+                    },
+                    {
+                        "content": "caché écrire anodin lithanie l’abbé c’est trithène règne texte "
+                    },
+                    {
+                        "content": "ouvrage caché anodin message sempiternel trithène ",
+                        "correct": true
+                    },
+                    {
+                        "content": "règne stéganographie paradis trithène perpétuité qu'en écrire éternité perpétuité "
+                    }
+                ]
+            },
+            "begin": 1785410,
+            "end": 1788410,
+            "type": "Quizz",
+            "media": "m20131025",
+            "id": "6693d448-d4ab-4ea8-8284-e1ffbcabdbcc"
+        },
+        {
+            "content": {
+                "description": "«bits» + exposant l’information» + mémoriser entiers exposant ",
+                "answers": [
+                    {
+                        "content": "fréquences ➛code d’un ➛code ➛code + "
+                    },
+                    {
+                        "content": "moderne ‘a’ ➛code ➛code l’information + écriture entières l’information + ",
+                        "correct": true
+                    }
+                ]
+            },
+            "begin": 49525,
+            "end": 52525,
+            "type": "Quizz",
+            "media": "m20131025",
+            "id": "070ef300-0af2-4b26-8308-a99823012dca"
+        },
+        {
+            "content": {
+                "description": "schéma schéma schéma général général schéma général général ",
+                "answers": [
+                    {
+                        "content": "schéma schéma général schéma schéma schéma petit petit général ",
+                        "correct": true
+                    },
+                    {
+                        "content": "général petit petit schéma schéma petit général schéma général petit "
+                    },
+                    {
+                        "content": "petit général petit général schéma général schéma schéma "
+                    }
+                ]
+            },
+            "begin": 1103524,
+            "end": 1106524,
+            "type": "Quizz",
+            "media": "m20131025",
+            "id": "50c82a77-320e-4f78-b00a-e469220e2ad5"
+        },
+        {
+            "content": {
+                "description": "signature ea entier algorithme calculer pouvoir ",
+                "answers": [
+                    {
+                        "content": "tester ed alice rsa exemple ed signature valide imitée nombres "
+                    },
+                    {
+                        "content": "ea signer grands difficile d’autre capable "
+                    },
+                    {
+                        "content": "faut générer signature sécurité φ difficile premiers secondes matériellement grands ",
+                        "correct": true
+                    },
+                    {
+                        "content": "pq calculer d’essayer factorisation vérifier part imitée d’autre algorithme "
+                    }
+                ]
+            },
+            "begin": 4491833,
+            "end": 4494833,
+            "type": "Quizz",
+            "media": "m20131025",
+            "id": "cbaa69fd-f83c-4bf6-b7a6-3dee66166421"
+        },
+        {
+            "content": {
+                "description": "bob alice bob nombre s’échanger choisit ",
+                "answers": [
+                    {
+                        "content": "hellman alice clé s’échanger nombres modulo modulo bob bob "
+                    },
+                    {
+                        "content": "modulo protocole envoie bob envoie s’échanger diffie diffie ",
+                        "correct": true
+                    },
+                    {
+                        "content": "clé reste envoie clé mettent bob "
+                    }
+                ]
+            },
+            "begin": 3896458,
+            "end": 3899458,
+            "type": "Quizz",
+            "media": "m20131025",
+            "id": "a7f0c843-7e37-4aa2-8fb1-d83f65f2abe6"
+        },
+        {
+            "content": {
+                "description": "d’éventuelles trouver cryptologie consiste comporte fonction vue ",
+                "answers": [
+                    {
+                        "content": "connaître déchiffrer déchiffrement chiffrer confidentielle cryptologie clair chaîne "
+                    },
+                    {
+                        "content": "l’étude procédés texte messages trouver mise d’éventuelles confidentielle facilement ",
+                        "correct": true
+                    },
+                    {
+                        "content": "mise l’étude clé texte clé texte "
+                    },
+                    {
+                        "content": "texte cryptologie cryptographiques consiste chiffrement données secret chiffré clé "
+                    }
+                ]
+            },
+            "begin": 3093085,
+            "end": 3096085,
+            "type": "Quizz",
+            "media": "m20131025",
+            "id": "8468af6b-cfcf-4ef8-8122-fef7adc482f7"
+        },
+        {
+            "content": {
+                "description": "chiffrement basés l’étude services cryptographiques sécurité apport nombre ",
+                "answers": [
+                    {
+                        "content": "répudiation sécurité d’authentification fonctions fournir apport intégrité chiffrement "
+                    },
+                    {
+                        "content": "moyen clé apport moyens mis moderne sécurité clé mis ",
+                        "correct": true
+                    },
+                    {
+                        "content": "cryptanalyse utilisations cryptogramme consiste connaissance clés apport construits aléatoires l’étude "
+                    }
+                ]
+            },
+            "begin": 3289831,
+            "end": 3292831,
+            "type": "Quizz",
+            "media": "m20131025",
+            "id": "095d4bb8-de18-41a8-b72b-91c153109cda"
+        },
+        {
+            "content": {
+                "description": "d’éventuelles consiste facilement texte confidentielle manière ",
+                "answers": [
+                    {
+                        "content": "manière clair déchiffrement science mise texte codés facilement "
+                    },
+                    {
+                        "content": "clair messages cryptanalyse secret clair clair l’étude ",
+                        "correct": true
+                    }
+                ]
+            },
+            "begin": 3112447,
+            "end": 3115447,
+            "type": "Quizz",
+            "media": "m20131025",
+            "id": "ead149aa-3c9e-4dcc-89ff-900f209b7226"
+        },
+        {
+            "content": {
+                "description": "l’antiquité mélange inscrivant message messages message chiffrés av mélange ",
+                "answers": [
+                    {
+                        "content": "grecs cylindre mélange transcodage verticalement bandes symboles bandes "
+                    },
+                    {
+                        "content": "posséder échangeaient jc inscrivant chiffrés posséder mélange mélange ",
+                        "correct": true
+                    }
+                ]
+            },
+            "begin": 1257903,
+            "end": 1260903,
+            "type": "Quizz",
+            "media": "m20131025",
+            "id": "b2acb44e-ecb3-4fa9-8c8b-33e351eea03b"
+        },
+        {
+            "content": {
+                "description": "lettres message transcodage papier transcodage cylindre grec transcodage composent consiste ",
+                "answers": [
+                    {
+                        "content": "transcodage message obtenus grec consiste grec messages obtenu obtenus messages ",
+                        "correct": true
+                    },
+                    {
+                        "content": "message lire composent obtenu message chiffrés lire mélanger mélange "
+                    },
+                    {
+                        "content": "grec mélange bandes cryptage mélanger posséder "
+                    }
+                ]
+            },
+            "begin": 1254139,
+            "end": 1257139,
+            "type": "Quizz",
+            "media": "m20131025",
+            "id": "b17a72aa-cfd4-4744-b57f-9dcd9ed1b094"
+        },
+        {
+            "content": {
+                "description": "subit cryptographie plan calcul historique massif traces ",
+                "answers": [
+                    {
+                        "content": "traces exponentielle développement plan calcul chiffrer "
+                    },
+                    {
+                        "content": "attaques camouflage cantonnée ordinateurs électronique techniques l’antiquité ",
+                        "correct": true
+                    }
+                ]
+            },
+            "begin": 1033884,
+            "end": 1036884,
+            "type": "Quizz",
+            "media": "m20131025",
+            "id": "5a62e5b0-39ab-47bd-a259-455e660ca830"
+        },
+        {
+            "content": {
+                "description": "mondiale rotor rotor procurant guerre mondiale substitution rotor mono ",
+                "answers": [
+                    {
+                        "content": "contribué plans machine allemandes mono substitution décrypter alliés "
+                    },
+                    {
+                        "content": "enigma utilisée enigma substitution rotor substitution machine c’est substitution ",
+                        "correct": true
+                    }
+                ]
+            },
+            "begin": 2172125,
+            "end": 2175125,
+            "type": "Quizz",
+            "media": "m20131025",
+            "id": "0cc104aa-2dc9-4489-83aa-1f3a1f924bf4"
+        },
+        {
+            "content": {
+                "description": "gloire paradis l’abbé stéganographie perpétuité introduire perpétuité ouvrage introduire ",
+                "answers": [
+                    {
+                        "content": "perpétuité traitant lithanie texte royaume félicité "
+                    },
+                    {
+                        "content": "trithène cryptographie perpétuité éternité règne félicité l’abbé règne perpétuité "
+                    },
+                    {
+                        "content": "ouvrage stéganographie stéganographie principe l’abbé ouvrage l’abbé informée ",
+                        "correct": true
+                    },
+                    {
+                        "content": "règne perpétuité traitant trithène royaume perpétuité "
+                    }
+                ]
+            },
+            "begin": 1976093,
+            "end": 1979093,
+            "type": "Quizz",
+            "media": "m20131025",
+            "id": "2b53ddc3-dd4a-4f3d-902a-57b7595092fb"
+        },
+        {
+            "content": {
+                "description": "lumière priori c’est message caché règne stéganographie perpétuité c’est ",
+                "answers": [
+                    {
+                        "content": "polygraphiae trithène exemple perpétuité message image félicité qu'en félicité "
+                    },
+                    {
+                        "content": "image lumière polygraphiae lithanie règne gloire perpétuité ",
+                        "correct": true
+                    }
+                ]
+            },
+            "begin": 1851909,
+            "end": 1854909,
+            "type": "Quizz",
+            "media": "m20131025",
+            "id": "55abf787-df4d-4ad7-90b4-fbf13b7bf82d"
+        },
+        {
+            "content": {
+                "description": "clés parler message supplémentaire parler chiffrement parler algorithmes base ",
+                "answers": [
+                    {
+                        "content": "problème veulent faut symétriques veulent d’algorithmes ",
+                        "correct": true
+                    },
+                    {
+                        "content": "bits signature veulent donne parler publique echange clé "
+                    }
+                ]
+            },
+            "begin": 3554331,
+            "end": 3557331,
+            "type": "Quizz",
+            "media": "m20131025",
+            "id": "906b5cd7-fd35-471c-a070-273f78eb304c"
+        },
+        {
+            "content": {
+                "description": "technique cryptage transcodage message cylindre messages fallait ",
+                "answers": [
+                    {
+                        "content": "diamètre message posséder message tuyau passer ",
+                        "correct": true
+                    },
+                    {
+                        "content": "chiffrés jc cryptage technique grec grecs longueur message mélange "
+                    },
+                    {
+                        "content": "lettres mélangeant ee lettres obtenus mélange "
+                    },
+                    {
+                        "content": "mélange mélanger diamètre c’est diamètre technique "
+                    }
+                ]
+            },
+            "begin": 1325899,
+            "end": 1328899,
+            "type": "Quizz",
+            "media": "m20131025",
+            "id": "d171145a-660f-489f-af96-70c42d0e7afb"
+        },
+        {
+            "content": {
+                "description": "seconde ↓ clé sudistes ↓ ↓ ↓ longueur l’armée ↓ ",
+                "answers": [
+                    {
+                        "content": "substitution ↓ importante ↓ substitution d’un lés "
+                    },
+                    {
+                        "content": "↓ ↓ ↓ ↓ tx’hooh tx’hooh clés ↓ décalages ",
+                        "correct": true
+                    },
+                    {
+                        "content": "↓ ↓ ↓ utilise ↓ alphabétique "
+                    }
+                ]
+            },
+            "begin": 1652505,
+            "end": 1655505,
+            "type": "Quizz",
+            "media": "m20131025",
+            "id": "07e217fc-e260-4223-8ae6-06aabd748127"
+        },
+        {
+            "content": {
+                "description": "préférés ensuite base rapides algorithmes donnée secrète chiffrement base autorisées ",
+                "answers": [
+                    {
+                        "content": "chiffrement gt bits renier part veulent clé ",
+                        "correct": true
+                    },
+                    {
+                        "content": "chiffrement donnée veulent donne veulent intensionnellement données publique publique "
+                    },
+                    {
+                        "content": "chiffrement d’une autorisées info algorithmes casser faut d’une symétriques préférés "
+                    }
+                ]
+            },
+            "begin": 3507355,
+            "end": 3510355,
+            "type": "Quizz",
+            "media": "m20131025",
+            "id": "db7dc36b-07ba-4a3c-bbb4-1459baf43664"
+        },
+        {
+            "content": {
+                "description": "modèles utilisée message évidemment réussi plans l’armée mondiale l’histoire ",
+                "answers": [
+                    {
+                        "content": "enigma échangés tourne évidemment machine message décrypter allemande message machine "
+                    },
+                    {
+                        "content": "procurant machine alliés procurant division l’armée ",
+                        "correct": true
+                    }
+                ]
+            },
+            "begin": 2167072,
+            "end": 2170072,
+            "type": "Quizz",
+            "media": "m20131025",
+            "id": "c7a6a6a0-9247-497f-bc8b-e7ec66d9e7b0"
+        },
+        {
+            "content": {
+                "description": "nombre partie cryptosystèmes chaîne s’échanger bits «utilisés» ",
+                "answers": [
+                    {
+                        "content": "message alice diffie message message bob caractères alice clé "
+                    },
+                    {
+                        "content": "protocole ordinateurs bob nombres symétriques cryptosystèmes message alice mettent ",
+                        "correct": true
+                    }
+                ]
+            },
+            "begin": 3863068,
+            "end": 3866068,
+            "type": "Quizz",
+            "media": "m20131025",
+            "id": "6a7eb45d-fa9d-4d5f-91bb-72154b26d2d4"
+        },
+        {
+            "content": {
+                "description": "connaît envoie alice bob diffie calculer bob ",
+                "answers": [
+                    {
+                        "content": "envoie calcule s’échanger nombre hellman modulo calcule reste ",
+                        "correct": true
+                    },
+                    {
+                        "content": "s’échanger ab bob calcule gab calcule protocole alice alice "
+                    }
+                ]
+            },
+            "begin": 3940753,
+            "end": 3943753,
+            "type": "Quizz",
+            "media": "m20131025",
+            "id": "a82ef2d2-c678-49c3-af43-97e459b3f5dd"
+        },
+        {
+            "content": {
+                "description": "    mantisse bilan ascii rectangleplein sait var ",
+                "answers": [
+                    {
+                        "content": "+ mémoriser       flottants écriture + point "
+                    },
+                    {
+                        "content": "+ ascii   lt     +       l’information» d’un var ",
+                        "correct": true
+                    }
+                ]
+            },
+            "begin": 280256,
+            "end": 283256,
+            "type": "Quizz",
+            "media": "m20131025",
+            "id": "db7ca038-adc3-4f56-9094-211b5f2d146a"
+        },
+        {
+            "content": {
+                "description": "bob message alice alice decode algorithmes bob alice decode privée ",
+                "answers": [
+                    {
+                        "content": "bob privée bob message bob calcule decode calcule "
+                    },
+                    {
+                        "content": "decode clé privée privée bob alice l’envoie ",
+                        "correct": true
+                    },
+                    {
+                        "content": "algorithmes lit decode message symétriques symétriques bob alice algorithmes clé "
+                    }
+                ]
+            },
+            "begin": 3609467,
+            "end": 3612467,
+            "type": "Quizz",
+            "media": "m20131025",
+            "id": "702d3018-8011-4749-9e42-484d10c91999"
+        },
+        {
+            "content": {
+                "description": "petit général général petit petit général petit petit général schéma ",
+                "answers": [
+                    {
+                        "content": "petit petit général schéma schéma général petit général "
+                    },
+                    {
+                        "content": "petit général général général général schéma général général ",
+                        "correct": true
+                    }
+                ]
+            },
+            "begin": 1110693,
+            "end": 1113693,
+            "type": "Quizz",
+            "media": "m20131025",
+            "id": "31ee903e-4056-4444-9c03-7d91f6c77793"
+        },
+        {
+            "content": {
+                "description": "message mélange obtenus diamètre diamètre message ",
+                "answers": [
+                    {
+                        "content": "clé messages inscrivant mélange obtenus jc ",
+                        "correct": true
+                    },
+                    {
+                        "content": "clé codage grec tuyau transcodage cryptage diamètre av verticalement "
+                    },
+                    {
+                        "content": "général av lecture verne échangeaient obtenu fallait symboles grec longueur "
+                    }
+                ]
+            },
+            "begin": 1333183,
+            "end": 1336183,
+            "type": "Quizz",
+            "media": "m20131025",
+            "id": "f1b122ed-e2ca-489e-9091-6a541dd09805"
+        },
+        {
+            "content": {
+                "description": "cylindre bandes cylindre cylindre chiffrés consiste composent papier ",
+                "answers": [
+                    {
+                        "content": "message message composent messages cylindre mélange ",
+                        "correct": true
+                    },
+                    {
+                        "content": "transcodage mélange obtenus chiffrés enroulant verticalement ee fallait "
+                    },
+                    {
+                        "content": "grec fallait chiffrés posséder transcodage symboles "
+                    }
+                ]
+            },
+            "begin": 1260407,
+            "end": 1263407,
+            "type": "Quizz",
+            "media": "m20131025",
+            "id": "24454e73-95ac-465b-873b-460fcb3447d1"
+        },
+        {
+            "content": {
+                "description": "exemple rsa rsa ea d’essayer ver ",
+                "answers": [
+                    {
+                        "content": "sécurité vrai sécurité nombres valide conclusion algorithmiques ",
+                        "correct": true
+                    },
+                    {
+                        "content": "premiers rapidement signature choisir charges imitée "
+                    },
+                    {
+                        "content": "factorisation rapidement choisir ed cahier difficile "
+                    }
+                ]
+            },
+            "begin": 4652525,
+            "end": 4655525,
+            "type": "Quizz",
+            "media": "m20131025",
+            "id": "eeb822ea-829f-4c35-980b-792594eb8664"
+        },
+        {
+            "content": {
+                "description": "decode decode algorithmes symétriques decode symétriques bob message alice encode ",
+                "answers": [
+                    {
+                        "content": "bob message clé alice algorithmes alice calcule alice clé message "
+                    },
+                    {
+                        "content": "clé bob message message calcule alice decode algorithmes privée calcule ",
+                        "correct": true
+                    },
+                    {
+                        "content": "privée algorithmes clé lit lit l’envoie "
+                    },
+                    {
+                        "content": "algorithmes alice bob message symétriques message clé symétriques "
+                    }
+                ]
+            },
+            "begin": 3609491,
+            "end": 3612491,
+            "type": "Quizz",
+            "media": "m20131025",
+            "id": "ae235eea-ceae-452a-9b2b-ecc584b02ab3"
+        },
+        {
+            "content": {
+                "description": "fréquences écriture + + suite entiers l’information bilan d’une ",
+                "answers": [
+                    {
+                        "content": "mémoriser suite «coder exposant couleur binaire sait + "
+                    },
+                    {
+                        "content": "réels réels mantisse rgb cryptographie + ",
+                        "correct": true
+                    },
+                    {
+                        "content": "+ l’information» ➛ machine fréquences binaire point ‘a’ tableau + "
+                    },
+                    {
+                        "content": "l’information» + d’une ➛code tableau commencer l’information» d’un image "
+                    }
+                ]
+            },
+            "begin": 39064,
+            "end": 42064,
+            "type": "Quizz",
+            "media": "m20131025",
+            "id": "990d4c35-a3ed-4ca6-a878-8840a154bfaf"
+        },
+        {
+            "content": {
+                "description": "mp chaînes l’information l’information rende n° qu’on ex transmettait ",
+                "answers": [
+                    {
+                        "content": "vidéo commencer conversations cd rayé blocs + ↯transmission "
+                    },
+                    {
+                        "content": "détection ex l’information d’erreurs réparation rende compte ",
+                        "correct": true
+                    }
+                ]
+            },
+            "begin": 433692,
+            "end": 436692,
+            "type": "Quizz",
+            "media": "m20131025",
+            "id": "9e689d3a-a0c7-4acb-b006-6a00a2be5274"
+        },
+        {
+            "content": {
+                "description": "cylindre fallait message mélangeant symboles message transcodage av grec ",
+                "answers": [
+                    {
+                        "content": "mélange enroulant mélangeant verticalement consiste verticalement message jc messages "
+                    },
+                    {
+                        "content": "mélangeant jc grec lettres obtenus technique cylindre verticalement ",
+                        "correct": true
+                    }
+                ]
+            },
+            "begin": 1253112,
+            "end": 1256112,
+            "type": "Quizz",
+            "media": "m20131025",
+            "id": "b6f5b151-0e56-4cdc-9c6d-856a225ab6c0"
+        },
+        {
+            "content": {
+                "description": "clés alice alice symétriques confidentialité parler attaque base ",
+                "answers": [
+                    {
+                        "content": "confidentialité info symétriques cryptographie symétriques secrète asymétriques confidentialité parler "
+                    },
+                    {
+                        "content": "algorithmes bits symétriques veulent rapides chiffrement casser "
+                    },
+                    {
+                        "content": "résout clés clés clé cryptographie clés ",
+                        "correct": true
+                    },
+                    {
+                        "content": "clé faut bits bits base confidentialité message résout cryptographie "
+                    }
+                ]
+            },
+            "begin": 3585341,
+            "end": 3588341,
+            "type": "Quizz",
+            "media": "m20131025",
+            "id": "5a0654fa-5c4a-4a2e-9d2e-6053fb49bb10"
+        },
+        {
+            "content": {
+                "description": "clé bob ba suivront chiffrées exercice protocole bob diffie calcule ",
+                "answers": [
+                    {
+                        "content": "bob connaît connaître milieu eb exercice "
+                    },
+                    {
+                        "content": "calcule pouvoir clé connaître asymétriques modulo écouter place connaître bob "
+                    },
+                    {
+                        "content": "connaître s’échanger bob modulo diffie écouter ",
+                        "correct": true
+                    }
+                ]
+            },
+            "begin": 3984901,
+            "end": 3987901,
+            "type": "Quizz",
+            "media": "m20131025",
+            "id": "30e6e485-43d8-4b33-825a-605c09791375"
+        },
+        {
+            "content": {
+                "description": "difficile tirer d’autre valide entier nombres matériellement φ générer ",
+                "answers": [
+                    {
+                        "content": "hasard grands d’essayer pose repose φ "
+                    },
+                    {
+                        "content": "φ difficile d’autre générer difficile [facile premiers "
+                    },
+                    {
+                        "content": "φ valide difficile nombres difficile difficile grands φ problème d’essayer "
+                    },
+                    {
+                        "content": "φ chiffres problème hasard hasard qu’il triplet triplet ",
+                        "correct": true
+                    }
+                ]
+            },
+            "begin": 4435130,
+            "end": 4438130,
+            "type": "Quizz",
+            "media": "m20131025",
+            "id": "4e64e3b9-e541-4549-840d-eedb4b959335"
+        },
+        {
+            "content": {
+                "description": "alice bob algorithmes db nb db ",
+                "answers": [
+                    {
+                        "content": "alice clé alice alice ea nb clé eb db asymétriques ",
+                        "correct": true
+                    },
+                    {
+                        "content": "ea annuaire asymétriques bob eb alice publique nb eb nb "
+                    },
+                    {
+                        "content": "ea db ea publique nb nb alice "
+                    }
+                ]
+            },
+            "begin": 4113915,
+            "end": 4116915,
+            "type": "Quizz",
+            "media": "m20131025",
+            "id": "484d8827-cd42-475e-876d-0ca8055d26da"
+        },
+        {
+            "content": {
+                "description": "protocole protocole bob hellman hellman modulo ",
+                "answers": [
+                    {
+                        "content": "nombre hellman clé secret clé choisit choisit gb alice "
+                    },
+                    {
+                        "content": "alice secret protocole hellman s’échanger secret secret bob protocole secret ",
+                        "correct": true
+                    },
+                    {
+                        "content": "secret modulo calcule secret hellman ga "
+                    }
+                ]
+            },
+            "begin": 3903393,
+            "end": 3906393,
+            "type": "Quizz",
+            "media": "m20131025",
+            "id": "d53f689f-0a73-423a-9a0a-110bb82f91b6"
+        },
+        {
+            "content": {
+                "description": "clair ex alice c’est eb clair asymétriques eb modulo ",
+                "answers": [
+                    {
+                        "content": "φ db impossible clé ea bob "
+                    },
+                    {
+                        "content": "alice asymétriques nb annuaire asymétriques alice modulo connaît bob nb "
+                    },
+                    {
+                        "content": "calcule alice clé bob connaissant alice ",
+                        "correct": true
+                    },
+                    {
+                        "content": "ea med modulo publique nb connaissant "
+                    }
+                ]
+            },
+            "begin": 4230982,
+            "end": 4233982,
+            "type": "Quizz",
+            "media": "m20131025",
+            "id": "56fd579a-dc6e-405d-9247-56799e40f281"
+        },
+        {
+            "content": {
+                "description": "algorithmes alice publique eb eb alice eb ",
+                "answers": [
+                    {
+                        "content": "alice bob db annuaire message db l’envoie nb alice l’envoie "
+                    },
+                    {
+                        "content": "clé asymétriques nb bob clé bob message ",
+                        "correct": true
+                    }
+                ]
+            },
+            "begin": 4234651,
+            "end": 4237651,
+            "type": "Quizz",
+            "media": "m20131025",
+            "id": "66bbcade-6ff3-453c-b8e0-38fb1fbcb3ad"
+        },
+        {
+            "content": {
+                "description": "attaque parler préférés d’algorithmes parler confidentialité ",
+                "answers": [
+                    {
+                        "content": "algorithmes d’algorithmes symétriques message clés rapides symétriques envoyer parler ",
+                        "correct": true
+                    },
+                    {
+                        "content": "types bits base clés algorithmes clé "
+                    },
+                    {
+                        "content": "secrètes symétriques clés gt attaque clés donne problème clé "
+                    }
+                ]
+            },
+            "begin": 3588063,
+            "end": 3591063,
+            "type": "Quizz",
+            "media": "m20131025",
+            "id": "15ad42a9-6b19-4494-83ae-20d58e2a16a0"
+        },
+        {
+            "content": {
+                "description": "message message décoder alice chaîne bob message bits faut ",
+                "answers": [
+                    {
+                        "content": "jours chaînes clés «utilisés» clés clés alice décoder "
+                    },
+                    {
+                        "content": "bits protocole lit protocole secondes ans cryptosystèmes cryptosystèmes ",
+                        "correct": true
+                    }
+                ]
+            },
+            "begin": 3810704,
+            "end": 3813704,
+            "type": "Quizz",
+            "media": "m20131025",
+            "id": "6d686df5-e886-402a-bb9a-82eb1ec0630f"
+        },
+        {
+            "content": {
+                "description": "algorithmes bob clé bob symétriques algorithmes ",
+                "answers": [
+                    {
+                        "content": "message alice algorithmes symétriques lit privée message "
+                    },
+                    {
+                        "content": "bob bob envoyer bob privée encode algorithmes message ",
+                        "correct": true
+                    }
+                ]
+            },
+            "begin": 3608729,
+            "end": 3611729,
+            "type": "Quizz",
+            "media": "m20131025",
+            "id": "486bde68-72a9-4491-b7c5-a4c9b32faa51"
+        },
+        {
+            "content": {
+                "description": "ea entiers tester sécurité message méthode vérifier œuvre repose siècles ",
+                "answers": [
+                    {
+                        "content": "[facile pgcd repose ea méthode nombres cahier capable repose transmit "
+                    },
+                    {
+                        "content": "hasard rsa factoriser d’autre générer rsa alice "
+                    },
+                    {
+                        "content": "valide pouvoir nombres tester factoriser faut petit ",
+                        "correct": true
+                    }
+                ]
+            },
+            "begin": 4538792,
+            "end": 4541792,
+            "type": "Quizz",
+            "media": "m20131025",
+            "id": "c0ed95e3-ec05-47fa-9900-7ef09c1a50f1"
+        },
+        {
+            "content": {
+                "description": "félicité perpétuité béatitude ouvrage cryptographie stéganographie exemple gloire royaume ",
+                "answers": [
+                    {
+                        "content": "caché éternité paradis éternité trithène stéganographie félicité introduire "
+                    },
+                    {
+                        "content": "anodin ouvrage message principe paradis perpétuité traitant ",
+                        "correct": true
+                    },
+                    {
+                        "content": "éternité royaume perpétuité trithène principe sempiternel "
+                    }
+                ]
+            },
+            "begin": 1829239,
+            "end": 1832239,
+            "type": "Quizz",
+            "media": "m20131025",
+            "id": "021ba61f-8dbf-4acd-8b22-f934bf907b51"
+        }
+    ]
+}

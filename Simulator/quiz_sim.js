@@ -1,6 +1,6 @@
 var quest_sim = new TestsCoco.Simulator.Questions();
 var ans_sim = new TestsCoco.Simulator.Answers();
-var chooser = new TestsCoco.Simulator.Chooser();
+var chooser = new TestsCoco.Simulator.Chooser(0.6);
 
 var tool = new TestsCoco.Tools();
 
@@ -18,9 +18,9 @@ function simulate(other_words,nb_tours,nb_question_by_tours,nb_questions){
             $.get("../Donnees_tests/simulator_data/stop-words_french_2_fr.txt"),
             $.get("../Donnees_tests/simulator_data/data_reseau.json"),
             $.get("../Donnees_tests/simulator_data/data_crypto.json"),
-            $.get("../Donnees_tests/simulator_data/data_langage.json"))
-        .done(function(stop_word1,stop_word2,data_res,data_crypt,data_lang){
-                var documents = [data_res[0],data_crypt[0],data_lang[0]];
+            $.get("../Donnees_tests/simulator_data/data_algo.json"))
+        .done(function(stop_word1,stop_word2,data_res,data_crypt,data_algo){
+                var documents = [data_res[0],data_crypt[0],data_algo[0]];
                 
                 var questions = quest_sim.main(stop_word1,stop_word2,documents,other_words,nb_questions),
                     answers = [],
@@ -30,7 +30,7 @@ function simulate(other_words,nb_tours,nb_question_by_tours,nb_questions){
                     value.setSessionDates(new Date(),nb_tours,documents);
                     value.session_dates.forEach(function(session){
                         selection = chooser.main(answers,questions,nb_question_by_tours,session.media);
-                        answers = answers.concat(ans_sim.main(selection,nb_question_by_tours,value,session.date));
+                        answers = answers.concat(ans_sim.main(selection,nb_question_by_tours,value,session));
                     });
                 });
                 

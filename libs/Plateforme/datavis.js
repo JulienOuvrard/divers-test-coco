@@ -254,7 +254,7 @@ TestsCoco.DataVis.prototype.makeScatterGraph = function(data,container){
             .datum(data)
             .call(chart);
             
-            var line1 = d3.select(selector)
+            var lineX = d3.select(selector)
 							.append('line')
 							.attr({
 								x1: 75 + chart.xAxis.scale()(-1),
@@ -263,7 +263,7 @@ TestsCoco.DataVis.prototype.makeScatterGraph = function(data,container){
 								y2: 30 + chart.yAxis.scale()(0)
 							})
 							.style("stroke", "#000000");
-            var line = d3.select(selector)
+            var lineY = d3.select(selector)
 							.append('line')
 							.attr({
 								x1: 75 + chart.xAxis.scale()(0),
@@ -274,9 +274,23 @@ TestsCoco.DataVis.prototype.makeScatterGraph = function(data,container){
 							.style("stroke", "#000000");
 
         nv.utils.windowResize(chart.update);
-
-        return chart;  },
-        function(){
+		nv.utils.windowResize(function(){
+			chart.update();
+			lineX.attr({
+				x1: 75 + chart.xAxis.scale()(-1),
+				y1: 30 + chart.yAxis.scale()(0),
+				x2: 75 + chart.xAxis.scale()(1),
+				y2: 30 + chart.yAxis.scale()(0)
+			}),
+			lineY.attr({
+				x1: 75 + chart.xAxis.scale()(0),
+				y1: 30 + chart.yAxis.scale()(-1),
+				x2: 75 + chart.xAxis.scale()(0),
+				y2: 30 + chart.yAxis.scale()(1)
+			})
+			
+		});
+        return chart;  },function(){
           d3.selectAll(".nv-scatter").on('click',
                function(){
                      console.log("test");

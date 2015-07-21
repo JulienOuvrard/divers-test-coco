@@ -236,7 +236,7 @@ TestsCoco.Simulator.Chooser.prototype.choose = function (d1,d2,numberOfQuestions
         if (!_.any(questionsToDisplay,function(value){
                                                 return sim[quest][value] > this.similarity_threshold;
                                         })
-        )){
+        ){
             questionsToDisplay.push(quest);
             allQuestions = _.filter(allQuestions,function(id){return id!=quest});
         }

@@ -424,6 +424,138 @@ TestsCoco.DataVis.prototype.combine = function(tab){
     return ret;
 }
 
+TestsCoco.DataVis.prototype.getMedia = function(medias,subject){
+    var ret;
+    $.each(medias,function(index,value){
+        $.each(value,function(i,v){
+            if(v.id == subject ){
+                ret = index;
+            }
+        });
+    });
+    return ret;
+}
+
+TestsCoco.DataVis.prototype.getGeneralAverage = function(medias,answers){
+    var _this = this;
+    var ret = {};
+    var answered_questions = _.groupBy(answers,'subject');
+    $.each(medias,function(index,value){
+        var q_vid = _.keys(_.groupBy(value,'id'));
+        var moyenne = {};
+        $.each(answered_questions,function(q_index,q_value){
+            if($.inArray(q_index,q_vid) != -1){
+                var prop = _.groupBy(q_value,'property');
+                var right = prop.right_answer ? prop.right_answer.length : 0;
+                var wrong = prop.wrong_answer ? prop.wrong_answer.length : 0; 
+                moyenne[q_index] = right * 100 / (right + wrong);
+            }
+        });
+        var moyenne_generale = _.sum(moyenne)/(_.keys(moyenne).length);
+        ret[index] = moyenne_generale;
+    });
+    return ret;
+}
+
+TestsCoco.DataVis.prototype.getUsersAverage = function(medias,answers){
+    var _this = this;
+    var ret = {};
+    var us = _.groupBy(answers,'username');
+    $.each(us,function(index,value){
+        ret[index]={};
+        var sessions = _.groupBy(value,'sessionId');
+        $.each(sessions, function(s_index,s_value){
+            var med = _this.getMedia(medias,s_value[0].subject);
+            var prop = _.groupBy(s_value,'property');
+            var right = prop.right_answer ? prop.right_answer.length : 0;
+            var wrong = prop.wrong_answer ? prop.wrong_answer.length : 0; 
+            ret[index][med] = right * 100 / (right + wrong);
+        });
+    });
+    return ret;
+}
+
+TestsCoco.DataVis.prototype.dataForBullet = function (tab, tab2){
+    
+/*
+    data = [
+        {
+			"title":"Moyenne",
+			"subtitle":"vidéo 1",
+			"ranges":[0,0,20],
+			"measures":[12],
+			"markers":[17],
+			"markerLabels":['Moyenne générale'],
+			"measureLabels":['Moyenne étudiant']
+        },
+        
+        {
+			"title":"Moyenne",
+			"subtitle":"vidéo 2",
+			"ranges":[0,0,20],
+			"measures":[8],
+			"markers":[12],
+			"markerLabels":['Moyenne générale'],
+			"measureLabels":['Moyenne étudiant']
+		},
+        {
+			"title":"Moyenne",
+			"subtitle":"vidéo 3",
+			"ranges":[0,0,20],
+			"measures":[18],
+			"markers":[9],
+			"markerLabels":['Moyenne générale'],
+			"measureLabels":['Moyenne étudiant']
+		}
+    ];
+*/
+
+    var ret = {},
+        title = "Moyenne",
+        ranges = [0,0,20],
+        markerLabers = ['Moyenne générale'],
+        measureLabels = ['Moyenne étudiant'];
+    //tab : username -> media -> moyenne
+    //tab2 : media -> moyenne generale
+    $.each(tab,function(index,value){
+        ret[index]=[];
+        $.each(value,function(media_index,media_value){
+            var obj = {};
+            obj.title = title;
+            obj.subtitle = media_index;
+            obj.ranges =  ranges;
+            obj.measure = [media_value];
+            obj.markers = [tab2[media_index]];
+            obj.markerLabels = markerLabels;
+            obj.measureLabels = measureLabels;
+            ret[index].push(obj)
+        });
+    });
+    return ret;
+    
+}
+
+TestsCoco.DataVis.prototype.makeBulletChart = function(data,container){
+    var width = 760,
+        height = 80,
+        margin = {top: 5, right: 40, bottom: 20, left: 120};
+
+    var chart = nv.models.bulletChart()
+            .width(width - margin.right - margin.left)
+            .height(height - margin.top - margin.bottom);
+            
+    var vis = d3.select("#"+container).selectAll("svg")
+        .data(data)
+        .enter().append("svg")
+        .attr("class", "bullet nvd3")
+        .attr("width", width)
+        .attr("height", height);
+
+    vis.transition().duration(1000).call(chart);
+    
+    return vis;
+}
+
 TestsCoco.DataVis.prototype.getAllData = function (questions,answers) {
     var ann = questions.annotations;
 

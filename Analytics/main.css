@@ -28,6 +28,7 @@ svg {
  #table_spark {
 	text-align: center;
 	margin-right:-700px;
+	width: 900px;
 }
  #utPUt {
 	margin-top: 200px;
@@ -40,9 +41,9 @@ svg.sparkline {
             margin-top: -6px;
 }
 #progEtu1, #histoStudentAllVideos, #histoAllStudents, #repUtile {
-	height: 300px;
-	max-width: 100%;
-    margin: 0;
+	height: 400px;
+	width: 150%;
+    margin: auto;
 
 }
 

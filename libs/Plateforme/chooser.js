@@ -232,20 +232,16 @@ TestsCoco.Simulator.Chooser.prototype.choose = function (d1,d2,numberOfQuestions
     
     do{
         var quest = tool.randomWithProbability(allQuestions);
-        var good = true;
-        
-        $.each(questionsToDisplay, function(index, value) {
-            
-            if(sim[quest][value] > this.similarity_threshold){
-                good = false;
-            }
-        });
-        
-        if(good){
+       
+        if (!_.any(questionsToDisplay,function(value){
+                                                return sim[quest][value] > this.similarity_threshold;
+                                        })
+        )){
             questionsToDisplay.push(quest);
+            allQuestions = _.filter(allQuestions,function(id){return id!=quest});
         }
         
-    }while(questionsToDisplay.length < numberOfQuestions)
+    }while(questionsToDisplay.length < numberOfQuestions || !allQuestions)
     
     return questionsToDisplay;
 }

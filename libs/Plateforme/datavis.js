@@ -288,7 +288,7 @@ TestsCoco.DataVis.prototype.dataForLineGraph = function(tab_date,tab_user){
         d['key']='Note';
         d['values']=[];
         $.each(_this.sortAndComplete(value),function(session_index,session_value){
-            var moyenne = (session_value.right_answer * 20) / (session_value.right_answer + session_value.wrong_answer + session_value.skipped_answer);
+            var moyenne = (session_value.right_answer * 100) / (session_value.right_answer + session_value.wrong_answer);
             var date = new Date (tab_date[session_index]);
             d['values'].push([date,moyenne]);
         });

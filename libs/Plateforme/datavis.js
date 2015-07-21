@@ -235,8 +235,8 @@ TestsCoco.DataVis.prototype.makeScatterGraph = function(data,container){
     
     nv.addGraph(function() {
         var chart = nv.models.scatterChart()
-			.xDomain([-1,1])
-			.yDomain([-1,1])
+            .xDomain([-1,1])
+            .yDomain([-1,1])
             .showXAxis(true)
             .showYAxis(true)
             .useVoronoi(true)
@@ -255,23 +255,23 @@ TestsCoco.DataVis.prototype.makeScatterGraph = function(data,container){
             .call(chart);
             
             var line1 = d3.select(selector)
-							.append('line')
-							.attr({
-								x1: 75 + chart.xAxis.scale()(-1),
-								y1: 30 + chart.yAxis.scale()(0),
-								x2: 75 + chart.xAxis.scale()(1),
-								y2: 30 + chart.yAxis.scale()(0)
-							})
-							.style("stroke", "#000000");
+                            .append('line')
+                            .attr({
+                                x1: 75 + chart.xAxis.scale()(-1),
+                                y1: 30 + chart.yAxis.scale()(0),
+                                x2: 75 + chart.xAxis.scale()(1),
+                                y2: 30 + chart.yAxis.scale()(0)
+                            })
+                            .style("stroke", "#000000");
             var line = d3.select(selector)
-							.append('line')
-							.attr({
-								x1: 75 + chart.xAxis.scale()(0),
-								y1: 30 + chart.yAxis.scale()(-1),
-								x2: 75 + chart.xAxis.scale()(0),
-								y2: 30 + chart.yAxis.scale()(1)
-							})
-							.style("stroke", "#000000");
+                            .append('line')
+                            .attr({
+                                x1: 75 + chart.xAxis.scale()(0),
+                                y1: 30 + chart.yAxis.scale()(-1),
+                                x2: 75 + chart.xAxis.scale()(0),
+                                y2: 30 + chart.yAxis.scale()(1)
+                            })
+                            .style("stroke", "#000000");
 
         nv.utils.windowResize(chart.update);
 

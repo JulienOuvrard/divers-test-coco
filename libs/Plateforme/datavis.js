@@ -609,7 +609,6 @@ TestsCoco.DataVis.prototype.generateGraphTeacher = function(){
     
     this.makeSparkLine(this.data_Line,'table_spark');
 
-    this.makeLineGraph(this.combine(this.data_Line),'histoAllStudents');
 
 }
 

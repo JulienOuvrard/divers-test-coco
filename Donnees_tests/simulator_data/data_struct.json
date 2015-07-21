@@ -1,0 +1,2446 @@
+{
+  "annotation-types": [
+    {
+      "dc:modified": "2014-09-20",
+      "dc:description": "",
+      "dc:created": "2014-09-20",
+      "id": "Contributions",
+      "dc:title": "Contributions",
+      "dc:creator": "oaubert",
+      "dc:contributor": "oaubert"
+    },
+    {
+      "dc:modified": "2014-09-20",
+      "dc:description": "",
+      "dc:created": "2014-09-20",
+      "id": "Slides",
+      "dc:title": "Slides",
+      "dc:creator": "oaubert",
+      "dc:contributor": "oaubert"
+    },
+    {
+      "dc:modified": "2004-06-30",
+      "dc:description": "",
+      "dc:created": "2004-06-30",
+      "id": "annotation",
+      "dc:title": "Text annotation",
+      "dc:creator": "advene",
+      "dc:contributor": "advene"
+    }
+  ],
+  "annotations": [
+    {
+      "id": "a1",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2014-09-20",
+        "dc:created": "2014-09-20",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Cours d’introduction à l’informatique",
+        "img": {
+          "src": "imagecache/00.png"
+        },
+        "description": "Cours d’introduction à l’informatique\nPartie 3 : Structures de contrôle \nComment répéter une instruction ou l’éviter ?",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20140919",
+      "tags": null,
+      "end": 14489,
+      "begin": 0
+    },
+    {
+      "id": "a2",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2014-09-20",
+        "dc:created": "2014-09-20",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Petit rappel",
+        "img": {
+          "src": "imagecache/01.png"
+        },
+        "description": "Petit rappel\n• L’organisation basique d’une suite d’instructions est le \nséquencement : Inst_1 ; Inst_2 \n\n!\n\n• Effet : Exécuter l’instruction Inst_1, puis l’instruction Inst_2 \nA ← 7; \nA ← 7; \nB ← 5;  \n≠\nB ← 5;  \nB← A+B; \nA← A+B; \nA← A+B;\nB← A+B;\n\n!\n\n!\n\n!",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20140919",
+      "tags": null,
+      "end": 50317,
+      "begin": 14489
+    },
+    {
+      "id": "a3",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2014-09-20",
+        "dc:created": "2014-09-20",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Petit rappel",
+        "img": {
+          "src": "imagecache/02.png"
+        },
+        "description": "Petit rappel\n• L’organisation basique d’une suite d’instructions est le \nséquencement : Inst_1 ; Inst_2 \n\n!\n\n• Effet : Exécuter l’instruction Inst_1, puis l’instruction Inst_2 \nA ← 7; \nA ← 7; \nB ← 5;  \n≠\nB ← 5;  \nB← A+B; \nA← A+B; \nA← A+B;\nB← A+B;\n\n!\n\n!\n\n!\n\nInstructionsABAvant 1??Après 17?Après 275Après 3125Après 41217",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20140919",
+      "tags": null,
+      "end": 62600,
+      "begin": 50317
+    },
+    {
+      "id": "a4",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2014-09-20",
+        "dc:created": "2014-09-20",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Petit rappel",
+        "img": {
+          "src": "imagecache/03.png"
+        },
+        "description": "Petit rappel\n• L’organisation basique d’une suite d’instructions est le \nséquencement : Inst_1 ; Inst_2 \n\n!\n\n• Effet : Exécuter l’instruction Inst_1, puis l’instruction Inst_2 \nA ← 7; \nA ← 7; \nB ← 5;  \n≠\nB ← 5;  \nB← A+B; \nA← A+B; \nA← A+B;\nB← A+B;\n\n!\n\n!\n\n!\n\nInstructionsABAvant 1??Après 17?Après 275Après 3125Après 41217InstructionsABAvant 1??Après 17?Après 275Après 3712Après 41912",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20140919",
+      "tags": null,
+      "end": 76370,
+      "begin": 62600
+    },
+    {
+      "id": "a5",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2014-09-20",
+        "dc:created": "2014-09-20",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Insufﬁsances du séquencement",
+        "img": {
+          "src": "imagecache/04.png"
+        },
+        "description": "Insufﬁsances du séquencement\n\n• Mais c’est insufﬁsant ! \n\n• Plusieurs cas possibles :  \n\n• on ne veut pas toujours faire la même chose \n\n• on a besoin de répéter, d’itérer plusieurs fois la \nmême chose.",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20140919",
+      "tags": null,
+      "end": 109644,
+      "begin": 76370
+    },
+    {
+      "id": "a6",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2014-09-20",
+        "dc:created": "2014-09-20",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Insufﬁsances du ",
+        "img": {
+          "src": "imagecache/05.png"
+        },
+        "description": "Insufﬁsances du \nséquencement\n\n• Mais c’est insufﬁsant ! \nModiﬁer l’ordre naturel des instructions \nse fait à l’aide de structures de \n• Plusieurs cas possibles :  \ncontrôle: les structures conditionnelles \net les structures répétitives….\n• on ne veut pas toujours faire la même chose \n\n• on a besoin de répéter, d’itérer plusieurs fois la \nmême chose.",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20140919",
+      "tags": null,
+      "end": 120395,
+      "begin": 109644
+    },
+    {
+      "id": "a7",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2014-09-20",
+        "dc:created": "2014-09-20",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Les conditionnelles",
+        "img": {
+          "src": "imagecache/06.png"
+        },
+        "description": "Les conditionnelles\nSyntaxe et usage, conditionnelles imbriquées et arbres \nde décision…",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20140919",
+      "tags": null,
+      "end": 134427,
+      "begin": 120395
+    },
+    {
+      "id": "a8",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2014-09-20",
+        "dc:created": "2014-09-20",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Motivations",
+        "img": {
+          "src": "imagecache/07.png"
+        },
+        "description": "Motivations\n\n• Valeur absolue d’un nombre: c’est x si x&gt;0 et -x \nsinon \n\n• Afﬁchage de l’inverse d’un nombre: que fait-on de \n1/0 ? \n\n• Jouer au jeu du plus ou moins \n\n• Tous les cas où il y a des traitements alternatifs",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20140919",
+      "tags": null,
+      "end": 180803,
+      "begin": 134427
+    },
+    {
+      "id": "a9",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2014-09-20",
+        "dc:created": "2014-09-20",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "La syntaxe des alternatives",
+        "img": {
+          "src": "imagecache/08.png"
+        },
+        "description": "La syntaxe des alternatives\nsi (condition) \nAlors Instructions_alors; \nSinon Instructions_sinon; \nﬁn si!\n!\nexemple: \nsi (age &lt; 18) \nAlors Ecrire(‘Vous êtes mineur(e)’); \nSinon Ecrire(‘Vous êtes majeur(e)’); \nﬁn si!",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20140919",
+      "tags": null,
+      "end": 229196,
+      "begin": 180803
+    },
+    {
+      "id": "a10",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2014-09-20",
+        "dc:created": "2014-09-20",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "La syntaxe des alternatives",
+        "img": {
+          "src": "imagecache/09.png"
+        },
+        "description": "La syntaxe des alternatives\nn’importe quelle expression dont la valeur est booléenne\nsi (condition) \nAlors Instructions_alors; \nSinon Instructions_sinon; \nﬁn si!\n!\nexemple: \nsi (age &lt; 18) \nAlors Ecrire(‘Vous êtes mineur(e)’); \nSinon Ecrire(‘Vous êtes majeur(e)’); \nﬁn si!",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20140919",
+      "tags": null,
+      "end": 241882,
+      "begin": 229196
+    },
+    {
+      "id": "a11",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2014-09-20",
+        "dc:created": "2014-09-20",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "La conditionnelle simple",
+        "img": {
+          "src": "imagecache/10.png"
+        },
+        "description": "La conditionnelle simple\n• Cas particulier de l’alternative \nsi (condition) \nAlors Instructions_alors; \nﬁn si!\n!\nexemple: \nsi (x&lt;0) \nAlors x ← -x; \nﬁn si!\nEcrire(x);",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20140919",
+      "tags": null,
+      "end": 281249,
+      "begin": 241882
+    },
+    {
+      "id": "a12",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2014-09-20",
+        "dc:created": "2014-09-20",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "En javascript",
+        "img": {
+          "src": "imagecache/11.png"
+        },
+        "description": "En javascript\n\nsi (age &lt; 18) \nAlors Ecrire(‘Vous êtes mineur(e)’); \nSinon Ecrire(‘Vous êtes majeur(e)’); \nﬁn si!\n!\ndevient \n!\nif (age &lt; 18) { \nEcrire(‘Vous êtes mineur(e)’); \n} else {!\nEcrire(‘Vous êtes majeur(e)’); \n}",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20140919",
+      "tags": null,
+      "end": 319413,
+      "begin": 281249
+    },
+    {
+      "id": "a13",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2014-09-20",
+        "dc:created": "2014-09-20",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "En javascript",
+        "img": {
+          "src": "imagecache/12.png"
+        },
+        "description": "En javascript\n\nsi (age &lt; 18) \nAlors Ecrire(‘Vous êtes mineur(e)’); \nSinon Ecrire(‘Vous êtes majeur(e)’); \nsi (x &lt; 0) \nﬁn si!\nAlors x ← -x; \nﬁn si!\n!\n!\ndevient \ndevient \n!\n  \nif (age &lt; 18) { \nif (x &lt; 0) { \nx = -x; \nEcrire(‘Vous êtes mineur(e)’); \n}\n} else {!\nEcrire(‘Vous êtes majeur(e)’); \n}",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20140919",
+      "tags": null,
+      "end": 338693,
+      "begin": 319413
+    },
+    {
+      "id": "a14",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2014-09-20",
+        "dc:created": "2014-09-20",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Les historiques d’exécution pour les conditionnelles",
+        "img": {
+          "src": "imagecache/13.png"
+        },
+        "description": "Les historiques d’exécution pour les conditionnelles\n• Dans le cas d’une conditionnelle, l’ordre dans \nlequel sont évaluées les instructions n’est pas ﬁxe.\n\nAlgorithme Majorité \nVariables: \nage: entier; \n \n \nstatut: chaîne de caractères; \nDébut \nage ← Saisie(); \n \n \nsi (age &lt; 18) \n \n \nAlors statut ← ‘mineur ’; \n \n \nSinon statut ← ‘majeur ’; \nfin si \n \n \nEcrire(statut); \nFin",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20140919",
+      "tags": null,
+      "end": 356521,
+      "begin": 338693
+    },
+    {
+      "id": "a15",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2014-09-20",
+        "dc:created": "2014-09-20",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Les historiques d’exécution pour les conditionnelles",
+        "img": {
+          "src": "imagecache/14.png"
+        },
+        "description": "Les historiques d’exécution pour les conditionnelles\n• Dans le cas d’une conditionnelle, l’ordre dans \nlequel sont évaluées les instructions n’est pas ﬁxe.\n\nAlgorithme Majorité \nVariables: \nage: entier; \n \n \nstatut: chaîne de caractères; \nDébut \nage ← Saisie(); \n \n1 \n \nsi (age &lt; 18) \n2 \n \n \nAlors statut ← ‘mineur ’; \n3 \n \n \nSinon statut ← ‘majeur ’; \n4 !\nfin si \n \n \nEcrire(statut); \n5\nFin",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20140919",
+      "tags": null,
+      "end": 365040,
+      "begin": 356521
+    },
+    {
+      "id": "a16",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2014-09-20",
+        "dc:created": "2014-09-20",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Les historiques d’exécution pour les conditionnelles",
+        "img": {
+          "src": "imagecache/15.png"
+        },
+        "description": "Les historiques d’exécution pour les conditionnelles\n• Dans le cas d’une conditionnelle, l’ordre dans \nlequel sont évaluées les instructions n’est pas ﬁxe.\n\nAlgorithme Majorité \nVariables: \nage: entier; \n \n \nstatut: chaîne de caractères; \nDébut \nage ← Saisie(); \n \n1 \n \nsi (age &lt; 18) \n2 \n \n \nAlors statut ← ‘mineur ’; \n3 \n \n \nSinon statut ← ‘majeur ’; \n4 !\nfin si \n \n \nEcrire(statut); \n5\nFin",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20140919",
+      "tags": null,
+      "end": 366619,
+      "begin": 365040
+    },
+    {
+      "id": "a17",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2014-09-20",
+        "dc:created": "2014-09-20",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Les historiques d’exécution pour les conditionnelles",
+        "img": {
+          "src": "imagecache/16.png"
+        },
+        "description": "Les historiques d’exécution pour les conditionnelles\n• Dans le cas d’une conditionnelle, l’ordre dans \nlequel sont évaluées les instructions n’est pas ﬁxe.\n\nAlgorithme Majorité \nVariables: \nage: entier; \n \n \nstatut: chaîne de caractères; \nDébut \nage ← Saisie(); \n \n1 \n \nsi (age &lt; 18) \n2 \n \n \nAlors statut ← ‘mineur ’; \n3 \n \n \nSinon statut ← ‘majeur ’; \n4 !\nfin si \n \n \nEcrire(statut); \n5\nFin\n\nInstructionsagestatutAvant 1??Après 1?",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20140919",
+      "tags": null,
+      "end": 371844,
+      "begin": 366619
+    },
+    {
+      "id": "a18",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2014-09-20",
+        "dc:created": "2014-09-20",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Les historiques d’exécution pour les conditionnelles",
+        "img": {
+          "src": "imagecache/17.png"
+        },
+        "description": "Les historiques d’exécution pour les conditionnelles\n• Dans le cas d’une conditionnelle, l’ordre dans \nlequel sont évaluées les instructions n’est pas ﬁxe.\n\nAlgorithme Majorité \nVariables: \nage: entier; \n \n \nstatut: chaîne de caractères; \nDébut \nage ← Saisie(); \n \n1 \n \nsi (age &lt; 18) \n2 \n \n \nAlors statut ← ‘mineur ’; \n3 \n \n \nSinon statut ← ‘majeur ’; \n4 !\nfin si \n \n \nEcrire(statut); \n5\nFin\n\nInstructionsagestatutAvant 1??Après 115?Après 315‘mineur'Après 215‘mineur’Après 515‘mineur’",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20140919",
+      "tags": null,
+      "end": 419924,
+      "begin": 371844
+    },
+    {
+      "id": "a19",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2014-09-20",
+        "dc:created": "2014-09-20",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Les historiques d’exécution pour les conditionnelles",
+        "img": {
+          "src": "imagecache/18.png"
+        },
+        "description": "Les historiques d’exécution pour les conditionnelles\n• Dans le cas d’une conditionnelle, l’ordre dans \nlequel sont évaluées les instructions n’est pas ﬁxe.\n\nAlgorithme Majorité \nVariables: \nage: entier; \n \n \nstatut: chaîne de caractères; \nDébut \nage ← Saisie(); \n \n1 \n \nsi (age &lt; 18) \n2 \n \n \nAlors statut ← ‘mineur ’; \n3 \n \n \nSinon statut ← ‘majeur ’; \n4 !\nfin si \n \n \nEcrire(statut); \n5\nFin\n\nInstructionsagestatutAvant 1??Après 1?",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20140919",
+      "tags": null,
+      "end": 420644,
+      "begin": 419924
+    },
+    {
+      "id": "a20",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2014-09-20",
+        "dc:created": "2014-09-20",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Les historiques d’exécution pour les conditionnelles",
+        "img": {
+          "src": "imagecache/19.png"
+        },
+        "description": "Les historiques d’exécution pour les conditionnelles\n• Dans le cas d’une conditionnelle, l’ordre dans \nlequel sont évaluées les instructions n’est pas ﬁxe.\n\nAlgorithme Majorité \nVariables: \nage: entier; \n \n \nstatut: chaîne de caractères; \nDébut \nage ← Saisie(); \n \n1 \n \nsi (age &lt; 18) \n2 \n \n \nAlors statut ← ‘mineur ’; \n3 \n \n \nSinon statut ← ‘majeur ’; \n4 !\nfin si \n \n \nEcrire(statut); \n5\nFin\n\nInstructionsagestatutAvant 1??Après 121?Après 421‘majeur'Après 221‘majeur'Après 521‘majeur'",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20140919",
+      "tags": null,
+      "end": 502364,
+      "begin": 420644
+    },
+    {
+      "id": "a21",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2014-09-20",
+        "dc:created": "2014-09-20",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Les conditionnelles imbriquées",
+        "img": {
+          "src": "imagecache/20.png"
+        },
+        "description": "Les conditionnelles imbriquées\n• Les instructions que l’on peut mettre le bloc \nd’instructions du Alors, tout comme celle que l’on \npeut mettre dans le bloc du Sinon sont \nquelconques.  \n\n• On peut très bien mettre une conditionnelle ! \n\n• On parle alors de conditionnelles imbriquées. \n\n• Cela sert notamment à implémenter des arbres de \ndécision.",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20140919",
+      "tags": null,
+      "end": 552844,
+      "begin": 502364
+    },
+    {
+      "id": "a22",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2014-09-20",
+        "dc:created": "2014-09-20",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Un cas pratique",
+        "img": {
+          "src": "imagecache/21.png"
+        },
+        "description": "Un cas pratique\n• Un ph peut être basique, neutre ou acide. Il y a \ntrois possibilités.  \n\n• Une alternative ne permet pas de les distinguer. \n\n• Le problème se résout en utilisant l’arbre de \ndécision suivant:\nacide \n\nvrai\n\nph &lt; 7 ?\n\nfaux\n\nph &gt; 7 ?\n\nvrai\n\nfaux\n\nbasique \n\nneutre",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20140919",
+      "tags": null,
+      "end": 612495,
+      "begin": 552844
+    },
+    {
+      "id": "a23",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2014-09-20",
+        "dc:created": "2014-09-20",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Un cas pratique",
+        "img": {
+          "src": "imagecache/22.png"
+        },
+        "description": "Un cas pratique\n• Un ph peut être basique, neutre ou acide. Il y a \nAlgorithme test de ph \ntrois possibilités.  \nVariables: \n \nph: entier; \n \nstatut: chaîne de caractères; \n• Une alternative ne permet pas de les distinguer. \nDébut \nph ← Saisie(); \n \nsi (ph &lt; 7) \n \nAlors statut ← ‘acide’; \n• Le problème se résout en utilisant l’arbre de \n \n \nSinon   si (ph &gt; 7) \n \n \ndécision suivant:\nAlors statut ← ‘basique’; \n \n \n \n \n \nSinon statut ← ‘neutre’; \n \n \n \n \n \nﬁn si \n \n \n \n \nacide \nﬁn si \n \nbasique \nvrai\nEcrire(statut); \n \nFin\nph &gt; 7 ?\nfaux\n\nph &lt; 7 ?\n\nneutre \n\nvrai\n\nfaux",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20140919",
+      "tags": null,
+      "end": 630871,
+      "begin": 612495
+    },
+    {
+      "id": "a24",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2014-09-20",
+        "dc:created": "2014-09-20",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Un cas pratique",
+        "img": {
+          "src": "imagecache/23.png"
+        },
+        "description": "Un cas pratique\nAvoir une bonne indentation de \n• Un ph peut être basique, neutre ou acide. Il y a \nAlgorithme test de ph \nl’algorithme est primordiale pour \ntrois possibilités.  \nVariables: \n \nph: entier; \nen simpliﬁer la compréhension \n \nstatut: chaîne de caractères; \net la lecture !!! \n• Une alternative ne permet pas de les distinguer. \nDébut \nph ← Saisie(); \n \nsi (ph &lt; 7) \n \nAlors statut ← ‘acide’; \n• Le problème se résout en utilisant l’arbre de \n \n \nSinon   si (ph &gt; 7) \n \n \ndécision suivant:\nAlors statut ← ‘basique’; \n \n \n \n \n \nSinon statut ← ‘neutre’; \n \n \n \n \n \nﬁn si \n \n \n \n\n \nacide \nﬁn si \n \nbasique \nvrai\nEcrire(statut); \n \nFin\nph &gt; 7 ?\nfaux\n\nph &lt; 7 ?\n\nneutre \n\nvrai\n\nfaux",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20140919",
+      "tags": null,
+      "end": 633765,
+      "begin": 630871
+    },
+    {
+      "id": "a25",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2014-09-20",
+        "dc:created": "2014-09-20",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Un cas pratique",
+        "img": {
+          "src": "imagecache/24.png"
+        },
+        "description": "Un cas pratique\nAvoir une bonne indentation de \n• Un ph peut être basique, neutre ou acide. Il y a \nAlgorithme test de ph \nl’algorithme est primordiale pour \ntrois possibilités.  \nVariables: \n \nph: entier; \nen simpliﬁer la compréhension \n \nstatut: chaîne de caractères; \net la lecture !!! \n• Une alternative ne permet pas de les distinguer. \nDébut \nph ← Saisie(); \n \nsi (ph &lt; 7) \n \nAlors statut ← ‘acide’; \n• Le problème se résout en utilisant l’arbre de \n \n \nSinon   si (ph &gt; 7) \n \n \ndécision suivant:\nAlors statut ← ‘basique’; \n \n \n \n \n \nSinon statut ← ‘neutre’; \n \n \n \n \n \nﬁn si \n \n \n \n \nacide \nﬁn si \n \nbasique \nvrai\nEcrire(statut); \n \nFin\nph &gt; 7 ?\nfaux\n\nph &lt; 7 ?\n\nneutre \n\nvrai\n\nfaux",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20140919",
+      "tags": null,
+      "end": 672188,
+      "begin": 633765
+    },
+    {
+      "id": "a26",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2014-09-20",
+        "dc:created": "2014-09-20",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Les arbres de décision",
+        "img": {
+          "src": "imagecache/25.png"
+        },
+        "description": "Les arbres de décision\n• Composés d’« embranchements » du type  \n\n!\n\n!\n\nexpression booléenne\n\nvrai\n\nfaux\n\n• Décrivent la succession de tests à réaliser pour prendre une \ndécision (complexe) ﬁnale. \n\n• Souvent, il existe plusieurs arbres permettant de prendre la \nmême décision. \n\n• On peut passer de manière « quasi-automatique » de l’arbre de \ndécision à son écriture dans le langage algorithmique.",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20140919",
+      "tags": null,
+      "end": 745476,
+      "begin": 672188
+    },
+    {
+      "id": "a27",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2014-09-20",
+        "dc:created": "2014-09-20",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Les arbres de décision",
+        "img": {
+          "src": "imagecache/26.png"
+        },
+        "description": "Les arbres de décision\n• Composés d’« embranchements » du type  \nAlors ….\nvrai\nsi (    \n \n \n \n \n \n \n )\nexpression booléenne\nSinon ….\nfin si\nfaux\n• Décrivent la succession de tests à réaliser pour prendre une \ndécision (complexe) ﬁnale. \n\n!\n\n!\n\n• Souvent, il existe plusieurs arbres permettant de prendre la \nmême décision. \n\n• On peut passer de manière « quasi-automatique » de l’arbre de \ndécision à son écriture dans le langage algorithmique.",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20140919",
+      "tags": null,
+      "end": 753695,
+      "begin": 745476
+    },
+    {
+      "id": "a28",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2014-09-20",
+        "dc:created": "2014-09-20",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Les arbres de décision",
+        "img": {
+          "src": "imagecache/27.png"
+        },
+        "description": "Les arbres de décision\n• Composés d’« embranchements » du type  \nAlors ….\nvrai\nsi (    \n \n \n \n \n \n \n )\nexpression booléenne\nSinon ….\nfin si\nfaux\n• Décrivent la succession de tests à réaliser pour prendre une \ndécision (complexe) ﬁnale. \n\n!\n\n!\n\n• Souvent, il existe plusieurs arbres permettant de prendre la \nmême décision. \n\n• On peut passer de manière « quasi-automatique » de l’arbre de \ndécision à son écriture dans le langage algorithmique.",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20140919",
+      "tags": null,
+      "end": 765566,
+      "begin": 753695
+    },
+    {
+      "id": "a29",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2014-09-20",
+        "dc:created": "2014-09-20",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Les arbres de décision",
+        "img": {
+          "src": "imagecache/28.png"
+        },
+        "description": "Les arbres de décision\n• Composés d’« embranchements » du type  \nAlors ….\nvrai\nsi (    \n \n \n \n \n \n \n )\nexpression booléenne\nSinon ….\nfin si\nfaux\n• Décrivent la succession de tests à réaliser pour prendre une \ndécision (complexe) ﬁnale. \nsi (expression booléenne) \n  Alors … \n• Souvent, il existe plusieurs arbres permettant de prendre la \nmême décision. \n  Sinon …. \nfin si\n• On peut passer de manière « quasi-automatique » de l’arbre de \ndécision à son écriture dans le langage algorithmique.",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20140919",
+      "tags": null,
+      "end": 799696,
+      "begin": 765566
+    },
+    {
+      "id": "a30",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2014-09-20",
+        "dc:created": "2014-09-20",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Les répétitives",
+        "img": {
+          "src": "imagecache/29.png"
+        },
+        "description": "Les répétitives\nSyntaxes et usage, doubles boucles…",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20140919",
+      "tags": null,
+      "end": 822413,
+      "begin": 799696
+    },
+    {
+      "id": "a31",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2014-09-20",
+        "dc:created": "2014-09-20",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Motivations",
+        "img": {
+          "src": "imagecache/30.png"
+        },
+        "description": "Motivations\n\n• On a très souvent envie de répéter une ou \nplusieurs instructions. \n\n• Parfois on sait combien de fois on doit répéter, \nparfois on l’ignore. \n\n• On ne veut pas écrire des choses du type…..",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20140919",
+      "tags": null,
+      "end": 855447,
+      "begin": 822413
+    },
+    {
+      "id": "a32",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2014-09-20",
+        "dc:created": "2014-09-20",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Motivations",
+        "img": {
+          "src": "imagecache/31.png"
+        },
+        "description": "Motivations\n\nCalcul de 3^10 \n!\nx ← 1; \nx ← 3 * x; \n• On a très souvent envie de répéter une ou \nx ← 3 * x; \nplusieurs instructions. \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \n• Parfois on sait combien de fois on doit répéter, \nx ← 3 * x; \nx ← 3 * x; \nparfois on l’ignore. \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x;\n• On ne veut pas écrire des choses du type…..",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20140919",
+      "tags": null,
+      "end": 872565,
+      "begin": 855447
+    },
+    {
+      "id": "a33",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2014-09-20",
+        "dc:created": "2014-09-20",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Motivations",
+        "img": {
+          "src": "imagecache/32.png"
+        },
+        "description": "Motivations\nCalcul de 3^50 \n!x ← 1; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nCalcul de 310 \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \n!\nx ← 3 * x; \nx ← 3 * x; \nx ← 1; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \n• On a très souvent envie de répéter une ou \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nplusieurs instructions. \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \n• Parfois on sait combien de fois on doit répéter, \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nparfois on l’ignore. \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x;\n• On ne veut pas écrire des choses du type…..\nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x;",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20140919",
+      "tags": null,
+      "end": 879107,
+      "begin": 872565
+    },
+    {
+      "id": "a34",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2014-09-20",
+        "dc:created": "2014-09-20",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Motivations",
+        "img": {
+          "src": "imagecache/33.png"
+        },
+        "description": "Motivations\nCalcul de 350 \nCalcul de 3100 \n!x ← 1; \n!x ← 1; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nCalcul de 310 \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \n!\nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 1; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \n• On a très souvent envie de répéter une ou \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nplusieurs instructions. \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \n• Parfois on sait combien de fois on doit répéter, \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nparfois on l’ignore. \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x;\n• On ne veut pas écrire des choses du type…..\nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x;\nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x;",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20140919",
+      "tags": null,
+      "end": 883606,
+      "begin": 879107
+    },
+    {
+      "id": "a35",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2014-09-20",
+        "dc:created": "2014-09-20",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Motivations",
+        "img": {
+          "src": "imagecache/34.png"
+        },
+        "description": "Motivations\nCalcul de 350 \nCalcul de 3100 \n!x ← 1; \n!x ← 1; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nCalcul de 310 \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \n!\nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nOn rêve d’écrire: \nx ← 3 * x; \nx ← 3 * x; \nx ← 1; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 1; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \n• On a très souvent envie de répéter une ou \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nrépéter n fois \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nplusieurs instructions. \nx ← 3 * x; \n   \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \n• Parfois on sait combien de fois on doit répéter, \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nparfois on l’ignore. \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x;\n• On ne veut pas écrire des choses du type…..\nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x;\nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x; \nx ← 3 * x;",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20140919",
+      "tags": null,
+      "end": 904264,
+      "begin": 883606
+    },
+    {
+      "id": "a36",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2014-09-20",
+        "dc:created": "2014-09-20",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "La boucle « pour »",
+        "img": {
+          "src": "imagecache/35.png"
+        },
+        "description": "La boucle « pour »\n• C’est une boucle qui intègre un compteur de \nboucle. \n\n• C’est la boucle à utiliser lorsqu’on connaît à \nl’avance le nombre de tours de boucle qui doivent \nêtre réalisés. \n\n!\npour variable allant de val_début à val_ﬁn faire \n \ninstructions à répéter \nﬁn pour",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20140919",
+      "tags": null,
+      "end": 938092,
+      "begin": 904264
+    },
+    {
+      "id": "a37",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2014-09-20",
+        "dc:created": "2014-09-20",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "La boucle « pour »",
+        "img": {
+          "src": "imagecache/36.png"
+        },
+        "description": "La boucle « pour »\n• C’est une boucle qui intègre un compteur de \nboucle. \nAlgorithme Calcul de 310 \nVariables: \n \nx,i: entiers; \n• C’est la boucle à utiliser lorsqu’on connaît à \nDébut \nx ← 1; \n \nl’avance le nombre de tours de boucle qui doivent \n \npour i allant de 1 à 10 faire \nêtre réalisés. \nx ← 3 * x; \n \n \n \nﬁn pour \n \nEcrire(x); \n!\nFin\npour variable allant de val_début à val_ﬁn faire \n \ninstructions à répéter \nﬁn pour",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20140919",
+      "tags": null,
+      "end": 964670,
+      "begin": 938092
+    },
+    {
+      "id": "a38",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2014-09-20",
+        "dc:created": "2014-09-20",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "La boucle « pour »",
+        "img": {
+          "src": "imagecache/37.png"
+        },
+        "description": "La boucle « pour »\n• C’est une boucle qui intègre un compteur de \nboucle. \nAlgorithme Calcul de 310 \nAlgorithme Calcul de 3100 \nVariables: \nVariables: \n \n \nx,i: entiers; \nx,i: entiers; \n• C’est la boucle à utiliser lorsqu’on connaît à \nDébut \nDébut \nx ← 1; \nx ← 1; \n \n \nl’avance le nombre de tours de boucle qui doivent \n \n \npour i allant de 1 à 10 faire \npour i allant de 1 à 100 faire \nêtre réalisés. \nx ← 3 * x; \nx ← 3 * x; \n \n \n \n \n \n \nﬁn pour \nﬁn pour \n \n \nEcrire(x); \nEcrire(x); \n!\nFin\nFin\npour variable allant de val_début à val_ﬁn faire \n \ninstructions à répéter \nﬁn pour",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20140919",
+      "tags": null,
+      "end": 997962,
+      "begin": 964670
+    },
+    {
+      "id": "a39",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2014-09-20",
+        "dc:created": "2014-09-20",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "La boucle « pour »",
+        "img": {
+          "src": "imagecache/38.png"
+        },
+        "description": "La boucle « pour »\n• C’est une boucle qui intègre un compteur de \nboucle. \nAlgorithme Calcul de 310 \nAlgorithme Calcul de 3100 \nAlgorithme Calcul de 20 ! \nVariables: \nVariables: \nVariables: \n \n \n \nx,i: entiers; \nx,i: entiers; \nx,i: entiers; \n• C’est la boucle à utiliser lorsqu’on connaît à \nDébut \nDébut \nDébut \nx ← 1; \nx ← 1; \nx ← 1; \n \n \n \nl’avance le nombre de tours de boucle qui doivent \n \n \n \npour i allant de 1 à 10 faire \npour i allant de 1 à 100 faire \npour i allant de 1 à 20 faire \nêtre réalisés. \nx ← 3 * x; \nx ← 3 * x; \nx ← i * x; \n \n \n \n \n \n \n \n \n \nﬁn pour \nﬁn pour \nﬁn pour \n \n \n \nEcrire(x); \nEcrire(x); \nEcrire(x); \n!\nFin\nFin\nFin\npour variable allant de val_début à val_ﬁn faire \n \ninstructions à répéter \nﬁn pour",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20140919",
+      "tags": null,
+      "end": 1042619,
+      "begin": 997962
+    },
+    {
+      "id": "a40",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2014-09-20",
+        "dc:created": "2014-09-20",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "La boucle « pour »",
+        "img": {
+          "src": "imagecache/39.png"
+        },
+        "description": "La boucle « pour »\n• C’est une boucle qui intègre un compteur de \nboucle. \nAlgorithme Calcul de 310 \nAlgorithme Calcul de 3100 \nAlgorithme Calcul de 20 ! \nVariables: \nVariables: \nVariables: \ni est une variable entière déclarée dans l’algorithme \n \n \n \nx,i: entiers; \nx,i: entiers; \nx,i: entiers; \nElle est incrémentée de 1 à chaque tour de boucle \n• C’est la boucle à utiliser lorsqu’on connaît à \nDébut \nDébut \nDébut \nElle peut être utilisée à l’intérieur de la boucle\nx ← 1; \nx ← 1; \nx ← 1; \n \n \n \nl’avance le nombre de tours de boucle qui doivent \n \n \n \npour i allant de 1 à 10 faire \npour i allant de 1 à 100 faire \npour i allant de 1 à 20 faire \nêtre réalisés. \nx ← 3 * x; \nx ← 3 * x; \nx ← i * x; \n \n \n \n \n \n \n \n \n \nﬁn pour \nﬁn pour \nﬁn pour \n \n \n \nEcrire(x); \nEcrire(x); \nEcrire(x); \n!\nFin\nFin\nFin\npour variable allant de val_début à val_ﬁn faire \n \ninstructions à répéter \nﬁn pour",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20140919",
+      "tags": null,
+      "end": 1055351,
+      "begin": 1042619
+    },
+    {
+      "id": "a41",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2014-09-20",
+        "dc:created": "2014-09-20",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "en Javascript",
+        "img": {
+          "src": "imagecache/40.png"
+        },
+        "description": "en Javascript\n\n• La boucle « pour » s’écrit: \n\n!\nfor(i=1; i &lt;= 10; i=i+1) { \ninstructions \n \n}",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20140919",
+      "tags": null,
+      "end": 1074580,
+      "begin": 1055351
+    },
+    {
+      "id": "a42",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2014-09-20",
+        "dc:created": "2014-09-20",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "en Javascript",
+        "img": {
+          "src": "imagecache/41.png"
+        },
+        "description": "en Javascript\n\n• La boucle « pour » s’écrit: \n\n!\nfor(i=1; i &lt;= 10; i=i+1) { \ninstructions \n \n}\n\n!\n// Algorithme polygone \nvar n,i; \nn = Saisie(); \nfor(i=1; i &lt;= n; i=i+1) { \nAvancer(10); \n \n \nDroite(360/n); \n}",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20140919",
+      "tags": null,
+      "end": 1078427,
+      "begin": 1074580
+    },
+    {
+      "id": "a43",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2014-09-20",
+        "dc:created": "2014-09-20",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "en Javascript",
+        "img": {
+          "src": "imagecache/42.png"
+        },
+        "description": "en Javascript\n\n• La boucle « pour » s’écrit: \n\n!\nfor(i=1; i &lt;= 10; i=i+1) { \ninstructions \n \n}\nAffectation de la valeur de départ à la variable de boucle\n\n!\n// Algorithme polygone \nvar n,i; \nn = Saisie(); \nfor(i=1; i &lt;= n; i=i+1) { \nAvancer(10); \n \n \nDroite(360/n); \n}",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20140919",
+      "tags": null,
+      "end": 1099322,
+      "begin": 1078427
+    },
+    {
+      "id": "a44",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2014-09-20",
+        "dc:created": "2014-09-20",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "en Javascript",
+        "img": {
+          "src": "imagecache/43.png"
+        },
+        "description": "en Javascript\n\nUne expression booléenne de test de continuation\n!\n• La boucle « pour » s’écrit: \n// Algorithme polygone \nvar n,i; \nn = Saisie(); \nfor(i=1; i &lt;= n; i=i+1) { \nAvancer(10); \n \n \nDroite(360/n); \n} \n\n!\nfor(i=1; i &lt;= 10; i=i+1) { \ninstructions \n \n}\nAffectation de la valeur de départ à la variable de boucle",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20140919",
+      "tags": null,
+      "end": 1119620,
+      "begin": 1099322
+    },
+    {
+      "id": "a45",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2014-09-20",
+        "dc:created": "2014-09-20",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "en Javascript",
+        "img": {
+          "src": "imagecache/44.png"
+        },
+        "description": "en Javascript\n\nUne expression booléenne de test de continuation\n!\n• La boucle « pour » s’écrit: \n// Algorithme polygone \nvar n,i; \nn = Saisie(); \nfor(i=1; i &lt;= n; i=i+1) { \nAvancer(10); \n \n \nDroite(360/n); \n} \n\n!\nfor(i=1; i &lt;= 10; i=i+1) { \ninstructions \n \n}\nAffectation de la valeur de départ à la variable de boucle\n\nAffectation: comment varie la variable de boucle \nà chaque tour de boucle",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20140919",
+      "tags": null,
+      "end": 1185462,
+      "begin": 1119620
+    },
+    {
+      "id": "a46",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2014-09-20",
+        "dc:created": "2014-09-20",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "La boucle « tant que »",
+        "img": {
+          "src": "imagecache/45.png"
+        },
+        "description": "La boucle « tant que »\n• C’est une boucle « universelle ». \n• C’est la boucle à utiliser lorsqu’on ne connaît pas à \nl’avance le nombre de tours de boucle qui doivent \nêtre réalisés. \n\n!\nTant que (expression booléenne) faire \n \ninstructions à répéter \nﬁn tant que",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20140919",
+      "tags": null,
+      "end": 1216447,
+      "begin": 1185462
+    },
+    {
+      "id": "a47",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2014-09-20",
+        "dc:created": "2014-09-20",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "La boucle « tant que »",
+        "img": {
+          "src": "imagecache/46.png"
+        },
+        "description": "La boucle « tant que »\n• C’est une boucle « universelle ». \nAlgorithme Calcul de",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20140919",
+      "tags": null,
+      "end": 1263769,
+      "begin": 1216447
+    },
+    {
+      "id": "a48",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2014-09-20",
+        "dc:created": "2014-09-20",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Les dangers",
+        "img": {
+          "src": "imagecache/47.png"
+        },
+        "description": "Les dangers\nTant que (expression booléenne) faire \ninstructions à répéter \n \nﬁn tant que\n• Si le test est faux dès le début, aucun instruction \nn’est exécutée. Le nombre de tours de boucle peut \ndonc être 0,1,2,…… \n\n• Si le test est toujours vrai, on tombe dans le cas \nd’une boucle inﬁnie. C’est un cas à éviter !!!!\n• Les instructions doivent donc modiﬁer la valeur \ncalculée de l’expression booléenne.",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20140919",
+      "tags": null,
+      "end": 1358686,
+      "begin": 1263769
+    },
+    {
+      "id": "a49",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2014-09-20",
+        "dc:created": "2014-09-20",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "en Javascript",
+        "img": {
+          "src": "imagecache/48.png"
+        },
+        "description": "en Javascript\n\n• La boucle « tant que » s’écrit: \n\n!\nwhile(condition) { \ninstructions \n \n}",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20140919",
+      "tags": null,
+      "end": 1370267,
+      "begin": 1358686
+    },
+    {
+      "id": "a50",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2014-09-20",
+        "dc:created": "2014-09-20",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "en Javascript",
+        "img": {
+          "src": "imagecache/49.png"
+        },
+        "description": "en Javascript\n\nUne expression booléenne de test de continuation\n• La boucle « tant que » s’écrit: \n\n!\nwhile(condition) { \ninstructions \n \n}",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20140919",
+      "tags": null,
+      "end": 1375750,
+      "begin": 1370267
+    },
+    {
+      "id": "a51",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2014-09-20",
+        "dc:created": "2014-09-20",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "en Javascript",
+        "img": {
+          "src": "imagecache/50.png"
+        },
+        "description": "en Javascript\n\nUne expression booléenne de test de continuation\n• La boucle « tant que » s’écrit: \n!\n// Algorithme mystère \nvar x; \nx = 1; \nwhile (x &lt; 720) { \nAvancer(10); \n \n \nDroite(x); \n \nx=x+1; \n}\n\n!\nwhile(condition) { \ninstructions \n \n}",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20140919",
+      "tags": null,
+      "end": 1410371,
+      "begin": 1375750
+    },
+    {
+      "id": "a52",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2014-09-20",
+        "dc:created": "2014-09-20",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "en Javascript",
+        "img": {
+          "src": "imagecache/51.png"
+        },
+        "description": "en Javascript\n\nUne expression booléenne de test de continuation\n• La boucle « tant que » s’écrit: \n!\n// Algorithme mystère \nvar x; \nx = 1; \nwhile (x &lt; 720) { \nAvancer(10); \n \n \nDroite(x); \n \nx=x+1; \n}\n\n!\nwhile(condition) { \ninstructions \n \n}",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20140919",
+      "tags": null,
+      "end": 1420833,
+      "begin": 1410371
+    },
+    {
+      "id": "a53",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2014-09-20",
+        "dc:created": "2014-09-20",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Les historiques d’exécution ",
+        "img": {
+          "src": "imagecache/52.png"
+        },
+        "description": "Les historiques d’exécution \npour les répétitives\n• Dans le cas d’une répétitive, les instructions \nrépétées se retrouvent plusieurs fois (évaluées) \ndans l’historique d’exécution.\n\nAlgorithme Toto \nVariables: \n \nnb1,nb2: entiers; \nDébut \n \nnb1 ← 1; \n \nnb2 ← 10; \n \nTant que (nb1&lt;nb2) faire \nnb1 ← 2*nb1;",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20140919",
+      "tags": null,
+      "end": 1437828,
+      "begin": 1420833
+    },
+    {
+      "id": "a54",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2014-09-20",
+        "dc:created": "2014-09-20",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Les historiques d’exécution ",
+        "img": {
+          "src": "imagecache/53.png"
+        },
+        "description": "Les historiques d’exécution \npour les répétitives\n• Dans le cas d’une répétitive, les instructions \nrépétées se retrouvent plusieurs fois (évaluées) \ndans l’historique d’exécution.\n\nAlgorithme Toto \nVariables: \n \nnb1,nb2: entiers; \nDébut \n \nnb1 ← 1; \n1 \n \nnb2 ← 10; \n2 \n \nTant que (nb1&lt;nb2) faire \n3 \nnb1 ← 2*nb1;",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20140919",
+      "tags": null,
+      "end": 1445382,
+      "begin": 1437828
+    },
+    {
+      "id": "a55",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2014-09-20",
+        "dc:created": "2014-09-20",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Les historiques d’exécution ",
+        "img": {
+          "src": "imagecache/54.png"
+        },
+        "description": "Les historiques d’exécution \npour les répétitives\n• Dans le cas d’une répétitive, les instructions \nrépétées se retrouvent plusieurs fois (évaluées) \ndans l’historique d’exécution.\n\nAlgorithme Toto \nVariables: \n \nnb1,nb2: entiers; \nDébut \n \nnb1 ← 1; \n1 \n \nnb2 ← 10; \n2 \n \nTant que (nb1&lt;nb2) faire \n3 \nnb1 ← 2*nb1;",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20140919",
+      "tags": null,
+      "end": 1490950,
+      "begin": 1445382
+    },
+    {
+      "id": "a56",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2014-09-20",
+        "dc:created": "2014-09-20",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Les historiques d’exécution pour les répétitives",
+        "img": {
+          "src": "imagecache/55.png"
+        },
+        "description": "Les historiques d’exécution pour les répétitives\n• Dans le cas d’une répétitive, les instructions \nrépétées se retrouvent plusieurs fois (évaluées) \ndans l’historique d’exécution.\n\nAlgorithme Toto \nVariables: \n \nnb1,nb2: entiers; \nDébut \n \nnb1 ← 1; \n1 \n \nnb2 ← 10; \n2 \n \nTant que (nb1&lt;nb2) faire \n3 \nnb1 ← 2*nb1;",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20140919",
+      "tags": null,
+      "end": 1513189,
+      "begin": 1490950
+    },
+    {
+      "id": "a57",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2014-09-20",
+        "dc:created": "2014-09-20",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Les historiques d’exécution ",
+        "img": {
+          "src": "imagecache/56.png"
+        },
+        "description": "Les historiques d’exécution \npour les répétitives\n• Dans le cas d’une répétitive, les instructions \nrépétées se retrouvent plusieurs fois (évaluées) \ndans l’historique d’exécution.\n\nAlgorithme Toto \nVariables: \n \nnb1,nb2: entiers; \nDébut \n \nnb1 ← 1; \n1 \n \nnb2 ← 10; \n2 \n \nTant que (nb1&lt;nb2) faire \n3 \nnb1 ← 2*nb1;",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20140919",
+      "tags": null,
+      "end": 1523492,
+      "begin": 1513189
+    },
+    {
+      "id": "a58",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2014-09-20",
+        "dc:created": "2014-09-20",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Les historiques d’exécution ",
+        "img": {
+          "src": "imagecache/57.png"
+        },
+        "description": "Les historiques d’exécution \npour les répétitives\n• Dans le cas d’une répétitive, les instructions \nrépétées se retrouvent plusieurs fois (évaluées) \ndans l’historique d’exécution.\n\nAlgorithme Toto \nVariables: \n \nnb1,nb2: entiers; \nDébut \n \nnb1 ← 1; \n1 \n \nnb2 ← 10; \n2 \n \nTant que (nb1&lt;nb2) faire \n3 \nnb1 ← 2*nb1;",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20140919",
+      "tags": null,
+      "end": 1546572,
+      "begin": 1523492
+    },
+    {
+      "id": "a59",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2014-09-20",
+        "dc:created": "2014-09-20",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Boucles doubles",
+        "img": {
+          "src": "imagecache/58.png"
+        },
+        "description": "Boucles doubles\n\n• Les instructions à l’intérieur d’une boucle sont \nquelconques. Cela peut être une autre boucle (on \nparle de boucle double ou boucle imbriquée dans \nce cas). \n\n• Elle sont notamment utiles pour parcourir des \nespaces à deux dimensions (comme par exemple \ntous les pixels de l’écran).",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20140919",
+      "tags": null,
+      "end": 1578324,
+      "begin": 1546572
+    },
+    {
+      "id": "a60",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2014-09-20",
+        "dc:created": "2014-09-20",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Boucles doubles",
+        "img": {
+          "src": "imagecache/59.png"
+        },
+        "description": "Boucles doubles\n!\n// Algorithme couleurs \nvar x,y; \n!\nfor(x=0; x&lt;800; x=x+1) { \n• Les instructions à l’intérieur d’une boucle sont \n \nfor(y=0; y&lt;600; y=y+1) { \n      Point(x,y,rgb((x+y) % 256,x%6,y%6)); \nquelconques. Cela peut être une autre boucle (on \n    } \nparle de boucle double ou boucle imbriquée dans \n} \nce cas). \n\n• Elle sont notamment utiles pour parcourir des \nespaces à deux dimensions (comme par exemple \ntous les pixels de l’écran).",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20140919",
+      "tags": null,
+      "end": 1605803,
+      "begin": 1578324
+    },
+    {
+      "id": "a61",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2014-09-20",
+        "dc:created": "2014-09-20",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Boucles doubles",
+        "img": {
+          "src": "imagecache/60.png"
+        },
+        "description": "Boucles doubles\n!\n// Algorithme couleurs \nvar x,y; \n!\nfor(x=0; x&lt;800; x=x+1) { \n• Les instructions à l’intérieur d’une boucle sont \n \nfor(y=0; y&lt;600; y=y+1) { \n      Point(x,y,rgb((x+y) % 256,x%6,y%6)); \nquelconques. Cela peut être une autre boucle (on \n    } \nparle de boucle double ou boucle imbriquée dans \n} \nce cas). \n\n• Elle sont notamment utiles pour parcourir des \nespaces à deux dimensions (comme par exemple \ntous les pixels de l’écran).",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20140919",
+      "tags": null,
+      "end": 1612607,
+      "begin": 1605803
+    },
+    {
+      "id": "a62",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2014-09-20",
+        "dc:created": "2014-09-20",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Schémas standards",
+        "img": {
+          "src": "imagecache/61.png"
+        },
+        "description": "Schémas standards\nVériﬁcation de saisie, compteurs, accumulateurs \nIL FAUT SAVOIR LES RECONNAITRE !",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20140919",
+      "tags": null,
+      "end": 1655534,
+      "begin": 1612607
+    },
+    {
+      "id": "a63",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2014-09-20",
+        "dc:created": "2014-09-20",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Vériﬁcation de saisie",
+        "img": {
+          "src": "imagecache/62.png"
+        },
+        "description": "Vériﬁcation de saisie\n• On parle de vériﬁcation de saisie lorsqu’une boucle \ncontient une saisie et que la valeur saisie est \nutilisée par le test de continuation de la boucle \n\n• On utilise une pour « tant que » car dans ce cas, \non ne connaît pas le nombre de tour de boucle à \nl’avance",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20140919",
+      "tags": null,
+      "end": 1681035,
+      "begin": 1655534
+    },
+    {
+      "id": "a64",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2014-09-20",
+        "dc:created": "2014-09-20",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Vériﬁcation de saisie",
+        "img": {
+          "src": "imagecache/63.png"
+        },
+        "description": "Vériﬁcation de saisie\n• On parle de vériﬁcation de saisie lorsqu’une boucle \ncontient une saisie et que la valeur saisie est \nutilisée par le test de continuation de la boucle \nAlgorithme Saisie d’un nombre positif  \n• On utilise une pour « tant que » car dans ce cas, \nVariables: \n \nx: entier; \non ne connaît pas le nombre de tour de boucle à \nDébut \nl’avance\nx ← Saisie();  \n \nTant que (x &lt; 0) faire \n \nx ← Saisie(); \n \n \nﬁn tant que \n \nEcrire(x); \n \nFin",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20140919",
+      "tags": null,
+      "end": 1728017,
+      "begin": 1681035
+    },
+    {
+      "id": "a65",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2014-09-20",
+        "dc:created": "2014-09-20",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Vériﬁcation de saisie",
+        "img": {
+          "src": "imagecache/64.png"
+        },
+        "description": "Vériﬁcation de saisie\n• On parle de vériﬁcation de saisie lorsqu’une boucle \ncontient une saisie et que la valeur saisie est \nutilisée par le test de continuation de la boucle \nAlgorithme Saisie d’un nombre positif  \n• On utilise une pour « tant que » car dans ce cas, \nVariables: \n \nx: entier; \non ne connaît pas le nombre de tour de boucle à \nDébut \nl’avance\nx ← Saisie();  \n \nTant que (x &lt; 0) faire \n \nx ← Saisie(); \n \n \nﬁn tant que \n \nEcrire(x); \n \nFin",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20140919",
+      "tags": null,
+      "end": 1756517,
+      "begin": 1728017
+    },
+    {
+      "id": "a66",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2014-09-20",
+        "dc:created": "2014-09-20",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Compteurs",
+        "img": {
+          "src": "imagecache/65.png"
+        },
+        "description": "Compteurs\n• On parle de compteur dès lors que l’on a ajouté les \ninstructions permettant de compter le nombre de \ntours de boucles (i.e., une variable et deux \ninstructions, initialisation et incrémentation du \ncompteur).  \n\n• On peut ajouter un compteur à tout type de boucle. \n\n• Mais la boucle « pour » intègre naturellement un \ncompteur.",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20140919",
+      "tags": null,
+      "end": 1804949,
+      "begin": 1756517
+    },
+    {
+      "id": "a67",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2014-09-20",
+        "dc:created": "2014-09-20",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Compteurs",
+        "img": {
+          "src": "imagecache/66.png"
+        },
+        "description": "Compteurs\n• On parle de compteur dès lors que l’on a ajouté les \ninstructions permettant de compter le nombre de \ntours de boucles (i.e., une variable et deux \ninstructions, initialisation et incrémentation du \ncompteur).  \nAlgorithme Calcul de [log3(100)] \nVariables: \n \nx,i: entiers; \n• On peut ajouter un compteur à tout type de boucle. \nDébut \nx ← 1;  \n \ni ← 0; \n \n• Mais la boucle « pour » intègre naturellement un \n \nTant que (x &lt; 100) faire \ncompteur.\nx ← 3 * x; \n \n \ni ← i+1; \n \n \nﬁn tant que \n \nEcrire(i); \n \nFin",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20140919",
+      "tags": null,
+      "end": 1837187,
+      "begin": 1804949
+    },
+    {
+      "id": "a68",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2014-09-20",
+        "dc:created": "2014-09-20",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Compteurs",
+        "img": {
+          "src": "imagecache/67.png"
+        },
+        "description": "Compteurs\n• On parle de compteur dès lors que l’on a ajouté les \ninstructions permettant de compter le nombre de \ntours de boucles (i.e., une variable et deux \ninstructions, initialisation et incrémentation du \ncompteur).  \nAlgorithme Calcul de [log3(100)] \nVariables: \n \nx,i: entiers; \n• On peut ajouter un compteur à tout type de boucle. \nDébut \nx ← 1;  \n \ni ← 0; \n \n• Mais la boucle « pour » intègre naturellement un \n \nTant que (x &lt; 100) faire \ncompteur.\nx ← 3 * x; \n \n \ni ← i+1; \n \n \nﬁn tant que \n \nEcrire(i); \n \nFin",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20140919",
+      "tags": null,
+      "end": 1850227,
+      "begin": 1837187
+    },
+    {
+      "id": "a69",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2014-09-20",
+        "dc:created": "2014-09-20",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Accumulateurs",
+        "img": {
+          "src": "imagecache/68.png"
+        },
+        "description": "Accumulateurs\n• On parle d’accumulateur dès lors que l’on a ajouté les \ninstructions permettant de cumuler des valeurs à chaque \ntour de boucle (i.e., une variable et deux instructions, \ninitialisation et modiﬁcations de l’accumulateur).  \n• Un accumulateur peut être additif, multiplicatif ou de \nconcaténation. \n• Il peut s’ajouter à tout type de boucle. \n• Un accumulateur permet par exemple de calculer des \nformules de type               ou \nnYi=0\nai",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20140919",
+      "tags": null,
+      "end": 1915153,
+      "begin": 1850227
+    },
+    {
+      "id": "a70",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2014-09-20",
+        "dc:created": "2014-09-20",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Accumulateurs",
+        "img": {
+          "src": "imagecache/69.png"
+        },
+        "description": "Accumulateurs\nAlgorithme Calcul de 20 ! \nVariables: \n \nx,i: entiers; \nDébut \nx ← 1; \n \n• On parle d’accumulateur dès lors que l’on a ajouté les \n \npour i allant de 1 à 20 faire \ninstructions permettant de cumuler des valeurs à chaque \nx ← x * i; \n \n \ntour de boucle (i.e., une variable et deux instructions, \n \nﬁn pour \n \nEcrire(x); \ninitialisation et modiﬁcations de l’accumulateur).  \nFin\n• Un accumulateur peut être additif, multiplicatif ou de \nconcaténation. \n• Il peut s’ajouter à tout type de boucle. \n• Un accumulateur permet par exemple de calculer des \nformules de type               ou \nnYi=0\nai",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20140919",
+      "tags": null,
+      "end": 1936073,
+      "begin": 1915153
+    },
+    {
+      "id": "a71",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2014-09-20",
+        "dc:created": "2014-09-20",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Accumulateurs",
+        "img": {
+          "src": "imagecache/70.png"
+        },
+        "description": "Accumulateurs\nAlgorithme Calcul de 20 ! \nVariables: \n \nx,i: entiers; \nDébut \nx ← 1; \n \n• On parle d’accumulateur dès lors que l’on a ajouté les \n \npour i allant de 1 à 20 faire \ninstructions permettant de cumuler des valeurs à chaque \nx ← x * i; \n \n \ntour de boucle (i.e., une variable et deux instructions, \n \nﬁn pour \n \nEcrire(x); \ninitialisation et modiﬁcations de l’accumulateur).  \nAlgorithme Répétition de caractères \nFin\nVariables: \n• Un accumulateur peut être additif, multiplicatif ou de \n \nx: chaîne de caractères \n \ni: entiers; \nconcaténation. \nDébut \nx ← ‘’; \n \n• Il peut s’ajouter à tout type de boucle. \n \npour i allant de 1 à 100 faire \nx ← x+ ‘*’; \n \n \n \nﬁn pour \n• Un accumulateur permet par exemple de calculer des \n \nEcrire(x); \nformules de type               ou \nnYi=0\nFin\nai",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20140919",
+      "tags": null,
+      "end": 1964913,
+      "begin": 1936073
+    },
+    {
+      "id": "a72",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2014-09-20",
+        "dc:created": "2014-09-20",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Accumulateurs",
+        "img": {
+          "src": "imagecache/71.png"
+        },
+        "description": "Accumulateurs\nAlgorithme Calcul de 20 ! \nVariables: \n \nx,i: entiers; \nDébut \nx ← 1; \n \n• On parle d’accumulateur dès lors que l’on a ajouté les \n \npour i allant de 1 à 20 faire \ninstructions permettant de cumuler des valeurs à chaque \nx ← x * i; \n \n \ntour de boucle (i.e., une variable et deux instructions, \n \nﬁn pour \n \nEcrire(x); \ninitialisation et modiﬁcations de l’accumulateur).  \nAlgorithme Répétition de caractères \nFin\nVariables: \nAlgorithme Moyenne de 36 notes saisies \n• Un accumulateur peut être additif, multiplicatif ou de \n \nx: chaîne de caractères \nVariables: \n \ni: entiers; \nconcaténation. \nnote,i: entiers; \n \nDébut \nx: réel; \n \nx ← ‘’; \n \nDébut \n• Il peut s’ajouter à tout type de boucle. \n \npour i allant de 1 à 100 faire \nx ← 0; \n \nx ← x+ ‘*’; \n \n \n \npour i allant de 1 à 36 faire \n \nﬁn pour \n• Un accumulateur permet par exemple de calculer des \nnote ← Saisie(); \n \n \n \nEcrire(x); \nx ← x + note; \nformules de type               ou \nnYi=0\n \n \nFin\nﬁn pour \n \nai\nEcrire(x/36); \n \nFin",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20140919",
+      "tags": null,
+      "end": 1986777,
+      "begin": 1964913
+    },
+    {
+      "id": "a73",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2014-09-20",
+        "dc:created": "2014-09-20",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Accumulateurs",
+        "img": {
+          "src": "imagecache/72.png"
+        },
+        "description": "Accumulateurs\nAlgorithme Calcul de 20 ! \nVariables: \n \nx,i: entiers; \n« élément neutre » de l’opération\nDébut \nx ← 1; \n \n• On parle d’accumulateur dès lors que l’on a ajouté les \n \npour i allant de 1 à 20 faire \ninstructions permettant de cumuler des valeurs à chaque \nx ← x * i; \n \n \ntour de boucle (i.e., une variable et deux instructions, \n \nﬁn pour \n \nEcrire(x); \ninitialisation et modiﬁcations de l’accumulateur).  \nAlgorithme Répétition de caractères \nFin\nVariables: \nAlgorithme Moyenne de 36 notes saisies \n• Un accumulateur peut être additif, multiplicatif ou de \n \nx: chaîne de caractères \nVariables: \n \ni: entiers; \nconcaténation. \nnote,i: entiers; \n \nDébut \nx: réel; \n \nx ← ‘’; \n \nDébut \n• Il peut s’ajouter à tout type de boucle. \n \npour i allant de 1 à 100 faire \nx ← 0; \n \nx ← x+ ‘*’; \n \n \n \npour i allant de 1 à 36 faire \n \nﬁn pour \n• Un accumulateur permet par exemple de calculer des \nnote ← Saisie(); \n \n \n \nEcrire(x); \nx ← x + note; \nformules de type               ou \nnYi=0\n \n \nFin\nﬁn pour \n \nai\nEcrire(x/36); \n \nFin",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20140919",
+      "tags": null,
+      "end": 2018991,
+      "begin": 1986777
+    },
+    {
+      "id": "a74",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2014-09-20",
+        "dc:created": "2014-09-20",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Accumulateurs",
+        "img": {
+          "src": "imagecache/73.png"
+        },
+        "description": "Accumulateurs\nAlgorithme Calcul de 20 ! \nVariables: \n \nx,i: entiers; \n« élément neutre » de l’opération\nDébut \nx ← 1; \n \n• On parle d’accumulateur dès lors que l’on a ajouté les \n \npour i allant de 1 à 20 faire \ninstructions permettant de cumuler des valeurs à chaque \nx ← x * i; \n \n \ntour de boucle (i.e., une variable et deux instructions, \n \nﬁn pour \n \nEcrire(x); \ninitialisation et modiﬁcations de l’accumulateur).  \nAlgorithme Répétition de caractères \nFin\nVariables: \nAlgorithme Moyenne de 36 notes saisies \n• Un accumulateur peut être additif, multiplicatif ou de \n \nx: chaîne de caractères \nVariables: \n \ni: entiers; \nconcaténation. \nnote,i: entiers; \n \nDébut \nx: réel; \n \nx ← ‘’; \n \n« élément neutre » de l’opération\nDébut \n• Il peut s’ajouter à tout type de boucle. \n \npour i allant de 1 à 100 faire \nx ← 0; \n \nx ← x+ ‘*’; \n \n \n \npour i allant de 1 à 36 faire \n \nﬁn pour \n• Un accumulateur permet par exemple de calculer des \nnote ← Saisie(); \n \n \n \nEcrire(x); \nx ← x + note; \nformules de type               ou \nnYi=0\n \n \nFin\nﬁn pour \n \nai\nEcrire(x/36); \n \nFin",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20140919",
+      "tags": null,
+      "end": 2030325,
+      "begin": 2018991
+    },
+    {
+      "id": "a75",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2014-09-20",
+        "dc:created": "2014-09-20",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Accumulateurs",
+        "img": {
+          "src": "imagecache/74.png"
+        },
+        "description": "Accumulateurs\nAlgorithme Calcul de 20 ! \nVariables: \n \nx,i: entiers; \n« élément neutre » de l’opération\nDébut \nx ← 1; \n \n• On parle d’accumulateur dès lors que l’on a ajouté les \n \npour i allant de 1 à 20 faire \ninstructions permettant de cumuler des valeurs à chaque \nx ← x * i; \n \n \ntour de boucle (i.e., une variable et deux instructions, \n \nﬁn pour \n \nEcrire(x); \ninitialisation et modiﬁcations de l’accumulateur).  \nAlgorithme Répétition de caractères \nFin\nVariables: \nAlgorithme Moyenne de 36 notes saisies \n• Un accumulateur peut être additif, multiplicatif ou de \n \nx: chaîne de caractères \nVariables: \n \ni: entiers; \nconcaténation. \n« élément neutre » de l’opération\nnote,i: entiers; \n \nDébut \nx: réel; \n \nx ← ‘’; \n \n« élément neutre » de l’opération\nDébut \n• Il peut s’ajouter à tout type de boucle. \n \npour i allant de 1 à 100 faire \nx ← 0; \n \nx ← x+ ‘*’; \n \n \n \npour i allant de 1 à 36 faire \n \nﬁn pour \n• Un accumulateur permet par exemple de calculer des \nnote ← Saisie(); \n \n \n \nEcrire(x); \nx ← x + note; \nformules de type               ou \nnYi=0\n \n \nFin\nﬁn pour \n \nai\nEcrire(x/36); \n \nFin",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20140919",
+      "tags": null,
+      "end": 2053223,
+      "begin": 2030325
+    },
+    {
+      "id": "a76",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2014-09-20",
+        "dc:created": "2014-09-20",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Un exemple complet  - Le jeu du plus ou moins",
+        "img": {
+          "src": "imagecache/75.png"
+        },
+        "description": "Un exemple complet  - Le jeu du plus ou moins",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20140919",
+      "tags": null,
+      "end": 2069453,
+      "begin": 2053223
+    },
+    {
+      "id": "a77",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2014-09-20",
+        "dc:created": "2014-09-20",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Un exemple complet  - Le jeu du plus ou moins",
+        "img": {
+          "src": "imagecache/76.png"
+        },
+        "description": "Un exemple complet  - Le jeu du plus ou moins\nAu départ, c’est une simple vériﬁcation de saisie…",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20140919",
+      "tags": null,
+      "end": 2083181,
+      "begin": 2069453
+    },
+    {
+      "id": "a78",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2014-09-20",
+        "dc:created": "2014-09-20",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Un exemple complet  - Le jeu du plus ou moins",
+        "img": {
+          "src": "imagecache/77.png"
+        },
+        "description": "Un exemple complet  - Le jeu du plus ou moins\nAlgorithme Le jeu du plus ou moins \nVariables: \n \ncache, proposition: entiers \nDébut \ncache  ← Hasard(10); // tire un nombre au hasard entre 0 et 9 \n \n \nproposition ← Saisie(); \nTant que (proposition ≠ cache) faire \n \n \n \nproposition ← Saisie(); \n \nfin tant que \n \nEcrire(‘Gagné !’); \nFin",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20140919",
+      "tags": null,
+      "end": 2120967,
+      "begin": 2083181
+    },
+    {
+      "id": "a79",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2014-09-20",
+        "dc:created": "2014-09-20",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Un exemple complet - Le jeu du plus ou moins",
+        "img": {
+          "src": "imagecache/78.png"
+        },
+        "description": "Un exemple complet - Le jeu du plus ou moins\nOn ajoute une indication à l’utilisateur, le fameux plus ou moins….\nAlgorithme Le jeu du plus ou moins \nVariables: \n \ncache, proposition: entiers \nDébut \ncache  ← Hasard(10); // tire un nombre au hasard entre 0 et 9 \n \n \nproposition ← Saisie(); \nTant que (proposition ≠ cache) faire \n \n \n \nproposition ← Saisie(); \n \nfin tant que \n \nEcrire(‘Gagné !’); \nFin",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20140919",
+      "tags": null,
+      "end": 2129421,
+      "begin": 2120967
+    },
+    {
+      "id": "a80",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2014-09-20",
+        "dc:created": "2014-09-20",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Un exemple complet  - Le jeu du plus ou moins",
+        "img": {
+          "src": "imagecache/79.png"
+        },
+        "description": "Un exemple complet  - Le jeu du plus ou moins\nAlgorithme Le jeu du plus ou moins \nVariables: \n \ncache, proposition: entiers \nDébut \ncache  ← Hasard(10); // tire un nombre au hasard entre 0 et 9 \n \nproposition ← Saisie(); \n \n \nTant que (proposition ≠ cache) faire \nsi (proposition &lt; cache) \n \n \n \n \n \nAlors Ecrire(‘C est plus !’); \n \n \n \nSinon Ecrire(‘C est moins !’); \n \n \nfin si \n \n \nproposition ← Saisie(); \n \nfin tant que \n \nEcrire(‘Gagné !’); \nFin",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20140919",
+      "tags": null,
+      "end": 2161106,
+      "begin": 2129421
+    },
+    {
+      "id": "a81",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2014-09-20",
+        "dc:created": "2014-09-20",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Un exemple complet - Le jeu du plus ou moins",
+        "img": {
+          "src": "imagecache/80.png"
+        },
+        "description": "Un exemple complet - Le jeu du plus ou moins\nMaintenant, on va compter le nombre de propositions, ajout d’un compteur !\nAlgorithme Le jeu du plus ou moins \nVariables: \n \ncache, proposition: entiers \nDébut \ncache  ← Hasard(10); // tire un nombre au hasard entre 0 et 9 \n \nproposition ← Saisie(); \n \n \nTant que (proposition ≠ cache) faire \nsi (proposition &lt; cache) \n \n \n \n \n \nAlors Ecrire(‘C est plus !’); \n \n \n \nSinon Ecrire(‘C est moins !’); \n \n \nfin si \n \n \nproposition ← Saisie(); \n \nfin tant que \n \nEcrire(‘Gagné !’); \nFin",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20140919",
+      "tags": null,
+      "end": 2170258,
+      "begin": 2161106
+    },
+    {
+      "id": "a82",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2014-09-20",
+        "dc:created": "2014-09-20",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Un exemple complet  - Le jeu du plus ou moins",
+        "img": {
+          "src": "imagecache/81.png"
+        },
+        "description": "Un exemple complet  - Le jeu du plus ou moins\nMaintenant, on va compter le nombre de propositions, ajout d’un compteur !\nAlgorithme Le jeu du plus ou moins \nVariables: \n \ncache, proposition, nbpropositions: entiers \nDébut \ncache  ← Hasard(10); // tire un nombre au hasard entre 0 et 9 \n \n \nproposition ← Saisie(); \nnbpropositions ← 1; \n \nTant que (proposition ≠ cache) faire \n \n \n \nnbpropositions ← nbpropositions + 1; \nsi (proposition &lt; cache) \n \n \n \n \n \nAlors Ecrire(‘C est plus !’); \n \n \n \nSinon Ecrire(‘C est moins !’); \n \n \nfin si \n \n \nproposition ← Saisie(); \n \nfin tant que \nEcrire(‘Gagné ! Vous avez mis ’+ nbpropositions+’ coups !’); \n \nFin",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20140919",
+      "tags": null,
+      "end": 2188311,
+      "begin": 2170258
+    },
+    {
+      "id": "a83",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2014-09-20",
+        "dc:created": "2014-09-20",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Un exemple complet - Le jeu du plus ou moins",
+        "img": {
+          "src": "imagecache/82.png"
+        },
+        "description": "Un exemple complet - Le jeu du plus ou moins\nMaintenant, on va compter le nombre de propositions, ajout d’un compteur !\nAlgorithme Le jeu du plus ou moins \nVariables: \n \ncache, proposition, nbpropositions: entiers \nDébut \ncache  ← Hasard(10); // tire un nombre au hasard entre 0 et 9 \n \n \nproposition ← Saisie(); \nnbpropositions ← 1; \n \nMoralité: on a combiné une vériﬁcation de saisie et un \nTant que (proposition ≠ cache) faire \n \ncompteur sur une boucle tant que \n \n \nnbpropositions ← nbpropositions + 1; \n!\nsi (proposition &lt; cache) \n \n \nAlors Ecrire(‘C est plus !’); \n \n \n \nOn a ajouté en plus une conditionnelle. \n!\nSinon Ecrire(‘C est moins !’); \n \n \n \n \n \nfin si \nFinalement, on a crée notre jeu complet !\nproposition ← Saisie(); \n \n \n \nfin tant que \nEcrire(‘Gagné ! Vous avez mis ’+ nbpropositions+’ coups !’); \n \nFin",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20140919",
+      "tags": null,
+      "end": 2198993,
+      "begin": 2188311
+    },
+    {
+      "id": "a84",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2014-09-20",
+        "dc:created": "2014-09-20",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "En javascript",
+        "img": {
+          "src": "imagecache/83.png"
+        },
+        "description": "En javascript\n\nAlgorithme Le jeu du plus ou moins \nVariables: \n \ncache, proposition, nbpropositions: entiers \nDébut \n \n \n \n \n \n \n \n \n \n \n \n \nFin\n\ncache  ← Hasard(10); // tire un nombre au hasard entre 0 et 9 \nproposition ← Saisie(); \nnbpropositions ← 1; \nTant que (proposition ≠ cache) faire \nnbpropositions ← nbpropositions + 1; \n \nsi (proposition &lt; cache) \n \n \n \nAlors Ecrire(‘C est plus !’); \n \n \nSinon Ecrire(‘C est moins !’); \n \nfin si \n \nproposition ← Saisie(); \nfin tant que \nEcrire(‘Gagné ! Vous avez mis ’+ nbpropositions+’ coups !’); \n\n// Algorithme le jeu du plus ou moins \n!\nvar proposition, cache, nbpropositions; \n!\ncache = Hasard(10); \nproposition = Saisie(); \nnbpropositions = 1; \nwhile (proposition != cache) { \nnbpropositions = nbpropositions + 1; \n \n \nif (proposition &lt; cache) { \n \n \nEcrire(‘C\\’est plus !’); \n} else { \n \n \n \nEcrire(‘C\\’est moins !’); \n \n} \n \nproposition = Saisie(); \n} \nEcrire(‘Gagné ! Vous avez mis ‘+nbpropositions\n+’ coups’); \n!",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20140919",
+      "tags": null,
+      "end": 2207786,
+      "begin": 2198993
+    },
+    {
+      "id": "a85",
+      "meta": {
+        "dc:creator": "oaubert",
+        "dc:modified": "2014-09-20",
+        "dc:created": "2014-09-20",
+        "id-ref": "Slides",
+        "dc:contributor": "oaubert"
+      },
+      "content": {
+        "audio": {
+          "href": null,
+          "src": "",
+          "mimetype": "audio/mp3"
+        },
+        "polemics": [],
+        "title": "Bilan",
+        "img": {
+          "src": "imagecache/84.png"
+        },
+        "description": "Bilan\n• Un algorithme est une suite séquentielle \nd’instructions qui modiﬁent l’état de la mémoire. \n\n• La syntaxe est enrichie de structures de contrôle: \nconditionnelles et répétitives pour simpliﬁer/\noptimiser l’écriture de l’algorithme. \n\n• Des schémas standards qui s’appliquent et se \ncombinent dans énormément de cas de résolution \nde problèmes.",
+        "mimetype": "application/x-ldt-structured"
+      },
+      "media": "m20140919",
+      "tags": null,
+      "end": 2249000,
+      "begin": 2207786
+    }
+  ],
+  "meta": {
+    "id": "package1",
+    "main_media": "m20140919",
+    "dc:created": "2011-02-14T15:15:52.602502",
+    "dc:modified": "2014-09-19",
+    "dc:description": "",
+    "dc:title": "Structures de contrôle",
+    "dc:creator": "admin",
+    "dc:contributor": "admin"
+  },
+  "medias": [
+    {
+      "unit": "ms",
+      "id": "m20140919",
+      "meta": {
+        "dc:modified": "2014-09-19",
+        "dc:contributor": "oaubert",
+        "dc:creator": "oaubert",
+        "dc:created.contents": "2014-09-19",
+        "dc:title": "/home/data/video2/coco/20140919-jeremie_bourdon/20140919-screen.mp4",
+        "dc:creator.contents": "oaubert",
+        "dc:description": "",
+        "dc:created": "2014-09-19",
+        "dc:duration": 2249000
+      },
+      "http://advene.liris.cnrs.fr/ns/frame_of_reference/ms": "o=0",
+      "url": "/home/data/video2/coco/20140919-jeremie_bourdon/20140919-screen.mp4",
+      "origin": "0"
+    }
+  ],
+  "lists": [],
+  "views": [],
+  "tags": []
+}

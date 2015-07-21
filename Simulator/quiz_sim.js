@@ -18,9 +18,9 @@ function simulate(other_words,nb_tours,nb_question_by_tours,nb_questions){
             $.get("../Donnees_tests/simulator_data/stop-words_french_2_fr.txt"),
             $.get("../Donnees_tests/simulator_data/data_reseau.json"),
             $.get("../Donnees_tests/simulator_data/data_crypto.json"),
-            $.get("../Donnees_tests/simulator_data/data_algo.json"))
-        .done(function(stop_word1,stop_word2,data_res,data_crypt,data_algo){
-                var documents = [data_res[0],data_crypt[0],data_algo[0]];
+            $.get("../Donnees_tests/simulator_data/data_struct.json"))
+        .done(function(stop_word1,stop_word2,data_res,data_crypt,data_struct){
+                var documents = [data_res[0],data_crypt[0],data_struct[0]];
                 
                 var questions = quest_sim.main(stop_word1,stop_word2,documents,other_words,nb_questions),
                     answers = [],

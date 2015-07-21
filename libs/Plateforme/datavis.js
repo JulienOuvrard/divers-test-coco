@@ -235,8 +235,8 @@ TestsCoco.DataVis.prototype.makeScatterGraph = function(data,container){
     
     nv.addGraph(function() {
         var chart = nv.models.scatterChart()
-			.xDomain([-1,1])
-			.yDomain([-1,1])
+            .xDomain([-1,1])
+            .yDomain([-1,1])
             .showXAxis(true)
             .showYAxis(true)
             .useVoronoi(true)
@@ -254,29 +254,48 @@ TestsCoco.DataVis.prototype.makeScatterGraph = function(data,container){
             .datum(data)
             .call(chart);
             
-            var line1 = d3.select(selector)
-							.append('line')
-							.attr({
-								x1: 75 + chart.xAxis.scale()(-1),
-								y1: 30 + chart.yAxis.scale()(0),
-								x2: 75 + chart.xAxis.scale()(1),
-								y2: 30 + chart.yAxis.scale()(0)
-							})
-							.style("stroke", "#000000");
-            var line = d3.select(selector)
-							.append('line')
-							.attr({
-								x1: 75 + chart.xAxis.scale()(0),
-								y1: 30 + chart.yAxis.scale()(-1),
-								x2: 75 + chart.xAxis.scale()(0),
-								y2: 30 + chart.yAxis.scale()(1)
-							})
-							.style("stroke", "#000000");
+            var lineX = d3.select(selector)
+                            .append('line')
+                            .attr({
+                                x1: 75 + chart.xAxis.scale()(-1),
+                                y1: 30 + chart.yAxis.scale()(0),
+                                x2: 75 + chart.xAxis.scale()(1),
+                                y2: 30 + chart.yAxis.scale()(0)
+                            })
+                            .style("stroke", "#000000");
+            var lineY = d3.select(selector)
+                            .append('line')
+                            .attr({
+                                x1: 75 + chart.xAxis.scale()(0),
+                                y1: 30 + chart.yAxis.scale()(-1),
+                                x2: 75 + chart.xAxis.scale()(0),
+                                y2: 30 + chart.yAxis.scale()(1)
+                            })
+                            .style("stroke", "#000000");
 
         nv.utils.windowResize(chart.update);
-
-        return chart;
-    });
+        nv.utils.windowResize(function(){
+            chart.update();
+            lineX.attr({
+                x1: 75 + chart.xAxis.scale()(-1),
+                y1: 30 + chart.yAxis.scale()(0),
+                x2: 75 + chart.xAxis.scale()(1),
+                y2: 30 + chart.yAxis.scale()(0)
+            }),
+            lineY.attr({
+                x1: 75 + chart.xAxis.scale()(0),
+                y1: 30 + chart.yAxis.scale()(-1),
+                x2: 75 + chart.xAxis.scale()(0),
+                y2: 30 + chart.yAxis.scale()(1)
+            })
+            
+        });
+        return chart;  },function(){
+          d3.selectAll(".nv-scatter").on('click',
+               function(){
+                     console.log("test");
+           });
+      });
 }
 
 TestsCoco.DataVis.prototype.dataForLineGraph = function(tab_date,tab_user){
@@ -288,7 +307,7 @@ TestsCoco.DataVis.prototype.dataForLineGraph = function(tab_date,tab_user){
         d['key']='Note';
         d['values']=[];
         $.each(_this.sortAndComplete(value),function(session_index,session_value){
-            var moyenne = (session_value.right_answer * 20) / (session_value.right_answer + session_value.wrong_answer + session_value.skipped_answer);
+            var moyenne = (session_value.right_answer * 100) / (session_value.right_answer + session_value.wrong_answer);
             var date = new Date (tab_date[session_index]);
             d['values'].push([date,moyenne]);
         });
@@ -405,9 +424,110 @@ TestsCoco.DataVis.prototype.combine = function(tab){
     return ret;
 }
 
+TestsCoco.DataVis.prototype.getMedia = function(medias,subject){
+    var ret;
+    $.each(medias,function(index,value){
+        $.each(value,function(i,v){
+            if(v.id == subject ){
+                ret = index;
+            }
+        });
+    });
+    return ret;
+}
+
+TestsCoco.DataVis.prototype.getGeneralAverage = function(medias,answers){
+    var _this = this;
+    var ret = {};
+    var answered_questions = _.groupBy(answers,'subject');
+    $.each(medias,function(index,value){
+        var q_vid = _.keys(_.groupBy(value,'id'));
+        var moyenne = {};
+        $.each(answered_questions,function(q_index,q_value){
+            if($.inArray(q_index,q_vid) != -1){
+                var prop = _.groupBy(q_value,'property');
+                var right = prop.right_answer ? prop.right_answer.length : 0;
+                var wrong = prop.wrong_answer ? prop.wrong_answer.length : 0; 
+                moyenne[q_index] = right * 100 / (right + wrong);
+            }
+        });
+        var moyenne_generale = _.sum(moyenne)/(_.keys(moyenne).length);
+        ret[index] = moyenne_generale;
+    });
+    return ret;
+}
+
+TestsCoco.DataVis.prototype.getUsersAverage = function(medias,answers){
+    var _this = this;
+    var ret = {};
+    var us = _.groupBy(answers,'username');
+    $.each(us,function(index,value){
+        ret[index]={};
+        var sessions = _.groupBy(value,'sessionId');
+        $.each(sessions, function(s_index,s_value){
+            var med = _this.getMedia(medias,s_value[0].subject);
+            var prop = _.groupBy(s_value,'property');
+            var right = prop.right_answer ? prop.right_answer.length : 0;
+            var wrong = prop.wrong_answer ? prop.wrong_answer.length : 0; 
+            ret[index][med] = right * 100 / (right + wrong);
+        });
+    });
+    return ret;
+}
+
+TestsCoco.DataVis.prototype.dataForBullet = function (userAverage, generalAverage){
+
+    var ret = {},
+        title = "Moyenne",
+        ranges = [0,50,100],
+        markerLabels = ['Moyenne générale'],
+        measureLabels = ['Moyenne étudiant'];
+
+    $.each(userAverage,function(index,value){
+        ret[index]=[];
+        $.each(value,function(media_index,media_value){
+            var obj = {};
+            obj.title = title;
+            obj.subtitle = media_index;
+            obj.ranges =  ranges;
+            obj.measures = [media_value];
+            obj.markers = [generalAverage[media_index]];
+            obj.markerLabels = markerLabels;
+            obj.measureLabels = measureLabels;
+            ret[index].push(obj)
+        });
+    });
+    
+    return ret;
+    
+}
+
+TestsCoco.DataVis.prototype.makeBulletChart = function(data,container){
+    var width = 760,
+        height = 80,
+        margin = {top: 5, right: 40, bottom: 20, left: 120};
+
+    var chart = nv.models.bulletChart()
+            .width(width - margin.right - margin.left)
+            .height(height - margin.top - margin.bottom);
+            
+    var vis = d3.select("#"+container).selectAll("svg")
+        .data(data)
+        .enter().append("svg")
+        .attr("class", "bullet nvd3")
+        .attr("width", width)
+        .attr("height", height);
+
+    vis.transition().duration(1000).call(chart);
+    
+    return vis;
+}
+
 TestsCoco.DataVis.prototype.getAllData = function (questions,answers) {
     var ann = questions.annotations;
 
+    var medias = _.groupBy(ann,'media');
+    
     this.max_time = _.max(ann,'begin');
         
     this.times = _.pluck(_.filter(ann, 'type', 'Quizz'), 'begin');
@@ -436,6 +556,7 @@ TestsCoco.DataVis.prototype.getAllData = function (questions,answers) {
     /** Data For Student **/
     this.data_Histo_answer = this.dataForHisto(['right_answer','wrong_answer','skipped_answer'],this.propertiesByQuestion,this.propertiesByQuestionByUser,true);
     this.data_Histo_vote = this.dataForHisto(['usefull','useless','skipped_vote'],this.propertiesByQuestion,this.propertiesByQuestionByUser);
+    this.data_Bullet = this.dataForBullet(this.getUsersAverage(medias,answers),this.getGeneralAverage(medias,answers));
     
     /** Data For Teacher **/
     this.data_Scatter = this.dataForScatter(this.propertiesByQuestion);
@@ -450,6 +571,7 @@ TestsCoco.DataVis.prototype.generateGraphStudent = function(username){
     
     this.makeLineGraph(this.data_Line[username],'progEtu1');
 
+    this.makeBulletChart(data_Bullet[username],'bulletChartAllStudents');
 }
 
 TestsCoco.DataVis.prototype.generateGraphTeacher = function(){
@@ -458,7 +580,6 @@ TestsCoco.DataVis.prototype.generateGraphTeacher = function(){
     
     this.makeSparkLine(this.data_Line,'table_spark');
 
-    this.makeLineGraph(this.combine(this.data_Line),'histoAllStudents');
 
 }
 
@@ -467,7 +588,7 @@ TestsCoco.DataVis.prototype.generateAnswerDetails = function (question_id){
 }
 
 TestsCoco.DataVis.prototype.main = function(questions,answers,type){
-    
+
     this.getAllData(questions,answers);
     if(type=='student'){
         this.generateGraphStudent('Alfred');
@@ -477,4 +598,5 @@ TestsCoco.DataVis.prototype.main = function(questions,answers,type){
     }
     else{ this.generateAnswerDetails('8f5146de-9424-4c0f-9fdd-3e18dc8c93c7');
    }
+   
 }

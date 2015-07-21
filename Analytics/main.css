@@ -14,8 +14,6 @@ svg {
 	font-family: sans-serif;
 	background-color: #f8f8f8;
  }
-
-
 .dashed {
             stroke-dasharray: 5,5;
         }
@@ -28,7 +26,10 @@ svg {
  #table_spark {
 	text-align: center;
 	margin-right:-700px;
-	width: 900px;
+	width: 950px;
+}
+#table_spark th {
+	text-align: center;
 }
  #utPUt {
 	margin-top: 200px;
@@ -42,7 +43,7 @@ svg.sparkline {
 }
 #progEtu1, #histoStudentAllVideos, #histoAllStudents, #repUtile {
 	height: 400px;
-	width: 150%;
+	max-width: 100%;
     margin: auto;
 
 }
@@ -73,7 +74,6 @@ svg.sparkline {
         border-left: 1px solid #e7e7e7;
     }
 }
-
 
 .sidebar .sidebar-nav.navbar-collapse {
     padding-right: 0;

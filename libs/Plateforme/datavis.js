@@ -275,8 +275,13 @@ TestsCoco.DataVis.prototype.makeScatterGraph = function(data,container){
 
         nv.utils.windowResize(chart.update);
 
-        return chart;
-    });
+        return chart;  },
+        function(){
+          d3.selectAll(".nv-scatter").on('click',
+               function(){
+                     console.log("test");
+           });
+      });
 }
 
 TestsCoco.DataVis.prototype.dataForLineGraph = function(tab_date,tab_user){

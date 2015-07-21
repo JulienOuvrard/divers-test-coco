@@ -475,62 +475,29 @@ TestsCoco.DataVis.prototype.getUsersAverage = function(medias,answers){
     return ret;
 }
 
-TestsCoco.DataVis.prototype.dataForBullet = function (tab, tab2){
-    
-/*
-    data = [
-        {
-			"title":"Moyenne",
-			"subtitle":"vidéo 1",
-			"ranges":[0,0,20],
-			"measures":[12],
-			"markers":[17],
-			"markerLabels":['Moyenne générale'],
-			"measureLabels":['Moyenne étudiant']
-        },
-        
-        {
-			"title":"Moyenne",
-			"subtitle":"vidéo 2",
-			"ranges":[0,0,20],
-			"measures":[8],
-			"markers":[12],
-			"markerLabels":['Moyenne générale'],
-			"measureLabels":['Moyenne étudiant']
-		},
-        {
-			"title":"Moyenne",
-			"subtitle":"vidéo 3",
-			"ranges":[0,0,20],
-			"measures":[18],
-			"markers":[9],
-			"markerLabels":['Moyenne générale'],
-			"measureLabels":['Moyenne étudiant']
-		}
-    ];
-*/
+TestsCoco.DataVis.prototype.dataForBullet = function (userAverage, generalAverage){
 
     var ret = {},
         title = "Moyenne",
-        ranges = [0,0,20],
-        markerLabers = ['Moyenne générale'],
+        ranges = [0,50,100],
+        markerLabels = ['Moyenne générale'],
         measureLabels = ['Moyenne étudiant'];
-    //tab : username -> media -> moyenne
-    //tab2 : media -> moyenne generale
-    $.each(tab,function(index,value){
+
+    $.each(userAverage,function(index,value){
         ret[index]=[];
         $.each(value,function(media_index,media_value){
             var obj = {};
             obj.title = title;
             obj.subtitle = media_index;
             obj.ranges =  ranges;
-            obj.measure = [media_value];
-            obj.markers = [tab2[media_index]];
+            obj.measures = [media_value];
+            obj.markers = [generalAverage[media_index]];
             obj.markerLabels = markerLabels;
             obj.measureLabels = measureLabels;
             ret[index].push(obj)
         });
     });
+    
     return ret;
     
 }
@@ -559,6 +526,8 @@ TestsCoco.DataVis.prototype.makeBulletChart = function(data,container){
 TestsCoco.DataVis.prototype.getAllData = function (questions,answers) {
     var ann = questions.annotations;
 
+    var medias = _.groupBy(ann,'media');
+    
     this.max_time = _.max(ann,'begin');
         
     this.times = _.pluck(_.filter(ann, 'type', 'Quizz'), 'begin');
@@ -587,6 +556,7 @@ TestsCoco.DataVis.prototype.getAllData = function (questions,answers) {
     /** Data For Student **/
     this.data_Histo_answer = this.dataForHisto(['right_answer','wrong_answer','skipped_answer'],this.propertiesByQuestion,this.propertiesByQuestionByUser,true);
     this.data_Histo_vote = this.dataForHisto(['usefull','useless','skipped_vote'],this.propertiesByQuestion,this.propertiesByQuestionByUser);
+    this.data_Bullet = this.dataForBullet(this.getUsersAverage(medias,answers),this.getGeneralAverage(medias,answers));
     
     /** Data For Teacher **/
     this.data_Scatter = this.dataForScatter(this.propertiesByQuestion);
@@ -601,6 +571,7 @@ TestsCoco.DataVis.prototype.generateGraphStudent = function(username){
     
     this.makeLineGraph(this.data_Line[username],'progEtu1');
 
+    this.makeBulletChart(data_Bullet[username],'bulletChartAllStudents');
 }
 
 TestsCoco.DataVis.prototype.generateGraphTeacher = function(){
@@ -609,7 +580,6 @@ TestsCoco.DataVis.prototype.generateGraphTeacher = function(){
     
     this.makeSparkLine(this.data_Line,'table_spark');
 
-    this.makeLineGraph(this.combine(this.data_Line),'histoAllStudents');
 
 }
 
@@ -618,7 +588,7 @@ TestsCoco.DataVis.prototype.generateAnswerDetails = function (question_id){
 }
 
 TestsCoco.DataVis.prototype.main = function(questions,answers,type){
-    
+
     this.getAllData(questions,answers);
     if(type=='student'){
         this.generateGraphStudent('Alfred');
@@ -628,4 +598,5 @@ TestsCoco.DataVis.prototype.main = function(questions,answers,type){
     }
     else{ this.generateAnswerDetails('8f5146de-9424-4c0f-9fdd-3e18dc8c93c7');
    }
+   
 }

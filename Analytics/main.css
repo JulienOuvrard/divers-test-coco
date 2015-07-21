@@ -31,6 +31,11 @@ svg {
 #table_spark th {
 	text-align: center;
 }
+#legende {
+	text-align: justify;
+	margin-right: 20px;
+	margin-left: 20px;
+}
  #utPUt {
 	margin-top: 200px;
 }

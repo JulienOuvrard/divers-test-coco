@@ -215,21 +215,108 @@ TestsCoco.DataVis.prototype.makeHistogram = function(data,container,title){
     });
 }
 
-TestsCoco.DataVis.prototype.dataForScatter = function(tab){
-    var data = [];
+TestsCoco.DataVis.prototype.dataForScatter_UtileJuste = function(tab_medias){
+    var _this = this;
     var ret = {};
-    ret['values'] = [];
-    var sorted_tab = this.sortAndComplete(tab);
-    $.each(sorted_tab,function(index,value){
-        var point = {};
-        point['x'] = (value.usefull - value.useless) / (value.usefull + value.useless);
-        point['y'] = (value.right_answer - value.wrong_answer) / (value.right_answer + value.wrong_answer);
-        point['shape'] = 'circle';
-        ret['values'].push(point);
+    $.each(tab_medias,function(med_id,med_val){
+        ret[med_id]=[];
+        var temp = {};
+        temp['key'] = med_id
+        temp['values'] = [];
+        var sorted_question_tab = _this.sortAndComplete(med_val);
+        $.each(sorted_question_tab,function(q_idx,q_val){
+            var point = {};
+            point['x'] = (q_val.usefull + q_val.useless)==0 ? 0 : (q_val.usefull - q_val.useless) / (q_val.usefull + q_val.useless);
+            point['y'] = (q_val.right_answer + q_val.wrong_answer)==0 ? 0: (q_val.right_answer - q_val.wrong_answer) / (q_val.right_answer + q_val.wrong_answer);
+            point['shape'] = 'circle';
+            temp['values'].push(point);
+        });
+        ret[med_id].push(temp);
     });
-    data.push(ret);
-    return data;
+    return ret;
 };
+
+TestsCoco.DataVis.prototype.dataForScatter_UtileTps = function(tab_medias,infos,keys){
+    var _this = this;
+    var ret = {};
+    $.each(tab_medias,function(med_id,med_val){
+        ret[med_id]=[];
+        keys.forEach(function(key){
+            var temp = {};
+            temp['key'] = key;
+            temp['values'] = [];
+            var sorted_question_tab = _this.sortAndComplete(med_val);
+            $.each(sorted_question_tab,function(q_idx,q_val){
+                var ordonnee;
+                if(key == 'Justesse'){
+                    ordonnee = (q_val.right_answer + q_val.wrong_answer)==0 ? 0: (q_val.right_answer - q_val.wrong_answer) / (q_val.right_answer + q_val.wrong_answer);
+                }else{
+                    ordonnee = (q_val.usefull + q_val.useless)==0 ? 0 : (q_val.usefull - q_val.useless) / (q_val.usefull + q_val.useless);
+                }
+                var point = {};
+                point['x'] = infos[q_idx].time;
+                point['y'] = ordonnee;
+                point['shape'] = 'circle';
+                temp['values'].push(point);
+            });
+            ret[med_id].push(temp);
+        });
+    });
+    return ret;
+};
+
+TestsCoco.DataVis.prototype.dataForScatter_NoteStudent = function(dates,tab_medias,tab_properties){
+    
+    function leastSquares(xSeries, ySeries) {
+        var reduceSumFunc = function(prev, cur) { return prev + cur; };
+        
+        var xBar = xSeries.reduce(reduceSumFunc) * 1.0 / xSeries.length;
+        var yBar = ySeries.reduce(reduceSumFunc) * 1.0 / ySeries.length;
+        
+        var ssXX = xSeries.map(function(d) { return Math.pow(d - xBar, 2); })
+            .reduce(reduceSumFunc);
+        
+        var ssYY = ySeries.map(function(d) { return Math.pow(d - yBar, 2); })
+            .reduce(reduceSumFunc);
+            
+        var ssXY = xSeries.map(function(d, i) { return (d - xBar) * (ySeries[i] - yBar); })
+            .reduce(reduceSumFunc);
+            
+        var slope = ssXY / ssXX;
+        var intercept = yBar - (xBar * slope);
+        var rSquare = Math.pow(ssXY, 2) / (ssXX * ssYY);
+        
+        return [slope, intercept, rSquare];
+    }
+    
+    var _this = this;
+    var ret = {};
+    $.each(tab_medias,function(media_id,media_val){
+        ret[media_id]=[];
+        $.each(tab_properties,function(user_id,user_value){
+            var temp = {};
+            temp['key'] = user_id;
+            temp['values'] = [];
+            var sorted_tab = _this.sortAndComplete(user_value);
+            $.each(sorted_tab,function(session_id,session_val){
+                if($.inArray(session_id,media_val) != -1){
+                    var point = {};
+                    point['x'] = new Date(dates[session_id]);
+                    point['y'] = (session_val.right_answer *100) / (session_val.right_answer + session_val.wrong_answer);
+                    point['shape'] = 'circle';
+                    temp['values'].push(point);
+                }
+            });
+            var xSerie = _.values(_.mapValues(_.pluck(temp['values'], 'x'),function(val){return val.getTime();}));
+            var ySerie = _.pluck(temp['values'], 'y');
+            var leastData = leastSquares(xSerie,ySerie);
+            temp['slope'] = leastData[0];
+            temp['intercept'] = leastData[1];
+            ret[media_id].push(temp);
+        });
+    });
+    return ret
+}
 
 TestsCoco.DataVis.prototype.dataForScatter_Student = function(dates,properties,sessionbymedia){
     var _this = this;
@@ -242,10 +329,9 @@ TestsCoco.DataVis.prototype.dataForScatter_Student = function(dates,properties,s
             medias['values'] = [];
             var sorted_tab = _this.sortAndComplete(value);
             $.each(sorted_tab,function(session_idx,session_value){
-                
                 if($.inArray(session_idx,med_value) != -1){
                     var point = {};
-                    point['x'] = dates[session_idx];
+                    point['x'] = new Date(dates[session_idx]);
                     point['y'] = (session_value.right_answer *100) / (session_value.right_answer + session_value.wrong_answer);
                     point['shape'] = 'circle';
                     medias['values'].push(point);
@@ -254,11 +340,6 @@ TestsCoco.DataVis.prototype.dataForScatter_Student = function(dates,properties,s
             ret[index].push(medias);
         });
     });
-    
-    /*console.log(properties);
-    console.log(dates);
-    console.log(sessionbymedia);*/
-    //console.log(ret);
     return ret;
 }
 
@@ -280,6 +361,40 @@ TestsCoco.DataVis.prototype.makeScatterGraph_Student = function(data,container){
         chart.yAxis.axisLabel('Notes');
         chart.xAxis.tickFormat(function(d) {
             return d3.time.format('%d/%m/%y')(new Date(d))
+        });
+        chart.yAxis.tickFormat(d3.format('.02f'));
+        
+        d3.select(selector)
+            .datum(data)
+            .call(chart);
+
+        nv.utils.windowResize(chart.update);
+        
+        return chart;
+    });
+
+}
+
+TestsCoco.DataVis.prototype.makeScatterGraph_Utile = function(data,mediaInfo,container){
+    if(document.getElementById(container) === null){
+        $(this.container).append('<div id='+container+'><svg></svg></div>');
+    }
+    var selector = '#'+container+' svg';
+    
+    nv.addGraph(function() {
+        var chart = nv.models.scatterChart()
+            .xDomain([0,mediaInfo.max_time])
+            .yDomain([-1,1])
+            .showDistX(true)
+            .showDistY(true)
+            .useVoronoi(true)
+            .color(d3.scale.category10().range())
+            .duration(300);
+
+        chart.xAxis.axisLabel('Temps');
+        chart.yAxis.axisLabel('Notes');
+        chart.xAxis.tickFormat(function(d) {
+            return d3.time.format('%X')(new Date(d+ new Date(2015,7,22,0,0).getTime()))
         });
         chart.yAxis.tickFormat(d3.format('.02f'));
         
@@ -426,7 +541,7 @@ TestsCoco.DataVis.prototype.makeSparkLine = function(data,container){
     
     var str = '<tr><th>Nom</th><th>Courbe de progression</th><th>Moyenne de l\'élève</th><th>Indice de progression</th><th>Satisfaction</th></tr>';
     users.forEach(function(elem){
-        str+='<tr><td>'+elem+'</td><td><svg id="chart_'+elem+'" class="sparkline"></svg></td><td id="average_'+elem+'"></td><td id="progression_'+elem+'"></td><td id="satisfaction_'+elem+'"></td></tr>';
+        str+='<tr><td>'+elem+'</td><td><svg id="chart_'+elem+'" class="sparkline"></svg></td><td id="average_'+elem+'"></td><td id="progression_'+elem+'"></td>/tr>';
     });
     $('#'+container).append(str);
     
@@ -434,8 +549,7 @@ TestsCoco.DataVis.prototype.makeSparkLine = function(data,container){
     users.forEach(function(user){
         var chart_selector = '#chart_'+user,
             average_selector = '#average_'+user,
-            progression_selector = '#progression_'+user,
-            satisfaction_selector = '#satisfaction_'+user;
+            progression_selector = '#progression_'+user;
             
         nv.addGraph(function() {
             var chart = nv.models.sparklinePlus();
@@ -460,24 +574,6 @@ TestsCoco.DataVis.prototype.makeSparkLine = function(data,container){
         });
         var average = _.round(_.sum(notes)/notes.length,2);
         $(average_selector).append(average);
-        var satisfaction;
-        switch(true){
-            case (average < 8) : 
-                satisfaction = 'pas bon';
-                break;
-            case (average < 10) :
-                satisfaction = 'peut mieux faire';
-                break;
-            case (average < 12) :
-                satisfaction = 'moyen';
-                break;
-            case (average < 14) :
-                satisfaction = 'bien';
-                break;
-            default:
-                satisfaction = 'très bien'
-        }
-        $(satisfaction_selector).append(satisfaction);
         
     })
 }
@@ -592,9 +688,10 @@ TestsCoco.DataVis.prototype.makeBulletChart = function(data,container){
 }
 
 TestsCoco.DataVis.prototype.getMediaInfo = function(media_id){
-    var times = _.pluck(_.filter(_.values(this.medias[media_id]), 'type', 'Quizz'), 'begin');
-    var max_time = _.max(times);
-    return {'times':times,'max_time':max_time};
+    var begin_times = _.pluck(_.filter(_.values(this.medias[media_id]), 'type', 'Quizz'), 'begin');
+    var end_times = _.pluck(_.filter(_.values(this.medias[media_id]), 'type', 'Quizz'), 'end');
+    var max_time = _.max(end_times);
+    return {'times':begin_times,'max_time':max_time};
 }
 
 TestsCoco.DataVis.prototype.getPropertiesByQuestionByMedia = function(){
@@ -740,16 +837,19 @@ TestsCoco.DataVis.prototype.getAllData = function (questions,answers) {
     
     this.session_date = this.getSessionDate(answers);
     
-    /** Data For Both **/
-    this.data_Line = this.dataForLineGraph(this.session_date,this.propertiesBySessionByUser);
-    
     /** Data For Student **/
     this.data_Histo_answer = this.dataForHisto(['right_answer','wrong_answer','skipped_answer'],this.getPropertiesByMedia(),this.propertiesBySessionByUser,this.getMediaBySession());
     this.data_Histo_vote = this.dataForHisto(['usefull','useless','skipped_vote'],this.getPropertiesByMedia(),this.propertiesBySessionByUser,this.getMediaBySession());
     this.data_Bullet = this.dataForBullet(this.getUsersAverage(this.medias,answers),this.getGeneralAverage(this.medias,answers));
     this.data_Scatter_Student = this.dataForScatter_Student(this.session_date,this.propertiesBySessionByUser,this.getSessionByMedia());
+    
     /** Data For Teacher **/
-    this.data_Scatter = this.dataForScatter(this.propertiesByQuestion);
+    this.data_Line = this.dataForLineGraph(this.session_date,this.propertiesBySessionByUser);
+    this.data_Scatter_UtileJuste = this.dataForScatter_UtileJuste(this.getPropertiesByQuestionByMedia());
+    this.data_Scatter_UtileTps = this.dataForScatter_UtileTps(this.getPropertiesByQuestionByMedia(),this.getInfoQuestions(questions),['Justesse','Utilité']);
+    this.data_Scatter_NoteStudent = this.dataForScatter_NoteStudent(this.session_date,this.getSessionByMedia(),this.propertiesBySessionByUser);
+    console.log(this.data_Scatter_NoteStudent);
+    /** Data For Questions **/
     this.data_Histo_ans_total = this.dataForHisto_Answers(this.NbAnswerByQuestion,this.getInfoQuestions(questions));
 
 }
@@ -759,8 +859,6 @@ TestsCoco.DataVis.prototype.generateGraphStudent = function(username,session_num
     this.makeHistogram(this.data_Histo_answer[username][session_number],'bonneMauvaiseSkip','Nombre de réponses');
     
     this.makeHistogram(this.data_Histo_vote[username][session_number],'utilePasUtile','Votes');
-    
-    //this.makeLineGraph(this.data_Line[username],'progEtu1');
 
     this.makeBulletChart(this.data_Bullet[username],'bulletChartAllStudents');
 
@@ -769,11 +867,13 @@ TestsCoco.DataVis.prototype.generateGraphStudent = function(username,session_num
 
 TestsCoco.DataVis.prototype.generateGraphTeacher = function(media_id){
     
-    this.makeScatterGraph(this.data_Scatter,'repUtile');
+    this.makeScatterGraph(this.data_Scatter_UtileJuste[media_id],'repUtile');
     
     this.makeSparkLine(this.data_Line,'table_spark');
 
-
+    this.makeScatterGraph_Utile(this.data_Scatter_UtileTps[media_id],this.getMediaInfo(media_id),'repUtileTps');
+    
+    this.makeScatterGraph_Student(this.data_Scatter_NoteStudent[media_id],'histoAllStudents');
 }
 
 TestsCoco.DataVis.prototype.generateAnswerDetails = function (question_id){

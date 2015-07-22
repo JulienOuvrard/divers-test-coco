@@ -130,7 +130,9 @@ TestsCoco.DataVis.prototype.dataForHisto = function(wantedData,tab_total,tab_use
     });
     $.each(tab_user,function(index,value){
         ret[index]=[];
-        var sorted_session_data = _this.sortAndComplete(value)
+        var sorted_session_data = _.mapValues(_this.sortAndComplete(value),function(val){
+            return _this.getPercentages(val);
+        });
         $.each(sorted_session_data,function(s_index,s_value){
             var data = {};
             data['key']=s_index;
@@ -228,6 +230,69 @@ TestsCoco.DataVis.prototype.dataForScatter = function(tab){
     data.push(ret);
     return data;
 };
+
+TestsCoco.DataVis.prototype.dataForScatter_Student = function(dates,properties,sessionbymedia){
+    var _this = this;
+    var ret = {};
+    $.each(properties,function(index,value){
+        ret[index] = [];
+        $.each(sessionbymedia,function(med_id,med_value){
+            var medias = {};
+            medias['key'] = med_id;
+            medias['values'] = [];
+            var sorted_tab = _this.sortAndComplete(value);
+            $.each(sorted_tab,function(session_idx,session_value){
+                
+                if($.inArray(session_idx,med_value) != -1){
+                    var point = {};
+                    point['x'] = dates[session_idx];
+                    point['y'] = (session_value.right_answer *100) / (session_value.right_answer + session_value.wrong_answer);
+                    point['shape'] = 'circle';
+                    medias['values'].push(point);
+                }
+            });
+            ret[index].push(medias);
+        });
+    });
+    
+    /*console.log(properties);
+    console.log(dates);
+    console.log(sessionbymedia);*/
+    //console.log(ret);
+    return ret;
+}
+
+TestsCoco.DataVis.prototype.makeScatterGraph_Student = function(data,container){
+    if(document.getElementById(container) === null){
+        $(this.container).append('<div id='+container+'><svg></svg></div>');
+    }
+    var selector = '#'+container+' svg';
+    
+    nv.addGraph(function() {
+        var chart = nv.models.scatterChart()
+            .showDistX(true)
+            .showDistY(true)
+            .useVoronoi(true)
+            .color(d3.scale.category10().range())
+            .duration(300);
+
+        chart.xAxis.axisLabel('Temps');
+        chart.yAxis.axisLabel('Notes');
+        chart.xAxis.tickFormat(function(d) {
+            return d3.time.format('%d/%m/%y')(new Date(d))
+        });
+        chart.yAxis.tickFormat(d3.format('.02f'));
+        
+        d3.select(selector)
+            .datum(data)
+            .call(chart);
+
+        nv.utils.windowResize(chart.update);
+        
+        return chart;
+    });
+
+}
 
 TestsCoco.DataVis.prototype.makeScatterGraph = function(data,container){
     
@@ -600,6 +665,44 @@ TestsCoco.DataVis.prototype.getMediaBySession = function(){
     });
 }
 
+TestsCoco.DataVis.prototype.getSessionByMedia = function(){
+    var questionByMedia = _.mapValues(this.medias,function(value){
+        return _.keys(_.groupBy(value,'id'));
+    });
+    
+    var sub_bySession = _.mapValues(this.sessions,function(value){
+        return value[0].subject;
+    });
+    var ret1 = _.mapValues(questionByMedia,function(value){
+        var ret=[];
+        value.forEach(function(q_val){
+            $.each(sub_bySession,function(idx,val){
+                if( q_val == val){
+                    ret.push(idx);
+                }
+            });
+        });
+        return ret;
+    });
+    
+    var questionBySession = _.mapValues(this.sessions,function(val){
+        return _.keys(_.groupBy(val,'subject'));
+    });
+    var ret2 = _.mapValues(questionByMedia,function(value){
+        var ret=[];
+        value.forEach(function(q_val){
+            $.each(questionBySession,function(idx,val){
+                if($.inArray(q_val,val) != -1){
+                    ret.push(idx);
+                }
+            });
+        });
+        return _.uniq(ret);
+    });
+    
+    return ret1;
+}
+
 TestsCoco.DataVis.prototype.getPercentages = function(obj){
     obj.right_answer = obj.right_answer * 100 / (obj.right_answer + obj.wrong_answer);
     obj.wrong_answer = obj.wrong_answer * 100 / (obj.right_answer + obj.wrong_answer);
@@ -617,7 +720,7 @@ TestsCoco.DataVis.prototype.getAllData = function (questions,answers) {
     
     this.sessions = _.groupBy(answers,'sessionId');
     //par média ex : m20131010
-    this.getMediaInfo('m20131010');
+    var info_video1 = this.getMediaInfo('m20131010');
     
     this.properties_count = _.countBy(answers,'property');
     
@@ -644,18 +747,10 @@ TestsCoco.DataVis.prototype.getAllData = function (questions,answers) {
     this.data_Histo_answer = this.dataForHisto(['right_answer','wrong_answer','skipped_answer'],this.getPropertiesByMedia(),this.propertiesBySessionByUser,this.getMediaBySession());
     this.data_Histo_vote = this.dataForHisto(['usefull','useless','skipped_vote'],this.getPropertiesByMedia(),this.propertiesBySessionByUser,this.getMediaBySession());
     this.data_Bullet = this.dataForBullet(this.getUsersAverage(this.medias,answers),this.getGeneralAverage(this.medias,answers));
-    
+    this.data_Scatter_Student = this.dataForScatter_Student(this.session_date,this.propertiesBySessionByUser,this.getSessionByMedia());
     /** Data For Teacher **/
     this.data_Scatter = this.dataForScatter(this.propertiesByQuestion);
     this.data_Histo_ans_total = this.dataForHisto_Answers(this.NbAnswerByQuestion,this.getInfoQuestions(questions));
-    
-    
-    console.log(this.propertiesBySessionByUser);
-    //console.log(this.getPropertiesByMedia());
-    var _this = this;
-    console.log(_.mapValues(this.propertiesBySessionByUser['Alfred'],function(val){
-        return _this.getPercentages(val);
-        }));
 
 }
 
@@ -665,12 +760,14 @@ TestsCoco.DataVis.prototype.generateGraphStudent = function(username,session_num
     
     this.makeHistogram(this.data_Histo_vote[username][session_number],'utilePasUtile','Votes');
     
-    this.makeLineGraph(this.data_Line[username],'progEtu1');
+    //this.makeLineGraph(this.data_Line[username],'progEtu1');
 
     this.makeBulletChart(this.data_Bullet[username],'bulletChartAllStudents');
+
+    this.makeScatterGraph_Student(this.data_Scatter_Student[username],'histoStudentAllVideos');
 }
 
-TestsCoco.DataVis.prototype.generateGraphTeacher = function(){
+TestsCoco.DataVis.prototype.generateGraphTeacher = function(media_id){
     
     this.makeScatterGraph(this.data_Scatter,'repUtile');
     
@@ -687,10 +784,10 @@ TestsCoco.DataVis.prototype.main = function(questions,answers,type){
 
     this.getAllData(questions,answers);
     if(type=='student'){
-        this.generateGraphStudent('Alfred',5);
+        this.generateGraphStudent('Alfred',7);
     }
     else if(type=='teacher'){
-        this.generateGraphTeacher();
+        this.generateGraphTeacher('m20131010');
     }
     else{ this.generateAnswerDetails('8f5146de-9424-4c0f-9fdd-3e18dc8c93c7');
    }

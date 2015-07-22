@@ -123,7 +123,7 @@
                         </div>
                     </div>
                     <!-- Fin Graph 2 -->
-                    <!-- Début Graph 3 -->
+                    <!-- Début Graph 3
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <i class="fa fa-line-chart fa-fw"></i> Progression de l'étudiant
@@ -137,7 +137,7 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Fin Graph 3 -->
+                     Fin Graph 3 -->
                     </div>
                     <div id="allVideos">
                     <!-- Début Graph 4 -->
@@ -150,8 +150,7 @@
                             <div class="row">
                                 <div class="col-lg-8">
                                     <div id="bulletChartAllStudents" align="center">
-											<script src="js/bulletChart_histoAllStudents.js"></script>
-									</div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -181,8 +180,8 @@
                         var visualizer = new TestsCoco.DataVis("#page-wrapper");
 
                         function simulate(){
-                            $.when($.get("../../Donnees_tests/questions_1file.json"),
-                                    $.get("../../Donnees_tests/answers_1file.json"))
+                            $.when($.get("../../Donnees_tests/questions_3files.json"),
+                                    $.get("../../Donnees_tests/answers_3files.json"))
                                 .done(function(data1,data2){
                                         visualizer.main(data1[0],data2[0],'student');
                                     }

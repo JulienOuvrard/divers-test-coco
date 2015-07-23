@@ -229,6 +229,7 @@ TestsCoco.DataVis.prototype.dataForScatter_UtileJuste = function(tab_medias){
             point['x'] = (q_val.usefull + q_val.useless)==0 ? 0 : (q_val.usefull - q_val.useless) / (q_val.usefull + q_val.useless);
             point['y'] = (q_val.right_answer + q_val.wrong_answer)==0 ? 0: (q_val.right_answer - q_val.wrong_answer) / (q_val.right_answer + q_val.wrong_answer);
             point['shape'] = 'circle';
+            point['question_id'] = q_idx;
             temp['values'].push(point);
         });
         ret[med_id].push(temp);
@@ -488,25 +489,27 @@ TestsCoco.DataVis.prototype.makeScatterGraph = function(data,container){
         function(){
             var _this = this;
             var id_question;
+            
+            var ord, abs;
+                    
+            var ordonnees = _.pluck(data[0].values,'y');
+            var obj_ord = _.mapValues(ordonnees,function(val){return val;});
+            var indexOfOrd = [];
+            
+            
+            var abscices = _.pluck(data[0].values,'x');
+            var obj_abs = _.mapValues(abscices,function(val){return val;});
+            var indexOfAbs = [];
+            
+            /*
             d3.selectAll(".nv-point-paths").on('mouseover',
                 function(){
-                    
-                    var ord, abs;
-                    
-                    var ordonnees = _.pluck(data[0].values,'y');
-                    var obj_ord = _.mapValues(ordonnees,function(val){return val;});
-                    var indexOfOrd = [];
-                    
-                    
-                    var abscices = _.pluck(data[0].values,'x');
-                    var obj_abs = _.mapValues(abscices,function(val){return val;});
-                    var indexOfAbs = [];
-                    
-                    
                     d3.selectAll(this.childNodes).on('click',
                                 function(){
+                                    id_q = this.__data__.data.point[4].question_id;
                                     abs = this.__data__.data.point[4].x;
                                     ord = this.__data__.data.point[4].y;
+                                    //console.log('id',id_q);
                                     //console.log('abscisse',abs);
                                     //console.log('ordonnée',ord);
                                     
@@ -530,6 +533,16 @@ TestsCoco.DataVis.prototype.makeScatterGraph = function(data,container){
                                     visu.generateAnswerDetails('detailsQuestion',id_question);
                                 });
                    
+                    
+                });*/
+                
+                var scatt = d3.selectAll(".nv-scatter");
+                scatt.each(function(d,i){
+                    var points = d3.selectAll(this.childNodes);
+                    points.each(function(d,i){
+                        var x = d3.selectAll(this.childNodes);
+                        console.log(x);
+                    });
                     
                 });
       });

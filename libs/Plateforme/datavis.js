@@ -397,15 +397,27 @@ TestsCoco.DataVis.prototype.makeScatterGraph_Utile = function(data,mediaInfo,con
         });
         chart.yAxis.tickFormat(d3.format('.02f'));
         
+        
         d3.select(selector)
             .datum(data)
             .call(chart);
 
         nv.utils.windowResize(chart.update);
+        var lineX = d3.select(selector)
+                            .append('line')
+                            .attr({
+                                x1: 75 + chart.xAxis.scale()(0),
+                                y1: 30 + chart.yAxis.scale()(0),
+                                x2: 75 + chart.xAxis.scale()(mediaInfo.max_time),
+                                y2: 30 + chart.yAxis.scale()(0)
+                            })
+                            .style("stroke", "#000000");
+
+        nv.utils.windowResize(chart.update);
+       
         
         return chart;
     });
-
 }
 
 TestsCoco.DataVis.prototype.makeScatterGraph = function(data,container){
@@ -414,7 +426,7 @@ TestsCoco.DataVis.prototype.makeScatterGraph = function(data,container){
         $(this.container).append('<div id='+container+'><svg></svg></div>');
     }
     var selector = '#'+container+' svg';
-    console.log(data);
+    var visu = this;
     nv.addGraph(function() {
         var chart = nv.models.scatterChart()
             .xDomain([-1,1])
@@ -474,19 +486,51 @@ TestsCoco.DataVis.prototype.makeScatterGraph = function(data,container){
         });
         return chart;  },
         function(){
-            d3.selectAll(".nv-point-paths").on('click',
-                function(e){
-                    var ord = e[0].value;
-                    console.log(ord);
-                    //var abscisses = _.pluck(d[0].values,'x');
+            var _this = this;
+            var id_question;
+            d3.selectAll(".nv-point-paths").on('mouseover',
+                function(){
+                    
+                    var ord, abs;
+                    
                     var ordonnees = _.pluck(data[0].values,'y');
-                    console.log(_.find(ordonnees,function(q){q == ord}));
-                    console.log(_.groupBy(ordonnees,function(n){return n}));
-                });
-            d3.selectAll(".nv-scatter").on('click',
-                function(d){
-                    console.log(d);
-
+                    var obj_ord = _.mapValues(ordonnees,function(val){return val;});
+                    var indexOfOrd = [];
+                    
+                    
+                    var abscices = _.pluck(data[0].values,'x');
+                    var obj_abs = _.mapValues(abscices,function(val){return val;});
+                    var indexOfAbs = [];
+                    
+                    
+                    d3.selectAll(this.childNodes).on('click',
+                                function(){
+                                    abs = this.__data__.data.point[4].x;
+                                    ord = this.__data__.data.point[4].y;
+                                    //console.log('abscisse',abs);
+                                    //console.log('ordonnée',ord);
+                                    
+                                    _.find(obj_ord, function(question, questionIdx){ 
+                                        if(question == ord){ indexOfOrd.push(questionIdx)};
+                                        if(questionIdx == _.size(obj_ord)){return true;}; 
+                                    });
+                                    
+                                    _.find(obj_abs, function(question, questionIdx){ 
+                                        if(question == abs){ indexOfAbs.push(questionIdx)};
+                                        if(questionIdx == _.size(obj_abs)){return true;}; 
+                                    });
+                                    
+                                    //console.log('idx_abs',indexOfAbs);
+                                    //console.log('idx_ord',indexOfOrd);
+                                    
+                                    var index_quest = _.intersection(indexOfAbs,indexOfOrd)[0];
+                                    var questionsMedia = _.keys(visu.getPropertiesByQuestionByMedia()[data[0].key]);
+                                    id_question = questionsMedia[index_quest];
+                                    
+                                    visu.generateAnswerDetails(id_question);
+                                });
+                   
+                    
                 });
       });
 }

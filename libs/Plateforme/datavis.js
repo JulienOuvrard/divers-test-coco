@@ -593,7 +593,7 @@ TestsCoco.DataVis.prototype.makeLineGraph = function(data,container){
 TestsCoco.DataVis.prototype.makeSparkLine = function(data,container){
     var users = _.keys(data);
     var _this = this;
-    var str = '<tr><th>Nom</th><th>Courbe de progression</th><th>Moyenne de l\'élève</th><th>Indice de progression</th></tr>';
+    var str = '<tr><th id="smallColumn">Nom</th><th id="bigColumn">Courbe de progression</th><th id="smallColumn">Moyenne de l\'élève</th><th id="smallColumn">Indice de progression</th></tr>';
     users.forEach(function(elem){
         str+='<tr><td>'+elem+'</td><td><svg id="chart_'+elem+'" class="sparkline"></svg></td><td id="average_'+elem+'"></td><td id="progression_'+elem+'"></td>/tr>';
     });
@@ -941,7 +941,7 @@ TestsCoco.DataVis.prototype.generateAnswerDetails = function (container,question
     var q_prop = this.sortAndComplete(this.propertiesByQuestion)[question_id];
     var usefull = (q_prop.usefull + q_prop.useless)==0 ? 0 : q_prop.usefull * 100 / (q_prop.usefull + q_prop.useless);
     var useless = (q_prop.usefull + q_prop.useless)==0 ? 0 : q_prop.useless * 100 / (q_prop.usefull + q_prop.useless);
-    var str_detail = '<div class="col-lg-4" id="questionContent" ><b>Question:</b>'+q_info.enonce+'<ol>';
+    var str_detail = '<div id="questionContent" ><b>Question:</b>'+q_info.enonce+'<br><br><ol>';
     q_info.answers.forEach(function(answer){
         str_detail+='<li>'+answer+'</li>';
     });

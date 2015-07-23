@@ -17,41 +17,35 @@ svg {
 .dashed {
             stroke-dasharray: 5,5;
         }
- #chart1, #chart2, #chart3 {
-	margin: 0px;
-	padding: 0px;
-	height: 50%;
-	width: 400px;
-}
+
  #table_spark {
 	text-align: center;
 	margin-right:-700px;
-	width: 950px;
+	width:200%;
 }
 #table_spark th {
 	text-align: center;
+}
+#table_spark td {
+	height:60px;
 }
 #legende {
 	text-align: justify;
 	margin-right: 20px;
 	margin-left: 20px;
 }
- #utPUt {
-	margin-top: 200px;
-}
 
-svg.sparkline {
-            width: 5100%;
-            height: 70px;
-            font-size: 14px;
-            margin-top: -6px;
-}
-#progEtu1, #histoStudentAllVideos, #histoAllStudents, #repUtile {
+#progEtu1, #histoStudentAllVideos, #histoAllStudents, #repUtile, #repUtileTps {
 	height: 400px;
-	max-width: 100%;
+	max-width: 200%;
+	width: 140%;
     margin: auto;
 
 }
+.sparkline {
+max-width: 100%;
+}
+/*! Image COCo dashboard*/
 #CDsvg {
 width:230px;
 margin-left:10px;

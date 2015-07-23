@@ -21,13 +21,14 @@ svg {
  #table_spark {
 	text-align: center;
 	margin-right:-700px;
-	width:200%;
+	width:100%;
 }
 #table_spark th {
 	text-align: center;
 }
 #table_spark td {
 	height:60px;
+	width:10px;
 }
 #legende {
 	text-align: justify;

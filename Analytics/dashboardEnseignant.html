@@ -50,122 +50,119 @@
                         </li>
                     </ul>
                 </div>
-                <!-- /.sidebar-collapse -->
-                 <!-- Proposition ajout lien vers le site coco 
-                <div id="wrapper">
-					<a class="navbar-brand" href="http://comin-ocw.org"  target="blank"><img src="comin.png" style=" position: absolute; margin-left: -5px; width: 230px;" /></a>
-				</div> -->
             </div>
 
        <div id="page-wrapper">
-            <div class="row">
-                <div class="col-lg-12">
+		    <div class="row">
+				<div class="col-lg-12">
                     <h1 class="page-header">Dashboard d'enseignant - COCo</h1>
                 </div>
-                <!-- /.col-lg-12 -->
-            </div>
-            <div class="row">
-                <div class="col-lg-8">
+			</div>
+			<div class="row">
+				<div class="col-lg-8">					
                     <div id="uniqueVideo">
-                    <!-- Début Graph 1 -->
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <i class="fa fa-line-chart fa-fw"></i> Nombre de vue sur la vidéo
-                        </div>
-                        <div class="panel-body">
-                            <div id="nbViewer" align="center"><svg></svg></div>
-                        </div>
-                    </div>
-                     <!-- Fin Graph 1 -->
-                    
-                     <!-- Début Graph 2 -->
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <i class="fa fa-line-chart fa-fw"></i> Progression des étudiants sur la vidéo
-                        </div>
-                         
-                        <div class="panel-body">
-                            <div class="row"><div class="table-responsive">
-                                <div class="col-lg-8">
-                                    <div id="histoAllStudents" align="center"><svg></svg></div>
-                                </div>
-                            </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Fin Graph 2 -->
-                    </div>
-                    <div id="allVideos">
-                    <!-- Début Graph 3 -->
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <i class="fa fa-table fa-fw"></i> Tableau de progression des étudiants
-                        </div>
-                         
-                        <div class="panel-body">
-                            <div class="row"><div class="table-responsive">
-                                <div class="col-lg-8">
-                                    <div class="col-lg-8">
-                                        <table id='table_spark' border='1'>
-
-                                        </table>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    </div>
-                    <!-- Fin Graph 3 -->
-                    <!-- Début Graph 4 -->
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <i class="fa fa-arrows fa-fw"></i> Utilité et justesse des questions
-                        </div>
-                         
-                        <div class="panel-body">
-                            <div class="row"><div class="table-responsive">
-                                <div class="col-lg-8">
-                                    <div id="repUtile" align="center"><svg></svg></div>
-                                </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Fin Graph 4 -->
-                    <!-- Début Graph 4 -->
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <i class="fa fa-arrows fa-fw"></i> Utilité et justesse des questions en fonction de la répartion temporelle 
-                        </div>
-                         
-                        <div class="panel-body">
-                            <div class="row"><div class="table-responsive">
-                                <div class="col-lg-8">
-                                    <div id="repUtileTps"><svg></svg></div>
-                                </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Fin Graph 4 -->
-                    </div>
-                    <!-- Début Graph 5 -->
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <i class="fa fa-bar-chart-o fa-fw"></i> Détails du nombre de votes par réponse
-                        </div>
-                         
-                        <div class="panel-body">
-                            <div class="row">
-                                <div class="col-lg-8">
-                                    <div id="voteParRep"><svg></svg></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Fin Graph 5 -->
-                    
-                    <script type="text/javascript">
+						
+						<!-- Début Graph 1 -->
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<i class="fa fa-line-chart fa-fw"></i> Nombre de vue sur la vidéo
+								</div>
+								<div class="panel-body">
+									<div id="nbViewer" align="center">
+										<svg></svg>
+									</div>
+								</div>
+							</div>
+						<!-- Fin Graph 1 -->
+						<!-- Début Graph 2 -->
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<i class="fa fa-line-chart fa-fw"></i> Progression des étudiants sur la vidéo
+								</div>                         
+								<div class="panel-body">
+									<div class="row">
+										<div class="table-responsive">
+											<div class="col-lg-8">
+												<div id="histoAllStudents">
+													<svg></svg>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						<!-- Fin Graph 2 -->
+						<!-- Début Graph 3 -->
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<i class="fa fa-arrows fa-fw"></i> Utilité et justesse des questions
+								</div>                         
+								<div class="panel-body">
+									<div class="row">
+										<div class="table-responsive">
+											<div class="col-lg-8">
+												<div id="repUtile">
+													<svg></svg>
+												</div>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-lg-4">
+													Questions: Reponses<br><br>Utilité
+											</div>
+											<div class="col-lg-8">
+												<div id="voteParRep">
+													<svg></svg>
+												</div> 
+												<table border='0'><tr><td><table border='0' style="background-color:gray;"><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr></table></td><td>&nbsp;: Mauvaise réponse</td></tr></table>
+												<table border='0'><tr><td><table border='0' style="background-color:green;"><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr></table></td><td>&nbsp;: Bonne réponse</td></tr></table>
+											</div>
+										</div>
+									</div> 
+								</div>
+							</div>
+						<!-- Fin Graph 3 -->
+						<!-- Début Graph 4 -->
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<i class="fa fa-arrows fa-fw"></i> Utilité et justesse des questions en fonction de la répartion temporelle 
+								</div>                         
+								<div class="panel-body">
+									<div class="row">
+										<div class="table-responsive">
+											<div class="col-lg-8">
+												<div id="repUtileTps">
+													<svg></svg>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>						
+							</div>
+						<!-- Fin Graph 4 -->  
+						
+					</div>
+					<div id="allVideos">
+						<!-- Début Graph 5 -->
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<i class="fa fa-table fa-fw"></i> Tableau de progression des étudiants
+								</div>                         
+								<div class="panel-body">
+									<div class="row">
+										<div class="table-responsive">
+											<div class="col-lg-8">
+												<table id='table_spark' border='1'></table>
+										</div>
+									</div>
+								</div>
+							</div>		
+						<!-- Fin Graph 5 -->
+					</div>
+				</div>
+			</div>	
+		</div>
+		<script type="text/javascript">
                         var quest_sim = new TestsCoco.Simulator.Questions();
                         var ans_sim = new TestsCoco.Simulator.Answers();
                         var tool = new TestsCoco.Tools();
@@ -182,5 +179,11 @@
 
                         simulate();
                     </script>
+           
+                     
+                    
+                    
+                    
+
 </body>
 </html>

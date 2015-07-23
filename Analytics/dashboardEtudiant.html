@@ -53,7 +53,7 @@
                 <!-- /.sidebar-collapse -->
             </div>
 
-        <div id="page-wrapper">
+     <div id="page-wrapper">
             <div class="row">
                 <div class="col-lg-12">
                     <h1 class="page-header">Dashboard d'étudiant - COCo</h1>
@@ -70,11 +70,6 @@
                         </div>
                         <div class="panel-body">
                             <div id="bonneMauvaiseSkip" align="center"><svg></svg></div>
-                        </div>
-                        
-                        <div class="panel-body">
-                            <table border='0'><tr><td><table border='0' style="background-color:blue;"><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr></table></td><td>&nbsp;: Nombre de réponses données par l'étudiant sur la vidéo</td></tr></table>
-                            <table border='0'><tr><td><table border='0' style="background-color:green;"><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr></table></td><td>&nbsp;: Nombre total de réponses données par les étudiants sur la vidéo</td></tr></table>
                         </div>
                     </div>
                      <!-- Fin Graph 1 -->
@@ -94,24 +89,9 @@
                         </div>
                     </div>
                     <!-- Fin Graph 2 -->
-                    <!-- Début Graph 3 -->
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <i class="fa fa-line-chart fa-fw"></i> Progression de l'étudiant
-                        </div>
-                         
-                        <div class="panel-body">
-                            <div class="row">
-                                <div class="col-lg-8">
-                                    <div id="progEtu1" align="center"><svg></svg></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Fin Graph 3 -->
                     </div>
                     <div id="allVideos">
-                    <!-- Début Graph 4 -->
+                    <!-- Début Graph 3 -->
                     <div class="panel panel-default" >
                         <div class="panel-heading">
                             <i class="fa fa-align-left fa-fw"></i> Moyennes de l'étudiant par vidéo
@@ -126,23 +106,24 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Fin Graph 4 -->
-                    <!-- Début Graph 5 -->
+                    <!-- Fin Graph 3 -->
+                    <!-- Début Graph 4 -->
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <i class="fa fa-line-chart fa-fw"></i> Progression de l'étudiant par vidéo
                         </div>
                          
                         <div class="panel-body">
-                            <div class="row">
+                            <div class="row"><div class="table-responsive">
                                 <div class="col-lg-8">
-                                    <div id="histoStudentAllVideos" align="center"><svg></svg></div>
+                                    <div id="histoStudentAllVideos"><svg></svg></div>
+                                </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     
-                    </div><!-- Fin Graph 5 -->
+                    </div><!-- Fin Graph 4 -->
                     
                     <script type="text/javascript">
                         var quest_sim = new TestsCoco.Simulator.Questions();
@@ -151,8 +132,8 @@
                         var visualizer = new TestsCoco.DataVis("#page-wrapper");
 
                         function simulate(){
-                            $.when($.get("../Donnees_tests/questions_3files.json"),
-                                    $.get("../Donnees_tests/answers_3files.json"))
+                            $.when($.get("../../Donnees_tests/questions_3files.json"),
+                                    $.get("../../Donnees_tests/answers_3files.json"))
                                 .done(function(data1,data2){
                                         visualizer.main(data1[0],data2[0],'student');
                                     }

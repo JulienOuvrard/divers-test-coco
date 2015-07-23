@@ -265,29 +265,28 @@ TestsCoco.DataVis.prototype.dataForScatter_UtileTps = function(tab_medias,infos,
     return ret;
 };
 
+TestsCoco.DataVis.prototype.leastSquares = function (xSeries, ySeries) {
+    var reduceSumFunc = function(prev, cur) { return prev + cur; };
+        
+    var xBar = xSeries.reduce(reduceSumFunc) * 1.0 / xSeries.length;
+    var yBar = ySeries.reduce(reduceSumFunc) * 1.0 / ySeries.length;
+        
+    var ssXX = xSeries.map(function(d) { return Math.pow(d - xBar, 2); })
+        .reduce(reduceSumFunc);
+        
+    var ssYY = ySeries.map(function(d) { return Math.pow(d - yBar, 2); })
+        .reduce(reduceSumFunc);
+            
+    var ssXY = xSeries.map(function(d, i) { return (d - xBar) * (ySeries[i] - yBar); })
+        .reduce(reduceSumFunc);
+            
+    var slope = ssXY / ssXX;
+    var intercept = yBar - (xBar * slope);
+    var rSquare = Math.pow(ssXY, 2) / (ssXX * ssYY);
+        
+    return [slope, intercept, rSquare];
+}
 TestsCoco.DataVis.prototype.dataForScatter_NoteStudent = function(dates,tab_medias,tab_properties){
-    
-    function leastSquares(xSeries, ySeries) {
-        var reduceSumFunc = function(prev, cur) { return prev + cur; };
-        
-        var xBar = xSeries.reduce(reduceSumFunc) * 1.0 / xSeries.length;
-        var yBar = ySeries.reduce(reduceSumFunc) * 1.0 / ySeries.length;
-        
-        var ssXX = xSeries.map(function(d) { return Math.pow(d - xBar, 2); })
-            .reduce(reduceSumFunc);
-        
-        var ssYY = ySeries.map(function(d) { return Math.pow(d - yBar, 2); })
-            .reduce(reduceSumFunc);
-            
-        var ssXY = xSeries.map(function(d, i) { return (d - xBar) * (ySeries[i] - yBar); })
-            .reduce(reduceSumFunc);
-            
-        var slope = ssXY / ssXX;
-        var intercept = yBar - (xBar * slope);
-        var rSquare = Math.pow(ssXY, 2) / (ssXX * ssYY);
-        
-        return [slope, intercept, rSquare];
-    }
     
     var _this = this;
     var ret = {};
@@ -309,7 +308,7 @@ TestsCoco.DataVis.prototype.dataForScatter_NoteStudent = function(dates,tab_medi
             });
             var xSerie = _.values(_.mapValues(_.pluck(temp['values'], 'x'),function(val){return val.getTime();}));
             var ySerie = _.pluck(temp['values'], 'y');
-            var leastData = leastSquares(xSerie,ySerie);
+            var leastData = _this.leastSquares(xSerie,ySerie);
             temp['slope'] = leastData[0];
             temp['intercept'] = leastData[1];
             ret[media_id].push(temp);
@@ -415,7 +414,7 @@ TestsCoco.DataVis.prototype.makeScatterGraph = function(data,container){
         $(this.container).append('<div id='+container+'><svg></svg></div>');
     }
     var selector = '#'+container+' svg';
-    
+    console.log(data);
     nv.addGraph(function() {
         var chart = nv.models.scatterChart()
             .xDomain([-1,1])
@@ -473,11 +472,22 @@ TestsCoco.DataVis.prototype.makeScatterGraph = function(data,container){
             })
             
         });
-        return chart;  },function(){
-          d3.selectAll(".nv-scatter").on('click',
-               function(){
-                     console.log("test");
-           });
+        return chart;  },
+        function(){
+            d3.selectAll(".nv-point-paths").on('click',
+                function(e){
+                    var ord = e[0].value;
+                    console.log(ord);
+                    //var abscisses = _.pluck(d[0].values,'x');
+                    var ordonnees = _.pluck(data[0].values,'y');
+                    console.log(_.find(ordonnees,function(q){q == ord}));
+                    console.log(_.groupBy(ordonnees,function(n){return n}));
+                });
+            d3.selectAll(".nv-scatter").on('click',
+                function(d){
+                    console.log(d);
+
+                });
       });
 }
 
@@ -538,13 +548,12 @@ TestsCoco.DataVis.prototype.makeLineGraph = function(data,container){
 
 TestsCoco.DataVis.prototype.makeSparkLine = function(data,container){
     var users = _.keys(data);
-    
-    var str = '<tr><th>Nom</th><th>Courbe de progression</th><th>Moyenne de l\'élève</th><th>Indice de progression</th><th>Satisfaction</th></tr>';
+    var _this = this;
+    var str = '<tr><th>Nom</th><th>Courbe de progression</th><th>Moyenne de l\'élève</th><th>Indice de progression</th></tr>';
     users.forEach(function(elem){
         str+='<tr><td>'+elem+'</td><td><svg id="chart_'+elem+'" class="sparkline"></svg></td><td id="average_'+elem+'"></td><td id="progression_'+elem+'"></td>/tr>';
     });
     $('#'+container).append(str);
-    
     
     users.forEach(function(user){
         var chart_selector = '#chart_'+user,
@@ -567,16 +576,20 @@ TestsCoco.DataVis.prototype.makeSparkLine = function(data,container){
 
             return chart;
         });
-        
+
         var notes = [];
+        var dates = [];
         data[user][0].values.forEach(function(note){
             notes.push(note[1]);
+            dates.push(note[0].getTime());
         });
         var average = _.round(_.sum(notes)/notes.length,2);
         $(average_selector).append(average);
-        
+        var prog = _this.leastSquares(dates,notes)[0] > 0 ? 'bien' : 'pas bien';
+        $(progression_selector).append(prog);
     })
 }
+
 TestsCoco.DataVis.prototype.combine = function(tab){
     var ret = [];
     $.each(tab,function(index,elem){
@@ -848,7 +861,7 @@ TestsCoco.DataVis.prototype.getAllData = function (questions,answers) {
     this.data_Scatter_UtileJuste = this.dataForScatter_UtileJuste(this.getPropertiesByQuestionByMedia());
     this.data_Scatter_UtileTps = this.dataForScatter_UtileTps(this.getPropertiesByQuestionByMedia(),this.getInfoQuestions(questions),['Justesse','Utilité']);
     this.data_Scatter_NoteStudent = this.dataForScatter_NoteStudent(this.session_date,this.getSessionByMedia(),this.propertiesBySessionByUser);
-    console.log(this.data_Scatter_NoteStudent);
+
     /** Data For Questions **/
     this.data_Histo_ans_total = this.dataForHisto_Answers(this.NbAnswerByQuestion,this.getInfoQuestions(questions));
 

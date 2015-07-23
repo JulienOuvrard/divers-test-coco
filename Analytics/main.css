@@ -43,7 +43,7 @@ svg {
 
 }
 .sparkline {
-max-width: 100%;
+max-width: 400px;
 }
 /*! Image COCo dashboard*/
 #CDsvg {

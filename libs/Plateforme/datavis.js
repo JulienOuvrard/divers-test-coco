@@ -941,7 +941,7 @@ TestsCoco.DataVis.prototype.generateAnswerDetails = function (container,question
     var q_prop = this.sortAndComplete(this.propertiesByQuestion)[question_id];
     var usefull = (q_prop.usefull + q_prop.useless)==0 ? 0 : q_prop.usefull * 100 / (q_prop.usefull + q_prop.useless);
     var useless = (q_prop.usefull + q_prop.useless)==0 ? 0 : q_prop.useless * 100 / (q_prop.usefull + q_prop.useless);
-    var str_detail = '<div class="col-lg-4" id="questionContent" ><b>Question:</b>'+q_info.enonce+'<ol>';
+    var str_detail = '<div id="questionContent" ><b>Question:</b>'+q_info.enonce+'<br><br><ol>';
     q_info.answers.forEach(function(answer){
         str_detail+='<li>'+answer+'</li>';
     });

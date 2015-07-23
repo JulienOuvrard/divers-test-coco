@@ -593,7 +593,7 @@ TestsCoco.DataVis.prototype.makeLineGraph = function(data,container){
 TestsCoco.DataVis.prototype.makeSparkLine = function(data,container){
     var users = _.keys(data);
     var _this = this;
-    var str = '<tr><thid="smallColumn">Nom</th><thid="bigColumn">Courbe de progression</th><thid="smallColumn">Moyenne de l\'élève</th><th id="smallColumn">Indice de progression</th></tr>';
+    var str = '<tr><th id="smallColumn">Nom</th><th id="bigColumn">Courbe de progression</th><th id="smallColumn">Moyenne de l\'élève</th><th id="smallColumn">Indice de progression</th></tr>';
     users.forEach(function(elem){
         str+='<tr><td>'+elem+'</td><td><svg id="chart_'+elem+'" class="sparkline"></svg></td><td id="average_'+elem+'"></td><td id="progression_'+elem+'"></td>/tr>';
     });

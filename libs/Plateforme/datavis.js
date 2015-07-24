@@ -501,7 +501,7 @@ TestsCoco.DataVis.prototype.makeScatterGraph = function(data,container){
             var obj_abs = _.mapValues(abscices,function(val){return val;});
             var indexOfAbs = [];
             
-            /*
+            
             d3.selectAll(".nv-point-paths").on('mouseover',
                 function(){
                     d3.selectAll(this.childNodes).on('click',
@@ -534,8 +534,8 @@ TestsCoco.DataVis.prototype.makeScatterGraph = function(data,container){
                                 });
                    
                     
-                });*/
-                
+                });
+                /* Changement Algo click a faire !!
                 var scatt = d3.selectAll(".nv-scatter");
                 scatt.each(function(d,i){
                     var points = d3.selectAll(this.childNodes);
@@ -544,7 +544,7 @@ TestsCoco.DataVis.prototype.makeScatterGraph = function(data,container){
                         console.log(x);
                     });
                     
-                });
+                });*/
       });
 }
 

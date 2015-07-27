@@ -18,7 +18,9 @@ svg {
             stroke-dasharray: 5,5;
         }
 
-
+.nv-legendWrap {
+    display: none;
+}
 #smallColumn {
 	width: 2em;
 	text-align: center;

@@ -692,21 +692,22 @@ TestsCoco.DataVis.prototype.makeScatterGraph_UtileJuste = function(data,containe
         return chart;  },
         function(){
             var _this = this;
-            var id_question;
+            
             
             var ord, abs;
                     
             var ordonnees = _.pluck(data[0].values,'y');
-            var obj_ord = _.mapValues(ordonnees,function(val){return val;});
+            var obj_ord = _.mapValues(ordonnees,_.identity);
             
             var abscices = _.pluck(data[0].values,'x');
-            var obj_abs = _.mapValues(abscices,function(val){return val;});
+            var obj_abs = _.mapValues(abscices,_.identity);
            
             
             d3.selectAll(".nv-point-paths").on('mouseover',
                 function(){
                     d3.selectAll(this.childNodes).on('click',
                                 function(){
+                                    var id_questions = [];
                                     var indexOfOrd = [];
                                     var indexOfAbs = [];
                                     //id_q = this.__data__.data.point[4].question_id;
@@ -726,14 +727,16 @@ TestsCoco.DataVis.prototype.makeScatterGraph_UtileJuste = function(data,containe
                                         if(questionIdx == _.size(obj_abs)){return true;}; 
                                     });
                                     
-                                    console.log('idx_abs',indexOfAbs);
-                                    console.log('idx_ord',indexOfOrd);
+                                    //console.log('idx_abs',indexOfAbs);
+                                    //console.log('idx_ord',indexOfOrd);
                                     
-                                    var index_quest = _.intersection(indexOfAbs,indexOfOrd)[0];
+                                    var index_quest = _.intersection(indexOfAbs,indexOfOrd);
                                     var questionsMedia = _.keys(visu.getPropertiesByQuestionByMedia()[data[0].key]);
-                                    id_question = questionsMedia[index_quest];
-                                    console.log(id_question);
-                                    visu.generateAnswerDetails('detailsQuestion',id_question);
+                                    index_quest.forEach(function(q){
+                                        id_questions.push(questionsMedia[q]);
+                                    });
+                                    
+                                    visu.generateAnswerDetails('detailsQuestion',id_questions[0]);
                                 });
                    
                     

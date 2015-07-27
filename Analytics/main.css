@@ -18,14 +18,13 @@ svg {
             stroke-dasharray: 5,5;
         }
 
- #table_spark {
-	text-align: center;
-	margin-right:-700px;
-	width:100%;
-}
+
 #smallColumn {
 	width: 2em;
 	text-align: center;
+}
+.smallColumn {
+text-align: center;
 }
 #bigColumn {
 	width:250px;
@@ -43,10 +42,6 @@ svg {
 	text-align: justify;
 	margin-right: 20px;
 	margin-left: 20px;
-}
-#UtPUt {
-	margin-right: auto;
-	margin-left: auto;
 }
 
 #progEtu1, #histoStudentAllVideos, #histoAllStudents, #repUtile, #repUtileTps {

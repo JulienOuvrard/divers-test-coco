@@ -414,7 +414,16 @@ TestsCoco.DataVis.prototype.makeScatterGraph_Utile = function(data,mediaInfo,con
                             })
                             .style("stroke", "#000000");
 
-        nv.utils.windowResize(chart.update);
+        nv.utils.windowResize(chart.update);nv.utils.windowResize(function(){
+            chart.update();
+            lineX.attr({
+                x1: 75 + chart.xAxis.scale()(0),
+                y1: 30 + chart.yAxis.scale()(0),
+                x2: 75 + chart.xAxis.scale()(mediaInfo.max_time),
+                y2: 30 + chart.yAxis.scale()(0)
+            })
+            
+        });
        
         
         return chart;
@@ -608,7 +617,7 @@ TestsCoco.DataVis.prototype.makeSparkLine = function(data,container){
     var _this = this;
     var str = '<tr><th id="smallColumn">Nom</th><th id="bigColumn">Courbe de progression</th><th id="smallColumn">Moyenne de l\'élève</th><th id="smallColumn">Indice de progression</th></tr>';
     users.forEach(function(elem){
-        str+='<tr><td>'+elem+'</td><td><svg id="chart_'+elem+'" class="sparkline"></svg></td><td id="average_'+elem+'"></td><td id="progression_'+elem+'"></td>/tr>';
+        str+='<tr><td class="smallColumn">'+elem+'</td><td><svg id="chart_'+elem+'" class="sparkline"></svg></td><td class="smallColumn" id="average_'+elem+'"></td><td class="smallColumn" id="progression_'+elem+'"></td>/tr>';
     });
     $('#'+container).append(str);
     

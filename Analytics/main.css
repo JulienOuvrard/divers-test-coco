@@ -51,6 +51,10 @@ text-align: center;
     margin: auto;
 
 }
+#bonneMauvaiseSkip, #utilePasUtile {
+	height: 200px;
+
+}
 .sparkline {
 max-width: 400px;
 }

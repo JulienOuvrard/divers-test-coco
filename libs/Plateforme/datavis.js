@@ -1,6 +1,6 @@
 TestsCoco.DataVis = function(container){
         this.container = container;
-};
+}
 
 TestsCoco.DataVis.prototype.sortAndComplete = function (tab) {
     var order = ['right_answer','wrong_answer','skipped_answer','usefull','useless','skipped_vote'];
@@ -60,8 +60,6 @@ TestsCoco.DataVis.prototype.getNbAnswerByQuestion = function(tab){
 TestsCoco.DataVis.prototype.getInfoQuestions = function(annotations){
     
     var ret = {};
-    
-    //var ann = tab.annotations;
 
     $.each(annotations,function(index,value){
         if(value.type === 'Quizz'){
@@ -100,6 +98,7 @@ TestsCoco.DataVis.prototype.getPercentages = function(obj){
     obj.usefull = obj.usefull * 100 / (obj.all_utility_answer);
     obj.useless = obj.useless * 100 / (obj.all_utility_answer);
     obj.skipped_vote = obj.skipped_vote * 100 / (obj.all_utility_answer_and_skipped);
+    
     return obj;
 }
 
@@ -140,25 +139,74 @@ TestsCoco.DataVis.prototype.modifyLabel = function(str){
     var lab= '';
     switch(str){
         case 'right_answer':
-            lab = 'Bonne réponse';
+            lab = 'Bonnes';
             break;
         case 'wrong_answer':
-            lab = 'Mauvaise réponse';
+            lab = 'Mauvaises';
             break;
         case 'skipped_answer':
-            lab = 'Réponse passée';
+            lab = 'Passées';
             break;
         case 'usefull':
-            lab = 'Utile';
+            lab = 'Utiles';
             break;
         case 'useless':
-            lab = 'Inutile';
+            lab = 'Inutiles';
             break;
         case 'skipped_vote':
-            lab = 'Vote passé';
+            lab = 'Passés';
             break;
     }
     return lab;
+}
+
+TestsCoco.DataVis.prototype.getColor = function(str,type){
+    var color;
+    if(type == 'user'){
+        switch(str){
+            case 'right_answer':
+                color = '#6B8E23';
+                break;
+            case 'wrong_answer':
+                color = '#B22222';
+                break;
+            case 'skipped_answer':
+                color = '#C0C0C0';
+                break;
+            case 'usefull':
+                color = '#6B8E23';
+                break;
+            case 'useless':
+                color = '#B22222';
+                break;
+            case 'skipped_vote':
+                color = '#C0C0C0';
+                break;
+        }
+    }else{
+        switch(str){
+            case 'right_answer':
+                color = 'green';
+                break;
+            case 'wrong_answer':
+                color = 'red';
+                break;
+            case 'skipped_answer':
+                color = 'gray';
+                break;
+            case 'usefull':
+                color = 'green';
+                break;
+            case 'useless':
+                color = 'red';
+                break;
+            case 'skipped_vote':
+                color = 'gray';
+                break;
+        }
+    }
+    
+    return color;
 }
 
 TestsCoco.DataVis.prototype.combine = function(tab){
@@ -173,15 +221,16 @@ TestsCoco.DataVis.prototype.combine = function(tab){
 }
 
 TestsCoco.DataVis.prototype.getMedia = function(medias,subject){
-    var ret;
-    $.each(medias,function(index,value){
-        $.each(value,function(i,v){
-            if(v.id == subject ){
-                ret = index;
-            }
+
+    var med = _.mapValues(medias,function(val){
+            return _.filter(val,function(v){
+                return v.id == subject;
+            })
         });
-    });
-    return ret;
+        
+    return _.findKey(med,function(v){
+        return v.length != 0;
+    })
 }
 
 TestsCoco.DataVis.prototype.getGeneralAverage = function(medias,answers){
@@ -384,6 +433,58 @@ TestsCoco.DataVis.prototype.dataForHisto = function(wantedData,tab_total,tab_use
     return ret;
 }
 
+TestsCoco.DataVis.prototype.dataForHisto_AnsVote = function(wantedData,tab_total,tab_user,tab_media){
+    var _this = this;
+    var ret = {};
+    var sorted_total_data = _.mapValues(this.sortAndComplete(tab_total),function(val){
+        return _this.getPercentages(val);
+    });
+    $.each(tab_user,function(index,value){
+        ret[index]=[];
+        var sorted_session_data = _.mapValues(_this.sortAndComplete(value),function(val){
+            return _this.getPercentages(val);
+        });
+        $.each(sorted_session_data,function(s_index,s_value){
+            ret[index][s_index] = [];
+            var user_data = {};
+            user_data['key']='Sur la session (étudiant seul)';
+            user_data['color']='';
+            user_data['values']=[];
+            $.each(s_value,function(prop_index,prop_value){
+                if(prop_index.match(_this.makeRegExp(wantedData)) != null){
+                    var prop = {};
+                    var color;
+                    switch(prop_index){
+                    }
+                    prop['x']=_this.modifyLabel(prop_index);
+                    prop['y']=prop_value;
+                    prop['color']=_this.getColor(prop_index,'user');
+                    user_data['values'].push(prop);
+                }
+            });
+            ret[index][s_index].push(user_data);
+            
+            var t_data = {};
+            t_data['key']='Totale (tous les étudiants)';
+            t_data['color']='';
+            t_data['values']=[];
+            var total_data = sorted_total_data[tab_media[s_index]];
+            $.each(total_data,function(index2,value2){
+                if(index2.match(_this.makeRegExp(wantedData)) != null){
+                    var prop = {};
+                    prop['x']=_this.modifyLabel(index2);
+                    prop['y']=value2;
+                    prop['color']=_this.getColor(index2,'total');
+                    t_data['values'].push(prop);
+                }
+            });
+            ret[index][s_index].push(t_data);
+        });
+    });
+    console.log(ret);
+    return ret;
+}
+
 TestsCoco.DataVis.prototype.dataForHisto_AnswerDetail = function(tab,info_questions) {
     var ret = {};
     
@@ -404,6 +505,32 @@ TestsCoco.DataVis.prototype.dataForHisto_AnswerDetail = function(tab,info_questi
         ret[index].push(obj);
     });
     return ret;
+}
+
+TestsCoco.DataVis.prototype.makeHistogram_AnsVote = function (data,container,title){
+    console.log(data);
+    if(document.getElementById(container) === null){
+        $(this.container).append('<div id='+container+'><svg></svg></div>');
+    }
+    var selector = '#'+container+' svg';
+    
+    nv.addGraph(function() {
+        var chart = nv.models.multiBarChart()
+                    .showControls(false);
+       
+            chart.yAxis.axisLabel(title);
+            chart.multibar.stacked(false);
+            
+            d3.select(selector)
+                .datum(data)
+                .transition()
+                .duration(500)
+                .call(chart);
+
+        nv.utils.windowResize(chart.update);
+
+        return chart;
+    });
 }
 
 TestsCoco.DataVis.prototype.makeHistogram = function(data,container,title){
@@ -902,6 +1029,10 @@ TestsCoco.DataVis.prototype.getAllData = function (questions,answers) {
     /** Data For Student **/
     this.data_Histo_answer = this.dataForHisto(['right_answer','wrong_answer','skipped_answer'],this.propertiesByMedia,this.propertiesBySessionByUser,this.mediaBySession);
     this.data_Histo_vote = this.dataForHisto(['usefull','useless','skipped_vote'],this.propertiesByMedia,this.propertiesBySessionByUser,this.mediaBySession);
+    
+    this.data_Histo_answer2 = this.dataForHisto_AnsVote(['right_answer','wrong_answer','skipped_answer'],this.propertiesByMedia,this.propertiesBySessionByUser,this.mediaBySession);
+    this.data_Histo_vote2 = this.dataForHisto_AnsVote(['usefull','useless','skipped_vote'],this.propertiesByMedia,this.propertiesBySessionByUser,this.mediaBySession);
+    
     this.data_Bullet = this.dataForBullet(this.getUsersAverage(this.medias,answers),this.getGeneralAverage(this.medias,answers));
     this.data_Scatter_HistoStudent = this.dataForScatter_HistoStudent(this.session_date,this.sessionByMedia,this.propertiesBySessionByUser);
     
@@ -917,9 +1048,12 @@ TestsCoco.DataVis.prototype.getAllData = function (questions,answers) {
 
 TestsCoco.DataVis.prototype.generateGraphStudent = function(username,session_number){
     
-    this.makeHistogram(this.data_Histo_answer[username][session_number],'bonneMauvaiseSkip','Nombre de réponses');
+    //this.makeHistogram(this.data_Histo_answer[username][session_number],'bonneMauvaiseSkip','Nombre de réponses');
     
-    this.makeHistogram(this.data_Histo_vote[username][session_number],'utilePasUtile','Votes');
+    //this.makeHistogram(this.data_Histo_vote[username][session_number],'utilePasUtile','Votes');
+    
+    this.makeHistogram_AnsVote(this.data_Histo_answer2[username][session_number],'bonneMauvaiseSkip','Nombre de réponses');
+    this.makeHistogram_AnsVote(this.data_Histo_vote2[username][session_number],'utilePasUtile','Votes');
 
     this.makeBulletChart(this.data_Bullet[username],'bulletChartAllStudents');
 
@@ -962,7 +1096,7 @@ TestsCoco.DataVis.prototype.main = function(questions,answers,type){
     this.getAllData(questions,answers);
     
     if(type=='student'){
-        this.generateGraphStudent('Alfred',7);
+        this.generateGraphStudent('Alfred','5fc69b16-dcc6-4599-b82d-06404576d4dd');
     }
     else if(type=='teacher'){
         this.generateGraphTeacher('m20131010');

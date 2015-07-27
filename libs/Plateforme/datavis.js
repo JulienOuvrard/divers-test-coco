@@ -171,7 +171,7 @@ TestsCoco.DataVis.prototype.getColor = function(str,type){
                 color = '#B22222';
                 break;
             case 'skipped_answer':
-                color = '#C0C0C0';
+                color = 'gray';
                 break;
             case 'usefull':
                 color = '#6B8E23';
@@ -180,7 +180,7 @@ TestsCoco.DataVis.prototype.getColor = function(str,type){
                 color = '#B22222';
                 break;
             case 'skipped_vote':
-                color = '#C0C0C0';
+                color = 'gray';
                 break;
         }
     }else{
@@ -192,7 +192,7 @@ TestsCoco.DataVis.prototype.getColor = function(str,type){
                 color = 'red';
                 break;
             case 'skipped_answer':
-                color = 'gray';
+                color = '#C0C0C0';
                 break;
             case 'usefull':
                 color = 'green';
@@ -201,7 +201,7 @@ TestsCoco.DataVis.prototype.getColor = function(str,type){
                 color = 'red';
                 break;
             case 'skipped_vote':
-                color = 'gray';
+                color = '#C0C0C0';
                 break;
         }
     }
@@ -687,7 +687,7 @@ TestsCoco.DataVis.prototype.makeScatterGraph_Student = function(data,container){
             .duration(300);
 
         chart.xAxis.axisLabel('Temps');
-        chart.yAxis.axisLabel('Notes');
+        chart.yAxis.axisLabel('Notes (%)');
         chart.xAxis.tickFormat(function(d) {
             return d3.time.format('%d/%m/%y')(new Date(d))
         });
@@ -721,7 +721,7 @@ TestsCoco.DataVis.prototype.makeScatterGraph_UtileJusteByTps = function(data,med
             .duration(300);
 
         chart.xAxis.axisLabel('Temps');
-        chart.yAxis.axisLabel('Notes');
+        chart.yAxis.axisLabel('');
         chart.xAxis.tickFormat(function(d) {
             return d3.time.format('%X')(new Date(d+ new Date(2015,7,22,0,0).getTime()))
         });
@@ -1052,8 +1052,8 @@ TestsCoco.DataVis.prototype.generateGraphStudent = function(username,session_num
     
     //this.makeHistogram(this.data_Histo_vote[username][session_number],'utilePasUtile','Votes');
     
-    this.makeHistogram_AnsVote(this.data_Histo_answer2[username][session_number],'bonneMauvaiseSkip','Nombre de réponses');
-    this.makeHistogram_AnsVote(this.data_Histo_vote2[username][session_number],'utilePasUtile','Votes');
+    this.makeHistogram_AnsVote(this.data_Histo_answer2[username][session_number],'bonneMauvaiseSkip','Pourcentage de réponses');
+    this.makeHistogram_AnsVote(this.data_Histo_vote2[username][session_number],'utilePasUtile','Pourcentage de votes');
 
     this.makeBulletChart(this.data_Bullet[username],'bulletChartAllStudents');
 

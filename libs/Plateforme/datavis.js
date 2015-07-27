@@ -87,12 +87,19 @@ TestsCoco.DataVis.prototype.getInfoQuestions = function(annotations){
 }
 
 TestsCoco.DataVis.prototype.getPercentages = function(obj){
-    obj.right_answer = obj.right_answer * 100 / (obj.right_answer + obj.wrong_answer);
-    obj.wrong_answer = obj.wrong_answer * 100 / (obj.right_answer + obj.wrong_answer);
-    obj.skipped_answer = obj.skipped_answer * 100 / (obj.right_answer + obj.wrong_answer + obj.skipped_answer);
-    obj.usefull = obj.usefull * 100 / (obj.usefull + obj.useless);
-    obj.useless = obj.useless * 100 / (obj.usefull + obj.useless);
-    obj.skipped_vote = obj.skipped_vote * 100 / (obj.usefull + obj.useless + obj.skipped_vote);
+    obj.all_answer=(obj.right_answer+obj.wrong_answer);
+    obj.all_answer_and_skipped=(obj.right_answer+obj.wrong_answer);
+    
+    obj.all_utility_answer=(obj.usefull + obj.useless);
+    obj.all_utility_answer_and_skipped=(obj.usefull + obj.useless + obj.skipped_vote);
+    
+    obj.right_answer = obj.right_answer * 100 / (obj.all_answer);
+    obj.wrong_answer = obj.wrong_answer * 100 / (obj.all_answer);
+    obj.skipped_answer = obj.skipped_answer * 100 / (obj.all_answer_and_skipped);
+    
+    obj.usefull = obj.usefull * 100 / (obj.all_utility_answer);
+    obj.useless = obj.useless * 100 / (obj.all_utility_answer);
+    obj.skipped_vote = obj.skipped_vote * 100 / (obj.all_utility_answer_and_skipped);
     return obj;
 }
 
@@ -632,8 +639,9 @@ TestsCoco.DataVis.prototype.makeScatterGraph_UtileJuste = function(data,containe
     }
     var selector = '#'+container+' svg';
     var visu = this;
+    var chart;
     nv.addGraph(function() {
-        var chart = nv.models.scatterChart()
+        chart = nv.models.scatterChart()
             .xDomain([-1,1])
             .yDomain([-1,1])
             .showXAxis(true)
@@ -691,67 +699,13 @@ TestsCoco.DataVis.prototype.makeScatterGraph_UtileJuste = function(data,containe
         });
         return chart;  },
         function(){
-            var _this = this;
-            
-            
-            var ord, abs;
-                    
-            var ordonnees = _.pluck(data[0].values,'y');
-            var obj_ord = _.mapValues(ordonnees,_.identity);
-            
-            var abscices = _.pluck(data[0].values,'x');
-            var obj_abs = _.mapValues(abscices,_.identity);
-           
-            
-            d3.selectAll(".nv-point-paths").on('mouseover',
-                function(){
-                    d3.selectAll(this.childNodes).on('click',
-                                function(){
-                                    var id_questions = [];
-                                    var indexOfOrd = [];
-                                    var indexOfAbs = [];
-                                    //id_q = this.__data__.data.point[4].question_id;
-                                    abs = this.__data__.data.point[4].x;
-                                    ord = this.__data__.data.point[4].y;
-                                    //console.log('id',id_q);
-                                    //console.log('abscisse',abs);
-                                    //console.log('ordonnée',ord);
-                                    
-                                    _.find(obj_ord, function(question, questionIdx){ 
-                                        if(question == ord){ indexOfOrd.push(questionIdx)};
-                                        if(questionIdx == _.size(obj_ord)){return true;}; 
-                                    });
-                                    
-                                    _.find(obj_abs, function(question, questionIdx){ 
-                                        if(question == abs){ indexOfAbs.push(questionIdx)};
-                                        if(questionIdx == _.size(obj_abs)){return true;}; 
-                                    });
-                                    
-                                    //console.log('idx_abs',indexOfAbs);
-                                    //console.log('idx_ord',indexOfOrd);
-                                    
-                                    var index_quest = _.intersection(indexOfAbs,indexOfOrd);
-                                    var questionsMedia = _.keys(visu.getPropertiesByQuestionByMedia()[data[0].key]);
-                                    index_quest.forEach(function(q){
-                                        id_questions.push(questionsMedia[q]);
-                                    });
-                                    
-                                    visu.generateAnswerDetails('detailsQuestion',id_questions[0]);
-                                });
-                   
-                    
-                });
-                /* Changement Algo click a faire !!
-                var scatt = d3.selectAll(".nv-scatter");
-                scatt.each(function(d,i){
-                    var points = d3.selectAll(this.childNodes);
-                    points.each(function(d,i){
-                        var x = d3.selectAll(this.childNodes);
-                        console.log(x);
-                    });
-                    
-                });*/
-      });
+            chart.scatter.dispatch.on('elementClick',function(e){
+                var id_question = e.point.question_id;
+                visu.generateAnswerDetails('detailsQuestion',id_question);
+            });
+                
+        });
+
 }
 
 /*

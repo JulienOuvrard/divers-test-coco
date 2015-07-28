@@ -8,49 +8,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/png">
+    <link rel="shortcut icon" href="../libs/img/favicon.ico" type="image/png">
 
     <title>Coco - Dashboard Teacher</title>
     <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="main.css" rel="stylesheet" type="text/css">
-    <link href="../libs/nv.d3.min.css" rel="stylesheet" type="text/css" />
+    <link href="../libs/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="../libs/css/main.css" rel="stylesheet" type="text/css">
+    <link href="../libs/css/nv.d3.min.css" rel="stylesheet" type="text/css" />
     
-    <script src="../libs/jquery.min.js"></script>
-    <script src="../libs/lodash.min.js" type="text/javascript"></script>
-    <script src="../libs/d3.min.js" type="text/javascript"></script>
-    <script src="../libs/Plateforme/test_plateforme.js"></script>
-    <script src="../libs/Plateforme/questions.js" type="text/javascript"></script>
-    <script src="../libs/Plateforme/answers.js" type="text/javascript"></script>
-    <script src="../libs/Plateforme/tools.js" type="text/javascript"></script>
-    <script src="../libs/Plateforme/datavis.js" type="text/javascript"></script>
-    <script src="../libs/nv.d3.min.js" type="text/javascript"></script>
+    <script src="../libs/js/Others/jquery.min.js"></script>
+    <script src="../libs/js/Others/lodash.min.js" type="text/javascript"></script>
+    <script src="../libs/js/Others/d3.min.js" type="text/javascript"></script>
+    <script src="../libs/js/Others/nv.d3.min.js" type="text/javascript"></script>
+    <script src="../libs/js/Plateforme/test_plateforme.js"></script>
+    <script src="../libs/js/Plateforme/questions.js" type="text/javascript"></script>
+    <script src="../libs/js/Plateforme/answers.js" type="text/javascript"></script>
+    <script src="../libs/js/Plateforme/tools.js" type="text/javascript"></script>
+    <script src="../libs/js/Plateforme/datavis.js" type="text/javascript"></script>
+
     <script src="hideDiv.js" type="text/javascript"></script>
 
 </head>
 
 <body>
-            <div class="navbar-default sidebar" role="navigation">
-                <div class="sidebar-nav navbar-collapse">
-                    <ul class="nav" id="side-menu">
-                        <li>
-                           <img id="CDsvg" src="img/cocoDashboard.svg" class="svg-content">
-                        </li>
-                        <li>
-                           <a href="javascript: toutAfficher();"><i class="fa fa-dashboard fa-fw"></i>Dashboard</a>
-                        </li>
-                        <li>
-                             <a href="javascript:history.go(-1)"><i class="fa fa-edit fa-fw"></i> Retour au choix de la leçon</a>
-                        </li>
-                        <li>
-                             <a href="javascript: cacherAllVideos();"><i class="fa fa-line-chart fa-fw"></i> Dashboard sur la leçon</a>
-                        </li>
-                        <li>
-                             <a href="javascript: cacherUniqueVideos();"><i class="fa fa-line-chart fa-fw"></i> Dashboard sur toutes les leçons</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+	<div class="navbar-default sidebar" role="navigation">
+	    <div class="sidebar-nav navbar-collapse">
+	        <ul class="nav" id="side-menu">
+	            <li>
+	               <img id="CDsvg" src="../libs/img/cocoDashboard.svg" class="svg-content">
+	            </li>
+	            <li>
+	               <a href="javascript: toutAfficher();"><i class="fa fa-dashboard fa-fw"></i>Dashboard</a>
+	            </li>
+	            <li>
+	                 <a href="javascript:history.go(-1)"><i class="fa fa-edit fa-fw"></i> Retour au choix de la leçon</a>
+	            </li>
+	            <li>
+	                 <a href="javascript: cacherAllVideos();"><i class="fa fa-line-chart fa-fw"></i> Dashboard sur la leçon</a>
+	            </li>
+	            <li>
+	                 <a href="javascript: cacherUniqueVideos();"><i class="fa fa-line-chart fa-fw"></i> Dashboard sur toutes les leçons</a>
+	            </li>
+	        </ul>
+	    </div>
+	</div>
 
        <div id="page-wrapper">
 		    <div class="row">
@@ -190,8 +191,8 @@
                         var visualizer = new TestsCoco.DataVis("#page-wrapper");
 
                         function simulate(){
-                            $.when($.get("../Donnees_tests/questions_3files.json"),
-                                    $.get("../Donnees_tests/answers_3files.json"))
+                            $.when($.get("../Donnees_tests/analytics_data/questions_3files.json"),
+                                    $.get("../Donnees_tests/analytics_data/answers_3files.json"))
                                 .done(function(data1,data2){
                                         visualizer.main(data1[0],data2[0],'teacher');
                                     }
@@ -199,6 +200,12 @@
                         }
 
                         simulate();
+
+                        function getInfo(){
+                        	$.get("choixLecon.html",function(data, status){
+						        console.log("Data: " + data + "\nStatus: " + status);
+						    });
+                        }
                     </script>
            
                      

@@ -220,6 +220,16 @@ TestsCoco.DataVis.prototype.combine = function(tab){
     return ret;
 }
 
+TestsCoco.DataVis.prototype.getUsers = function(answers){
+    return _.keys(_.groupBy(answers,'username'));
+}
+
+TestsCoco.DataVis.prototype.getSessionByUser = function(answers){
+    return _.mapValues(_.groupBy(answers,'username'),function(val){
+                return _.keys(_.groupBy(val,'sessionId'));
+            });
+}
+
 TestsCoco.DataVis.prototype.getMedia = function(medias,subject){
 
     var med = _.mapValues(medias,function(val){

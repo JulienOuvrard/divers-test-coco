@@ -47,7 +47,8 @@ TestsCoco.User.prototype.setSessionDates = function(start,nb_tours,documents) {
                         var d = new Date();
                         var offset = d.getTimezoneOffset();
                         var temp = tab[i-1].date;
-                        d.setTime(temp.getTime() + offset + _.random(3) * _this.date_property.dayInMillisecond + max_time);
+                        var hours = _.random(9,20);
+                        d.setTime(temp.getTime() + offset + _.random(3) * _this.date_property.dayInMillisecond + max_time + hours * _this.date_property.hourInMillisecond);
                         tab.push({'id':session_id,'date':d,'media':media});
                     }
                     return tab;

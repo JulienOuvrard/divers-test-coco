@@ -62,14 +62,13 @@ TestsCoco.Simulator.Questions.prototype.getFrequencies = function (arr){
 
 TestsCoco.Simulator.Questions.prototype.generateTime = function (obj){
     var tool = new TestsCoco.Tools();
-    return tool.pickRandomNumber(obj.deb,obj.fin);
+    return _.random(obj.deb,obj.fin);
 }
 
 TestsCoco.Simulator.Questions.prototype.generateTxt = function (tab,l_min,l_max,tab_other){
-    var tool = new TestsCoco.Tools();
     var words;
     var txt="";
-    var long = tool.pickRandomNumber(l_min,l_max);
+    var long = _.random(l_min,l_max);
     
     if((tab_other != null || tab_other.length != 0 || tab_other != undefined) && (tab.length < long)){
         words = tab.concat(tab_other);
@@ -78,20 +77,19 @@ TestsCoco.Simulator.Questions.prototype.generateTxt = function (tab,l_min,l_max,
     }
     
     for(var i=0; i<=long; i++){
-            var index = tool.pickRandomNumber(0,words.length);
+            var index = _.random(words.length);
             txt+= words[index]+" ";
     }
     return txt;
 }
 
 TestsCoco.Simulator.Questions.prototype.generateQuestion = function (tab_mots,longMin,longMax,nbRepMin,nbRepMax,otherTab){
-    var tool = new TestsCoco.Tools();
     var _this = this;
     var question = {};
     var enonce = _this.generateTxt(tab_mots,longMin,longMax,otherTab);
     var reponses = [];
-    var nbRep = tool.pickRandomNumber(nbRepMin,nbRepMax);
-    var correctRep = tool.pickRandomNumber(0,nbRep);
+    var nbRep = _.random(nbRepMin,nbRepMax);
+    var correctRep = _.random(nbRep);
     for(var i = 0; i < nbRep; i++){
         var ans = {};
         var rep = _this.generateTxt(tab_mots,longMin,longMax,otherTab);
@@ -111,7 +109,7 @@ TestsCoco.Simulator.Questions.prototype.generate = function (tab,media,nombre,lo
     var _this = this;
     var retour=[];
     for(var i = 0 ; i < nombre ; i++){
-       var idx = tool.pickRandomNumber(0,tab.length);
+       var idx = _.random(tab.length);
        var obj = tab[idx];
        var obj_av = tab[idx-1];
        var obj_ap = tab[idx+1];

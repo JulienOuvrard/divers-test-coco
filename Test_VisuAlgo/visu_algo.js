@@ -82,37 +82,51 @@ function getData (sessionByMedia,properties,infos,sessionDates){
     var ret = {};
     $.each(sessionByMedia,function(med_id,med_val){
         ret[med_id]=[];
-        var temp = {};
-        temp['key'] = 'utilité';
-        temp['values'] = [];
+        var temp_utile = {};
+        temp_utile['key'] = 'utile';
+        temp_utile['color'] = 'green'
+        temp_utile['values'] = [];
+        var temp_inutile = {};
+        temp_inutile['color'] = 'red',
+        temp_inutile['key'] = 'pas utile';
+        temp_inutile['values'] = [];
+        var n = _.size(med_val);
         $.each(med_val,function(s_idx,s_val){
             var sorted_question_tab = sortAndComplete(properties[s_val]);
             $.each(sorted_question_tab,function(q_idx,q_val){
-                var point = {};
-                point['y'] = sessionDates[s_val];
-                point['shape'] = 'circle';
                 var utility = (q_val.usefull + q_val.useless) == 0 ? 0 : (q_val.usefull - q_val.useless) / (q_val.usefull + q_val.useless);
-                var color = (utility > 0) ? 'green' : 'red';
+                var point = {};
                 point['x'] = infos[q_idx].time;
-                point['color'] = color;
-                temp['values'].push(point);
+                point['y'] = n;
+                point['shape'] = 'circle';
+                (utility > 0) ? temp_utile['values'].push(point) : temp_inutile['values'].push(point);
             });
+            n--;
         });
-        ret[med_id].push(temp);
+        ret[med_id].push(temp_utile);
+        ret[med_id].push(temp_inutile);
     });
     return ret;
 }
 
-function makeScatterGraph (data,mediaInfo,container){
-    if(document.getElementById(container) === null){
-        $('.analytics').append('<div id='+container+'><svg></svg></div>');
+function makeScatterGraph (data,size,mediaInfo,media){
+    if(document.getElementById(media) === null){
+        var str = '<div class="panel panel-default">'
+                        +'<div class="panel-heading">'
+                            +'<i class="fa fa-bar-chart-o fa-fw"></i> Visualisation de l\'algorithme sur la video '+media
+                        +'</div>'
+                        +'<div class="panel-body">'
+                            +'<div id="graph_'+media+'" align="center"><svg></svg></div>'
+                        +'</div>'
+                    +'</div>';
+        $('.analytics').append(str);
     }
-    var selector = '#'+container+' svg';
+    var selector = '#graph_'+media+' svg';
     
     nv.addGraph(function() {
         var chart = nv.models.scatterChart()
             .xDomain([0,mediaInfo.max_time])
-            .yDomain([-1,1])
+            .yDomain([0,(size+2)])
             .showDistX(true)
             .showDistY(true)
             .useVoronoi(true)
@@ -120,13 +134,11 @@ function makeScatterGraph (data,mediaInfo,container){
             .duration(300);
 
         chart.xAxis.axisLabel('Temps Video');
-        chart.yAxis.axisLabel('Temps');
+        chart.yAxis.axisLabel('Tirage');
         chart.xAxis.tickFormat(function(d) {
             return d3.time.format('%X')(new Date(d+ new Date(2015,7,22,0,0).getTime()))
         });
-        chart.yAxis.tickFormat(function(d) {
-            return d3.time.format('%d/%m/%y')(new Date(d))
-        });
+        
         
         
         d3.select(selector)
@@ -158,10 +170,10 @@ function main(){
                 var propertiesByQuestionBySession = aggregate(data2[0],'sessionId','subject','property');
                 
                 var data = getData(sessionByMedia,propertiesByQuestionBySession,infoQuestion,sessionDates);
-                console.log(data);
+                
                 $.each(medias,function(med_id,med_val){
-                    var container = 'graph_'+med_id;
-                    makeScatterGraph(data[med_id],getMediaInfo(medias,med_id),container);
+                    var size = _.size(sessionByMedia[med_id]);
+                    makeScatterGraph(data[med_id],size,getMediaInfo(medias,med_id),med_id);
                 });
             }
         );
